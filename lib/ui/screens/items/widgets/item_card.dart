@@ -1,17 +1,17 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/configs/colors.dart';
-import 'package:pokedex/configs/images.dart';
-import 'package:pokedex/domain/entities/item.dart';
-import 'package:pokedex/core/extensions/context.dart';
-import 'package:pokedex/ui/widgets/spacer.dart';
+import 'package:paldex/configs/colors.dart';
+import 'package:paldex/configs/images.dart';
+import 'package:paldex/domain/entities/item.dart';
+import 'package:paldex/core/extensions/context.dart';
+import 'package:paldex/ui/widgets/spacer.dart';
 
 import '../../../../states/theme/theme_cubit.dart';
 import 'item_category.dart';
 
 class ItemCard extends StatelessWidget {
-  static const double _pokeballFraction = 0.60;
+  static const double _palballFraction = 0.60;
   static const double _itemFraction = 0.61;
 
   const ItemCard(
@@ -24,16 +24,16 @@ class ItemCard extends StatelessWidget {
   final Function()? onPress;
   final Item item;
 
-  Widget _buildPokeballDecoration({required double height}) {
-    final pokeballSize = height * _pokeballFraction;
+  Widget _buildPalballDecoration({required double height}) {
+    final palballSize = height * _palballFraction;
 
     return Positioned(
       bottom: -height * 0.13,
       right: -height * 0.03,
       child: Image(
-        image: AppImages.pokeball,
-        width: pokeballSize,
-        height: pokeballSize,
+        image: AppImages.palball,
+        width: palballSize,
+        height: palballSize,
         color: Colors.white.withOpacity(0.14),
       ),
     );
@@ -112,7 +112,7 @@ class ItemCard extends StatelessWidget {
                 highlightColor: Colors.white10,
                 child: Stack(
                   children: [
-                    _buildPokeballDecoration(height: itemHeight),
+                    _buildPalballDecoration(height: itemHeight),
                     _buildItem(height: itemHeight),
                     _CardContent(item),
                   ],

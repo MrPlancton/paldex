@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/images.dart';
-import 'package:pokedex/routes.dart';
+import 'package:paldex/configs/images.dart';
+import 'package:paldex/routes.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
               fit: BoxFit.contain,
             ),
             Text(
-              'Pokedex',
+              'Paldex',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,

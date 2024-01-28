@@ -1,42 +1,42 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/colors.dart';
-import 'package:pokedex/domain/entities/pokemon_types.dart';
+import 'package:paldex/configs/colors.dart';
+import 'package:paldex/domain/entities/pal_types.dart';
 
-Color colorGenerator(PokemonTypes val) {
+Color colorGenerator(PalTypes val) {
   switch (val) {
-    case PokemonTypes.grass:
-    case PokemonTypes.bug:
+    case PalTypes.grass:
+    case PalTypes.bug:
       return AppColors.lightTeal;
 
-    case PokemonTypes.fire:
+    case PalTypes.fire:
       return AppColors.lightRed;
 
-    case PokemonTypes.water:
+    case PalTypes.water:
       return AppColors.lightBlue;
 
-    case PokemonTypes.normal:
-    case PokemonTypes.flying:
+    case PalTypes.normal:
+    case PalTypes.flying:
       return AppColors.semiGrey;
 
-    case PokemonTypes.fighting:
+    case PalTypes.fighting:
       return AppColors.brown;
 
-    case PokemonTypes.electric:
-    case PokemonTypes.psychic:
+    case PalTypes.electric:
+    case PalTypes.psychic:
       return AppColors.lightYellow;
 
-    case PokemonTypes.poison:
-    case PokemonTypes.ghost:
+    case PalTypes.poison:
+    case PalTypes.ghost:
       return AppColors.lightPurple;
 
-    case PokemonTypes.ground:
-    case PokemonTypes.rock:
+    case PalTypes.ground:
+    case PalTypes.rock:
       return AppColors.lightBrown;
 
-    case PokemonTypes.dark:
+    case PalTypes.dark:
       return AppColors.black;
 
-    case PokemonTypes.fairy:
+    case PalTypes.fairy:
       return AppColors.lightPink;
 
     default:

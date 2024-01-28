@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/images.dart';
-import 'package:pokedex/domain/entities/category.dart';
+import 'package:paldex/configs/images.dart';
+import 'package:paldex/domain/entities/category.dart';
 
 class CategoryCard extends StatelessWidget {
   final Category category;
@@ -34,7 +34,7 @@ class CategoryCard extends StatelessWidget {
                 onTap: onPress,
                 child: Stack(
                   children: [
-                    _buildPokeballDecoration(height: itemHeight),
+                    _buildPalballDecoration(height: itemHeight),
                     _buildCircleDecoration(height: itemHeight),
                     _CardContent(category.name),
                   ],
@@ -58,12 +58,12 @@ class CategoryCard extends StatelessWidget {
     );
   }
 
-  Widget _buildPokeballDecoration({required double height}) {
+  Widget _buildPalballDecoration({required double height}) {
     return Positioned(
       top: -height * 0.16,
       right: -height * 0.25,
       child: Image(
-        image: AppImages.pokeball,
+        image: AppImages.palball,
         width: height * 1.388,
         height: height * 1.388,
         color: Colors.white.withOpacity(0.14),

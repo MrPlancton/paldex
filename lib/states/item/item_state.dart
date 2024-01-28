@@ -1,4 +1,4 @@
-import 'package:pokedex/domain/entities/item.dart';
+import 'package:paldex/domain/entities/item.dart';
 
 enum ItemStateStatus {
   initial,
@@ -76,7 +76,7 @@ class ItemState {
   ItemState copyWith({
     ItemStateStatus? status,
     List<Item>? items,
-    int? selectedPokemonIndex,
+    int? selectedPalIndex,
     int? page,
     bool? canLoadMore,
     Exception? error,

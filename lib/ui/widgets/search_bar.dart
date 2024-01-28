@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/ui/widgets/spacer.dart';
+import 'package:paldex/ui/widgets/spacer.dart';
 
 class KSearchBar extends StatelessWidget {
   const KSearchBar({super.key, 
@@ -27,7 +27,7 @@ class KSearchBar extends StatelessWidget {
             child: TextFormField(
               decoration: const InputDecoration(
                 isDense: true,
-                hintText: 'Search Pokemon, Move, Ability etc',
+                hintText: 'Search Pal, Move, Ability etc',
                 contentPadding: EdgeInsets.zero,
                 hintStyle: TextStyle(
                   fontSize: 14,

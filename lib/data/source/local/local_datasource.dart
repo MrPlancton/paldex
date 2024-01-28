@@ -1,30 +1,30 @@
 import 'dart:math';
 
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:pokedex/data/source/local/models/item.dart';
-import 'package:pokedex/data/source/local/models/pokemon.dart';
-import 'package:pokedex/data/source/local/models/pokemon_gender.dart';
-import 'package:pokedex/data/source/local/models/pokemon_stats.dart';
+import 'package:paldex/data/source/local/models/item.dart';
+import 'package:paldex/data/source/local/models/pal.dart';
+import 'package:paldex/data/source/local/models/pal_gender.dart';
+import 'package:paldex/data/source/local/models/pal_stats.dart';
 
 class LocalDataSource {
   static Future<void> initialize() async {
     await Hive.initFlutter();
 
-    Hive.registerAdapter<PokemonHiveModel>(PokemonHiveModelAdapter());
-    Hive.registerAdapter<PokemonGenderHiveModel>(PokemonGenderHiveModelAdapter());
-    Hive.registerAdapter<PokemonStatsHiveModel>(PokemonStatsHiveModelAdapter());
+    Hive.registerAdapter<PalHiveModel>(PalHiveModelAdapter());
+    Hive.registerAdapter<PalGenderHiveModel>(PalGenderHiveModelAdapter());
+    Hive.registerAdapter<PalStatsHiveModel>(PalStatsHiveModelAdapter());
     Hive.registerAdapter<ItemHiveModel>(ItemHiveModelAdapter());
 
-    await Hive.openBox<PokemonHiveModel>(PokemonHiveModel.boxKey);
-    await Hive.openBox<PokemonGenderHiveModel>(PokemonGenderHiveModel.boxKey);
-    await Hive.openBox<PokemonStatsHiveModel>(PokemonStatsHiveModel.boxKey);
+    await Hive.openBox<PalHiveModel>(PalHiveModel.boxKey);
+    await Hive.openBox<PalGenderHiveModel>(PalGenderHiveModel.boxKey);
+    await Hive.openBox<PalStatsHiveModel>(PalStatsHiveModel.boxKey);
     await Hive.openBox<ItemHiveModel>(ItemHiveModel.boxKey);
   }
 
   Future<bool> hasData() async {
-    final pokemonBox = Hive.box<PokemonHiveModel>(PokemonHiveModel.boxKey);
+    final palBox = Hive.box<PalHiveModel>(PalHiveModel.boxKey);
 
-    return pokemonBox.length > 0;
+    return palBox.length > 0;
   }
 
   Future<bool> hasItemData() async {
@@ -33,51 +33,51 @@ class LocalDataSource {
     return itemBox.length > 0;
   }
 
-  Future<void> savePokemons(Iterable<PokemonHiveModel> pokemons) async {
-    final pokemonBox = Hive.box<PokemonHiveModel>(PokemonHiveModel.boxKey);
+  Future<void> savePals(Iterable<PalHiveModel> pals) async {
+    final palBox = Hive.box<PalHiveModel>(PalHiveModel.boxKey);
 
-    final pokemonsMap = {for (var e in pokemons) e.number: e};
+    final palsMap = {for (var e in pals) e.number: e};
 
-    await pokemonBox.clear();
-    await pokemonBox.putAll(pokemonsMap);
+    await palBox.clear();
+    await palBox.putAll(palsMap);
   }
 
-  Future<List<PokemonHiveModel>> getAllPokemons() async {
-    final pokemonBox = Hive.box<PokemonHiveModel>(PokemonHiveModel.boxKey);
+  Future<List<PalHiveModel>> getAllPals() async {
+    final palBox = Hive.box<PalHiveModel>(PalHiveModel.boxKey);
 
-    final pokemons = List.generate(pokemonBox.length, (index) => pokemonBox.getAt(index))
-        .whereType<PokemonHiveModel>()
+    final pals = List.generate(palBox.length, (index) => palBox.getAt(index))
+        .whereType<PalHiveModel>()
         .toList();
 
-    return pokemons;
+    return pals;
   }
 
-  Future<List<PokemonHiveModel>> getPokemons({required int page, required int limit}) async {
-    final pokemonBox = Hive.box<PokemonHiveModel>(PokemonHiveModel.boxKey);
-    final totalPokemons = pokemonBox.length;
+  Future<List<PalHiveModel>> getPals({required int page, required int limit}) async {
+    final palBox = Hive.box<PalHiveModel>(PalHiveModel.boxKey);
+    final totalPals = palBox.length;
 
     final start = (page - 1) * limit;
-    final newPokemonCount = min(totalPokemons - start, limit);
+    final newPalCount = min(totalPals - start, limit);
 
-    final pokemons = List.generate(newPokemonCount, (index) => pokemonBox.getAt(start + index))
-        .whereType<PokemonHiveModel>()
+    final pals = List.generate(newPalCount, (index) => palBox.getAt(start + index))
+        .whereType<PalHiveModel>()
         .toList();
 
-    return pokemons;
+    return pals;
   }
 
-  Future<PokemonHiveModel?> getPokemon(String number) async {
-    final pokemonBox = Hive.box<PokemonHiveModel>(PokemonHiveModel.boxKey);
+  Future<PalHiveModel?> getPal(String number) async {
+    final palBox = Hive.box<PalHiveModel>(PalHiveModel.boxKey);
 
-    return pokemonBox.get(number);
+    return palBox.get(number);
   }
 
-  Future<List<PokemonHiveModel>> getEvolutions(PokemonHiveModel pokemon) async {
-    final pokemonFutures = pokemon.evolutions.map((pokemonNumber) => getPokemon(pokemonNumber));
+  Future<List<PalHiveModel>> getEvolutions(PalHiveModel pal) async {
+    final palFutures = pal.evolutions.map((palNumber) => getPal(palNumber));
 
-    final pokemons = await Future.wait(pokemonFutures);
+    final pals = await Future.wait(palFutures);
 
-    return pokemons.whereType<PokemonHiveModel>().toList();
+    return pals.whereType<PalHiveModel>().toList();
   }
 
   Future<void> saveItems(Iterable<ItemHiveModel> items) async {

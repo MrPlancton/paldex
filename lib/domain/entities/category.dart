@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/routes.dart';
+import 'package:paldex/routes.dart';
 
 class Category {
   const Category({

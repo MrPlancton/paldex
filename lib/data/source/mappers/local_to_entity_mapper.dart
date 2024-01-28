@@ -1,18 +1,18 @@
-import 'package:pokedex/data/source/local/models/item.dart';
-import 'package:pokedex/data/source/local/models/pokemon.dart';
-import 'package:pokedex/data/source/local/models/pokemon_gender.dart';
-import 'package:pokedex/data/source/local/models/pokemon_stats.dart';
-import 'package:pokedex/domain/entities/item.dart';
-import 'package:pokedex/domain/entities/pokemon.dart';
-import 'package:pokedex/domain/entities/pokemon_props.dart';
-import 'package:pokedex/domain/entities/pokemon_types.dart';
+import 'package:paldex/data/source/local/models/item.dart';
+import 'package:paldex/data/source/local/models/pal.dart';
+import 'package:paldex/data/source/local/models/pal_gender.dart';
+import 'package:paldex/data/source/local/models/pal_stats.dart';
+import 'package:paldex/domain/entities/item.dart';
+import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal_props.dart';
+import 'package:paldex/domain/entities/pal_types.dart';
 
-extension PokemonHiveModelX on PokemonHiveModel {
-  Pokemon toEntity({List<PokemonHiveModel> evolutions = const []}) => Pokemon(
+extension PalHiveModelX on PalHiveModel {
+  Pal toEntity({List<PalHiveModel> evolutions = const []}) => Pal(
         number: number.trim(),
         name: name.trim(),
         description: description.trim(),
-        types: types.map((e) => PokemonTypesX.parse(e)).toList(),
+        types: types.map((e) => PalTypesX.parse(e)).toList(),
         image: image.trim(),
         height: height.trim(),
         weight: weight.trim(),
@@ -26,16 +26,16 @@ extension PokemonHiveModelX on PokemonHiveModel {
       );
 }
 
-extension PokemonGenderHiveModelX on PokemonGenderHiveModel {
-  PokemonGender toEntity() => PokemonGender(
+extension PalGenderHiveModelX on PalGenderHiveModel {
+  PalGender toEntity() => PalGender(
         male: male,
         female: female,
         genderless: genderless,
       );
 }
 
-extension PokemonStatsHiveModelX on PokemonStatsHiveModel {
-  PokemonStats toEntity() => PokemonStats(
+extension PalStatsHiveModelX on PalStatsHiveModel {
+  PalStats toEntity() => PalStats(
         attack: attack,
         specialAttack: specialAttack,
         defense: defense,

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/ui/screens/types/modal_draggable.dart';
-import 'package:pokedex/configs/types.dart';
-import 'colored_pokeball.dart';
+import 'package:paldex/ui/screens/types/colored_palball.dart';
+import 'package:paldex/ui/screens/types/modal_draggable.dart';
+import 'package:paldex/configs/types.dart';
+
 
 // Class that is responsible for making the modal sheet appear when a type is clicked on
 

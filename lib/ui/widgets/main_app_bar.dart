@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/routes.dart';
-import 'package:pokedex/utils/size.dart';
+import 'package:paldex/routes.dart';
+import 'package:paldex/utils/size.dart';
 
 const double mainAppbarPadding = 28;
 
@@ -14,7 +14,7 @@ class MainSliverAppBar extends SliverAppBar {
 
   MainSliverAppBar(
       {super.key, GlobalKey? appBarKey,
-      String title = 'Pokedex',
+      String title = 'Paldex',
       double height = kToolbarHeight + mainAppbarPadding * 2,
       double expandedFontSize = 30,
       void Function()? onLeadingPress = AppNavigator.pop,

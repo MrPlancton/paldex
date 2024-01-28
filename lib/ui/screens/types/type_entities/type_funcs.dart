@@ -1,7 +1,7 @@
-import 'package:pokedex/configs/types.dart';
-import 'package:pokedex/ui/screens/types/type_entities/type_constants.dart';
+import 'package:paldex/configs/types.dart';
+import 'package:paldex/ui/screens/types/type_entities/type_constants.dart';
 
-// A function that returns a list of types of pokemon that when attacked to, hit normally
+// A function that returns a list of types of pal that when attacked to, hit normally
 List<String> normalTypeReturner(List<String> combined) {
   var normalSet = typeNames.toSet(); // Create a set from the constant list of types
   for (var i = 0; i < combined.length; i++) {

@@ -2,17 +2,17 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/configs/images.dart';
-import 'package:pokedex/configs/types.dart';
-import 'package:pokedex/core/utils.dart';
-import 'package:pokedex/domain/entities/pokemon.dart';
-import 'package:pokedex/routes.dart';
-import 'package:pokedex/states/pokemon/pokemon_bloc.dart';
-import 'package:pokedex/states/pokemon/pokemon_event.dart';
-import 'package:pokedex/states/pokemon/pokemon_state.dart';
-import 'package:pokedex/ui/screens/types/type_container.dart';
-import 'package:pokedex/ui/screens/types/type_entities/widget_list.dart';
-import 'package:pokedex/ui/widgets/pokemon_card.dart';
+import 'package:paldex/configs/images.dart';
+import 'package:paldex/configs/types.dart';
+import 'package:paldex/core/utils.dart';
+import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/routes.dart';
+import 'package:paldex/states/pal/pal_bloc.dart';
+import 'package:paldex/states/pal/pal_event.dart';
+import 'package:paldex/states/pal/pal_state.dart';
+import 'package:paldex/ui/screens/types/type_container.dart';
+import 'package:paldex/ui/screens/types/type_entities/widget_list.dart';
+import 'package:paldex/ui/widgets/pal_card.dart';
 
 // Class responsible for creating the list present in the modal page consisting of various effects related to the selected type
 class ModalContents extends StatefulWidget {
@@ -39,21 +39,21 @@ class ModalContentsState extends State<ModalContents> {
     super.initState();
 
     scheduleMicrotask(() {
-      context.read<PokemonBloc>().add(const PokemonLoadStarted(loadAll: true));
+      context.read<PalBloc>().add(const PalLoadStarted(loadAll: true));
     });
   }
 
-  void _onPokemonPress(int index, Pokemon pokemon) {
-    context.read<PokemonBloc>().add(PokemonSelectChanged(pokemonId: pokemon.number));
+  void _onPalPress(int index, Pal pal) {
+    context.read<PalBloc>().add(PalSelectChanged(palId: pal.number));
 
-    AppNavigator.push(Routes.pokemonInfo, pokemon);
+    AppNavigator.push(Routes.palInfo, pal);
   }
 
   PokeTypes get pokeType => types[widget.index];
 
-  ExpansionPanel _buildTypePokemonPanel(List<Pokemon> pokemons) {
-    final filteredPokemons =
-        pokemons.where((pokemon) => pokemon.types.contains(pokeType.type)).toList();
+  ExpansionPanel _buildTypePalPanel(List<Pal> pals) {
+    final filteredPals =
+        pals.where((pal) => pal.types.contains(pokeType.type)).toList();
 
     return ExpansionPanel(
       headerBuilder: (context, isOpen) {
@@ -62,7 +62,7 @@ class ModalContentsState extends State<ModalContents> {
             Padding(
               padding: const EdgeInsets.only(left: 8.0),
               child: Image(
-                image: AppImages.pokeball,
+                image: AppImages.palball,
                 width: 30,
                 height: 30,
                 color: pokeType.color.withOpacity(0.5),
@@ -72,7 +72,7 @@ class ModalContentsState extends State<ModalContents> {
               padding: const EdgeInsets.only(left: 8.0),
               child: Text(
                   "${getEnumValue(pokeType.type)[0].toUpperCase() + getEnumValue(pokeType.type).substring(1)} Type "
-                  "Pokemons"),
+                  "Pals"),
             )
           ],
         );
@@ -80,7 +80,7 @@ class ModalContentsState extends State<ModalContents> {
       canTapOnHeader: true,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10.0),
-        child: filteredPokemons.isNotEmpty
+        child: filteredPals.isNotEmpty
             ? GridView.count(
                 shrinkWrap: true,
                 crossAxisCount: 2,
@@ -88,17 +88,17 @@ class ModalContentsState extends State<ModalContents> {
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 10,
                 physics: const NeverScrollableScrollPhysics(),
-                children: filteredPokemons.map((pokemon) {
-                  return PokemonCard(
-                    pokemon,
-                    onPress: () => _onPokemonPress(pokemons.indexOf(pokemon), pokemon),
+                children: filteredPals.map((pal) {
+                  return PalCard(
+                    pal,
+                    onPress: () => _onPalPress(pals.indexOf(pal), pal),
                   );
                 }).toList(),
               )
             : const Padding(
                 padding: EdgeInsets.only(bottom: 10.0),
                 child:
-                    Text("No Pokemon found", style: TextStyle(fontSize: 16, color: Colors.black54)),
+                    Text("No Pal found", style: TextStyle(fontSize: 16, color: Colors.black54)),
               ),
       ),
       isExpanded: _isOpen[0],
@@ -113,7 +113,7 @@ class ModalContentsState extends State<ModalContents> {
             Padding(
               padding: const EdgeInsets.only(left: 8.0),
               child: Image(
-                image: AppImages.pokeball,
+                image: AppImages.palball,
                 width: 30,
                 height: 30,
                 color: pokeType.color.withOpacity(0.5),
@@ -134,10 +134,10 @@ class ModalContentsState extends State<ModalContents> {
     );
   }
 
-  Widget _buildTypePanelList(List<Pokemon> pokemons) => ExpansionPanelList(
+  Widget _buildTypePanelList(List<Pal> pals) => ExpansionPanelList(
         animationDuration: const Duration(milliseconds: 500),
         children: [
-          _buildTypePokemonPanel(pokemons),
+          _buildTypePalPanel(pals),
           _buildTypeItemsPanel(),
         ],
         expansionCallback: (i, isOpen) => setState(() => _isOpen[i] = !isOpen),
@@ -200,12 +200,12 @@ class ModalContentsState extends State<ModalContents> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: lister(widget.index, 0, widget.width, "No Effect Against".toUpperCase()),
           ),
-        BlocBuilder<PokemonBloc, PokemonState>(builder: (_, state) {
+        BlocBuilder<PalBloc, PalState>(builder: (_, state) {
           if (state.error != null) {
             return _buildError();
           }
 
-          return _buildTypePanelList(state.pokemons);
+          return _buildTypePanelList(state.pals);
         }),
       ],
     );

@@ -1,25 +1,25 @@
 import 'dart:convert';
 
-import 'package:pokedex/core/network.dart';
-import 'package:pokedex/data/source/github/models/item.dart';
-import 'package:pokedex/data/source/github/models/pokemon.dart';
+import 'package:paldex/core/network.dart';
+import 'package:paldex/data/source/github/models/item.dart';
+import 'package:paldex/data/source/github/models/pal.dart';
 
 class GithubDataSource {
   GithubDataSource(this.networkManager);
 
   static const String itemsURL =
-      'https://gist.githubusercontent.com/hungps/48f4355fb1a89ddaf47f56961dc8a245/raw/pokemon-items.json';
+      'https://gist.githubusercontent.com/hungps/48f4355fb1a89ddaf47f56961dc8a245/raw/pal-items.json';
 
   static const String url =
-      'https://gist.githubusercontent.com/hungps/0bfdd96d3ab9ee20c2e572e47c6834c7/raw/pokemons.json';
+      'https://gist.githubusercontent.com/hungps/0bfdd96d3ab9ee20c2e572e47c6834c7/raw/pals.json';
 
   final NetworkManager networkManager;
 
-  Future<List<GithubPokemonModel>> getPokemons() async {
+  Future<List<GithubPalModel>> getPals() async {
     final response = await networkManager.request(RequestMethod.get, url);
 
     final data = (json.decode(response.data) as List)
-        .map((item) => GithubPokemonModel.fromJson(item))
+        .map((item) => GithubPalModel.fromJson(item))
         .toList();
 
     return data;

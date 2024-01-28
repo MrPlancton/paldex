@@ -761,7 +761,7 @@
             "Hyper Beam deals damage, but the user must recharge on the next turn (bringing its effective power down to 75 per turn)."
         ],
         "changes": [
-            "In Generation 1, if Hyper Beam KOs a Pokemon, it does not need to recharge."
+            "In Generation 1, if Hyper Beam KOs a Pal, it does not need to recharge."
         ]
     },
     {
@@ -865,7 +865,7 @@
         "accuracy": 0.9,
         "pp": 10,
         "effects": [
-            "Leech Seed plants a seed on the target that drains 1⁄8 of its maximum HP at the end of each turn and restores it to the user, or any Pokemon that takes its place. It does not work on Grass-type Pokemon; it does technically work against Pokemon with the Magic Guard ability, but no HP will be sapped."
+            "Leech Seed plants a seed on the target that drains 1⁄8 of its maximum HP at the end of each turn and restores it to the user, or any Pal that takes its place. It does not work on Grass-type Pal; it does technically work against Pal with the Magic Guard ability, but no HP will be sapped."
         ],
         "changes": [
             "In Generation 1, Leech Seed saps 1⁄16 of the target's HP. If the target is also badly poisoned, the damage increases by 1⁄16 each turn, in the same way as bad poison (and in addition to poison damage).",
@@ -951,7 +951,7 @@
         "pp": 10,
         "effects": [
             "Mega Drain deals damage and the user will recover 50% of the HP drained.",
-            "If the user is holding a Big Root, the move instead recovers 65% of the damage dealt (30% more than normal). If used on a Pokemon with the ability Liquid Ooze, the user instead loses the HP it would have otherwise gained."
+            "If the user is holding a Big Root, the move instead recovers 65% of the damage dealt (30% more than normal). If used on a Pal with the ability Liquid Ooze, the user instead loses the HP it would have otherwise gained."
         ]
     },
     {
@@ -1166,7 +1166,7 @@
         "pp": 15,
         "effects": [
             "Psywave inflicts a random amount of HP damage, varying between 50% and 150% of the user's level. In other words, at level 100 the damage will be 50-150 HP.",
-            "The damage is typeless (not affected by type advantages/disadvantages) but it still does not affect Dark type Pokemon."
+            "The damage is typeless (not affected by type advantages/disadvantages) but it still does not affect Dark type Pal."
         ]
     },
     {
@@ -1186,13 +1186,13 @@
         "accuracy": 1.0,
         "pp": 20,
         "effects": [
-            "Rage deals damage, and if the user is hit by a direct attack - any time after Rage is first used but before a different move is used - the user's Attack is raised by one stage. The game will state the Pokemon's rage is building rather than explicitly assert the stat increase. Stats can be raised to a maximum of +6 stages each.",
+            "Rage deals damage, and if the user is hit by a direct attack - any time after Rage is first used but before a different move is used - the user's Attack is raised by one stage. The game will state the Pal's rage is building rather than explicitly assert the stat increase. Stats can be raised to a maximum of +6 stages each.",
             "The Attack increases will continue as long as Rage is the last move used, even if it misses, the user is incapacitated (paralyzed, sleeping, etc) or the player uses an item. The Attack increase activates for every blow of multi-hit moves such as DoubleSlap or Fury Swipes.",
-            "As an example, if a Pokemon uses Rage then the opponent hits the user in the same turn, the user's Attack increases. If the user moves last it will not increase that turn, but will in the next turn if the opponent hits the user again."
+            "As an example, if a Pal uses Rage then the opponent hits the user in the same turn, the user's Attack increases. If the user moves last it will not increase that turn, but will in the next turn if the opponent hits the user again."
         ],
         "changes": [
             "In Generation 1, after Rage is selected it will continue to be used until the end of the battle or the user faints.",
-            "In Generations 2-3, if the user is slower than the opponent, the Attack rise only occurs if Rage is selected in that turn - if a different move is selected (or an item used) and the Pokemon is hit before it uses the new move, its Attack does not increase."
+            "In Generations 2-3, if the user is slower than the opponent, the Attack rise only occurs if Rage is selected in that turn - if a different move is selected (or an item used) and the Pal is hit before it uses the new move, its Attack does not increase."
         ]
     },
     {

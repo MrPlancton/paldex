@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/ui/screens/types/type_grid.dart';
-import 'package:pokedex/ui/widgets/main_app_bar.dart';
-import 'package:pokedex/ui/widgets/pokeball_background.dart';
+import 'package:paldex/ui/screens/types/type_grid.dart';
+import 'package:paldex/ui/widgets/main_app_bar.dart';
+import 'package:paldex/ui/widgets/palball_background.dart';
 
 // Class that is related to creating the whole type-effects page
 class TypeEffectScreen extends StatelessWidget {
@@ -19,7 +19,7 @@ class TypeEffectScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return PokeballBackground(
+    return PalballBackground(
       child: NestedScrollView(
         headerSliverBuilder: _buildHeader,
         body: const TypeEffectGrid(),

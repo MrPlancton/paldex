@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/app.dart';
-import 'package:pokedex/core/network.dart';
-import 'package:pokedex/data/repositories/item_repository.dart';
-import 'package:pokedex/data/repositories/pokemon_repository.dart';
-import 'package:pokedex/data/source/github/github_datasource.dart';
-import 'package:pokedex/data/source/local/local_datasource.dart';
-import 'package:pokedex/states/theme/theme_cubit.dart';
-import 'package:pokedex/states/item/item_bloc.dart';
-import 'package:pokedex/states/pokemon/pokemon_bloc.dart';
+import 'package:paldex/app.dart';
+import 'package:paldex/core/network.dart';
+import 'package:paldex/data/repositories/item_repository.dart';
+import 'package:paldex/data/repositories/pal_repository.dart';
+import 'package:paldex/data/source/github/github_datasource.dart';
+import 'package:paldex/data/source/local/local_datasource.dart';
+import 'package:paldex/states/theme/theme_cubit.dart';
+import 'package:paldex/states/item/item_bloc.dart';
+import 'package:paldex/states/pal/pal_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,8 +38,8 @@ void main() async {
         ///
         /// Repositories
         ///
-        RepositoryProvider<PokemonRepository>(
-          create: (context) => PokemonDefaultRepository(
+        RepositoryProvider<PalRepository>(
+          create: (context) => PalDefaultRepository(
             localDataSource: context.read<LocalDataSource>(),
             githubDataSource: context.read<GithubDataSource>(),
           ),
@@ -57,8 +57,8 @@ void main() async {
           ///
           /// BLoCs
           ///
-          BlocProvider<PokemonBloc>(
-            create: (context) => PokemonBloc(context.read<PokemonRepository>()),
+          BlocProvider<PalBloc>(
+            create: (context) => PalBloc(context.read<PalRepository>()),
           ),
           BlocProvider<ItemBloc>(
             create: (context) => ItemBloc(context.read<ItemRepository>()),
@@ -71,7 +71,7 @@ void main() async {
             create: (context) => ThemeCubit(),
           )
         ],
-        child: const PokedexApp(),
+        child: const PaldexApp(),
       ),
     ),
   );

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/domain/entities/item.dart';
-import 'package:pokedex/states/item/item_bloc.dart';
-import 'package:pokedex/states/item/item_state.dart';
+import 'package:paldex/domain/entities/item.dart';
+import 'package:paldex/states/item/item_bloc.dart';
+import 'package:paldex/states/item/item_state.dart';
 
 class ItemStateSelector<T> extends BlocSelector<ItemBloc, ItemState, T> {
   ItemStateSelector({super.key, 

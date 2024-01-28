@@ -1,4 +1,4 @@
-// A list of types in the world of Pokemon
+// A list of types in the world of Pal
 const List<String> typeNames = [
   "normal",
   "fire",

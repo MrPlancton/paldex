@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/types.dart';
+import 'package:paldex/configs/types.dart';
 
 import 'modal_sheet.dart';
 
-// Class responsible for creating the grid of pokeballs that consists of the respective types
+// Class responsible for creating the grid of palballs that consists of the respective types
 class TypeEffectGrid extends StatelessWidget {
   const TypeEffectGrid({super.key});
 

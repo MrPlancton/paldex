@@ -1,9 +1,9 @@
 class Generation {
   const Generation({
     required this.title,
-    required this.pokemons,
+    required this.pals,
   });
 
-  final List<String> pokemons;
+  final List<String> pals;
   final String title;
 }

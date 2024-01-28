@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/colors.dart';
+import 'package:paldex/configs/colors.dart';
 
 class Modal extends StatelessWidget {
   static const Radius _borderRadius = Radius.circular(30.0);

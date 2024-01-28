@@ -2,10 +2,10 @@
   {
     "id":1,
     "name":"stench",
-    "description":"Has a 10% chance of making target Pokemon flinch with each hit.",
+    "description":"Has a 10% chance of making target Pal flinch with each hit.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Grimer",
       "Muk",
       "Stunky",
@@ -13,10 +13,10 @@
       "Trubbish",
       "Garbodor"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Gloom"
     ]
   },
@@ -26,13 +26,13 @@
     "description":"Summons rain that lasts indefinitely upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Kyogre"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Pelipper"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Politoed"
     ]
   },
@@ -42,16 +42,16 @@
     "description":"Raises Speed one stage after each turn.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Yanma",
       "Ninjask",
       "Yanmega",
       "Blaziken-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Torchic",
       "Combusken",
       "Blaziken",
@@ -68,18 +68,18 @@
     "description":"Protects against critical hits.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Anorith",
       "Armaldo",
       "Skorupi",
       "Drapion",
       "Type-null"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Kabuto",
       "Kabutops"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Cubone",
       "Marowak"
     ]
@@ -90,7 +90,7 @@
     "description":"Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Sudowoodo",
       "Pineco",
       "Forretress",
@@ -112,7 +112,7 @@
       "Crustle",
       "Cosmoem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Geodude",
       "Graveler",
       "Golem",
@@ -128,7 +128,7 @@
       "Graveler-alola",
       "Golem-alola"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Relicanth",
       "Regirock",
       "Tyrunt",
@@ -142,22 +142,22 @@
   {
     "id":6,
     "name":"damp",
-    "description":"Prevents self destruct, explosion, and aftermath from working while the Pokemon is in battle.",
+    "description":"Prevents self destruct, explosion, and aftermath from working while the Pal is in battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Psyduck",
       "Golduck",
       "Wooper",
       "Quagsire"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Poliwag",
       "Poliwhirl",
       "Poliwrath",
       "Politoed"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Paras",
       "Parasect",
       "Horsea",
@@ -176,7 +176,7 @@
     "description":"Prevents paralysis.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Persian",
       "Hitmonlee",
       "Ditto",
@@ -185,12 +185,12 @@
       "Liepard",
       "Hawlucha"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Stunfisk",
       "Mareanie",
       "Toxapex"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Buneary",
       "Lopunny"
     ]
@@ -201,7 +201,7 @@
     "description":"Increases evasion to 1.25x during a sandstorm.  Protects against sandstorm damage.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Sandshrew",
       "Sandslash",
       "Diglett",
@@ -214,13 +214,13 @@
       "Diglett-alola",
       "Dugtrio-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Gligar",
       "Gliscor",
       "Helioptile",
       "Heliolisk"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Geodude",
       "Graveler",
       "Golem",
@@ -235,10 +235,10 @@
   {
     "id":9,
     "name":"static",
-    "description":"Has a 30% chance of paralyzing attacking Pokemon on contact.",
+    "description":"Has a 30% chance of paralyzing attacking Pal on contact.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Pikachu",
       "Raichu",
       "Electabuzz",
@@ -265,11 +265,11 @@
       "Pikachu-alola-cap",
       "Pikachu-partner-cap"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Voltorb",
       "Electrode"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Zapdos"
     ]
   },
@@ -279,17 +279,17 @@
     "description":"Absorbs electric moves, healing for 1/4 max HP.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Jolteon",
       "Chinchou",
       "Lanturn",
       "Zeraora",
       "Thundurus-therian"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Minun",
       "Pachirisu"
     ]
@@ -300,7 +300,7 @@
     "description":"Absorbs water moves, healing for 1/4 max HP.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Poliwag",
       "Poliwhirl",
       "Poliwrath",
@@ -312,13 +312,13 @@
       "Jellicent",
       "Volcanion"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Wooper",
       "Quagsire",
       "Mantine",
       "Mantyke"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Chinchou",
       "Lanturn",
       "Cacnea",
@@ -337,7 +337,7 @@
     "description":"Prevents infatuation and protects against captivate.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Slowpoke",
       "Slowbro",
       "Jynx",
@@ -351,7 +351,7 @@
       "Whiscash",
       "Mamoswine"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Lickitung",
       "Wailmer",
       "Wailord",
@@ -360,7 +360,7 @@
       "Bounsweet",
       "Steenee"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Spheal",
       "Sealeo",
       "Walrein",
@@ -375,14 +375,14 @@
     "description":"Negates all effects of weather, but does not prevent the weather itself.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Psyduck",
       "Golduck"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Lickitung",
       "Swablu",
       "Altaria",
@@ -396,19 +396,19 @@
     "description":"Increases moves' accuracy to 1.3x.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Butterfree",
       "Venonat",
       "Nincada",
       "Joltik",
       "Galvantula"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Yanma",
       "Scatterbug",
       "Vivillon"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Dustox"
     ]
   },
@@ -418,7 +418,7 @@
     "description":"Prevents sleep.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Drowzee",
       "Hypno",
       "Hoothoot",
@@ -429,11 +429,11 @@
       "Honchkrow",
       "Mewtwo-mega-y"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Spinarak",
       "Ariados"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Delibird",
       "Pumpkaboo-average",
       "Gourgeist-average",
@@ -451,13 +451,13 @@
     "description":"Changes type to match when hit by a damaging move.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Kecleon"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -467,24 +467,24 @@
     "description":"Prevents poison.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Snorlax",
       "Zangoose"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Gligar"
     ]
   },
   {
     "id":18,
     "name":"flash-fire",
-    "description":"Protects against fire moves.  Once one has been blocked, the Pokemon's own Fire moves inflict 1.5x damage until it leaves battle.",
+    "description":"Protects against fire moves.  Once one has been blocked, the Pal's own Fire moves inflict 1.5x damage until it leaves battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Vulpix",
       "Ninetales",
       "Flareon",
@@ -493,7 +493,7 @@
       "Lampent",
       "Chandelure"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Growlithe",
       "Arcanine",
       "Ponyta",
@@ -502,7 +502,7 @@
       "Houndoom",
       "Heatmor"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Cyndaquil",
       "Quilava",
       "Typhlosion"
@@ -514,7 +514,7 @@
     "description":"Protects against incoming moves' extra effects.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Caterpie",
       "Weedle",
       "Venomoth",
@@ -523,12 +523,12 @@
       "Scatterbug",
       "Vivillon"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Cutiefly",
       "Ribombee",
       "Ribombee-totem"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -538,7 +538,7 @@
     "description":"Prevents confusion.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Lickitung",
       "Smeargle",
       "Spinda",
@@ -549,7 +549,7 @@
       "Mudsdale",
       "Rockruff-own-tempo"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Slowpoke",
       "Slowbro",
       "Slowking",
@@ -560,7 +560,7 @@
       "Petilil",
       "Lilligant"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Lotad",
       "Lombre",
       "Ludicolo",
@@ -571,19 +571,19 @@
   {
     "id":21,
     "name":"suction-cups",
-    "description":"Prevents being forced out of battle by other Pokemon's moves.",
+    "description":"Prevents being forced out of battle by other Pal's moves.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Octillery",
       "Lileep",
       "Cradily"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Inkay",
       "Malamar"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -593,7 +593,7 @@
     "description":"Lowers opponents' Attack one stage upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Ekans",
       "Arbok",
       "Growlithe",
@@ -617,13 +617,13 @@
       "Landorus-therian",
       "Manectric-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Mawile",
       "Shinx",
       "Luxio",
       "Luxray"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Qwilfish",
       "Scraggy",
       "Scrafty",
@@ -638,15 +638,15 @@
     "description":"Prevents opponents from fleeing or switching out.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Wobbuffet",
       "Wynaut",
       "Gengar-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Gothita",
       "Gothorita",
       "Gothitelle"
@@ -655,18 +655,18 @@
   {
     "id":24,
     "name":"rough-skin",
-    "description":"Damages attacking Pokemon for 1/8 their max HP on contact.",
+    "description":"Damages attacking Pal for 1/8 their max HP on contact.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Carvanha",
       "Sharpedo",
       "Druddigon"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Gible",
       "Gabite",
       "Garchomp"
@@ -678,13 +678,13 @@
     "description":"Protects against damaging moves that are not super effective.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Shedinja"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -694,7 +694,7 @@
     "description":"Evades ground moves.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Gastly",
       "Haunter",
       "Koffing",
@@ -737,20 +737,20 @@
       "Latios-mega",
       "Vikavolt-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":27,
     "name":"effect-spore",
-    "description":"Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokemon on contact.",
+    "description":"Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pal on contact.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Paras",
       "Parasect",
       "Shroomish",
@@ -758,21 +758,21 @@
       "Foongus",
       "Amoonguss"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Morelull",
       "Shiinotic"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Vileplume"
     ]
   },
   {
     "id":28,
     "name":"synchronize",
-    "description":"Copies burns, paralysis, and poison received onto the Pokemon that inflicted them.",
+    "description":"Copies burns, paralysis, and poison received onto the Pal that inflicted them.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Abra",
       "Kadabra",
       "Alakazam",
@@ -785,23 +785,23 @@
       "Kirlia",
       "Gardevoir"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Munna",
       "Musharna",
       "Elgyem",
       "Beheeyem"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":29,
     "name":"clear-body",
-    "description":"Prevents stats from being lowered by other Pokemon.",
+    "description":"Prevents stats from being lowered by other Pal.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tentacool",
       "Tentacruel",
       "Beldum",
@@ -813,10 +813,10 @@
       "Carbink",
       "Diancie"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Klink",
       "Klang",
       "Klinklang"
@@ -828,7 +828,7 @@
     "description":"Cures any major status ailment upon switching out.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Chansey",
       "Blissey",
       "Celebi",
@@ -842,22 +842,22 @@
       "Phantump",
       "Trevenant"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Staryu",
       "Starmie",
       "Corsola"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Comfey"
     ]
   },
   {
     "id":31,
     "name":"lightning-rod",
-    "description":"Redirects single-target electric moves to this Pokemon where possible.  Absorbs Electric moves, raising Special Attack one stage.",
+    "description":"Redirects single-target electric moves to this Pal where possible.  Absorbs Electric moves, raising Special Attack one stage.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Rhyhorn",
       "Rhydon",
       "Rhyperior",
@@ -865,7 +865,7 @@
       "Zebstrika",
       "Sceptile-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Cubone",
       "Marowak",
       "Electrike",
@@ -875,7 +875,7 @@
       "Marowak-totem",
       "Togedemaru-totem"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Pikachu",
       "Raichu",
       "Goldeen",
@@ -903,14 +903,14 @@
     "description":"Doubles the chance of moves' extra effects occurring.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Dunsparce",
       "Jirachi",
       "Meloetta-aria",
       "Shaymin-sky",
       "Meloetta-pirouette"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Chansey",
       "Togepi",
       "Togetic",
@@ -918,7 +918,7 @@
       "Happiny",
       "Togekiss"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Deerling",
       "Sawsbuck"
     ]
@@ -929,7 +929,7 @@
     "description":"Doubles Speed during rain.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Horsea",
       "Goldeen",
       "Seaking",
@@ -959,10 +959,10 @@
       "Seismitoad",
       "Swampert-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Qwilfish"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Psyduck",
       "Golduck",
       "Poliwag",
@@ -981,7 +981,7 @@
     "description":"Doubles Speed during strong sunlight.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Oddish",
       "Gloom",
       "Vileplume",
@@ -1008,13 +1008,13 @@
       "Deerling",
       "Sawsbuck"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Sewaddle",
       "Swadloon",
       "Leavanny",
       "Maractus"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Bulbasaur",
       "Ivysaur",
       "Venusaur",
@@ -1029,7 +1029,7 @@
     "description":"Doubles the wild encounter rate.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Staryu",
       "Starmie",
       "Volbeat",
@@ -1037,11 +1037,11 @@
       "Morelull",
       "Shiinotic"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Chinchou",
       "Lanturn"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1051,17 +1051,17 @@
     "description":"Copies an opponent's ability upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Porygon",
       "Porygon2",
       "Alakazam-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Ralts",
       "Kirlia",
       "Gardevoir"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1071,15 +1071,15 @@
     "description":"Doubles Attack in battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Mawile-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Marill",
       "Azumarill",
       "Azurill"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Bunnelby",
       "Diggersby"
     ]
@@ -1087,10 +1087,10 @@
   {
     "id":38,
     "name":"poison-point",
-    "description":"Has a 30% chance of poisoning attacking Pokemon on contact.",
+    "description":"Has a 30% chance of poisoning attacking Pal on contact.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Nidoran-f",
       "Nidorina",
       "Nidoqueen",
@@ -1105,12 +1105,12 @@
       "Skrelp",
       "Dragalge"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Roselia",
       "Budew",
       "Roserade"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1120,7 +1120,7 @@
     "description":"Prevents flinching.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Zubat",
       "Golbat",
       "Dragonite",
@@ -1134,7 +1134,7 @@
       "Oranguru",
       "Gallade-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Abra",
       "Kadabra",
       "Alakazam",
@@ -1146,7 +1146,7 @@
       "Pawniard",
       "Bisharp"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Drowzee",
       "Hypno",
       "Hitmonchan",
@@ -1166,15 +1166,15 @@
     "description":"Prevents freezing.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Slugma",
       "Magcargo",
       "Camerupt"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1184,15 +1184,15 @@
     "description":"Prevents burns.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Wailmer",
       "Wailord"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Goldeen",
       "Seaking"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Mantine",
       "Huntail",
       "Buizel",
@@ -1208,7 +1208,7 @@
     "description":"Prevents steel opponents from fleeing or switching out.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Magnemite",
       "Magneton",
       "Magnezone",
@@ -1216,11 +1216,11 @@
       "Graveler-alola",
       "Golem-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Nosepass",
       "Probopass"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1230,7 +1230,7 @@
     "description":"Protects against sound-based moves.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Voltorb",
       "Electrode",
       "Mr-mime",
@@ -1239,13 +1239,13 @@
       "Exploud",
       "Mime-jr"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Jangmo-o",
       "Hakamo-o",
       "Kommo-o",
       "Kommo-o-totem"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Shieldon",
       "Bastiodon",
       "Snover",
@@ -1259,15 +1259,15 @@
     "description":"Heals for 1/16 max HP after each turn during rain.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Lotad",
       "Lombre",
       "Ludicolo"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Squirtle",
       "Wartortle",
       "Blastoise",
@@ -1286,26 +1286,26 @@
     "description":"Summons a sandstorm that lasts indefinitely upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tyranitar",
       "Hippopotas",
       "Hippowdon",
       "Tyranitar-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Gigalith"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":46,
     "name":"pressure",
-    "description":"Increases the PP cost of moves targetting the Pokemon by one.",
+    "description":"Increases the PP cost of moves targetting the Pal by one.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Articuno",
       "Zapdos",
       "Moltres",
@@ -1330,10 +1330,10 @@
       "Deoxys-defense",
       "Deoxys-speed"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Aerodactyl"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Wailmer",
       "Wailord",
       "Pawniard",
@@ -1346,7 +1346,7 @@
     "description":"Halves damage from fire and ice moves.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Seel",
       "Dewgong",
       "Marill",
@@ -1363,11 +1363,11 @@
       "Purugly",
       "Venusaur-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Snorlax",
       "Munchlax"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Swinub",
       "Piloswine",
       "Mamoswine",
@@ -1384,12 +1384,12 @@
     "description":"Makes sleep pass twice as quickly.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Kangaskhan",
       "Houndour",
       "Houndoom"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Doduo",
       "Dodrio",
       "Ledyba",
@@ -1401,7 +1401,7 @@
       "Nuzleaf",
       "Shiftry"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Sunkern",
       "Sunflora"
     ]
@@ -1409,10 +1409,10 @@
   {
     "id":49,
     "name":"flame-body",
-    "description":"Has a 30% chance of burning attacking Pokemon on contact.",
+    "description":"Has a 30% chance of burning attacking Pal on contact.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Magmar",
       "Magby",
       "Magmortar",
@@ -1421,14 +1421,14 @@
       "Fletchinder",
       "Talonflame"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Slugma",
       "Magcargo",
       "Litwick",
       "Lampent",
       "Chandelure"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Ponyta",
       "Rapidash",
       "Moltres",
@@ -1441,7 +1441,7 @@
     "description":"Ensures success fleeing from wild battles.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Rattata",
       "Raticate",
       "Ponyta",
@@ -1457,11 +1457,11 @@
       "Buneary",
       "Patrat"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Dunsparce",
       "Snubbull"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Caterpie",
       "Weedle",
       "Oddish",
@@ -1478,7 +1478,7 @@
     "description":"Prevents accuracy from being lowered.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Pidgey",
       "Pidgeotto",
       "Pidgeot",
@@ -1506,7 +1506,7 @@
       "Meowstic-female",
       "Lycanroc-midnight"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Sentret",
       "Furret",
       "Hoothoot",
@@ -1515,7 +1515,7 @@
       "Patrat",
       "Watchog"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Glameow",
       "Stunky",
       "Skuntank",
@@ -1526,10 +1526,10 @@
   {
     "id":52,
     "name":"hyper-cutter",
-    "description":"Prevents Attack from being lowered by other Pokemon.",
+    "description":"Prevents Attack from being lowered by other Pal.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Krabby",
       "Kingler",
       "Pinsir",
@@ -1542,20 +1542,20 @@
       "Crabrawler",
       "Crabominable"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":53,
     "name":"pickup",
-    "description":"Picks up other Pokemon's used and Flung held items.  May also pick up an item after battle.",
+    "description":"Picks up other Pal's used and Flung held items.  May also pick up an item after battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Meowth",
       "Teddiursa",
       "Phanpy",
@@ -1574,14 +1574,14 @@
       "Gourgeist-super",
       "Meowth-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Aipom",
       "Pachirisu",
       "Ambipom",
       "Lillipup",
       "Dedenne"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Pikipek",
       "Trumbeak"
     ]
@@ -1592,14 +1592,14 @@
     "description":"Skips every second turn.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Slakoth",
       "Slaking"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Durant"
     ]
   },
@@ -1609,7 +1609,7 @@
     "description":"Strengthens physical moves to inflict 1.5x damage, but decreases their accuracy to 0.8x.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Togepi",
       "Togetic",
       "Corsola",
@@ -1619,14 +1619,14 @@
       "Deino",
       "Zweilous"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Delibird",
       "Durant",
       "Rattata-alola",
       "Raticate-alola",
       "Raticate-totem-alola"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Rattata",
       "Raticate",
       "Nidoran-f",
@@ -1640,10 +1640,10 @@
   {
     "id":56,
     "name":"cute-charm",
-    "description":"Has a 30% chance of infatuating attacking Pokemon on contact.",
+    "description":"Has a 30% chance of infatuating attacking Pal on contact.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Clefairy",
       "Clefable",
       "Jigglypuff",
@@ -1657,10 +1657,10 @@
       "Cinccino",
       "Sylveon"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Milotic",
       "Stufful"
     ]
@@ -1668,19 +1668,19 @@
   {
     "id":57,
     "name":"plus",
-    "description":"Increases Special Attack to 1.5x when a friendly Pokemon has plus or minus.",
+    "description":"Increases Special Attack to 1.5x when a friendly Pal has plus or minus.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Plusle",
       "Klink",
       "Klang",
       "Klinklang"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Mareep",
       "Flaaffy",
       "Ampharos",
@@ -1690,18 +1690,18 @@
   {
     "id":58,
     "name":"minus",
-    "description":"Increases Special Attack to 1.5x when a friendly Pokemon has plus or minus.",
+    "description":"Increases Special Attack to 1.5x when a friendly Pal has plus or minus.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Minun"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Klink",
       "Klang",
       "Klinklang"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Electrike",
       "Manectric"
     ]
@@ -1712,30 +1712,30 @@
     "description":"Changes castform's type and form to match the weather.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Castform",
       "Castform-sunny",
       "Castform-rainy",
       "Castform-snowy"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":60,
     "name":"sticky-hold",
-    "description":"Prevents a held item from being removed by other Pokemon.",
+    "description":"Prevents a held item from being removed by other Pal.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Shellos",
       "Gastrodon"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Grimer",
       "Muk",
       "Gulpin",
@@ -1743,7 +1743,7 @@
       "Trubbish",
       "Accelgor"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1753,7 +1753,7 @@
     "description":"Has a 33% chance of curing any major status ailment after each turn.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Metapod",
       "Kakuna",
       "Dratini",
@@ -1768,12 +1768,12 @@
       "Scrafty",
       "Spewpa"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Ekans",
       "Arbok",
       "Karrablast"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1783,7 +1783,7 @@
     "description":"Increases Attack to 1.5x with a major status ailment.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Machop",
       "Machoke",
       "Machamp",
@@ -1797,14 +1797,14 @@
       "Conkeldurr",
       "Throh"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Rattata",
       "Raticate",
       "Heracross",
       "Makuhita",
       "Hariyama"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Flareon",
       "Shinx",
       "Luxio",
@@ -1817,13 +1817,13 @@
     "description":"Increases Defense to 1.5x with a major status ailment.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Milotic"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Dratini",
       "Dragonair"
     ]
@@ -1834,15 +1834,15 @@
     "description":"Damages opponents using leeching moves for as much as they would heal.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Gulpin",
       "Swalot"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Tentacool",
       "Tentacruel"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -1852,7 +1852,7 @@
     "description":"Strengthens grass moves to inflict 1.5x damage at 1/3 max HP or less.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Bulbasaur",
       "Ivysaur",
       "Venusaur",
@@ -1875,10 +1875,10 @@
       "Dartrix",
       "Decidueye"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Pansage",
       "Simisage"
     ]
@@ -1889,7 +1889,7 @@
     "description":"Strengthens fire moves to inflict 1.5x damage at 1/3 max HP or less.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Charmander",
       "Charmeleon",
       "Charizard",
@@ -1912,10 +1912,10 @@
       "Torracat",
       "Incineroar"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Pansear",
       "Simisear"
     ]
@@ -1926,7 +1926,7 @@
     "description":"Strengthens water moves to inflict 1.5x damage at 1/3 max HP or less.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Squirtle",
       "Wartortle",
       "Blastoise",
@@ -1949,10 +1949,10 @@
       "Brionne",
       "Primarina"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Panpour",
       "Simipour"
     ]
@@ -1963,7 +1963,7 @@
     "description":"Strengthens bug moves to inflict 1.5x damage at 1/3 max HP or less.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Beedrill",
       "Scyther",
       "Ledyba",
@@ -1982,13 +1982,13 @@
       "Durant",
       "Grubbin"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Volbeat",
       "Venipede",
       "Whirlipede",
       "Scolipede"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Joltik",
       "Galvantula",
       "Larvesta",
@@ -2001,7 +2001,7 @@
     "description":"Protects against recoil damage.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Geodude",
       "Graveler",
       "Golem",
@@ -2014,7 +2014,7 @@
       "Shelgon",
       "Basculin-blue-striped"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Rhyhorn",
       "Rhydon",
       "Sudowoodo",
@@ -2024,7 +2024,7 @@
       "Relicanth",
       "Bonsly"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Tyrantrum",
       "Marowak-alola",
       "Marowak-totem"
@@ -2036,14 +2036,14 @@
     "description":"Summons strong sunlight that lasts indefinitely upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Groudon",
       "Charizard-mega-y"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Torkoal"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Vulpix",
       "Ninetales"
     ]
@@ -2051,18 +2051,18 @@
   {
     "id":71,
     "name":"arena-trap",
-    "description":"Prevents opponents from fleeing or switching out.  Eluded by flying-types and Pokemon in the air.",
+    "description":"Prevents opponents from fleeing or switching out.  Eluded by flying-types and Pal in the air.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Diglett",
       "Dugtrio",
       "Trapinch"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -2072,18 +2072,18 @@
     "description":"Prevents sleep.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Mankey",
       "Primeape",
       "Delibird",
       "Vigoroth",
       "Lillipup"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Rockruff",
       "Lycanroc-midnight"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Electabuzz",
       "Magmar",
       "Tyrogue",
@@ -2096,16 +2096,16 @@
   {
     "id":73,
     "name":"white-smoke",
-    "description":"Prevents stats from being lowered by other Pokemon.",
+    "description":"Prevents stats from being lowered by other Pal.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Torkoal"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Heatmor"
     ]
   },
@@ -2115,15 +2115,15 @@
     "description":"Doubles Attack in battle.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Meditite",
       "Medicham",
       "Medicham-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -2133,14 +2133,14 @@
     "description":"Protects against critical hits.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Shellder",
       "Cloyster",
       "Clamperl",
       "Turtonator",
       "Slowbro-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Krabby",
       "Kingler",
       "Lapras",
@@ -2153,7 +2153,7 @@
       "Escavalier",
       "Shelmet"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Torkoal",
       "Turtwig",
       "Grotle",
@@ -2169,13 +2169,13 @@
     "description":"Negates all effects of weather, but does not prevent the weather itself.",
     "longDescription":"",
     "generationIntroduced":"3",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Rayquaza"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -2185,17 +2185,17 @@
     "description":"Doubles evasion when confused.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Pidgey",
       "Pidgeotto",
       "Pidgeot",
       "Spinda",
       "Chatot"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Doduo",
       "Dodrio"
     ]
@@ -2206,24 +2206,24 @@
     "description":"Absorbs electric moves, raising Speed one stage.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Electivire"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Blitzle",
       "Zebstrika"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Emolga"
     ]
   },
   {
     "id":79,
     "name":"rivalry",
-    "description":"Increases damage inflicted to 1.25x against Pokemon of the same gender, but decreases damage to 0.75x against the opposite gender.",
+    "description":"Increases damage inflicted to 1.25x against Pal of the same gender, but decreases damage to 0.75x against the opposite gender.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Shinx",
       "Luxio",
       "Luxray",
@@ -2233,7 +2233,7 @@
       "Litleo",
       "Pyroar"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Nidoran-f",
       "Nidorina",
       "Nidoqueen",
@@ -2241,7 +2241,7 @@
       "Nidorino",
       "Nidoking"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Beautifly",
       "Pidove",
       "Tranquill",
@@ -2254,16 +2254,16 @@
     "description":"Raises Speed one stage upon flinching.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Riolu",
       "Lucario",
       "Gallade",
       "Mewtwo-mega-x"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Tyrogue"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Machop",
       "Machoke",
       "Machamp",
@@ -2279,7 +2279,7 @@
     "description":"Increases evasion to 1.25x during hail.  Protects against hail damage.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Glaceon",
       "Froslass",
       "Cubchoo",
@@ -2289,24 +2289,24 @@
       "Vulpix-alola",
       "Ninetales-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Swinub",
       "Piloswine",
       "Mamoswine",
       "Vanillite",
       "Vanillish"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Articuno"
     ]
   },
   {
     "id":82,
     "name":"gluttony",
-    "description":"Makes the Pokemon eat any held Berry triggered by low HP below 1/2 its max HP.",
+    "description":"Makes the Pal eat any held Berry triggered by low HP below 1/2 its max HP.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Pansage",
       "Simisage",
       "Pansear",
@@ -2318,14 +2318,14 @@
       "Raticate-alola",
       "Raticate-totem-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Shuckle",
       "Zigzagoon",
       "Linoone",
       "Grimer-alola",
       "Muk-alola"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Bellsprout",
       "Weepinbell",
       "Victreebel",
@@ -2343,15 +2343,15 @@
     "description":"Raises Attack to the maximum of six stages upon receiving a critical hit.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Mankey",
       "Primeape",
       "Tauros"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Camerupt",
       "Sandile",
       "Krokorok",
@@ -2366,17 +2366,17 @@
     "description":"Doubles Speed upon using or losing a held item.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Drifloon",
       "Drifblim",
       "Purrloin",
       "Liepard",
       "Hawlucha"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Hitmonlee",
       "Treecko",
       "Grovyle",
@@ -2392,31 +2392,31 @@
     "description":"Halves damage from fire moves and burns.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Bronzor",
       "Bronzong"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":86,
     "name":"simple",
-    "description":"Doubles the Pokemon's stat modifiers.  These doubled modifiers are still capped at -6 or 6 stages.",
+    "description":"Doubles the Pal's stat modifiers.  These doubled modifiers are still capped at -6 or 6 stages.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Bidoof",
       "Bibarel"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Numel"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Woobat",
       "Swoobat"
     ]
@@ -2427,17 +2427,17 @@
     "description":"Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25x, but absorbs water moves, healing for 1/4 max HP.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Helioptile",
       "Heliolisk"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Paras",
       "Parasect",
       "Croagunk",
       "Toxicroak"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Jynx"
     ]
   },
@@ -2447,15 +2447,15 @@
     "description":"Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Genesect"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Porygon",
       "Porygon2",
       "Porygon-z"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -2465,18 +2465,18 @@
     "description":"Strengthens punch-based moves to 1.2x their power.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Golett",
       "Golurk",
       "Pancham",
       "Pangoro"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Hitmonchan",
       "Crabrawler",
       "Crabominable"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Ledian",
       "Chimchar",
       "Monferno",
@@ -2492,14 +2492,14 @@
     "description":"Heals for 1/8 max HP after each turn when poisoned in place of damage.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Shroomish",
       "Breloom"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Gliscor"
     ]
   },
@@ -2509,17 +2509,17 @@
     "description":"Increases the same-type attack bonus from 1.5x to 2x.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Porygon-z",
       "Lucario-mega",
       "Beedrill-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Eevee",
       "Basculin-red-striped",
       "Basculin-blue-striped"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Corphish",
       "Crawdaunt",
       "Feebas",
@@ -2536,17 +2536,17 @@
     "description":"Extends two-to-five-hit moves and triple kick to their full length every time.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Heracross-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Shellder",
       "Cloyster",
       "Pikipek",
       "Trumbeak",
       "Toucannon"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Aipom",
       "Ambipom",
       "Minccino",
@@ -2559,13 +2559,13 @@
     "description":"Cures any major status ailment after each turn during rain.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Phione",
       "Manaphy",
       "Shelmet",
       "Accelgor"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Seel",
       "Dewgong",
       "Wingull",
@@ -2576,7 +2576,7 @@
       "Sliggoo",
       "Goodra"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Lapras",
       "Vaporeon",
       "Smoochum",
@@ -2594,15 +2594,15 @@
     "description":"Increases Special Attack to 1.5x but costs 1/8 max HP after each turn during strong sunlight.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Houndoom-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Sunkern",
       "Sunflora",
       "Tropius"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Charmander",
       "Charmeleon",
       "Charizard",
@@ -2616,17 +2616,17 @@
     "description":"Increases Speed to 1.5x with a major status ailment.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Granbull",
       "Teddiursa",
       "Ursaring",
       "Poochyena",
       "Mightyena"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Jolteon",
       "Zigzagoon",
       "Linoone",
@@ -2636,17 +2636,17 @@
   {
     "id":96,
     "name":"normalize",
-    "description":"Makes the Pokemon's moves all act normal-type.",
+    "description":"Makes the Pal's moves all act normal-type.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Skitty",
       "Delcatty"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -2656,10 +2656,10 @@
     "description":"Strengthens critical hits to inflict 3x damage rather than 2x.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Horsea",
       "Seadra",
       "Remoraid",
@@ -2670,7 +2670,7 @@
       "Binacle",
       "Barbaracle"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Beedrill",
       "Spearow",
       "Fearow",
@@ -2684,10 +2684,10 @@
     "description":"Protects against damage not directly caused by a move.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Clefairy",
       "Clefable",
       "Cleffa",
@@ -2696,7 +2696,7 @@
       "Duosion",
       "Reuniclus"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Abra",
       "Kadabra",
       "Alakazam"
@@ -2705,20 +2705,20 @@
   {
     "id":99,
     "name":"no-guard",
-    "description":"Ensures all moves used by and against the Pokemon hit.",
+    "description":"Ensures all moves used by and against the Pal hit.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Honedge",
       "Doublade",
       "Pidgeot-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Machop",
       "Machoke",
       "Machamp"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Karrablast",
       "Golett",
       "Golurk",
@@ -2728,16 +2728,16 @@
   {
     "id":100,
     "name":"stall",
-    "description":"Makes the Pokemon move last within its move's priority bracket.",
+    "description":"Makes the Pal move last within its move's priority bracket.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Sableye"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -2747,12 +2747,12 @@
     "description":"Strengthens moves of 60 base power or less to 1.5x their power.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Ambipom",
       "Marshadow",
       "Scizor-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Meowth",
       "Persian",
       "Scyther",
@@ -2764,7 +2764,7 @@
       "Meowth-alola",
       "Persian-alola"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Mr-mime",
       "Breloom",
       "Kricketune",
@@ -2778,7 +2778,7 @@
     "description":"Protects against major status ailments during strong sunlight.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Leafeon",
       "Swadloon",
       "Fomantis",
@@ -2788,14 +2788,14 @@
       "Tsareena",
       "Lurantis-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Tangela",
       "Hoppip",
       "Skiploom",
       "Jumpluff",
       "Tangrowth"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Chikorita",
       "Bayleef",
       "Meganium",
@@ -2808,13 +2808,13 @@
   {
     "id":103,
     "name":"klutz",
-    "description":"Prevents the Pokemon from using its held item in battle.",
+    "description":"Prevents the Pal from using its held item in battle.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Buneary",
       "Lopunny",
       "Woobat",
@@ -2824,7 +2824,7 @@
       "Stufful",
       "Bewear"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Audino"
     ]
   },
@@ -2834,13 +2834,13 @@
     "description":"Bypasses targets' abilities if they could hinder or prevent a move.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Cranidos",
       "Rampardos",
       "Gyarados-mega",
       "Ampharos-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Pinsir",
       "Axew",
       "Fraxure",
@@ -2848,7 +2848,7 @@
       "Pancham",
       "Pangoro"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Drilbur",
       "Excadrill",
       "Throh",
@@ -2865,10 +2865,10 @@
     "description":"Raises moves' critical hit rates one stage.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Murkrow",
       "Absol",
       "Honchkrow",
@@ -2876,7 +2876,7 @@
       "Tranquill",
       "Unfezant"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Togepi",
       "Togetic",
       "Togekiss"
@@ -2888,15 +2888,15 @@
     "description":"Damages the attacker for 1/4 its max HP when knocked out by a contact move.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Drifloon",
       "Drifblim"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Stunky",
       "Skuntank"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Voltorb",
       "Electrode",
       "Trubbish",
@@ -2909,18 +2909,18 @@
     "description":"Notifies all trainers upon entering battle if an opponent has a super-effective move, self destruct, explosion, or a one-hit KO move.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Wormadam-plant",
       "Croagunk",
       "Toxicroak",
       "Wormadam-sandy",
       "Wormadam-trash"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Barboach",
       "Whiscash"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Eevee",
       "Ferrothorn"
     ]
@@ -2931,36 +2931,36 @@
     "description":"Reveals the opponents' strongest move upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Munna",
       "Musharna"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Drowzee",
       "Hypno",
       "Jynx",
       "Smoochum"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":109,
     "name":"unaware",
-    "description":"Ignores other Pokemon's stat modifiers for damage and accuracy calculation.",
+    "description":"Ignores other Pal's stat modifiers for damage and accuracy calculation.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Woobat",
       "Swoobat",
       "Cosmog"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Bidoof",
       "Bibarel"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Clefable",
       "Wooper",
       "Quagsire",
@@ -2973,16 +2973,16 @@
     "description":"Doubles damage inflicted with not-very-effective moves.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Venonat",
       "Venomoth",
       "Illumise",
       "Yanmega"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Butterfree",
       "Hoothoot",
       "Noctowl",
@@ -2996,14 +2996,14 @@
     "description":"Decreases damage taken from super-effective moves by 1/4.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Aggron-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Mr-mime",
       "Mime-jr"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -3013,30 +3013,30 @@
     "description":"Halves Attack and Speed for five turns upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Regigigas"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":113,
     "name":"scrappy",
-    "description":"Lets the Pokemon's normal and fighting moves hit ghost Pokemon.",
+    "description":"Lets the Pal's normal and fighting moves hit ghost Pal.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Lopunny-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Kangaskhan",
       "Miltank"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Taillow",
       "Swellow",
       "Loudred",
@@ -3050,19 +3050,19 @@
   {
     "id":114,
     "name":"storm-drain",
-    "description":"Redirects single-target water moves to this Pokemon where possible.  Absorbs Water moves, raising Special Attack one stage.",
+    "description":"Redirects single-target water moves to this Pal where possible.  Absorbs Water moves, raising Special Attack one stage.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Shellos",
       "Gastrodon",
       "Finneon",
       "Lumineon"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Lileep",
       "Cradily",
       "Maractus"
@@ -3074,12 +3074,12 @@
     "description":"Heals for 1/16 max HP after each turn during hail.  Protects against hail damage.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Vanillite",
       "Vanillish",
       "Vanilluxe"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Snorunt",
       "Glalie",
       "Spheal",
@@ -3088,7 +3088,7 @@
       "Bergmite",
       "Avalugg"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Seel",
       "Dewgong",
       "Regice",
@@ -3101,15 +3101,15 @@
     "description":"Decreases damage taken from super-effective moves by 1/4.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tirtouga",
       "Carracosta"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Camerupt",
       "Rhyperior"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -3119,15 +3119,15 @@
     "description":"Summons hail that lasts indefinitely upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Snover",
       "Abomasnow",
       "Abomasnow-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Vanilluxe"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Amaura",
       "Aurorus",
       "Vulpix-alola",
@@ -3137,19 +3137,19 @@
   {
     "id":118,
     "name":"honey-gather",
-    "description":"The Pokemon may pick up honey after battle.",
+    "description":"The Pal may pick up honey after battle.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Combee",
       "Cutiefly",
       "Ribombee",
       "Ribombee-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Teddiursa"
     ]
   },
@@ -3159,7 +3159,7 @@
     "description":"Reveals an opponent's held item upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Gothita",
       "Gothorita",
       "Gothitelle",
@@ -3167,7 +3167,7 @@
       "Noivern",
       "Exeggutor-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Stantler",
       "Shuppet",
       "Banette",
@@ -3182,7 +3182,7 @@
       "Gourgeist-large",
       "Gourgeist-super"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Wigglytuff",
       "Sentret",
       "Furret",
@@ -3199,14 +3199,14 @@
     "description":"Strengthens recoil moves to 1.2x their power.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Basculin-red-striped",
       "Bouffalant"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Hitmonlee"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Rhyhorn",
       "Rhydon",
       "Starly",
@@ -3224,29 +3224,29 @@
     "description":"Changes arceus's type and form to match its held Plate.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Arceus"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":122,
     "name":"flower-gift",
-    "description":"Increases friendly Pokemon's Attack and Special Defense to 1.5x during strong sunlight.",
+    "description":"Increases friendly Pal's Attack and Special Defense to 1.5x during strong sunlight.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Cherrim"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -3256,29 +3256,29 @@
     "description":"Damages sleeping opponents for 1/8 their max HP after each turn.",
     "longDescription":"",
     "generationIntroduced":"4",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Darkrai"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":124,
     "name":"pickpocket",
-    "description":"Steals attacking Pokemon's held items on contact.",
+    "description":"Steals attacking Pal's held items on contact.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Sneasel",
       "Seedot",
       "Nuzleaf",
@@ -3294,12 +3294,12 @@
     "description":"Strengthens moves with extra effects to 1.3x their power, but prevents their extra effects.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Darmanitan-standard",
       "Darmanitan-zen",
       "Camerupt-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Timburr",
       "Gurdurr",
       "Conkeldurr",
@@ -3307,7 +3307,7 @@
       "Rufflet",
       "Braviary"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Nidoqueen",
       "Nidoking",
       "Krabby",
@@ -3334,14 +3334,14 @@
     "description":"Inverts stat changes.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Inkay",
       "Malamar"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Shuckle",
       "Spinda",
       "Snivy",
@@ -3355,19 +3355,19 @@
   {
     "id":127,
     "name":"unnerve",
-    "description":"Prevents opposing Pokemon from eating held Berries.",
+    "description":"Prevents opposing Pal from eating held Berries.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Joltik",
       "Galvantula",
       "Litleo",
       "Pyroar"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Ekans",
       "Arbok",
       "Meowth",
@@ -3392,14 +3392,14 @@
     "description":"Raises Attack two stages upon having any stat lowered.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Pawniard",
       "Bisharp"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Mankey",
       "Primeape",
       "Farfetchd",
@@ -3419,33 +3419,33 @@
     "description":"Halves Attack and Special Attack at 50% max HP or less.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Archen",
       "Archeops"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":130,
     "name":"cursed-body",
-    "description":"Has a 30% chance of Disabling any move that hits the Pokemon.",
+    "description":"Has a 30% chance of Disabling any move that hits the Pal.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Gengar",
       "Marowak-alola",
       "Marowak-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Frillish",
       "Jellicent"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Shuppet",
       "Banette",
       "Froslass"
@@ -3457,17 +3457,17 @@
     "description":"Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Audino",
       "Alomomola",
       "Spritzee",
       "Aromatisse",
       "Audino-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Chansey",
       "Bellossom",
       "Blissey"
@@ -3476,16 +3476,16 @@
   {
     "id":132,
     "name":"friend-guard",
-    "description":"Decreases all direct damage taken by friendly Pokemon to 0.75x.",
+    "description":"Decreases all direct damage taken by friendly Pal to 0.75x.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Clefairy",
       "Jigglypuff",
       "Cleffa",
@@ -3502,15 +3502,15 @@
     "description":"Raises Speed and lowers Defense by one stage each upon being hit by a physical move.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Roggenrola",
       "Boldore",
       "Garbodor"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Onix",
       "Omanyte",
       "Omastar",
@@ -3531,16 +3531,16 @@
   {
     "id":134,
     "name":"heavy-metal",
-    "description":"Doubles the Pokemon's weight.",
+    "description":"Doubles the Pal's weight.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Aron",
       "Lairon",
       "Aggron",
@@ -3551,16 +3551,16 @@
   {
     "id":135,
     "name":"light-metal",
-    "description":"Halves the Pokemon's weight.",
+    "description":"Halves the Pal's weight.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Scizor",
       "Beldum",
       "Metang",
@@ -3574,13 +3574,13 @@
     "description":"Halves damage taken from full HP.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Dragonite",
       "Lugia"
     ]
@@ -3591,13 +3591,13 @@
     "description":"Increases Attack to 1.5x when poisoned.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Zangoose"
     ]
   },
@@ -3607,13 +3607,13 @@
     "description":"Increases Special Attack to 1.5x when burned.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Drifloon",
       "Drifblim"
     ]
@@ -3621,16 +3621,16 @@
   {
     "id":139,
     "name":"harvest",
-    "description":"Has a 50% chance of restoring a used Berry after each turn if the Pokemon has held no items in the meantime.",
+    "description":"Has a 50% chance of restoring a used Berry after each turn if the Pal has held no items in the meantime.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Exeggcute",
       "Exeggutor",
       "Tropius",
@@ -3642,17 +3642,17 @@
   {
     "id":140,
     "name":"telepathy",
-    "description":"Protects against friendly Pokemon's damaging moves.",
+    "description":"Protects against friendly Pal's damaging moves.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Elgyem",
       "Beheeyem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Oranguru"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Wobbuffet",
       "Ralts",
       "Kirlia",
@@ -3679,13 +3679,13 @@
     "description":"Raises a random stat two stages and lowers another one stage after each turn.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Remoraid",
       "Octillery",
       "Smeargle",
@@ -3701,16 +3701,16 @@
     "description":"Protects against damage from weather.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Solosis",
       "Duosion",
       "Reuniclus"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Vullaby",
       "Mandibuzz"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Shellder",
       "Cloyster",
       "Pineco",
@@ -3734,19 +3734,19 @@
   {
     "id":143,
     "name":"poison-touch",
-    "description":"Has a 30% chance of poisoning target Pokemon upon contact.",
+    "description":"Has a 30% chance of poisoning target Pal upon contact.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Grimer-alola",
       "Muk-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Seismitoad",
       "Skrelp",
       "Dragalge"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Grimer",
       "Muk",
       "Croagunk",
@@ -3759,15 +3759,15 @@
     "description":"Heals for 1/3 max HP upon switching out.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tornadus-therian"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Audino",
       "Mienfoo",
       "Mienshao"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Slowpoke",
       "Slowbro",
       "Tangela",
@@ -3791,7 +3791,7 @@
     "description":"Protects against Defense drops.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Pidove",
       "Tranquill",
       "Unfezant",
@@ -3799,11 +3799,11 @@
       "Mandibuzz",
       "Fletchling"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Ducklett",
       "Swanna"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Pidgey",
       "Pidgeotto",
       "Pidgeot",
@@ -3816,16 +3816,16 @@
     "description":"Doubles Speed during a sandstorm.  Protects against sandstorm damage.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Drilbur",
       "Excadrill"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Herdier",
       "Stoutland",
       "Lycanroc-midday"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Sandshrew",
       "Sandslash"
     ]
@@ -3836,13 +3836,13 @@
     "description":"Lowers incoming non-damaging moves' base accuracy to exactly 50%.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Sigilyph"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Venomoth",
       "Skitty",
       "Delcatty",
@@ -3855,13 +3855,13 @@
     "description":"Strengthens moves to 1.3x their power when moving last.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Magnemite",
       "Magneton",
       "Staryu",
@@ -3879,17 +3879,17 @@
   {
     "id":149,
     "name":"illusion",
-    "description":"Takes the appearance of the last conscious party Pokemon upon being sent out until hit by a damaging move.",
+    "description":"Takes the appearance of the last conscious party Pal upon being sent out until hit by a damaging move.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Zorua",
       "Zoroark"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -3899,13 +3899,13 @@
     "description":"Transforms upon entering battle.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Ditto"
     ]
   },
@@ -3915,10 +3915,10 @@
     "description":"Bypasses light screen, reflect, and safeguard.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Cottonee",
       "Whimsicott",
       "Espurr",
@@ -3927,7 +3927,7 @@
       "Noivern",
       "Meowstic-female"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Zubat",
       "Golbat",
       "Crobat",
@@ -3947,37 +3947,37 @@
   {
     "id":152,
     "name":"mummy",
-    "description":"Changes attacking Pokemon's abilities to Mummy on contact.",
+    "description":"Changes attacking Pal's abilities to Mummy on contact.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Yamask",
       "Cofagrigus"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":153,
     "name":"moxie",
-    "description":"Raises Attack one stage upon KOing a Pokemon.",
+    "description":"Raises Attack one stage upon KOing a Pal.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Sandile",
       "Krokorok",
       "Krookodile",
       "Scraggy",
       "Scrafty"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Pinsir",
       "Gyarados",
       "Heracross",
@@ -3994,17 +3994,17 @@
     "description":"Raises Attack one stage upon taking damage from a dark move.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Cobalion",
       "Terrakion",
       "Virizion",
       "Keldeo-ordinary",
       "Keldeo-resolute"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Growlithe",
       "Arcanine",
       "Absol",
@@ -4018,13 +4018,13 @@
     "description":"Raises Speed one stage upon being hit by a dark, ghost, or bug move.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Magikarp",
       "Ledyba",
       "Sudowoodo",
@@ -4046,15 +4046,15 @@
     "description":"Reflects most non-damaging moves back at their user.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Absol-mega",
       "Sableye-mega",
       "Diancie-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Natu",
       "Xatu",
       "Espeon"
@@ -4066,20 +4066,20 @@
     "description":"Absorbs grass moves, raising Attack one stage.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Skiddo",
       "Gogoat",
       "Goomy",
       "Sliggoo",
       "Goodra"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Deerling",
       "Sawsbuck",
       "Bouffalant",
       "Drampa"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Marill",
       "Azumarill",
       "Girafarig",
@@ -4096,7 +4096,7 @@
     "description":"Raises non-damaging moves' priority by one stage.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Cottonee",
       "Whimsicott",
       "Tornadus-incarnate",
@@ -4104,10 +4104,10 @@
       "Klefki",
       "Banette-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Murkrow",
       "Sableye",
       "Volbeat",
@@ -4124,16 +4124,16 @@
     "description":"Strengthens rock, ground, and steel moves to 1.3x their power during a sandstorm.  Protects against sandstorm damage.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Landorus-incarnate",
       "Garchomp-mega",
       "Steelix-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Drilbur",
       "Excadrill"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Diglett",
       "Dugtrio",
       "Nosepass",
@@ -4152,19 +4152,19 @@
   {
     "id":160,
     "name":"iron-barbs",
-    "description":"Damages attacking Pokemon for 1/8 their max HP on contact.",
+    "description":"Damages attacking Pal for 1/8 their max HP on contact.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Ferroseed",
       "Ferrothorn",
       "Togedemaru",
       "Togedemaru-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4174,13 +4174,13 @@
     "description":"Changes darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Darmanitan-standard",
       "Darmanitan-zen"
     ]
@@ -4188,16 +4188,16 @@
   {
     "id":162,
     "name":"victory-star",
-    "description":"Increases moves' accuracy to 1.1x for friendly Pokemon.",
+    "description":"Increases moves' accuracy to 1.1x for friendly Pal.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Victini"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4207,14 +4207,14 @@
     "description":"Bypasses targets' abilities if they could hinder or prevent moves.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Reshiram",
       "Kyurem-white"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4224,14 +4224,14 @@
     "description":"Bypasses targets' abilities if they could hinder or prevent moves.",
     "longDescription":"",
     "generationIntroduced":"5",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Zekrom",
       "Kyurem-black"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4241,13 +4241,13 @@
     "description":"Protects allies against moves that affect their mental state.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Spritzee",
       "Aromatisse"
     ]
@@ -4255,20 +4255,20 @@
   {
     "id":166,
     "name":"flower-veil",
-    "description":"Protects friendly grass Pokemon from having their stats lowered by other Pokemon.",
+    "description":"Protects friendly grass Pal from having their stats lowered by other Pal.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Flabebe",
       "Floette",
       "Florges",
       "Comfey",
       "Floette-eternal"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4278,14 +4278,14 @@
     "description":"Restores HP upon eating a Berry, in addition to the Berry's effect.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Dedenne"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Bunnelby",
       "Diggersby"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4295,13 +4295,13 @@
     "description":"Changes the bearer's type to match each move it uses.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Kecleon",
       "Froakie",
       "Frogadier",
@@ -4314,14 +4314,14 @@
     "description":"Halves damage from physical attacks.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Furfrou",
       "Persian-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4331,14 +4331,14 @@
     "description":"Steals the target's held item when the bearer uses a damaging move.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Hoopa",
       "Hoopa-unbound"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Fennekin",
       "Braixen",
       "Delphox",
@@ -4351,16 +4351,16 @@
     "description":"Protects against bullet, ball, and bomb-based moves.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Jangmo-o",
       "Hakamo-o",
       "Kommo-o",
       "Kommo-o-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Chespin",
       "Quilladin",
       "Chesnaught"
@@ -4372,10 +4372,10 @@
     "description":"Raises Special Attack by two stages upon having any stat lowered.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Jigglypuff",
       "Wigglytuff",
       "Igglybuff",
@@ -4384,7 +4384,7 @@
       "Gothorita",
       "Gothitelle"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Meowstic-female"
     ]
   },
@@ -4394,18 +4394,18 @@
     "description":"Strengthens biting moves to 1.5x their power.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tyrunt",
       "Tyrantrum",
       "Sharpedo-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Yungoos",
       "Gumshoos",
       "Bruxish",
       "Gumshoos-totem"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4415,32 +4415,32 @@
     "description":"Turns the bearer's normal moves into ice moves and strengthens them to 1.3x their power.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Amaura",
       "Aurorus",
       "Glalie-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":175,
     "name":"sweet-veil",
-    "description":"Prevents friendly Pokemon from sleeping.",
+    "description":"Prevents friendly Pal from sleeping.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Swirlix",
       "Slurpuff"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Cutiefly",
       "Ribombee",
       "Bounsweet",
@@ -4455,14 +4455,14 @@
     "description":"Changes aegislash to Blade Forme before using a damaging move, or Shield Forme before using kings shield.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Aegislash-shield",
       "Aegislash-blade"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4472,13 +4472,13 @@
     "description":"Raises flying moves' priority by one stage.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Fletchling",
       "Fletchinder",
       "Talonflame"
@@ -4490,15 +4490,15 @@
     "description":"Strengthens aura and pulse moves to 1.5x their power.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Clauncher",
       "Clawitzer",
       "Blastoise-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4508,13 +4508,13 @@
     "description":"Boosts Defense while grassy terrain is in effect.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Skiddo",
       "Gogoat"
     ]
@@ -4525,13 +4525,13 @@
     "description":"Passes the bearer's held item to an ally when the ally uses up its item.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Flabebe",
       "Floette",
       "Florges",
@@ -4545,7 +4545,7 @@
     "description":"Strengthens moves that make contact to 1.33x their power.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Binacle",
       "Barbaracle",
       "Charizard-mega-x",
@@ -4553,10 +4553,10 @@
       "Metagross-mega",
       "Lycanroc-dusk"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4566,30 +4566,30 @@
     "description":"Turns the bearer's normal moves into fairy moves and strengthens them to 1.3x their power.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Gardevoir-mega",
       "Altaria-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Sylveon"
     ]
   },
   {
     "id":183,
     "name":"gooey",
-    "description":"Lowers attacking Pokemon's Speed by one stage on contact.",
+    "description":"Lowers attacking Pal's Speed by one stage on contact.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Goomy",
       "Sliggoo",
       "Goodra"
@@ -4601,14 +4601,14 @@
     "description":"Turns the bearer's normal moves into flying moves and strengthens them to 1.3x their power.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Pinsir-mega",
       "Salamence-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4618,45 +4618,45 @@
     "description":"Lets the bearer hit twice with damaging moves.  The second hit has half power.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Kangaskhan-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":186,
     "name":"dark-aura",
-    "description":"Strengthens dark moves to 1.33x their power for all friendly and opposing Pokemon.",
+    "description":"Strengthens dark moves to 1.33x their power for all friendly and opposing Pal.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Yveltal"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":187,
     "name":"fairy-aura",
-    "description":"Strengthens fairy moves to 1.33x their power for all friendly and opposing Pokemon.",
+    "description":"Strengthens fairy moves to 1.33x their power for all friendly and opposing Pal.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Xerneas"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4666,13 +4666,13 @@
     "description":"Makes dark aura and fairy aura weaken moves of their respective types.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Zygarde"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4682,13 +4682,13 @@
     "description":"Creates heavy rain, which has all the properties of Rain Dance, cannot be replaced, and causes damaging Fire moves to fail.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Kyogre-primal"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4698,112 +4698,112 @@
     "description":"Creates extremely harsh sunlight, which has all the properties of Sunny Day, cannot be replaced, and causes damaging Water moves to fail.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Groudon-primal"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":191,
     "name":"delta-stream",
-    "description":"Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pokemon.",
+    "description":"Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pal.",
     "longDescription":"",
     "generationIntroduced":"6",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Rayquaza-mega"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":192,
     "name":"stamina",
-    "description":"Raises this Pokemon's Defense by one stage when it takes damage from a move.",
+    "description":"Raises this Pal's Defense by one stage when it takes damage from a move.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Mudbray",
       "Mudsdale"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":193,
     "name":"wimp-out",
-    "description":"This Pokemon automatically switches out when its HP drops below half.",
+    "description":"This Pal automatically switches out when its HP drops below half.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Wimpod"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":194,
     "name":"emergency-exit",
-    "description":"This Pokemon automatically switches out when its HP drops below half.",
+    "description":"This Pal automatically switches out when its HP drops below half.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Golisopod"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":195,
     "name":"water-compaction",
-    "description":"Raises this Pokemon's Defense by two stages when it's hit by a Water move.",
+    "description":"Raises this Pal's Defense by two stages when it's hit by a Water move.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Sandygast",
       "Palossand"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":196,
     "name":"merciless",
-    "description":"This Pokemon's moves critical hit against poisoned targets.",
+    "description":"This Pal's moves critical hit against poisoned targets.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Mareanie",
       "Toxapex"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4813,7 +4813,7 @@
     "description":"Transforms this Minior between Core Form and Meteor Form.  Prevents major status ailments and drowsiness while in Meteor Form.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Minior-red-meteor",
       "Minior-orange-meteor",
       "Minior-yellow-meteor",
@@ -4829,28 +4829,28 @@
       "Minior-indigo",
       "Minior-violet"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":198,
     "name":"stakeout",
-    "description":"This Pokemon's moves have double power against Pokemon that switched in this turn.",
+    "description":"This Pal's moves have double power against Pal that switched in this turn.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Yungoos",
       "Gumshoos",
       "Gumshoos-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -4860,64 +4860,64 @@
     "description":"Halves damage from Fire moves, doubles damage of Water moves, and prevents burns.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Dewpider",
       "Araquanid",
       "Araquanid-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":200,
     "name":"steelworker",
-    "description":"This Pokemon's Steel moves have 1.5x power.",
+    "description":"This Pal's Steel moves have 1.5x power.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Dhelmise"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":201,
     "name":"berserk",
-    "description":"Raises this Pokemon's Special Attack by one stage every time its HP drops below half.",
+    "description":"Raises this Pal's Special Attack by one stage every time its HP drops below half.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Drampa"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":202,
     "name":"slush-rush",
-    "description":"During Hail, this Pokemon has double Speed.",
+    "description":"During Hail, this Pal has double Speed.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Cubchoo",
       "Beartic"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Sandshrew-alola",
       "Sandslash-alola"
     ]
@@ -4925,16 +4925,16 @@
   {
     "id":203,
     "name":"long-reach",
-    "description":"This Pokemon's moves do not make contact.",
+    "description":"This Pal's moves do not make contact.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Rowlet",
       "Dartrix",
       "Decidueye"
@@ -4946,13 +4946,13 @@
     "description":"Sound-based moves become Water-type.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Popplio",
       "Brionne",
       "Primarina"
@@ -4961,32 +4961,32 @@
   {
     "id":205,
     "name":"triage",
-    "description":"This Pokemon's healing moves have their priority increased by 3.",
+    "description":"This Pal's healing moves have their priority increased by 3.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Comfey"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":206,
     "name":"galvanize",
-    "description":"This Pokemon's Normal moves are Electric and have their power increased to 1.2x.",
+    "description":"This Pal's Normal moves are Electric and have their power increased to 1.2x.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Geodude-alola",
       "Graveler-alola",
       "Golem-alola"
@@ -4995,16 +4995,16 @@
   {
     "id":207,
     "name":"surge-surfer",
-    "description":"Doubles this Pokemon's Speed on Electric Terrain.",
+    "description":"Doubles this Pal's Speed on Electric Terrain.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Raichu-alola"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -5014,14 +5014,14 @@
     "description":"Wishiwashi becomes Schooling Form when its HP is 25% or higher.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Wishiwashi-solo",
       "Wishiwashi-school"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -5031,33 +5031,33 @@
     "description":"Prevents the first instance of battle damage.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Mimikyu-disguised",
       "Mimikyu-busted",
       "Mimikyu-totem-disguised",
       "Mimikyu-totem-busted"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":210,
     "name":"battle-bond",
-    "description":"Transforms this Pokemon into Ash-Greninja after fainting an opponent.  Water Shuriken's power is 20 and always hits three times.",
+    "description":"Transforms this Pal into Ash-Greninja after fainting an opponent.  Water Shuriken's power is 20 and always hits three times.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Greninja-battle-bond",
       "Greninja-ash"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -5067,116 +5067,116 @@
     "description":"Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Zygarde-10",
       "Zygarde-50",
       "Zygarde-complete"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":212,
     "name":"corrosion",
-    "description":"This Pokemon can inflict poison on Poison and Steel Pokemon.",
+    "description":"This Pal can inflict poison on Poison and Steel Pal.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Salandit",
       "Salazzle",
       "Salazzle-totem"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":213,
     "name":"comatose",
-    "description":"This Pokemon always  acts as though it were Asleep.",
+    "description":"This Pal always  acts as though it were Asleep.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Komala"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":214,
     "name":"queenly-majesty",
-    "description":"Opposing Pokemon cannot use priority attacks.",
+    "description":"Opposing Pal cannot use priority attacks.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Tsareena"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":215,
     "name":"innards-out",
-    "description":"When this Pokemon faints from an opponent's move, that opponent takes damage equal to the HP this Pokemon had remaining.",
+    "description":"When this Pal faints from an opponent's move, that opponent takes damage equal to the HP this Pal had remaining.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Pyukumuku"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":216,
     "name":"dancer",
-    "description":"Whenever another Pokemon uses a dance move, this Pokemon will use the same move immediately afterwards.",
+    "description":"Whenever another Pal uses a dance move, this Pal will use the same move immediately afterwards.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Oricorio-baile",
       "Oricorio-pom-pom",
       "Oricorio-pau",
       "Oricorio-sensu"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":217,
     "name":"battery",
-    "description":"Ally Pokemon's moves have their power increased to 1.3x.",
+    "description":"Ally Pal's moves have their power increased to 1.3x.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Charjabug"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -5186,96 +5186,96 @@
     "description":"Damage from contact moves is halved.  Damage from Fire moves is doubled.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Stufful",
       "Bewear"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":219,
     "name":"dazzling",
-    "description":"Opposing Pokemon cannot use priority attacks.",
+    "description":"Opposing Pal cannot use priority attacks.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Bruxish"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":220,
     "name":"soul-heart",
-    "description":"This Pokemon's Special Attack rises by one stage every time any Pokemon faints.",
+    "description":"This Pal's Special Attack rises by one stage every time any Pal faints.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Magearna",
       "Magearna-original"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":221,
     "name":"tangling-hair",
-    "description":"When this Pokemon takes regular damage from a contact move, the attacking Pokemon's Speed lowers by one stage.",
+    "description":"When this Pal takes regular damage from a contact move, the attacking Pal's Speed lowers by one stage.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
       "Diglett-alola",
       "Dugtrio-alola"
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":222,
     "name":"receiver",
-    "description":"When an ally faints, this Pokemon gains its Ability.",
+    "description":"When an ally faints, this Pal gains its Ability.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Passimian"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":223,
     "name":"power-of-alchemy",
-    "description":"When an ally faints, this Pokemon gains its Ability.",
+    "description":"When an ally faints, this Pal gains its Ability.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
 
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
       "Grimer-alola",
       "Muk-alola"
     ]
@@ -5283,10 +5283,10 @@
   {
     "id":224,
     "name":"beast-boost",
-    "description":"Raises this Pokemon's highest stat by one stage when it faints another Pokemon.",
+    "description":"Raises this Pal's highest stat by one stage when it faints another Pal.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Nihilego",
       "Buzzwole",
       "Pheromosa",
@@ -5299,122 +5299,122 @@
       "Stakataka",
       "Blacephalon"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":225,
     "name":"rks-system",
-    "description":"Changes this Pokemon's type to match its held Memory.",
+    "description":"Changes this Pal's type to match its held Memory.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Silvally"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":226,
     "name":"electric-surge",
-    "description":"When this Pokemon enters battle, it changes the terrain to Electric Terrain.",
+    "description":"When this Pal enters battle, it changes the terrain to Electric Terrain.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tapu-koko"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":227,
     "name":"psychic-surge",
-    "description":"When this Pokemon enters battle, it changes the terrain to Psychic Terrain.",
+    "description":"When this Pal enters battle, it changes the terrain to Psychic Terrain.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tapu-lele"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":228,
     "name":"misty-surge",
-    "description":"When this Pokemon enters battle, it changes the terrain to Misty Terrain.",
+    "description":"When this Pal enters battle, it changes the terrain to Misty Terrain.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tapu-fini"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":229,
     "name":"grassy-surge",
-    "description":"When this Pokemon enters battle, it changes the terrain to Grassy Terrain.",
+    "description":"When this Pal enters battle, it changes the terrain to Grassy Terrain.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Tapu-bulu"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":230,
     "name":"full-metal-body",
-    "description":"Other Pokemon cannot lower this Pokemon's stats.",
+    "description":"Other Pal cannot lower this Pal's stats.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Solgaleo"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
   {
     "id":231,
     "name":"shadow-shield",
-    "description":"When this Pokemon has full HP, regular damage from moves is halved.",
+    "description":"When this Pal has full HP, regular damage from moves is halved.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Lunala"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -5424,15 +5424,15 @@
     "description":"Reduces super-effective damage to 0.75x.",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Necrozma",
       "Necrozma-dusk",
       "Necrozma-dawn"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   },
@@ -5442,13 +5442,13 @@
     "description":"XXX new effect for neuroforce",
     "longDescription":"",
     "generationIntroduced":"7",
-    "pokemonFirstAbility":[
+    "palFirstAbility":[
       "Necrozma-ultra"
     ],
-    "pokemonSecondAbility":[
+    "palSecondAbility":[
 
     ],
-    "pokemonHiddenAbility":[
+    "palHiddenAbility":[
 
     ]
   }

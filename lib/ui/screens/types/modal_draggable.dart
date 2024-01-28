@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/colors.dart';
-import 'package:pokedex/configs/images.dart';
-import 'package:pokedex/ui/screens/types/modal_contents.dart';
+import 'package:paldex/configs/colors.dart';
+import 'package:paldex/configs/images.dart';
+import 'package:paldex/ui/screens/types/modal_contents.dart';
 
 // Class responsible for generating the modal page when clicked on a type
 class ModalDraggable extends StatelessWidget {
@@ -30,7 +30,7 @@ class ModalDraggable extends StatelessWidget {
               children: [
                 Align(
                   child: Image(
-                    image: AppImages.pokeball,
+                    image: AppImages.palball,
                     width: width / 2,
                     height: width / 2,
                     color: AppColors.black.withOpacity(0.1),

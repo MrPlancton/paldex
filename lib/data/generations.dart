@@ -1,9 +1,9 @@
-import 'package:pokedex/domain/entities/generation.dart';
+import 'package:paldex/domain/entities/generation.dart';
 
 const List<Generation> generations = [
   Generation(
     title: 'Generation I',
-    pokemons: [
+    pals: [
       'assets/images/bulbasaur.png',
       'assets/images/charmander.png',
       'assets/images/squirtle.png'
@@ -11,7 +11,7 @@ const List<Generation> generations = [
   ),
   Generation(
     title: 'Generation II',
-    pokemons: [
+    pals: [
       'assets/images/chikorita.png',
       'assets/images/cyndaquil.png',
       'assets/images/totodile.png'
@@ -19,7 +19,7 @@ const List<Generation> generations = [
   ),
   Generation(
     title: 'Generation III',
-    pokemons: [
+    pals: [
       'assets/images/treecko.png',
       'assets/images/torchic.png',
       'assets/images/mudkip.png'
@@ -27,7 +27,7 @@ const List<Generation> generations = [
   ),
   Generation(
     title: 'Generation IV',
-    pokemons: [
+    pals: [
       'assets/images/turtwig.png',
       'assets/images/chimchar.png',
       'assets/images/piplup.png'
@@ -35,7 +35,7 @@ const List<Generation> generations = [
   ),
   Generation(
     title: 'Generation V',
-    pokemons: [
+    pals: [
       'assets/images/snivy.png',
       'assets/images/tepig.png',
       'assets/images/oshawott.png'
@@ -43,7 +43,7 @@ const List<Generation> generations = [
   ),
   Generation(
     title: 'Generation VI',
-    pokemons: [
+    pals: [
       'assets/images/chespin.png',
       'assets/images/fennekin.png',
       'assets/images/froakie.png'
@@ -51,7 +51,7 @@ const List<Generation> generations = [
   ),
   Generation(
     title: 'Generation VII',
-    pokemons: [
+    pals: [
       'assets/images/rowlet.png',
       'assets/images/litten.png',
       'assets/images/popplio.png'
@@ -59,7 +59,7 @@ const List<Generation> generations = [
   ),
   Generation(
     title: 'Generation VIII',
-    pokemons: [
+    pals: [
       'assets/images/grookey.png',
       'assets/images/scorbunny.png',
       'assets/images/sobble.png'

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/ui/widgets/modal.dart';
-import 'package:pokedex/ui/widgets/search_bar.dart';
+import 'package:paldex/ui/widgets/modal.dart';
+import 'package:paldex/ui/widgets/search_bar.dart';
 
 class SearchBottomModal extends StatelessWidget {
   const SearchBottomModal({super.key});

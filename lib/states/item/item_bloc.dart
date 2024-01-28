@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/data/repositories/item_repository.dart';
-import 'package:pokedex/states/item/item_event.dart';
-import 'package:pokedex/states/item/item_state.dart';
+import 'package:paldex/data/repositories/item_repository.dart';
+import 'package:paldex/states/item/item_event.dart';
+import 'package:paldex/states/item/item_state.dart';
 import 'package:stream_transform/stream_transform.dart';
 
 class ItemBloc extends Bloc<ItemEvent, ItemState> {
@@ -43,14 +43,14 @@ class ItemBloc extends Bloc<ItemEvent, ItemState> {
 
       emit(state.asLoadingMore());
 
-      final pokemons = await _itemRepository.getItems(
+      final pals = await _itemRepository.getItems(
         page: state.page + 1,
         limit: itemsPerPage,
       );
 
-      final canLoadMore = pokemons.length >= itemsPerPage;
+      final canLoadMore = pals.length >= itemsPerPage;
 
-      emit(state.asLoadMoreSuccess(pokemons, canLoadMore: canLoadMore));
+      emit(state.asLoadMoreSuccess(pals, canLoadMore: canLoadMore));
     } on Exception catch (e) {
       emit(state.asLoadMoreFailure(e));
     }
@@ -59,18 +59,18 @@ class ItemBloc extends Bloc<ItemEvent, ItemState> {
   // void _onSelectChanged(ItemSelectChanged event, Emitter<ItemState> emit) async {
   //   try {
   //     final itemIndex = state.items.indexWhere(
-  //       (item) => item.number == event.pokemonId,
+  //       (item) => item.number == event.palId,
   //     );
 
-  //     if (itemIndex < 0 || itemIndex >= state.pokemons.length) return;
+  //     if (itemIndex < 0 || itemIndex >= state.pals.length) return;
 
-  //     final item = await _itemRepository.getPokemon(event.pokemonId);
+  //     final item = await _itemRepository.getPal(event.palId);
 
-  //     if (pokemon == null) return;
+  //     if (pal == null) return;
 
   //     emit(state.copyWith(
-  //       pokemons: state.pokemons..setAll(itemIndex, [pokemon]),
-  //       selectedPokemonIndex: itemIndex,
+  //       pals: state.pals..setAll(itemIndex, [pal]),
+  //       selectedPalIndex: itemIndex,
   //     ));
   //   } on Exception catch (e) {
   //     emit(state.asLoadMoreFailure(e));

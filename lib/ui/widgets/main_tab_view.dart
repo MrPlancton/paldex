@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/configs/colors.dart';
+import 'package:paldex/configs/colors.dart';
 
 import '../../states/theme/theme_cubit.dart';
 

@@ -1,27 +1,27 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/core/fade_page_route.dart';
-import 'package:pokedex/ui/screens/home/home.dart';
-import 'package:pokedex/ui/screens/items/items.dart';
-import 'package:pokedex/ui/screens/pokedex/pokedex.dart';
-import 'package:pokedex/ui/screens/pokemon_info/pokemon_info.dart';
-import 'package:pokedex/ui/screens/splash/splash.dart';
-import 'package:pokedex/ui/screens/types/type_screen.dart';
+import 'package:paldex/core/fade_page_route.dart';
+import 'package:paldex/ui/screens/home/home.dart';
+import 'package:paldex/ui/screens/items/items.dart';
+import 'package:paldex/ui/screens/paldex/paldex.dart';
+import 'package:paldex/ui/screens/pal_info/pal_info.dart';
+import 'package:paldex/ui/screens/splash/splash.dart';
+import 'package:paldex/ui/screens/types/type_screen.dart';
 
-enum Routes { splash, home, pokedex, pokemonInfo, typeEffects, items }
+enum Routes { splash, home, paldex, palInfo, typeEffects, items }
 
 class _Paths {
   static const String splash = '/';
   static const String home = '/home';
-  static const String pokedex = '/home/pokedex';
-  static const String pokemonInfo = '/home/pokemon';
+  static const String paldex = '/home/paldex';
+  static const String palInfo = '/home/pal';
   static const String typeEffectsScreen = '/home/type';
   static const String itemsList = '/home/items';
 
   static const Map<Routes, String> _pathMap = {
     Routes.splash: _Paths.splash,
     Routes.home: _Paths.home,
-    Routes.pokedex: _Paths.pokedex,
-    Routes.pokemonInfo: _Paths.pokemonInfo,
+    Routes.paldex: _Paths.paldex,
+    Routes.palInfo: _Paths.palInfo,
     Routes.typeEffects: _Paths.typeEffectsScreen,
     Routes.items: _Paths.itemsList
   };
@@ -37,11 +37,11 @@ class AppNavigator {
       case _Paths.splash:
         return FadeRoute(page: const SplashScreen());
 
-      case _Paths.pokedex:
-        return FadeRoute(page: const PokedexScreen());
+      case _Paths.paldex:
+        return FadeRoute(page: const PaldexScreen());
 
-      case _Paths.pokemonInfo:
-        return FadeRoute(page: const PokemonInfo());
+      case _Paths.palInfo:
+        return FadeRoute(page: const PalInfo());
 
       case _Paths.typeEffectsScreen:
         return FadeRoute(page: const TypeEffectScreen());

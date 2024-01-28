@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/colors.dart';
-import 'package:pokedex/configs/images.dart';
-import 'package:pokedex/core/utils.dart';
-import 'package:pokedex/configs/types.dart';
+import 'package:paldex/configs/colors.dart';
+import 'package:paldex/configs/images.dart';
+import 'package:paldex/core/utils.dart';
+import 'package:paldex/configs/types.dart';
 
 // Class responsible for creating the cards that redirects to other pages in the list view
 
@@ -32,7 +32,7 @@ class Redirection extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(left: 8.0),
                     child: Image(
-                      image: AppImages.pokeball,
+                      image: AppImages.palball,
                       width: 30,
                       height: 30,
                       color: types[index].color.withOpacity(0.5),

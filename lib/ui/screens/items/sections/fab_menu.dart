@@ -83,7 +83,7 @@ class _FabMenuState extends State<_FabMenu> with SingleTickerProviderStateMixin 
           onPress: _toggleFabMenu,
           items: [
             FabItemData(
-              'Favourite Pokemon',
+              'Favourite Pal',
               Icons.favorite,
               onPress: () => onPress(),
             ),

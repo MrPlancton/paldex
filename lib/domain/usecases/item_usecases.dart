@@ -1,4 +1,4 @@
-import 'package:pokedex/core/usecase.dart';
+import 'package:paldex/core/usecase.dart';
 import '../../data/repositories/item_repository.dart';
 import '../entities/item.dart';
 

@@ -5,13 +5,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_web_frame/flutter_web_frame.dart';
-import 'package:pokedex/configs/constants.dart';
-import 'package:pokedex/configs/theme.dart';
-import 'package:pokedex/routes.dart';
-import 'package:pokedex/states/theme/theme_cubit.dart';
+import 'package:paldex/configs/constants.dart';
+import 'package:paldex/configs/theme.dart';
+import 'package:paldex/routes.dart';
+import 'package:paldex/states/theme/theme_cubit.dart';
 
-class PokedexApp extends StatelessWidget {
-  const PokedexApp({super.key});
+class PaldexApp extends StatelessWidget {
+  const PaldexApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class PokedexApp extends StatelessWidget {
       builder: (context) {
         return MaterialApp(
           color: Colors.white,
-          title: 'Flutter Pokedex',
+          title: 'Paldex',
           theme: isDark ? Themings.darkTheme : Themings.lightTheme,
           navigatorKey: AppNavigator.navigatorKey,
           onGenerateRoute: AppNavigator.onGenerateRoute,
@@ -38,7 +38,7 @@ class PokedexApp extends StatelessWidget {
 
             return MediaQuery(
               data: data.copyWith(
-                textScaleFactor: textScaleFactor,
+                textScaler: TextScaler.linear(textScaleFactor),
               ),
               child: child,
             );

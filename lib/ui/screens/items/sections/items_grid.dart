@@ -88,7 +88,7 @@ class _ItemGridState extends State<_ItemGrid> {
   Widget _buildGrid() {
     return CustomScrollView(
       slivers: [
-        PokemonRefreshControl(onRefresh: _onRefresh),
+        PalRefreshControl(onRefresh: _onRefresh),
         SliverPadding(
           padding: const EdgeInsets.all(28),
           sliver: NumberOfItemsSelector((numberOfItems) {
@@ -134,7 +134,7 @@ class _ItemGridState extends State<_ItemGrid> {
   Widget _buildError() {
     return CustomScrollView(
       slivers: [
-        PokemonRefreshControl(onRefresh: _onRefresh),
+        PalRefreshControl(onRefresh: _onRefresh),
         SliverFillRemaining(
           child: Container(
             padding: const EdgeInsets.only(bottom: 28),

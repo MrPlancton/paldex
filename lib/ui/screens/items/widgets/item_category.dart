@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/core/extensions/context.dart';
-import 'package:pokedex/ui/widgets/spacer.dart';
+import 'package:paldex/core/extensions/context.dart';
+import 'package:paldex/ui/widgets/spacer.dart';
 
 class ItemCategory extends StatelessWidget {
   const ItemCategory(

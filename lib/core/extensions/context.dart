@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/configs/constants.dart';
+import 'package:paldex/configs/constants.dart';
 
 extension BuildContextX on BuildContext {
   Size get screenSize => MediaQuery.of(this).size;

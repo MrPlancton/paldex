@@ -1,4 +1,4 @@
-package com.hungps.flutter_pokedex
+package com.hungps.flutter_paldex
 
 import io.flutter.embedding.android.FlutterActivity
 

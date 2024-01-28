@@ -2,20 +2,20 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/configs/colors.dart';
-import 'package:pokedex/configs/images.dart';
-import 'package:pokedex/data/categories.dart';
-import 'package:pokedex/domain/entities/category.dart';
-import 'package:pokedex/routes.dart';
-import 'package:pokedex/ui/widgets/pokeball_background.dart';
-import 'package:pokedex/ui/widgets/search_bar.dart';
+import 'package:paldex/configs/colors.dart';
+import 'package:paldex/configs/images.dart';
+import 'package:paldex/data/categories.dart';
+import 'package:paldex/domain/entities/category.dart';
+import 'package:paldex/routes.dart';
+import 'package:paldex/ui/widgets/palball_background.dart';
+import 'package:paldex/ui/widgets/search_bar.dart';
 
 import '../../../states/theme/theme_cubit.dart';
 import 'widgets/category_card.dart';
 import 'widgets/news_card.dart';
 
 part 'sections/header_card_content.dart';
-part 'sections/pokemon_news.dart';
+part 'sections/pal_news.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
               title: Visibility(
                 visible: showTitle,
                 child: Text(
-                  'Pokedex',
+                  'Paldex',
                   style: Theme.of(context)
                       .appBarTheme
                       .toolbarTextStyle
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
         ],
-        body: const _PokemonNews(),
+        body: const _PalNews(),
       ),
     );
   }

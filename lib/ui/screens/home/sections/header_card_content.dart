@@ -23,7 +23,7 @@ class _HeaderCardContent extends StatelessWidget {
         //   ),
         // ),
       ),
-      child: PokeballBackground(
+      child: PalballBackground(
         child: Column(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.start,
@@ -63,7 +63,7 @@ class _HeaderCardContent extends StatelessWidget {
         padding: const EdgeInsets.all(28),
         alignment: Alignment.bottomLeft,
         child: const Text(
-          'What Pokemon\nare you looking for?',
+          'What Pal\nare you looking for?',
           style: TextStyle(
             fontSize: 30,
             height: 1.6,
