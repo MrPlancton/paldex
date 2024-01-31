@@ -1,11 +1,10 @@
 import 'dart:convert';
 
 import 'package:paldex/core/network.dart';
-import 'package:paldex/data/source/github/models/item.dart';
-import 'package:paldex/data/source/github/models/pal.dart';
+import 'package:paldex/data/source/remote/models/item.dart';
 
-class GithubDataSource {
-  GithubDataSource(this.networkManager);
+class RemoteDataSource {
+  RemoteDataSource(this.networkManager);
 
   static const String itemsURL =
       'https://gist.githubusercontent.com/hungps/48f4355fb1a89ddaf47f56961dc8a245/raw/pal-items.json';
@@ -15,21 +14,21 @@ class GithubDataSource {
 
   final NetworkManager networkManager;
 
-  Future<List<GithubPalModel>> getPals() async {
+  Future<List<RemotePalModel>> getPals() async {
     final response = await networkManager.request(RequestMethod.get, url);
 
     final data = (json.decode(response.data) as List)
-        .map((item) => GithubPalModel.fromJson(item))
+        .map((item) => RemotePalModel.fromJson(item))
         .toList();
 
     return data;
   }
 
-  Future<List<GithubItemModel>> getItems() async {
+  Future<List<RemoteItemModel>> getItems() async {
     final response = await networkManager.request(RequestMethod.get, itemsURL);
 
     final data =
-        (json.decode(response.data) as List).map((item) => GithubItemModel.fromJson(item)).toList();
+        (json.decode(response.data) as List).map((item) => RemoteItemModel.fromJson(item)).toList();
 
     return data;
   }

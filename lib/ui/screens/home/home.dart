@@ -62,39 +62,39 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: NestedScrollView(
-        controller: _scrollController,
-        headerSliverBuilder: (_, __) => [
-          SliverAppBar(
-            expandedHeight: _HeaderCardContent.height,
-            floating: true,
-            pinned: true,
-            elevation: 0,
-            shape: const RoundedRectangleBorder(
-              borderRadius: BorderRadius.vertical(
-                bottom: Radius.circular(30),
-              ),
-            ),
-            backgroundColor: AppColors.red,
-            flexibleSpace: FlexibleSpaceBar(
-              collapseMode: CollapseMode.pin,
-              centerTitle: true,
-              title: Visibility(
-                visible: showTitle,
-                child: Text(
-                  'Paldex',
-                  style: Theme.of(context)
-                      .appBarTheme
-                      .toolbarTextStyle
-                      ?.copyWith(fontWeight: FontWeight.bold),
-                ),
-              ),
-              background: _HeaderCardContent(),
-            ),
-          ),
-        ],
-        body: const _PalNews(),
-      ),
+      body: _HeaderCardContent()
+      // NestedScrollView(
+      //   controller: _scrollController,
+      //   headerSliverBuilder: (_, __) => [
+      //     SliverAppBar(
+      //       expandedHeight: _HeaderCardContent.height,
+      //       floating: true,
+      //       pinned: true,
+      //       elevation: 0,
+      //       shape: const RoundedRectangleBorder(
+      //         borderRadius: BorderRadius.vertical(
+      //           bottom: Radius.circular(30),
+      //         ),
+      //       ),
+      //       backgroundColor: AppColors.red,
+      //       flexibleSpace: FlexibleSpaceBar(
+      //         collapseMode: CollapseMode.pin,
+      //         centerTitle: true,
+      //         title: Visibility(
+      //           visible: showTitle,
+      //           child: Text(
+      //             'Paldex',
+      //             style: Theme.of(context)
+      //                 .appBarTheme
+      //                 .toolbarTextStyle
+      //                 ?.copyWith(fontWeight: FontWeight.bold),
+      //           ),
+      //         ),
+      //       ),
+      //     ),
+      //   ],
+      //   body: _HeaderCardContent(),
+      // ),
     );
   }
 }

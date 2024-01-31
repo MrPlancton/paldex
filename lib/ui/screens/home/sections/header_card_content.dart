@@ -1,7 +1,7 @@
 part of '../home.dart';
 
 class _HeaderCardContent extends StatelessWidget {
-  static const double height = 582;
+  static const double height = 0;
 
   void _onSelectCategory(Category category) {
     AppNavigator.push(category.route);
@@ -57,18 +57,16 @@ class _HeaderCardContent extends StatelessWidget {
   }
 
   Widget _buildTitle() {
-    return Expanded(
-      child: Container(
-        constraints: const BoxConstraints.expand(),
-        padding: const EdgeInsets.all(28),
-        alignment: Alignment.bottomLeft,
-        child: const Text(
-          'What Pal\nare you looking for?',
-          style: TextStyle(
-            fontSize: 30,
-            height: 1.6,
-            fontWeight: FontWeight.w900,
-          ),
+    return Container(
+      //constraints: const BoxConstraints.expand(),
+      padding: const EdgeInsets.all(28),
+      alignment: Alignment.bottomLeft,
+      child: const Text(
+        'What Pal\nare you looking for?',
+        style: TextStyle(
+          fontSize: 30,
+          height: 1.6,
+          fontWeight: FontWeight.w900,
         ),
       ),
     );

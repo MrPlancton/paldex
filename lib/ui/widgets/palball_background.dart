@@ -7,7 +7,7 @@ import 'package:paldex/ui/widgets/main_app_bar.dart';
 import '../../states/theme/theme_cubit.dart';
 
 class PalballBackground extends StatelessWidget {
-  static const double _palballWidthFraction = 0.664;
+  static const double _palballWidthFraction = 0.1;
 
   final Widget child;
   final Widget? floatingActionButton;

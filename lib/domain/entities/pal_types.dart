@@ -25,7 +25,16 @@ enum PalTypes {
   dragon,
   dark,
   monster,
-  unknown,
+  unknown;
+
+  static PalTypes fromString(String rawValue) {
+    final type = PalTypes.values.firstWhere(
+      (element) => element.value.trim().toLowerCase() == rawValue.toLowerCase(),
+      orElse: () => PalTypes.unknown,
+    );
+
+    return type;
+  }
 }
 
 extension PalTypesX on PalTypes {

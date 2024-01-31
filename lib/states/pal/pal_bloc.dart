@@ -59,7 +59,7 @@ class PalBloc extends Bloc<PalEvent, PalState> {
   void _onSelectChanged(PalSelectChanged event, Emitter<PalState> emit) async {
     try {
       final palIndex = state.pals.indexWhere(
-        (pal) => pal.number == event.palId,
+        (pal) => pal.id == event.palId,
       );
 
       if (palIndex < 0 || palIndex >= state.pals.length) return;
