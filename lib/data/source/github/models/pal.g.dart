@@ -7,19 +7,11 @@ part of 'pal.dart';
 // **************************************************************************
 
 GithubPalModel _$GithubPalModelFromJson(Map<String, dynamic> json) {
-  $checkKeys(json, requiredKeys: const [
-    'name',
-    'id',
-    'imageurl',
-    'typeofpal',
-    'genderless'
-  ], disallowNullValues: const [
-    'name',
-    'id',
-    'imageurl',
-    'typeofpal',
-    'genderless'
-  ]);
+  $checkKeys(
+    json,
+    requiredKeys: const ['name', 'id', 'imageurl', 'typeofpal'],
+    disallowNullValues: const ['name', 'id', 'imageurl', 'typeofpal'],
+  );
   return GithubPalModel(
     json['name'] as String,
     json['id'] as String,
@@ -34,7 +26,9 @@ GithubPalModel _$GithubPalModelFromJson(Map<String, dynamic> json) {
         [],
     (json['evolutions'] as List<dynamic>?)?.map((e) => e as String).toList() ??
         [],
-    (json['abilities'] as List<dynamic>?)?.map((e) => e as String).toList() ??
+    (json['abilities'] as List<dynamic>?)
+            ?.map((e) => RemoteSkillModel.fromJson(e as Map<String, dynamic>))
+            .toList() ??
         [],
     json['hp'] as num? ?? 0,
     json['attack'] as num? ?? 0,
@@ -45,7 +39,7 @@ GithubPalModel _$GithubPalModelFromJson(Map<String, dynamic> json) {
     json['total'] as num? ?? 0,
     json['male_percentage'] as String?,
     json['female_percentage'] as String?,
-    json['genderless'] as num,
+    json['genderless'] as num? ?? 0,
     json['cycles'] as String?,
     json['egg_groups'] as String?,
     json['evolvedfrom'] as String?,

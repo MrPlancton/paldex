@@ -1,4 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'package:paldex/data/source/github/models/skill.dart';
 
 part 'pal.g.dart';
 
@@ -73,7 +74,7 @@ class GithubPalModel {
   final List<String> evolutions;
 
   @JsonKey(defaultValue: [])
-  final List<String> abilities;
+  final List<RemoteSkillModel> abilities;
 
   @JsonKey(defaultValue: 0)
   final num hp;
@@ -102,7 +103,7 @@ class GithubPalModel {
   @JsonKey(name: 'female_percentage')
   final String? genderFemalePercentage;
 
-  @JsonKey(required: true, disallowNullValue: true)
+  @JsonKey(defaultValue: 0)
   final num genderless;
 
   @JsonKey()

@@ -6,6 +6,7 @@ import '../../core/extensions/string.dart';
 import '../../core/utils.dart';
 
 enum PalTypes {
+  neutral,
   grass,
   poison,
   fire,
@@ -44,6 +45,9 @@ extension PalTypesX on PalTypes {
 
   Color get color {
     switch (this) {
+      case PalTypes.neutral:
+        return AppColors.whiteGrey;
+
       case PalTypes.grass:
         return AppColors.lightGreen;
 

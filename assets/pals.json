@@ -1,12 +1,12 @@
 [
   {
-    "id": 1,
-    "key": "001",
+    "numid": 1,
+    "id": "001",
     "image": "https://static.wikia.nocookie.net/palworld/images/4/47/Lamball.png",
     "name": "Lamball",
     "wiki": "https://palworld.fandom.com/wiki/Lamball",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/01/Lamball_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/01/Lamball_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -26,8 +26,8 @@
       "name": "fluffy_shield",
       "description": "When activated, equips to the player and becomes a shield.\nSometimes drops Wool when assigned to Ranch."
     },
-    "description": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this pal has tumbled down to the very bottom of the food chain itself.",
-    "skills": [
+    "xdescription": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this pal has tumbled down to the very bottom of the food chain itself.",
+    "abilities": [
       {
         "level": 1,
         "name": "roly_poly",
@@ -87,13 +87,13 @@
     ]
   },
   {
-    "id": 2,
-    "key": "002",
+    "numid": 2,
+    "id": "002",
     "image": "/public/images/002.png",
     "name": "Cattiva",
     "wiki": "https://palworld.fandom.com/wiki/Cattiva",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/51/Cattiva_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/51/Cattiva_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -117,8 +117,8 @@
       "name": "cat_helper",
       "description": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity."
     },
-    "description": "At a glance it appears full of confidence, but it is in fact weak and cowardly.\nBeing toyed with by a Cattiva is in many ways the greatest of disgraces.",
-    "skills": [
+    "xdescription": "At a glance it appears full of confidence, but it is in fact weak and cowardly.\nBeing toyed with by a Cattiva is in many ways the greatest of disgraces.",
+    "abilities": [
       {
         "level": 1,
         "name": "punch_flurry",
@@ -178,13 +178,13 @@
     ]
   },
   {
-    "id": 3,
-    "key": "003",
+    "numid": 3,
+    "id": "003",
     "image": "/public/images/003.png",
     "name": "Chikipi",
     "wiki": "https://palworld.fandom.com/wiki/Chikipi",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/f4/Chikipi_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f4/Chikipi_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -200,8 +200,8 @@
       "name": "egg_layer",
       "description": "Sometimes lays an Egg when assigned to Ranch."
     },
-    "description": "Extremely weak and far too delicious. It is one of the weakest Pal alongside Lamball. No matter how many are hunted, they just keep appearing.",
-    "skills": [
+    "xdescription": "Extremely weak and far too delicious. It is one of the weakest Pal alongside Lamball. No matter how many are hunted, they just keep appearing.",
+    "abilities": [
       {
         "level": 1,
         "name": "chicken_rush",
@@ -261,13 +261,13 @@
     ]
   },
   {
-    "id": 4,
-    "key": "004",
+    "numid": 4,
+    "id": "004",
     "image": "/public/images/004.png",
     "name": "Lifmunk",
     "wiki": "https://palworld.fandom.com/wiki/Lifmunk",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/dc/Lifmunk_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/dc/Lifmunk_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -295,8 +295,8 @@
       "name": "lifmunk_recoil",
       "description": "When activated, leaps into the player's head and uses a submachine gun to follows up player attacks."
     },
-    "description": "Intelligent as a five to sever-year-old human child. It makes a wonderful partner, but there have been more than a few cases where they've killed their master after learning to use weapons.",
-    "skills": [
+    "xdescription": "Intelligent as a five to sever-year-old human child. It makes a wonderful partner, but there have been more than a few cases where they've killed their master after learning to use weapons.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -356,13 +356,13 @@
     ]
   },
   {
-    "id": 5,
-    "key": "005",
+    "numid": 5,
+    "id": "005",
     "image": "/public/images/005.png",
     "name": "Foxparks",
     "wiki": "https://palworld.fandom.com/wiki/Foxparks",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/d7/Foxparks_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d7/Foxparks_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -374,8 +374,8 @@
       "name": "huggy_fire",
       "description": "When activated, equips to the player and transforms into a flamethrower."
     },
-    "description": "It is unskilled at controlling fire from the moment it is born and tends to choke on the flames it breathes unintentionally. Foxparks sneezes are one of the leading causes of forest fires.",
-    "skills": [
+    "xdescription": "It is unskilled at controlling fire from the moment it is born and tends to choke on the flames it breathes unintentionally. Foxparks sneezes are one of the leading causes of forest fires.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -435,13 +435,13 @@
     ]
   },
   {
-    "id": 6,
-    "key": "006",
+    "numid": 6,
+    "id": "006",
     "image": "/public/images/006.png",
     "name": "Fuack",
     "wiki": "https://palworld.fandom.com/wiki/Fuack",
-    "types": ["water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5e/Fuack_menu.png/",
+    "typeofpal": ["water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Fuack_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -461,8 +461,8 @@
       "name": "surfing_slam",
       "description": "When activated, Fuack body surfs towards an enemy and slams into them."
     },
-    "description": "Using its own body water, this Pal can create waves anywhere. It body surfs when in a hurry, but the resulting speed often ends in a fatal collision.",
-    "skills": [
+    "xdescription": "Using its own body water, this Pal can create waves anywhere. It body surfs when in a hurry, but the resulting speed often ends in a fatal collision.",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -522,13 +522,13 @@
     ]
   },
   {
-    "id": 7,
-    "key": "007",
+    "numid": 7,
+    "id": "007",
     "image": "/public/images/007.png",
     "name": "Sparkit",
     "wiki": "https://palworld.fandom.com/wiki/Sparkit",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/c/ce/Sparkit_menu.png/",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/ce/Sparkit_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -548,8 +548,8 @@
       "name": "static_electricity",
       "description": "While in team, increases attack power of Electric Pals."
     },
-    "description": "During the dry season, this Pal is always on the verge of blowing a fuse, Sparks can fly with even the slightest provocation even amongst allies.",
-    "skills": [
+    "xdescription": "During the dry season, this Pal is always on the verge of blowing a fuse, Sparks can fly with even the slightest provocation even amongst allies.",
+    "abilities": [
       {
         "level": 1,
         "name": "spark_blast",
@@ -609,13 +609,13 @@
     ]
   },
   {
-    "id": 8,
-    "key": "008",
+    "numid": 8,
+    "id": "008",
     "image": "/public/images/008.png",
     "name": "Tanzee",
     "wiki": "https://palworld.fandom.com/wiki/Tanzee",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/40/Tanzee_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Tanzee_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -643,8 +643,8 @@
       "name": "cheery_rifle",
       "description": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies."
     },
-    "description": "Long ago, this Pal used long objects like tree branches as weapons. After coming into contact with humans, however, it found something much more effective: guns.",
-    "skills": [
+    "xdescription": "Long ago, this Pal used long objects like tree branches as weapons. After coming into contact with humans, however, it found something much more effective: guns.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -704,13 +704,13 @@
     ]
   },
   {
-    "id": 9,
-    "key": "009",
+    "numid": 9,
+    "id": "009",
     "image": "/public/images/009.png",
     "name": "Rooby",
     "wiki": "https://palworld.fandom.com/wiki/Rooby",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/21/Rooby_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/21/Rooby_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -722,8 +722,8 @@
       "name": "tiny_spark",
       "description": "While in team, increases attack power of Fire Pals."
     },
-    "description": "Wild Rooby surprisingly never get sick. Eating one piece of charcoal a day, made by burning a branch, is the secret to its eternal health.",
-    "skills": [
+    "xdescription": "Wild Rooby surprisingly never get sick. Eating one piece of charcoal a day, made by burning a branch, is the secret to its eternal health.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -783,13 +783,13 @@
     ]
   },
   {
-    "id": 10,
-    "key": "010",
+    "numid": 10,
+    "id": "010",
     "image": "/public/images/010.png",
     "name": "Pengullet",
     "wiki": "https://palworld.fandom.com/wiki/Pengullet",
-    "types": ["water", "ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/38/Pengullet_menu.png/",
+    "typeofpal": ["water", "ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/38/Pengullet_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -813,8 +813,8 @@
       "name": "pengullet_cannon",
       "description": "When activated, the player equips a Rocket Launcher and fires Pengullet as ammunition. Pengullet explodes on contact and is incapacitated."
     },
-    "description": "The feathers of this Pal have all but disappeared, but sadly, its desire to fly has remained as strong as ever. Even now, it tries to fly again in any way it can.",
-    "skills": [
+    "xdescription": "The feathers of this Pal have all but disappeared, but sadly, its desire to fly has remained as strong as ever. Even now, it tries to fly again in any way it can.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -874,13 +874,13 @@
     ]
   },
   {
-    "id": 11,
-    "key": "011",
+    "numid": 11,
+    "id": "011",
     "image": "/public/images/011.png",
     "name": "Penking",
     "wiki": "https://palworld.fandom.com/wiki/Penking",
-    "types": ["water", "ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/b5/Penking_menu.png/",
+    "typeofpal": ["water", "ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b5/Penking_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -908,8 +908,8 @@
       "name": "brave_sailor",
       "description": "When fighting together, Fire Pals drop more items when defeated."
     },
-    "description": "Surprisingly, it is unrelated to Pengullet. Ever wanting to be the center of attention, this Pal will strut its stuff for any onlookers.",
-    "skills": [
+    "xdescription": "Surprisingly, it is unrelated to Pengullet. Ever wanting to be the center of attention, this Pal will strut its stuff for any onlookers.",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -969,13 +969,13 @@
     ]
   },
   {
-    "id": 12,
-    "key": "012",
+    "numid": 12,
+    "id": "012",
     "image": "/public/images/012.png",
     "name": "Jolthog",
     "wiki": "https://palworld.fandom.com/wiki/Jolthog",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/52/Jolthog_menu.png/",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/52/Jolthog_menu.png/",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -987,8 +987,8 @@
       "name": "jolt_bomb",
       "description": "When activated, equips Jolthog to the player's hand. When thrown at an enemy, causes an electrical explosion upon impact."
     },
-    "description": "Releases the electricity stored in it's body when under attack, producing a shock that can be over 10 million volts. If thrown, it can even be more lethal than any conventional heavy weaponry.",
-    "skills": [
+    "xdescription": "Releases the electricity stored in it's body when under attack, producing a shock that can be over 10 million volts. If thrown, it can even be more lethal than any conventional heavy weaponry.",
+    "abilities": [
       {
         "level": 1,
         "name": "shockwave",
@@ -1048,13 +1048,13 @@
     ]
   },
   {
-    "id": 13,
-    "key": "013",
+    "numid": 13,
+    "id": "013",
     "image": "/public/images/013.png",
     "name": "Gumoss",
     "wiki": "https://palworld.fandom.com/wiki/Gumoss",
-    "types": ["grass", "ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/2e/Gumoss_menu.png/",
+    "typeofpal": ["grass", "ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/2e/Gumoss_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -1066,8 +1066,8 @@
       "name": "logging_assistance",
       "description": "While in team, improves efficiency of cutting trees."
     },
-    "description": "A strange Pal with a body resembling tree sap. It gradually loses strength if it has nothing to cover its body with, eventually rotting away.",
-    "skills": [
+    "xdescription": "A strange Pal with a body resembling tree sap. It gradually loses strength if it has nothing to cover its body with, eventually rotting away.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -1127,13 +1127,13 @@
     ]
   },
   {
-    "id": 14,
-    "key": "014",
+    "numid": 14,
+    "id": "014",
     "image": "/public/images/014.png",
     "name": "Vixy",
     "wiki": "https://palworld.fandom.com/wiki/Vixy",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/9/9e/Vixy_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9e/Vixy_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -1149,8 +1149,8 @@
       "name": "dig_here!",
       "description": "Sometimes digs up items from the ground when assigned to Ranch."
     },
-    "description": "The idol of Palpagos Island. If you bully a Vixy, you best be prepared to become enemies with the whole world.",
-    "skills": [
+    "xdescription": "The idol of Palpagos Island. If you bully a Vixy, you best be prepared to become enemies with the whole world.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -1210,13 +1210,13 @@
     ]
   },
   {
-    "id": 15,
-    "key": "015",
+    "numid": 15,
+    "id": "015",
     "image": "/public/images/015.png",
     "name": "Hoocrates",
     "wiki": "https://palworld.fandom.com/wiki/Hoocrates",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/e/ef/Hoocrates_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ef/Hoocrates_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -1228,8 +1228,8 @@
       "name": "dark_knowledge",
       "description": "While in team, increases attack power of Dark Pals."
     },
-    "description": "Often lost in thought, it sometimes finds it difficult to sleep. \"I think, therefore I am.\"",
-    "skills": [
+    "xdescription": "Often lost in thought, it sometimes finds it difficult to sleep. \"I think, therefore I am.\"",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -1289,13 +1289,13 @@
     ]
   },
   {
-    "id": 16,
-    "key": "016",
+    "numid": 16,
+    "id": "016",
     "image": "/public/images/016.png",
     "name": "Teafant",
     "wiki": "https://palworld.fandom.com/wiki/Teafant",
-    "types": ["water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a7/Teafant_menu.png/",
+    "typeofpal": ["water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a7/Teafant_menu.png/",
     "suitability": [
       {
         "type": "watering",
@@ -1307,8 +1307,8 @@
       "name": "soothing_shower",
       "description": "When activated, spouts mysterious water that soothes wounds and restores the player's HP."
     },
-    "description": "Large amounts of water pour from what is thought to be its nose, though some say that it is, in fact, just snot. This has sparked a fierce debate among Pal scholars.",
-    "skills": [
+    "xdescription": "Large amounts of water pour from what is thought to be its nose, though some say that it is, in fact, just snot. This has sparked a fierce debate among Pal scholars.",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -1368,13 +1368,13 @@
     ]
   },
   {
-    "id": 17,
-    "key": "017",
+    "numid": 17,
+    "id": "017",
     "image": "/public/images/017.png",
     "name": "Depresso",
     "wiki": "https://palworld.fandom.com/wiki/Depresso",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/d9/Depresso_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d9/Depresso_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -1394,8 +1394,8 @@
       "name": "caffeine_inoculation",
       "description": "When activated, Depresso drinks a massive amount of energy drinks, causing its movement speed to increase."
     },
-    "description": "It has few friends because of the perpetually grouchy look on its face, but it is in fact kindhearted. Some have seen it feeding Vixy who have strayed from their pack.",
-    "skills": [
+    "xdescription": "It has few friends because of the perpetually grouchy look on its face, but it is in fact kindhearted. Some have seen it feeding Vixy who have strayed from their pack.",
+    "abilities": [
       {
         "level": 1,
         "name": "poison_blast",
@@ -1455,13 +1455,13 @@
     ]
   },
   {
-    "id": 18,
-    "key": "018",
+    "numid": 18,
+    "id": "018",
     "image": "/public/images/018.png",
     "name": "Cremis",
     "wiki": "https://palworld.fandom.com/wiki/Cremis",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a1/Cremis_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a1/Cremis_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -1477,8 +1477,8 @@
       "name": "fluffy_wool",
       "description": "While in team, increases attack power of Neutral Pals. Sometimes drops Wool when assigned to Ranch."
     },
-    "description": "Compared to Lamball, it has finer wool and a temperament more suited for domestication. However, it has historically been kept as a pet. Cuteness is considered a virtue.",
-    "skills": [
+    "xdescription": "Compared to Lamball, it has finer wool and a temperament more suited for domestication. However, it has historically been kept as a pet. Cuteness is considered a virtue.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -1538,13 +1538,13 @@
     ]
   },
   {
-    "id": 19,
-    "key": "019",
+    "numid": 19,
+    "id": "019",
     "image": "/public/images/019.png",
     "name": "Daedream",
     "wiki": "https://palworld.fandom.com/wiki/Daedream",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/e/e6/Daedream_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/e6/Daedream_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -1564,8 +1564,8 @@
       "name": "dream_chaser",
       "description": "While in team, appears near the player. Follows up player attacks with magic bullets."
     },
-    "description": "It puts those it is interested in to sleep and shows them an endless stream of happy dreams. Those who fall under its spell are never to wake until death takes them.",
-    "skills": [
+    "xdescription": "It puts those it is interested in to sleep and shows them an endless stream of happy dreams. Those who fall under its spell are never to wake until death takes them.",
+    "abilities": [
       {
         "level": 1,
         "name": "dark_ball",
@@ -1625,13 +1625,13 @@
     ]
   },
   {
-    "id": 20,
-    "key": "020",
+    "numid": 20,
+    "id": "020",
     "image": "/public/images/020.png",
     "name": "Rushoar",
     "wiki": "https://palworld.fandom.com/wiki/Rushoar",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/d0/Rushoar_menu.png/",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d0/Rushoar_menu.png/",
     "suitability": [
       {
         "type": "mining",
@@ -1643,8 +1643,8 @@
       "name": "hard_head",
       "description": "Can be ridden. Increases efficiency of destroying boulders while mounted."
     },
-    "description": "Being extremely aggressive Pal, it often picks fights before gauging its opponent's strength. Though small, its powerful charge can even send boulders flying.",
-    "skills": [
+    "xdescription": "Being extremely aggressive Pal, it often picks fights before gauging its opponent's strength. Though small, its powerful charge can even send boulders flying.",
+    "abilities": [
       {
         "level": 1,
         "name": "reckless_charge",
@@ -1704,13 +1704,13 @@
     ]
   },
   {
-    "id": 21,
-    "key": "021",
+    "numid": 21,
+    "id": "021",
     "image": "/public/images/021.png",
     "name": "Nox",
     "wiki": "https://palworld.fandom.com/wiki/Nox",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/55/Nox_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/55/Nox_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -1722,8 +1722,8 @@
       "name": "kuudere",
       "description": "When fighting together, applies Dark damage to the player's attacks."
     },
-    "description": "If you find Nox hair in your bedding, you should leave it where it lays and leave immediately. Picking it up is a one-way-ticket to a never ending night.",
-    "skills": [
+    "xdescription": "If you find Nox hair in your bedding, you should leave it where it lays and leave immediately. Picking it up is a one-way-ticket to a never ending night.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -1783,13 +1783,13 @@
     ]
   },
   {
-    "id": 22,
-    "key": "022",
+    "numid": 22,
+    "id": "022",
     "image": "/public/images/022.png",
     "name": "Fuddler",
     "wiki": "https://palworld.fandom.com/wiki/Fuddler",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/6/64/Fuddler_menu.png/",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/64/Fuddler_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -1809,8 +1809,8 @@
       "name": "ore_detector",
       "description": "When activated, generates subtle vibrations to detect nearby ore."
     },
-    "description": "Its large claws boast of diamond-like hardness. However, sharpening these claws consumes most of its energy, leading it to sometimes spending entire days doing nothing else.",
-    "skills": [
+    "xdescription": "Its large claws boast of diamond-like hardness. However, sharpening these claws consumes most of its energy, leading it to sometimes spending entire days doing nothing else.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -1870,13 +1870,13 @@
     ]
   },
   {
-    "id": 23,
-    "key": "023",
+    "numid": 23,
+    "id": "023",
     "image": "/public/images/023.png",
     "name": "Killamari",
     "wiki": "https://palworld.fandom.com/wiki/Killamari",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/8/80/Killamari_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/8/80/Killamari_menu.png/",
     "suitability": [
       {
         "type": "transporting",
@@ -1892,8 +1892,8 @@
       "name": "fried_squid",
       "description": "While in team, can be summoned and used instead of a glider.\nCan float for long periods of time while gliding."
     },
-    "description": "It wraps itself around an enemy's head, sucking out their insides. Pal mummies are occasionally found, but these are in fact Killamari victims.",
-    "skills": [
+    "xdescription": "It wraps itself around an enemy's head, sucking out their insides. Pal mummies are occasionally found, but these are in fact Killamari victims.",
+    "abilities": [
       {
         "level": 1,
         "name": "hydro_jet",
@@ -1953,13 +1953,13 @@
     ]
   },
   {
-    "id": 24,
-    "key": "024",
+    "numid": 24,
+    "id": "024",
     "image": "/public/images/024.png",
     "name": "Mau",
     "wiki": "https://palworld.fandom.com/wiki/Mau",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/17/Mau_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/17/Mau_menu.png/",
     "suitability": [
       {
         "type": "farming",
@@ -1971,8 +1971,8 @@
       "name": "gold_digger",
       "description": "Sometimes digs up Gold Coin when assigned to Ranch."
     },
-    "description": "Its hard tail does not deteriorate even when cut off. Some believed these severed tails to be good luck, but for the innumerable Mau who were poached as a result, they were anything but.",
-    "skills": [
+    "xdescription": "Its hard tail does not deteriorate even when cut off. Some believed these severed tails to be good luck, but for the innumerable Mau who were poached as a result, they were anything but.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -2032,13 +2032,13 @@
     ]
   },
   {
-    "id": 25,
-    "key": "025",
+    "numid": 25,
+    "id": "025",
     "image": "/public/images/025.png",
     "name": "Celaray",
     "wiki": "https://palworld.fandom.com/wiki/Celaray",
-    "types": ["water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/9/95/Celaray_menu.png/",
+    "typeofpal": ["water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/95/Celaray_menu.png/",
     "suitability": [
       {
         "type": "transporting",
@@ -2054,8 +2054,8 @@
       "name": "zephyr_glider",
       "description": "While in team, can be summoned and used instead of a glider.\nAllows you to move quickly for long periods of time while gliding with this Pal."
     },
-    "description": "Riding the wind, this Pal travels where it pleases. Should it find a partner along the way, the encounter will mark its journey's end.",
-    "skills": [
+    "xdescription": "Riding the wind, this Pal travels where it pleases. Should it find a partner along the way, the encounter will mark its journey's end.",
+    "abilities": [
       {
         "level": 1,
         "name": "hydro_jet",
@@ -2115,13 +2115,13 @@
     ]
   },
   {
-    "id": 26,
-    "key": "026",
+    "numid": 26,
+    "id": "026",
     "image": "/public/images/026.png",
     "name": "Direhowl",
     "wiki": "https://palworld.fandom.com/wiki/Direhowl",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/19/Direhowl_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/19/Direhowl_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -2133,8 +2133,8 @@
       "name": "direhowl_rider",
       "description": "Can be ridden.\nMoves slightly faster than most mounts."
     },
-    "description": "Long ago Direhowl would hunt alongside humans but over the years this bond faded.",
-    "skills": [
+    "xdescription": "Long ago Direhowl would hunt alongside humans but over the years this bond faded.",
+    "abilities": [
       {
         "level": 1,
         "name": "fierce_fang",
@@ -2194,13 +2194,13 @@
     ]
   },
   {
-    "id": 27,
-    "key": "027",
+    "numid": 27,
+    "id": "027",
     "image": "/public/images/027.png",
     "name": "Tocotoco",
     "wiki": "https://palworld.fandom.com/wiki/Tocotoco",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5b/Tocotoco_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5b/Tocotoco_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -2212,8 +2212,8 @@
       "name": "eggbomb_launcher",
       "description": "When activated, equips to the player and transforms into an egg launcher."
     },
-    "description": "A frightening Pal that produces exploding eggs. It often fires these eggs from its rear end as a weapon, but when spent the Pal itself explodes.",
-    "skills": [
+    "xdescription": "A frightening Pal that produces exploding eggs. It often fires these eggs from its rear end as a weapon, but when spent the Pal itself explodes.",
+    "abilities": [
       {
         "level": 1,
         "name": "implode",
@@ -2273,13 +2273,13 @@
     ]
   },
   {
-    "id": 28,
-    "key": "028",
+    "numid": 28,
+    "id": "028",
     "image": "/public/images/028.png",
     "name": "Flopie",
     "wiki": "https://palworld.fandom.com/wiki/Flopie",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5e/Flopie_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Flopie_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -2307,8 +2307,8 @@
       "name": "helper_bunny",
       "description": "While in team, appears nearby the player. Automatically picks up nearby items."
     },
-    "description": "It prefers places that have an abundance of vegetation, but hay fever has apparently become a problem for Flopie as of late.",
-    "skills": [
+    "xdescription": "It prefers places that have an abundance of vegetation, but hay fever has apparently become a problem for Flopie as of late.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -2368,13 +2368,13 @@
     ]
   },
   {
-    "id": 29,
-    "key": "029",
+    "numid": 29,
+    "id": "029",
     "image": "/public/images/029.png",
     "name": "Mozzarina",
     "wiki": "https://palworld.fandom.com/wiki/Mozzarina",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/3a/Mozzarina_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/3a/Mozzarina_menu.png/",
     "suitability": [
       {
         "type": "farming",
@@ -2386,8 +2386,8 @@
       "name": "milk_maker",
       "description": "Sometimes produces Milk when assigned to ranch."
     },
-    "description": "Milk pours from this Pal like water from an open faucet, regardless of its gender. It's truly a mystery of life, although this mystery may be better left unsolved.",
-    "skills": [
+    "xdescription": "Milk pours from this Pal like water from an open faucet, regardless of its gender. It's truly a mystery of life, although this mystery may be better left unsolved.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -2447,13 +2447,13 @@
     ]
   },
   {
-    "id": 30,
-    "key": "030",
+    "numid": 30,
+    "id": "030",
     "image": "/public/images/030.png",
     "name": "Bristla",
     "wiki": "https://palworld.fandom.com/wiki/Bristla",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/13/Bristla_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/13/Bristla_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -2481,8 +2481,8 @@
       "name": "princess_gaze",
       "description": "While in team, increases attack power of Grass Pals."
     },
-    "description": "This prickly Pal's thorns are highly poisonous. It is friendly with Cinnamoth and only smiles when Cinnamoth is drinking its nectar.",
-    "skills": [
+    "xdescription": "This prickly Pal's thorns are highly poisonous. It is friendly with Cinnamoth and only smiles when Cinnamoth is drinking its nectar.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -2542,13 +2542,13 @@
     ]
   },
   {
-    "id": 31,
-    "key": "031",
+    "numid": 31,
+    "id": "031",
     "image": "/public/images/031.png",
     "name": "Gobfin",
     "wiki": "https://palworld.fandom.com/wiki/Gobfin",
-    "types": ["water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/ff/Gobfin_menu.png/",
+    "typeofpal": ["water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/ff/Gobfin_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -2568,8 +2568,8 @@
       "name": "angry_shark",
       "description": "When activated, attacks targeted enemy with a powerful Aqua Gun. While in team, increases player's attack power."
     },
-    "description": "Long ago, it was a large and powerful aquatic Pal.\nAs food became scarce it evolved to live on land.\nSince walking requires much energy, it gradually became smaller and is now a small and puny Pal.",
-    "skills": [
+    "xdescription": "Long ago, it was a large and powerful aquatic Pal.\nAs food became scarce it evolved to live on land.\nSince walking requires much energy, it gradually became smaller and is now a small and puny Pal.",
+    "abilities": [
       {
         "level": 1,
         "name": "hydro_jet",
@@ -2629,13 +2629,13 @@
     ]
   },
   {
-    "id": 32,
-    "key": "032",
+    "numid": 32,
+    "id": "032",
     "image": "/public/images/032.png",
     "name": "Hangyu",
     "wiki": "https://palworld.fandom.com/wiki/Hangyu",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/08/Hangyu_menu.png/",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/08/Hangyu_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -2655,8 +2655,8 @@
       "name": "flying_trapeze",
       "description": "While in team, can be summoned and used instead of a glider. Carries the player up high while gliding."
     },
-    "description": "Its gigantic arms can rip apart even iron.\nAs a particularly cruel form of execution, serious criminals would be strung up in a public square, and a Hangyu would rip off the skin from their bones.",
-    "skills": [
+    "xdescription": "Its gigantic arms can rip apart even iron.\nAs a particularly cruel form of execution, serious criminals would be strung up in a public square, and a Hangyu would rip off the skin from their bones.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -2716,13 +2716,13 @@
     ]
   },
   {
-    "id": 33,
-    "key": "033",
+    "numid": 33,
+    "id": "033",
     "image": "/public/images/033.png",
     "name": "Mossanda",
     "wiki": "https://palworld.fandom.com/wiki/Mossanda",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/db/Mossanda_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/db/Mossanda_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -2746,8 +2746,8 @@
       "name": "grenadier_panda",
       "description": "Can be ridden. Can rapidly fire a grenade launcher while mounted."
     },
-    "description": "A Pal so powerful it's hard to believe. In one experiment, this Pal tore through 3,000 sheets of paper at once! It's only by some miracle that this Pal isn't a meat-eater.",
-    "skills": [
+    "xdescription": "A Pal so powerful it's hard to believe. In one experiment, this Pal tore through 3,000 sheets of paper at once! It's only by some miracle that this Pal isn't a meat-eater.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -2807,13 +2807,13 @@
     ]
   },
   {
-    "id": 34,
-    "key": "034",
+    "numid": 34,
+    "id": "034",
     "image": "/public/images/034.png",
     "name": "Woolipop",
     "wiki": "https://palworld.fandom.com/wiki/Woolipop",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/fa/Woolipop_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/fa/Woolipop_menu.png/",
     "suitability": [
       {
         "type": "farming",
@@ -2825,8 +2825,8 @@
       "name": "candy_pop",
       "description": "Sometimes drops Cotton Candy when assigned to ranch."
     },
-    "description": "Its entire body is 18,000 times sweeter than sugar.\nCarnivorous Pals lured by its scent will find themselves overwhelmed by sweetness and even pass out should they take a bite of this Pal.",
-    "skills": [
+    "xdescription": "Its entire body is 18,000 times sweeter than sugar.\nCarnivorous Pals lured by its scent will find themselves overwhelmed by sweetness and even pass out should they take a bite of this Pal.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -2886,13 +2886,13 @@
     ]
   },
   {
-    "id": 35,
-    "key": "035",
+    "numid": 35,
+    "id": "035",
     "image": "/public/images/035.png",
     "name": "Caprity",
     "wiki": "https://palworld.fandom.com/wiki/Caprity",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a7/Caprity_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a7/Caprity_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -2908,8 +2908,8 @@
       "name": "berry_picker",
       "description": "Sometimes drops Red Berries from its back when assigned to Ranch."
     },
-    "description": "The shrub on this pal's back produces berries as long as it is properly fed. It offers these berries to potential mates, and if the flavor is to their liking, romance blossoms.",
-    "skills": [
+    "xdescription": "The shrub on this pal's back produces berries as long as it is properly fed. It offers these berries to potential mates, and if the flavor is to their liking, romance blossoms.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -2969,13 +2969,13 @@
     ]
   },
   {
-    "id": 36,
-    "key": "036",
+    "numid": 36,
+    "id": "036",
     "image": "/public/images/036.png",
     "name": "Melpaca",
     "wiki": "https://palworld.fandom.com/wiki/Melpaca",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/7f/Melpaca_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7f/Melpaca_menu.png/",
     "suitability": [
       {
         "type": "farming",
@@ -2987,8 +2987,8 @@
       "name": "pacapaca_wool",
       "description": "Can be ridden.\nSometimes drops Wool when assigned to Ranch."
     },
-    "description": "Don't be fooled by its fluffy appearance. A hypersonic kick from one of its long legs may send you flying to the other side of the world.",
-    "skills": [
+    "xdescription": "Don't be fooled by its fluffy appearance. A hypersonic kick from one of its long legs may send you flying to the other side of the world.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -3048,13 +3048,13 @@
     ]
   },
   {
-    "id": 37,
-    "key": "037",
+    "numid": 37,
+    "id": "037",
     "image": "/public/images/037.png",
     "name": "Eikthyrdeer",
     "wiki": "https://palworld.fandom.com/wiki/Eikthyrdeer",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/40/Eikthyrdeer_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Eikthyrdeer_menu.png/",
     "suitability": [
       {
         "type": "lumbering",
@@ -3066,8 +3066,8 @@
       "name": "guardian_of_the_forest",
       "description": "Can be ridden.\nCan perform a double jump while mounted.\nIncreases efficiency of cutting trees."
     },
-    "description": "The one who possesses the most impressive antlers becomes the leader of the herd. If their antlers are broken, they become depressed and leave the herd never to be seen again.",
-    "skills": [
+    "xdescription": "The one who possesses the most impressive antlers becomes the leader of the herd. If their antlers are broken, they become depressed and leave the herd never to be seen again.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -3127,13 +3127,13 @@
     ]
   },
   {
-    "id": 38,
-    "key": "038",
+    "numid": 38,
+    "id": "038",
     "image": "/public/images/038.png",
     "name": "Nitewing",
     "wiki": "https://palworld.fandom.com/wiki/Nitewing",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/34/Nitewing_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/34/Nitewing_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -3145,8 +3145,8 @@
       "name": "travel_companion",
       "description": "Can be ridden as a flying mount."
     },
-    "description": "It carries newborn Pals to its nest and raises them as a surrogate parent. \nOnce the baby Pal has fattened up, it hunts them.",
-    "skills": [
+    "xdescription": "It carries newborn Pals to its nest and raises them as a surrogate parent. \nOnce the baby Pal has fattened up, it hunts them.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -3206,13 +3206,13 @@
     ]
   },
   {
-    "id": 39,
-    "key": "039",
+    "numid": 39,
+    "id": "039",
     "image": "/public/images/039.png",
     "name": "Ribbuny",
     "wiki": "https://palworld.fandom.com/wiki/Ribbuny",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/7e/Ribbuny_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7e/Ribbuny_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -3232,8 +3232,8 @@
       "name": "skilled_fingers",
       "description": "While in team, increases attack power of Neutral Pals.\nWhile at base, increases work efficiency if working at Weapon Workbench."
     },
-    "description": "A Pal who's never without a bright smile. Occasionally, it gets its tentacles tied up in knots by Cattiva's pranks. During those moments, its expression changes into something altogether demonic.",
-    "skills": [
+    "xdescription": "A Pal who's never without a bright smile. Occasionally, it gets its tentacles tied up in knots by Cattiva's pranks. During those moments, its expression changes into something altogether demonic.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -3293,13 +3293,13 @@
     ]
   },
   {
-    "id": 40,
-    "key": "040",
+    "numid": 40,
+    "id": "040",
     "image": "/public/images/040.png",
     "name": "Incineram",
     "wiki": "https://palworld.fandom.com/wiki/Incineram",
-    "types": ["fire", "dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/40/Incineram_menu.png/",
+    "typeofpal": ["fire", "dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Incineram_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -3323,8 +3323,8 @@
       "name": "flameclaw_hunter",
       "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw."
     },
-    "description": "In the dark of night, this Pal snatches prey to bring back ot its territory.\nWhat happens to those poor souls afterwards isn't too hard to imagine.",
-    "skills": [
+    "xdescription": "In the dark of night, this Pal snatches prey to bring back ot its territory.\nWhat happens to those poor souls afterwards isn't too hard to imagine.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -3384,13 +3384,13 @@
     ]
   },
   {
-    "id": 41,
-    "key": "041",
+    "numid": 41,
+    "id": "041",
     "image": "/public/images/041.png",
     "name": "Cinnamoth",
     "wiki": "https://palworld.fandom.com/wiki/Cinnamoth",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/7e/Cinnamoth_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7e/Cinnamoth_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -3406,8 +3406,8 @@
       "name": "mysterious_scales",
       "description": "When activated, attacks target enemy with Poison Fog."
     },
-    "description": "Sniffing its scales produces a feeling of unparalleled euphoria.\nThere was some effort to further regulate this byproduct, but the Free Pal Alliance have vehemently opposed these measures, putting a stop to them.",
-    "skills": [
+    "xdescription": "Sniffing its scales produces a feeling of unparalleled euphoria.\nThere was some effort to further regulate this byproduct, but the Free Pal Alliance have vehemently opposed these measures, putting a stop to them.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -3467,13 +3467,13 @@
     ]
   },
   {
-    "id": 42,
-    "key": "042",
+    "numid": 42,
+    "id": "042",
     "image": "/public/images/042.png",
     "name": "Arsox",
     "wiki": "https://palworld.fandom.com/wiki/Arsox",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/f5/Arsox_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f5/Arsox_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -3489,8 +3489,8 @@
       "name": "warm_body",
       "description": "Can be ridden. Keeps the rider warm in cold environments."
     },
-    "description": "In ancient times, carnivorous Pals pursued them relentlessly.\nThe Arsox's irrational rage transformed into a raging inferno, which has been passed on to this day.",
-    "skills": [
+    "xdescription": "In ancient times, carnivorous Pals pursued them relentlessly.\nThe Arsox's irrational rage transformed into a raging inferno, which has been passed on to this day.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -3550,13 +3550,13 @@
     ]
   },
   {
-    "id": 43,
-    "key": "043",
+    "numid": 43,
+    "id": "043",
     "image": "/public/images/043.png",
     "name": "Dumud",
     "wiki": "https://palworld.fandom.com/wiki/Dumud",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/32/Dumud_menu.png/",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/32/Dumud_menu.png/",
     "suitability": [
       {
         "type": "watering",
@@ -3576,17 +3576,17 @@
       "name": "soil_improver",
       "description": "While in team, increases attack power of Ground Pals."
     },
-    "description": "When too relaxed, its reaction time drastically declines.\nEven if it were sliced from head to tail, it probably wouldn't even realize that it should be dead until the next morning.",
-    "skills": []
+    "xdescription": "When too relaxed, its reaction time drastically declines.\nEven if it were sliced from head to tail, it probably wouldn't even realize that it should be dead until the next morning.",
+    "abilities": []
   },
   {
-    "id": 44,
-    "key": "044",
+    "numid": 44,
+    "id": "044",
     "image": "/public/images/044.png",
     "name": "Cawgnito",
     "wiki": "https://palworld.fandom.com/wiki/Cawgnito",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/f6/Cawgnito_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f6/Cawgnito_menu.png/",
     "suitability": [
       {
         "type": "lumbering",
@@ -3598,8 +3598,8 @@
       "name": "telepeck",
       "description": "When activated, attacks targeted enemy with a powerful Phantom Peck."
     },
-    "description": "Long ago it freely soared the skies. After losing a contest with Galeclaw, it abandoned the skies and now lives a quiet nocturnal life.",
-    "skills": [
+    "xdescription": "Long ago it freely soared the skies. After losing a contest with Galeclaw, it abandoned the skies and now lives a quiet nocturnal life.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -3659,13 +3659,13 @@
     ]
   },
   {
-    "id": 45,
-    "key": "045",
+    "numid": 45,
+    "id": "045",
     "image": "/public/images/045.png",
     "name": "Leezpunk",
     "wiki": "https://palworld.fandom.com/wiki/Leezpunk",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/09/Leezpunk_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/09/Leezpunk_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -3685,8 +3685,8 @@
       "name": "sixth_sense",
       "description": "When activated, utilizes its sixth sense to detect nearby dungeons."
     },
-    "description": "A Pal that always takes great care to maintain a stylish stance. Always on the hunt for the coolest poses, if given a mirror it will spend all day posing in front of it.",
-    "skills": [
+    "xdescription": "A Pal that always takes great care to maintain a stylish stance. Always on the hunt for the coolest poses, if given a mirror it will spend all day posing in front of it.",
+    "abilities": [
       {
         "level": 1,
         "name": "poison_blast",
@@ -3746,13 +3746,13 @@
     ]
   },
   {
-    "id": 46,
-    "key": "046",
+    "numid": 46,
+    "id": "046",
     "image": "/public/images/046.png",
     "name": "Loupmoon",
     "wiki": "https://palworld.fandom.com/wiki/Loupmoon",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/00/Loupmoon_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/00/Loupmoon_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -3764,8 +3764,8 @@
       "name": "claws_glistening_in_the_dark",
       "description": "When activated, attacks targeted enemy with a powerful Jumping Claw."
     },
-    "description": "The horns on its head grow under the moonlight. It doesn't hate the sun, but its horns itch when sunlight hits them.",
-    "skills": [
+    "xdescription": "The horns on its head grow under the moonlight. It doesn't hate the sun, but its horns itch when sunlight hits them.",
+    "abilities": [
       {
         "level": 1,
         "name": "dark_ball",
@@ -3825,13 +3825,13 @@
     ]
   },
   {
-    "id": 47,
-    "key": "047",
+    "numid": 47,
+    "id": "047",
     "image": "/public/images/047.png",
     "name": "Galeclaw",
     "wiki": "https://palworld.fandom.com/wiki/Galeclaw",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/08/Galeclaw_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/08/Galeclaw_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -3843,8 +3843,8 @@
       "name": "galeclaw_rider",
       "description": "While in team, can be summoned and used instead of a glider. Allows you to fire a gun while gliding with this Pal."
     },
-    "description": "A Pal that can easily take flight even while grasping a human.\n It is, however, prone to letting go when tired, which has led to the sudden demise of more than a few souls.",
-    "skills": [
+    "xdescription": "A Pal that can easily take flight even while grasping a human.\n It is, however, prone to letting go when tired, which has led to the sudden demise of more than a few souls.",
+    "abilities": [
       {
         "level": 1,
         "name": "gale_claw",
@@ -3904,13 +3904,13 @@
     ]
   },
   {
-    "id": 48,
-    "key": "048",
+    "numid": 48,
+    "id": "048",
     "image": "/public/images/048.png",
     "name": "Robinquill",
     "wiki": "https://palworld.fandom.com/wiki/Robinquill",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/bb/Robinquill_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/bb/Robinquill_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -3942,8 +3942,8 @@
       "name": "hawk_eye",
       "description": "While fighting together, allows you to deal more damage to weak points."
     },
-    "description": "A pal that is very similar to humans who hunt and live in the forests. It may prove to be a key for understanding what Pals are and how they diverged from humans so long ago.",
-    "skills": [
+    "xdescription": "A pal that is very similar to humans who hunt and live in the forests. It may prove to be a key for understanding what Pals are and how they diverged from humans so long ago.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -4003,13 +4003,13 @@
     ]
   },
   {
-    "id": 49,
-    "key": "049",
+    "numid": 49,
+    "id": "049",
     "image": "/public/images/049.png",
     "name": "Gorirat",
     "wiki": "https://palworld.fandom.com/wiki/Gorirat",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/b5/Gorirat_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b5/Gorirat_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -4029,8 +4029,8 @@
       "name": "full-power_gorilla_mode",
       "description": "When activated, unleashes a primal fury that increases Gorirat's attack power."
     },
-    "description": "It beats the ground rhythmically to communicate with its comrades. The meaning of each rhythm differs by troop, but the distinction between them is still largely unknown.",
-    "skills": [
+    "xdescription": "It beats the ground rhythmically to communicate with its comrades. The meaning of each rhythm differs by troop, but the distinction between them is still largely unknown.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -4090,13 +4090,13 @@
     ]
   },
   {
-    "id": 50,
-    "key": "050",
+    "numid": 50,
+    "id": "050",
     "image": "/public/images/050.png",
     "name": "Beegarde",
     "wiki": "https://palworld.fandom.com/wiki/Beegarde",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/7b/Beegarde_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7b/Beegarde_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -4132,8 +4132,8 @@
       "name": "worker_bee",
       "description": "Sometimes drops Honey when assigned to Ranch.\nWhile in team, Elizabee's stats will be increased."
     },
-    "description": "A servant that pledges loyalty to Elizabee.\nAny that cause harm to the queen are immediately expelled from the hive.\nIt will gladly give its life to protect its queen.",
-    "skills": [
+    "xdescription": "A servant that pledges loyalty to Elizabee.\nAny that cause harm to the queen are immediately expelled from the hive.\nIt will gladly give its life to protect its queen.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -4193,13 +4193,13 @@
     ]
   },
   {
-    "id": 51,
-    "key": "051",
+    "numid": 51,
+    "id": "051",
     "image": "/public/images/051.png",
     "name": "Elizabee",
     "wiki": "https://palworld.fandom.com/wiki/Elizabee",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a0/Elizabee_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a0/Elizabee_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -4227,8 +4227,8 @@
       "name": "queen_bee_command",
       "description": "While fighting together, stats will increase the more Beegarde are in your team."
     },
-    "description": "A chosen queen to rule over Beegardes.\nThere is a never ending stream of servants willing to work themselves to death for the pleasure of serving their queen.",
-    "skills": [
+    "xdescription": "A chosen queen to rule over Beegardes.\nThere is a never ending stream of servants willing to work themselves to death for the pleasure of serving their queen.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -4288,13 +4288,13 @@
     ]
   },
   {
-    "id": 52,
-    "key": "052",
+    "numid": 52,
+    "id": "052",
     "image": "/public/images/052.png",
     "name": "Grintale",
     "wiki": "https://palworld.fandom.com/wiki/Grintale",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/c/c3/Grintale_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c3/Grintale_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -4306,8 +4306,8 @@
       "name": "plump_body",
       "description": "Can be ridden. Enhances Neutral attacks while mounted."
     },
-    "description": "Grintale's eyes light up the moment anyone enters its territory.\nThis is no figure of speech-its eyes literally light up.",
-    "skills": [
+    "xdescription": "Grintale's eyes light up the moment anyone enters its territory.\nThis is no figure of speech-its eyes literally light up.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -4367,13 +4367,13 @@
     ]
   },
   {
-    "id": 53,
-    "key": "053",
+    "numid": 53,
+    "id": "053",
     "image": "/public/images/053.png",
     "name": "Swee",
     "wiki": "https://palworld.fandom.com/wiki/Swee",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/b5/Swee_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b5/Swee_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -4389,8 +4389,8 @@
       "name": "fluffy",
       "description": "While in team, Sweepa's stats will be increased."
     },
-    "description": "Crawling along the ground, it eats microscopic organic matter.\nAfter a while, it discharges any substances that provide no nutrition.\nBy using it as a mop for cleaning, everyone wins!",
-    "skills": [
+    "xdescription": "Crawling along the ground, it eats microscopic organic matter.\nAfter a while, it discharges any substances that provide no nutrition.\nBy using it as a mop for cleaning, everyone wins!",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -4450,13 +4450,13 @@
     ]
   },
   {
-    "id": 54,
-    "key": "054",
+    "numid": 54,
+    "id": "054",
     "image": "/public/images/054.png",
     "name": "Sweepa",
     "wiki": "https://palworld.fandom.com/wiki/Sweepa",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/f3/Sweepa_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f3/Sweepa_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -4472,8 +4472,8 @@
       "name": "king_of_fluff",
       "description": "While fighting together, stats will increase the more Swee are in your team."
     },
-    "description": "While hibernating, a large number of Swee hide within its voluminous body hair.\nThe most ever recorded is 101.",
-    "skills": [
+    "xdescription": "While hibernating, a large number of Swee hide within its voluminous body hair.\nThe most ever recorded is 101.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -4533,13 +4533,13 @@
     ]
   },
   {
-    "id": 55,
-    "key": "055",
+    "numid": 55,
+    "id": "055",
     "image": "/public/images/055.png",
     "name": "Chillet",
     "wiki": "https://palworld.fandom.com/wiki/Chillet",
-    "types": ["ice", "dragon"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/49/Chillet_menu.png/",
+    "typeofpal": ["ice", "dragon"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/49/Chillet_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -4555,8 +4555,8 @@
       "name": "wriggling_weasel",
       "description": "Can be ridden.\nApplies Dragon Dragon damage to the player's attacks while mounted."
     },
-    "description": "It can curl up its body and roll around at extremely high speeds.\nLong ago, people would tie bags of milk to domesticated Chillet as they grazed to produce butter using this spinning force.",
-    "skills": [
+    "xdescription": "It can curl up its body and roll around at extremely high speeds.\nLong ago, people would tie bags of milk to domesticated Chillet as they grazed to produce butter using this spinning force.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -4616,13 +4616,13 @@
     ]
   },
   {
-    "id": 56,
-    "key": "056",
+    "numid": 56,
+    "id": "056",
     "image": "/public/images/056.png",
     "name": "Univolt",
     "wiki": "https://palworld.fandom.com/wiki/Univolt",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/0e/Univolt_menu.png/",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0e/Univolt_menu.png/",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -4638,8 +4638,8 @@
       "name": "swift_deity",
       "description": "Can be ridden. Applies Electric damage to the player's attacks while mounted."
     },
-    "description": "It used to be considered an emissary of the Thunder God, and thus was not hunted by people.\nHowever, after witnesses osberved one die from a lightning strike, its reverence faded, and it quite literally fell into the role of a workhorse.",
-    "skills": [
+    "xdescription": "It used to be considered an emissary of the Thunder God, and thus was not hunted by people.\nHowever, after witnesses osberved one die from a lightning strike, its reverence faded, and it quite literally fell into the role of a workhorse.",
+    "abilities": [
       {
         "level": 1,
         "name": "spark_blast",
@@ -4699,13 +4699,13 @@
     ]
   },
   {
-    "id": 57,
-    "key": "057",
+    "numid": 57,
+    "id": "057",
     "image": "/public/images/057.png",
     "name": "Foxcicle",
     "wiki": "https://palworld.fandom.com/wiki/Foxcicle",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/21/Foxcicle_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/21/Foxcicle_menu.png/",
     "suitability": [
       {
         "type": "cooling",
@@ -4717,8 +4717,8 @@
       "name": "aurora_guide",
       "description": "While in a team, increases attack power of Ice pals."
     },
-    "description": "On nights when the aurora is visible, it looks up towards the sky and begins to howl a beautiful song. This does, however, leave it vulnerable to attacks from enemies.",
-    "skills": [
+    "xdescription": "On nights when the aurora is visible, it looks up towards the sky and begins to howl a beautiful song. This does, however, leave it vulnerable to attacks from enemies.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -4778,13 +4778,13 @@
     ]
   },
   {
-    "id": 58,
-    "key": "058",
+    "numid": 58,
+    "id": "058",
     "image": "/public/images/058.png",
     "name": "Pyrin",
     "wiki": "https://palworld.fandom.com/wiki/Pyrin",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/e/e6/Pyrin_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/e6/Pyrin_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -4800,8 +4800,8 @@
       "name": "red_hare",
       "description": "Can be ridden. Applies Fire damage to the player's attacks while mounted."
     },
-    "description": "It's entire body has evolved into a highly efficient radiator, gifting it with astounding stamina.\nWhen someone has mounted it, this Pal takes caution not to burn them.",
-    "skills": [
+    "xdescription": "It's entire body has evolved into a highly efficient radiator, gifting it with astounding stamina.\nWhen someone has mounted it, this Pal takes caution not to burn them.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -4861,13 +4861,13 @@
     ]
   },
   {
-    "id": 59,
-    "key": "059",
+    "numid": 59,
+    "id": "059",
     "image": "/public/images/059.png",
     "name": "Reindrix",
     "wiki": "https://palworld.fandom.com/wiki/Reindrix",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/c/c1/Reindrix_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c1/Reindrix_menu.png/",
     "suitability": [
       {
         "type": "lumbering",
@@ -4883,8 +4883,8 @@
       "name": "cool_body",
       "description": "Can be ridden.\nKeeps the rider cool in hot environments."
     },
-    "description": "Its transparent cerulean antlers glow with the cold of absolute zero. Any who touch them with their bare hands are instantly frozen over and smashed into pieces.",
-    "skills": [
+    "xdescription": "Its transparent cerulean antlers glow with the cold of absolute zero. Any who touch them with their bare hands are instantly frozen over and smashed into pieces.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -4944,13 +4944,13 @@
     ]
   },
   {
-    "id": 60,
-    "key": "060",
+    "numid": 60,
+    "id": "060",
     "image": "/public/images/060.png",
     "name": "Rayhound",
     "wiki": "https://palworld.fandom.com/wiki/Rayhound",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/3f/Rayhound_menu.png/",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/3f/Rayhound_menu.png/",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -4962,8 +4962,8 @@
       "name": "jumping_force",
       "description": "Can be ridden. Can double jump while mounted."
     },
-    "description": "At full speed, it could be mistaken for a bolt of lightning. If two Rayhounds collide, the sound is like that of a powerful thunderclap.",
-    "skills": [
+    "xdescription": "At full speed, it could be mistaken for a bolt of lightning. If two Rayhounds collide, the sound is like that of a powerful thunderclap.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -5023,13 +5023,13 @@
     ]
   },
   {
-    "id": 61,
-    "key": "061",
+    "numid": 61,
+    "id": "061",
     "image": "/public/images/061.png",
     "name": "Kitsun",
     "wiki": "https://palworld.fandom.com/wiki/Kitsun",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/6/6b/Kitsun_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/6b/Kitsun_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -5041,8 +5041,8 @@
       "name": "clear_mind",
       "description": "Can be ridden. Unaffected by the cold or heat while riding this Pal."
     },
-    "description": "Despite its appearance, Kitsun is extremely sensitive and will flee into a cave when spooked. Long ago, it was considered and ill omen if one were found nearby.",
-    "skills": [
+    "xdescription": "Despite its appearance, Kitsun is extremely sensitive and will flee into a cave when spooked. Long ago, it was considered and ill omen if one were found nearby.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -5102,13 +5102,13 @@
     ]
   },
   {
-    "id": 62,
-    "key": "062",
+    "numid": 62,
+    "id": "062",
     "image": "/public/images/062.png",
     "name": "Dazzi",
     "wiki": "https://palworld.fandom.com/wiki/Dazzi",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/b0/Dazzi_menu.png/",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b0/Dazzi_menu.png/",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -5128,8 +5128,8 @@
       "name": "lady_of_lightning",
       "description": "While in team, appears near the player. Follows up player attacks with lightning bolts."
     },
-    "description": "Often kind to lonely pals.\nHowever, the moment a Pal mistakes this for actual companionship, it seizes the opportunity to blast them with a thunderbolt.",
-    "skills": [
+    "xdescription": "Often kind to lonely pals.\nHowever, the moment a Pal mistakes this for actual companionship, it seizes the opportunity to blast them with a thunderbolt.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -5189,13 +5189,13 @@
     ]
   },
   {
-    "id": 63,
-    "key": "063",
+    "numid": 63,
+    "id": "063",
     "image": "/public/images/063.png",
     "name": "Lunaris",
     "wiki": "https://palworld.fandom.com/wiki/Lunaris",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/38/Lunaris_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/38/Lunaris_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -5215,8 +5215,8 @@
       "name": "antigravity",
       "description": "While in team, Lunaris manipulates gravity, increasing the player's max carrying capacity."
     },
-    "description": "It can control those who carelessly stare into its eyes. Those seen with a Lunaris are in its mind, simply under its control.",
-    "skills": [
+    "xdescription": "It can control those who carelessly stare into its eyes. Those seen with a Lunaris are in its mind, simply under its control.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -5276,13 +5276,13 @@
     ]
   },
   {
-    "id": 64,
-    "key": "064",
+    "numid": 64,
+    "id": "064",
     "image": "/public/images/064.png",
     "name": "Dinossom",
     "wiki": "https://palworld.fandom.com/wiki/Dinossom",
-    "types": ["grass", "dragon"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/b7/Dinossom_menu.png/",
+    "typeofpal": ["grass", "dragon"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b7/Dinossom_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -5298,8 +5298,8 @@
       "name": "fragrant_dragon",
       "description": "Can be ridden.\nEnchances Grass attacks while mounted."
     },
-    "description": "A Pal who once angered cannot be pacified. It rages on and on like an inferno. The prahse \"step on a Dinossom's tail\" has come to mean enraging someone.",
-    "skills": [
+    "xdescription": "A Pal who once angered cannot be pacified. It rages on and on like an inferno. The prahse \"step on a Dinossom's tail\" has come to mean enraging someone.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -5359,13 +5359,13 @@
     ]
   },
   {
-    "id": 65,
-    "key": "065",
+    "numid": 65,
+    "id": "065",
     "image": "/public/images/065.png",
     "name": "Surfent",
     "wiki": "https://palworld.fandom.com/wiki/Surfent",
-    "types": ["water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/1d/Surfent_menu.png/",
+    "typeofpal": ["water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/1d/Surfent_menu.png/",
     "suitability": [
       {
         "type": "watering",
@@ -5377,8 +5377,8 @@
       "name": "swift_swimmer",
       "description": "Can be ridden to travel on water.\nWhile mounted, prevents stamina depletion while moving over water."
     },
-    "description": "Its hydrodynamic form is well suited to life in water.\nPoachers often catch them and use them in place of surfboards.",
-    "skills": [
+    "xdescription": "Its hydrodynamic form is well suited to life in water.\nPoachers often catch them and use them in place of surfboards.",
+    "abilities": [
       {
         "level": 1,
         "name": "hydro_jet",
@@ -5438,13 +5438,13 @@
     ]
   },
   {
-    "id": 66,
-    "key": "066",
+    "numid": 66,
+    "id": "066",
     "image": "/public/images/066.png",
     "name": "Maraith",
     "wiki": "https://palworld.fandom.com/wiki/Maraith",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/32/Maraith_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/32/Maraith_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -5460,8 +5460,8 @@
       "name": "messenger_of_death",
       "description": "Can be ridden.\nApplies Dark damage to the player's attacks while mounted."
     },
-    "description": "It relishes the peculiar scent living things give off when they are near death. If a Mariath has taken a liking to you. It is safe to assume that is why.",
-    "skills": [
+    "xdescription": "It relishes the peculiar scent living things give off when they are near death. If a Mariath has taken a liking to you. It is safe to assume that is why.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -5521,13 +5521,13 @@
     ]
   },
   {
-    "id": 67,
-    "key": "067",
+    "numid": 67,
+    "id": "067",
     "image": "/public/images/067.png",
     "name": "Digtoise",
     "wiki": "https://palworld.fandom.com/wiki/Digtoise",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5b/Digtoise_menu.png/",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5b/Digtoise_menu.png/",
     "suitability": [
       {
         "type": "mining",
@@ -5539,8 +5539,8 @@
       "name": "drill_crusher",
       "description": "When activated, performs Shell Spin, follows the player while spinning, and mines ores efficiently."
     },
-    "description": "A walking contradiction, possessing the strongest shell and the only drill capable of piercing it. \"Digtoise's Fable\" is a popular children's tale.",
-    "skills": [
+    "xdescription": "A walking contradiction, possessing the strongest shell and the only drill capable of piercing it. \"Digtoise's Fable\" is a popular children's tale.",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -5600,13 +5600,13 @@
     ]
   },
   {
-    "id": 68,
-    "key": "068",
+    "numid": 68,
+    "id": "068",
     "image": "/public/images/068.png",
     "name": "Tombat",
     "wiki": "https://palworld.fandom.com/wiki/Tombat",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/f2/Tombat_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f2/Tombat_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -5626,8 +5626,8 @@
       "name": "ultrasonic_sensor",
       "description": "When activated, uses ultrasonic waves to detect the location of nearby Pals."
     },
-    "description": "Often appears out of the blue to flaunt its prized wings in front of other Pals.\nAlthough it seems to be an intimidation tactic, the Pal seems to derive some kind of pleasure from the display.",
-    "skills": [
+    "xdescription": "Often appears out of the blue to flaunt its prized wings in front of other Pals.\nAlthough it seems to be an intimidation tactic, the Pal seems to derive some kind of pleasure from the display.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -5687,13 +5687,13 @@
     ]
   },
   {
-    "id": 69,
-    "key": "069",
+    "numid": 69,
+    "id": "069",
     "image": "/public/images/069.png",
     "name": "Lovander",
     "wiki": "https://palworld.fandom.com/wiki/Lovander",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/c/c8/Lovander_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c8/Lovander_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -5717,8 +5717,8 @@
       "name": "heart_drain",
       "description": "While fighting together, grants the player and Lovander the life steal effect which absorbs some of the received damage and restores HP."
     },
-    "description": "Seeking a night of love, it is always chasing someone around. At first, it only showed interest in other Pals, but in recent years even humans have become the target of its debauchery.",
-    "skills": [
+    "xdescription": "Seeking a night of love, it is always chasing someone around. At first, it only showed interest in other Pals, but in recent years even humans have become the target of its debauchery.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -5778,13 +5778,13 @@
     ]
   },
   {
-    "id": 70,
-    "key": "070",
+    "numid": 70,
+    "id": "070",
     "image": "/public/images/070.png",
     "name": "Flambelle",
     "wiki": "https://palworld.fandom.com/wiki/Flambelle",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/20/Flambelle_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/20/Flambelle_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -5808,8 +5808,8 @@
       "name": "magma_tears",
       "description": "Sometimes produces Flame Organ when assigned to Ranch."
     },
-    "description": "When it starts crying, this Pal produces magma in place of tears. The magma that pours out is absorbed back into its body, causing it to get hotter and hotter. The more it cries, the stronger it becomes.",
-    "skills": [
+    "xdescription": "When it starts crying, this Pal produces magma in place of tears. The magma that pours out is absorbed back into its body, causing it to get hotter and hotter. The more it cries, the stronger it becomes.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -5869,13 +5869,13 @@
     ]
   },
   {
-    "id": 71,
-    "key": "071",
+    "numid": 71,
+    "id": "071",
     "image": "/public/images/071.png",
     "name": "Vanwyrm",
     "wiki": "https://palworld.fandom.com/wiki/Vanwyrm",
-    "types": ["fire", "dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/e/ea/Vanwyrm_menu.png/",
+    "typeofpal": ["fire", "dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ea/Vanwyrm_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -5891,8 +5891,8 @@
       "name": "aerial_marauder",
       "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted."
     },
-    "description": "The melodies of a flute made from the exoskeleton of a Vanwyrm are said to cross the whole mountain ranges.\nIn ages past, such flutes were used to signal an attack.",
-    "skills": [
+    "xdescription": "The melodies of a flute made from the exoskeleton of a Vanwyrm are said to cross the whole mountain ranges.\nIn ages past, such flutes were used to signal an attack.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -5952,13 +5952,13 @@
     ]
   },
   {
-    "id": 72,
-    "key": "072",
+    "numid": 72,
+    "id": "072",
     "image": "/public/images/072.png",
     "name": "Bushi",
     "wiki": "https://palworld.fandom.com/wiki/Bushi",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/73/Bushi_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/73/Bushi_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -5986,8 +5986,8 @@
       "name": "brandish_blade",
       "description": "When activated, attacks targeted enemy with a powerful Iaigiri."
     },
-    "description": "Its body becomes a blade upon death, to be taken up by the next generation. If someone other than a Bushi wields this blade, the soul within torments them until they are driven mad.",
-    "skills": [
+    "xdescription": "Its body becomes a blade upon death, to be taken up by the next generation. If someone other than a Bushi wields this blade, the soul within torments them until they are driven mad.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -6047,13 +6047,13 @@
     ]
   },
   {
-    "id": 73,
-    "key": "073",
+    "numid": 73,
+    "id": "073",
     "image": "/public/images/073.png",
     "name": "Beakon",
     "wiki": "https://palworld.fandom.com/wiki/Beakon",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a0/Beakon_menu.png/",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a0/Beakon_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -6073,8 +6073,8 @@
       "name": "thunderous",
       "description": "Can be ridden as a flying mount. Applies Electric damage to the player's attacks while mounted."
     },
-    "description": "Some think it is a related species to Ragnahawk, but there is in fact no connection. Using its sharp beak, it descends on its prey in a quick motion that resembles a bolt of lightning.",
-    "skills": [
+    "xdescription": "Some think it is a related species to Ragnahawk, but there is in fact no connection. Using its sharp beak, it descends on its prey in a quick motion that resembles a bolt of lightning.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -6134,13 +6134,13 @@
     ]
   },
   {
-    "id": 74,
-    "key": "074",
+    "numid": 74,
+    "id": "074",
     "image": "/public/images/074.png",
     "name": "Ragnahawk",
     "wiki": "https://palworld.fandom.com/wiki/Ragnahawk",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/dd/Ragnahawk_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/dd/Ragnahawk_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -6156,8 +6156,8 @@
       "name": "flame_wing",
       "description": "Can be ridden as a flying mount. Applies Fire damage to the player's attacks while mounted."
     },
-    "description": "Some think it is a related species to Beakon, but there is in fact no connection. It mainly eats rocks, and after many long years its beak and head have hardened to accommodate this diet.",
-    "skills": [
+    "xdescription": "Some think it is a related species to Beakon, but there is in fact no connection. It mainly eats rocks, and after many long years its beak and head have hardened to accommodate this diet.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -6217,13 +6217,13 @@
     ]
   },
   {
-    "id": 75,
-    "key": "075",
+    "numid": 75,
+    "id": "075",
     "image": "/public/images/075.png",
     "name": "Katress",
     "wiki": "https://palworld.fandom.com/wiki/Katress",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/9/9e/Katress_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9e/Katress_menu.png/",
     "suitability": [
       {
         "type": "medicine_function toLocaleLowerCase() { [native code] }",
@@ -6243,8 +6243,8 @@
       "name": "grimoire_collector",
       "description": "While fighting together, Neutral Pals drop more items when defeated."
     },
-    "description": "With the power of shadows it produces arcane phenomena. It prefers to eat food raw and is particularly hostile towards Wixen",
-    "skills": [
+    "xdescription": "With the power of shadows it produces arcane phenomena. It prefers to eat food raw and is particularly hostile towards Wixen",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -6304,13 +6304,13 @@
     ]
   },
   {
-    "id": 76,
-    "key": "076",
+    "numid": 76,
+    "id": "076",
     "image": "/public/images/076.png",
     "name": "Wixen",
     "wiki": "https://palworld.fandom.com/wiki/Wixen",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/8/85/Wixen_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/8/85/Wixen_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -6330,8 +6330,8 @@
       "name": "lord_fox",
       "description": "When fighting together, applies Fire damage to the player's attacks."
     },
-    "description": "With the power of light, it produces arcane phenomena. It prefers to eat food well-done and is particularly hostile towards Katress.",
-    "skills": [
+    "xdescription": "With the power of light, it produces arcane phenomena. It prefers to eat food well-done and is particularly hostile towards Katress.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -6391,13 +6391,13 @@
     ]
   },
   {
-    "id": 77,
-    "key": "077",
+    "numid": 77,
+    "id": "077",
     "image": "/public/images/077.png",
     "name": "Verdash",
     "wiki": "https://palworld.fandom.com/wiki/Verdash",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/43/Verdash_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/43/Verdash_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -6425,8 +6425,8 @@
       "name": "grassland_speedster",
       "description": "When fighting together, increases player's movement speed and applies Grass damage to the player's attacks."
     },
-    "description": "Land that Verdash has run across becomes extremely fertile, with thick vegetation growing there soon after. It will not run anywhere that herbicide has been used.",
-    "skills": [
+    "xdescription": "Land that Verdash has run across becomes extremely fertile, with thick vegetation growing there soon after. It will not run anywhere that herbicide has been used.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -6486,13 +6486,13 @@
     ]
   },
   {
-    "id": 78,
-    "key": "078",
+    "numid": 78,
+    "id": "078",
     "image": "/public/images/078.png",
     "name": "Vaelet",
     "wiki": "https://palworld.fandom.com/wiki/Vaelet",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/24/Vaelet_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/24/Vaelet_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -6520,8 +6520,8 @@
       "name": "purification_of_gaia",
       "description": "While fighting together, Ground Pals drop more items when defeated."
     },
-    "description": "The castle was filled with the king's favorite flowers. A great battle ensued, and flames approached the castle. Amidst the chaos, the spirit of a flower appeared.\n- From the fairy tale, The King's Flower.",
-    "skills": [
+    "xdescription": "The castle was filled with the king's favorite flowers. A great battle ensued, and flames approached the castle. Amidst the chaos, the spirit of a flower appeared.\n- From the fairy tale, The King's Flower.",
+    "abilities": [
       {
         "level": 1,
         "name": "poison_fog",
@@ -6581,13 +6581,13 @@
     ]
   },
   {
-    "id": 79,
-    "key": "079",
+    "numid": 79,
+    "id": "079",
     "image": "/public/images/079.png",
     "name": "Sibelyx",
     "wiki": "https://palworld.fandom.com/wiki/Sibelyx",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/6/66/Sibelyx_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/66/Sibelyx_menu.png/",
     "suitability": [
       {
         "type": "medicine_function toLocaleLowerCase() { [native code] }",
@@ -6607,8 +6607,8 @@
       "name": "silk_maker",
       "description": "When activated, attacks targeted enemy with a powerful Blizzard Spike. Sometimes produces High Quality Cloth when assigned to Ranch."
     },
-    "description": "A Pal that likes the rain,and will often bask in rain showers until the weather clears up. On rainy days, Foxparks can often be found taking shelter beneath it.",
-    "skills": [
+    "xdescription": "A Pal that likes the rain,and will often bask in rain showers until the weather clears up. On rainy days, Foxparks can often be found taking shelter beneath it.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -6668,13 +6668,13 @@
     ]
   },
   {
-    "id": 80,
-    "key": "080",
+    "numid": 80,
+    "id": "080",
     "image": "/public/images/080.png",
     "name": "Elphidran",
     "wiki": "https://palworld.fandom.com/wiki/Elphidran",
-    "types": ["dragon"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a6/Elphidran_menu.png/",
+    "typeofpal": ["dragon"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a6/Elphidran_menu.png/",
     "suitability": [
       {
         "type": "lumbering",
@@ -6686,8 +6686,8 @@
       "name": "amicable_holy_dragon",
       "description": "Can be ridden as a flying mount.\n While fighting together, Dark Pals drop more items when defeated."
     },
-    "description": "It possesses a demeanor as pure as its appearance suggests. Perhaps because of this, it is sometimes unable to discern good from evil, often allowing wrongdoers to take advantage of it.",
-    "skills": [
+    "xdescription": "It possesses a demeanor as pure as its appearance suggests. Perhaps because of this, it is sometimes unable to discern good from evil, often allowing wrongdoers to take advantage of it.",
+    "abilities": [
       {
         "level": 1,
         "name": "dragon_cannon",
@@ -6747,13 +6747,13 @@
     ]
   },
   {
-    "id": 81,
-    "key": "081",
+    "numid": 81,
+    "id": "081",
     "image": "/public/images/081.png",
     "name": "Kelpsea",
     "wiki": "https://palworld.fandom.com/wiki/Kelpsea",
-    "types": ["water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/1b/Kelpsea_menu.png/",
+    "typeofpal": ["water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/1b/Kelpsea_menu.png/",
     "suitability": [
       {
         "type": "watering",
@@ -6765,8 +6765,8 @@
       "name": "aqua_spout",
       "description": "While in team, increases attack power of Water Pals."
     },
-    "description": "Its personality changes depending on the quality of the water it was born into. Kelpsea born into polluted waters are generally ill-tempered and quickly become delinquents.",
-    "skills": [
+    "xdescription": "Its personality changes depending on the quality of the water it was born into. Kelpsea born into polluted waters are generally ill-tempered and quickly become delinquents.",
+    "abilities": [
       {
         "level": 1,
         "name": "hydro_jet",
@@ -6826,13 +6826,13 @@
     ]
   },
   {
-    "id": 82,
-    "key": "082",
+    "numid": 82,
+    "id": "082",
     "image": "/public/images/082.png",
     "name": "Azurobe",
     "wiki": "https://palworld.fandom.com/wiki/Azurobe",
-    "types": ["water", "dragon"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a0/Azurobe_menu.png/",
+    "typeofpal": ["water", "dragon"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a0/Azurobe_menu.png/",
     "suitability": [
       {
         "type": "watering",
@@ -6844,8 +6844,8 @@
       "name": "waterwing_dance",
       "description": "Can be ridden to travel on water. Applies Water damage to the player's attacks while mounted."
     },
-    "description": "This Pal's white ribbon turns black if doused with impure water. Given its usefulness in detecting poison, this Pal was once overhunted. This past has left them bitter towards humanity.",
-    "skills": [
+    "xdescription": "This Pal's white ribbon turns black if doused with impure water. Given its usefulness in detecting poison, this Pal was once overhunted. This past has left them bitter towards humanity.",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -6905,13 +6905,13 @@
     ]
   },
   {
-    "id": 83,
-    "key": "083",
+    "numid": 83,
+    "id": "083",
     "image": "/public/images/083.png",
     "name": "Cryolinx",
     "wiki": "https://palworld.fandom.com/wiki/Cryolinx",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/9/9d/Cryolinx_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9d/Cryolinx_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -6931,8 +6931,8 @@
       "name": "dragon_hunter",
       "description": "While fighting together, Dragon Pals drop more items when defeated."
     },
-    "description": "It can easily climb steep mountains with its hard claws. However, its short legs make it difficult to descend, often leaving it stranded in high places.",
-    "skills": [
+    "xdescription": "It can easily climb steep mountains with its hard claws. However, its short legs make it difficult to descend, often leaving it stranded in high places.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -6992,13 +6992,13 @@
     ]
   },
   {
-    "id": 84,
-    "key": "084",
+    "numid": 84,
+    "id": "084",
     "image": "/public/images/084.png",
     "name": "Blazehowl",
     "wiki": "https://palworld.fandom.com/wiki/Blazehowl",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/33/Blazehowl_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/33/Blazehowl_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -7014,8 +7014,8 @@
       "name": "hellflame_lion",
       "description": "Can be ridden. While fighting together, Grass Pals drop more items when defeated."
     },
-    "description": "While it prefers raw meat, it always ends up eating well-done meat. This is due to its blistering claws, which it uses as its weapon—it simply doesn't realize its prey gets burned to a crisp.",
-    "skills": [
+    "xdescription": "While it prefers raw meat, it always ends up eating well-done meat. This is due to its blistering claws, which it uses as its weapon—it simply doesn't realize its prey gets burned to a crisp.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -7075,13 +7075,13 @@
     ]
   },
   {
-    "id": 85,
-    "key": "085",
+    "numid": 85,
+    "id": "085",
     "image": "/public/images/085.png",
     "name": "Relaxaurus",
     "wiki": "https://palworld.fandom.com/wiki/Relaxaurus",
-    "types": ["dragon", "water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/01/Relaxaurus_menu.png/",
+    "typeofpal": ["dragon", "water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/01/Relaxaurus_menu.png/",
     "suitability": [
       {
         "type": "watering",
@@ -7097,8 +7097,8 @@
       "name": "hungry_missile",
       "description": "Can be ridden. Can rapidly fire a missile launcher while mounted."
     },
-    "description": "Contrary to its blasé appearance, it's quite ferocious.\nIt perceives everything in its sight as prey and will stop at nothing to devour it.",
-    "skills": [
+    "xdescription": "Contrary to its blasé appearance, it's quite ferocious.\nIt perceives everything in its sight as prey and will stop at nothing to devour it.",
+    "abilities": [
       {
         "level": 1,
         "name": "dragon_cannon",
@@ -7158,13 +7158,13 @@
     ]
   },
   {
-    "id": 86,
-    "key": "086",
+    "numid": 86,
+    "id": "086",
     "image": "/public/images/086.png",
     "name": "Broncherry",
     "wiki": "https://palworld.fandom.com/wiki/Broncherry",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/bd/Broncherry_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/bd/Broncherry_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -7176,8 +7176,8 @@
       "name": "overaffectionate",
       "description": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity."
     },
-    "description": "Its scent drastically changes before and after pairing.\nIt exudes a pleasing aroma after finding a partner, which is called the \"fragrance of first love.\"",
-    "skills": [
+    "xdescription": "Its scent drastically changes before and after pairing.\nIt exudes a pleasing aroma after finding a partner, which is called the \"fragrance of first love.\"",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -7237,13 +7237,13 @@
     ]
   },
   {
-    "id": 87,
-    "key": "087",
+    "numid": 87,
+    "id": "087",
     "image": "/public/images/087.png",
     "name": "Petallia",
     "wiki": "https://palworld.fandom.com/wiki/Petallia",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/28/Petallia_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/28/Petallia_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -7271,8 +7271,8 @@
       "name": "blessing_of_the_flower_spirit",
       "description": "When activated, uses medicinal flowers to restore the player's HP."
     },
-    "description": "A pal that transforms into a massive plant when at the end of its life. Once every ten years, a beautiful flower blooms and a new Petallia is born.",
-    "skills": [
+    "xdescription": "A pal that transforms into a massive plant when at the end of its life. Once every ten years, a beautiful flower blooms and a new Petallia is born.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -7332,13 +7332,13 @@
     ]
   },
   {
-    "id": 88,
-    "key": "088",
+    "numid": 88,
+    "id": "088",
     "image": "/public/images/088.png",
     "name": "Reptyro",
     "wiki": "https://palworld.fandom.com/wiki/Reptyro",
-    "types": ["fire", "ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/d0/Reptyro_menu.png/",
+    "typeofpal": ["fire", "ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d0/Reptyro_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -7354,8 +7354,8 @@
       "name": "ore-loving_beast",
       "description": "Can be ridden. Improves efficiency of mining ores while mounted."
     },
-    "description": "Magma-like blood runs throughout its body. If a large amount of water is thrown on it, this water rapidly heats, causing an immense vapor explosion.",
-    "skills": [
+    "xdescription": "Magma-like blood runs throughout its body. If a large amount of water is thrown on it, this water rapidly heats, causing an immense vapor explosion.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -7415,13 +7415,13 @@
     ]
   },
   {
-    "id": 89,
-    "key": "089",
+    "numid": 89,
+    "id": "089",
     "image": "/public/images/089.png",
     "name": "Kingpaca",
     "wiki": "https://palworld.fandom.com/wiki/Kingpaca",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/9/9d/Kingpaca_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9d/Kingpaca_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -7433,8 +7433,8 @@
       "name": "king_of_muscles",
       "description": "Can be ridden. While in team, Kingpaca helps carry supplies, increasing the player's max carrying capacity."
     },
-    "description": "Melpaca serve this Pal.\nContests between Kingpaca offer up their vassals as a wager. Those seen alone are losers of such contests.",
-    "skills": [
+    "xdescription": "Melpaca serve this Pal.\nContests between Kingpaca offer up their vassals as a wager. Those seen alone are losers of such contests.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -7494,13 +7494,13 @@
     ]
   },
   {
-    "id": 90,
-    "key": "090",
+    "numid": 90,
+    "id": "090",
     "image": "/public/images/090.png",
     "name": "Mammorest",
     "wiki": "https://palworld.fandom.com/wiki/Mammorest",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5e/Mammorest_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Mammorest_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -7520,8 +7520,8 @@
       "name": "gaia_crusher",
       "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted."
     },
-    "description": "The vegetation on its back varies between individuals. There is a long history of appreciating this veritable garden of a Pal, and there are even Mammorest pruning specialists.",
-    "skills": [
+    "xdescription": "The vegetation on its back varies between individuals. There is a long history of appreciating this veritable garden of a Pal, and there are even Mammorest pruning specialists.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -7581,13 +7581,13 @@
     ]
   },
   {
-    "id": 91,
-    "key": "091",
+    "numid": 91,
+    "id": "091",
     "image": "/public/images/091.png",
     "name": "Wumpo",
     "wiki": "https://palworld.fandom.com/wiki/Wumpo",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/0e/Wumpo_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0e/Wumpo_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -7611,8 +7611,8 @@
       "name": "guardian_of_the_snowy_mountain",
       "description": "Can be ridden. While in team, Wumpo helps carry supplies, increasing the player's max carrying capacity."
     },
-    "description": "Researchers once tried to shave off its hair to reveal its true form. In the end, only hair was left, as if that was all there was to begin with.",
-    "skills": [
+    "xdescription": "Researchers once tried to shave off its hair to reveal its true form. In the end, only hair was left, as if that was all there was to begin with.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -7672,13 +7672,13 @@
     ]
   },
   {
-    "id": 92,
-    "key": "092",
+    "numid": 92,
+    "id": "092",
     "image": "/public/images/092.png",
     "name": "Warsect",
     "wiki": "https://palworld.fandom.com/wiki/Warsect",
-    "types": ["grass", "ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a7/Warsect_menu.png/",
+    "typeofpal": ["grass", "ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a7/Warsect_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -7702,8 +7702,8 @@
       "name": "hard_armor",
       "description": "When fighting together, increases player's defense and applies Fire damage to the player's attacks."
     },
-    "description": "The ultra-hard armor surrounding its body is extremely strong and heat resistant.\nEven a napalm blast would hardly leave a scratch.",
-    "skills": [
+    "xdescription": "The ultra-hard armor surrounding its body is extremely strong and heat resistant.\nEven a napalm blast would hardly leave a scratch.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -7763,13 +7763,13 @@
     ]
   },
   {
-    "id": 93,
-    "key": "093",
+    "numid": 93,
+    "id": "093",
     "image": "/public/images/093.png",
     "name": "Fenglope",
     "wiki": "https://palworld.fandom.com/wiki/Fenglope",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/6/68/Fenglope_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/68/Fenglope_menu.png/",
     "suitability": [
       {
         "type": "lumbering",
@@ -7781,8 +7781,8 @@
       "name": "wind_and_clouds",
       "description": "Can be ridden. Can double jump while mounted."
     },
-    "description": "In ancient times, it was a familiar subject for painting because of its beautiful and majestic appearance. Fenglope is an endangered species, the \"Fenglope\" whose beautiful fur and horns are much sought after by poachers!",
-    "skills": [
+    "xdescription": "In ancient times, it was a familiar subject for painting because of its beautiful and majestic appearance. Fenglope is an endangered species, the \"Fenglope\" whose beautiful fur and horns are much sought after by poachers!",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -7842,13 +7842,13 @@
     ]
   },
   {
-    "id": 94,
-    "key": "094",
+    "numid": 94,
+    "id": "094",
     "image": "/public/images/094.png",
     "name": "Felbat",
     "wiki": "https://palworld.fandom.com/wiki/Felbat",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/7d/Felbat_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7d/Felbat_menu.png/",
     "suitability": [
       {
         "type": "medicine_function toLocaleLowerCase() { [native code] }",
@@ -7860,8 +7860,8 @@
       "name": "life_steal",
       "description": "While fighting together, grants the player and Felbat the life steal effect which absorbs some of the received damage and restores HP."
     },
-    "description": "Attacking from the shadows, this Pal traps its prey within its cloak-like wings. It's probably best not to know what happens within them, or why the inside of its wings are stained red.",
-    "skills": [
+    "xdescription": "Attacking from the shadows, this Pal traps its prey within its cloak-like wings. It's probably best not to know what happens within them, or why the inside of its wings are stained red.",
+    "abilities": [
       {
         "level": 1,
         "name": "poison_blast",
@@ -7921,13 +7921,13 @@
     ]
   },
   {
-    "id": 95,
-    "key": "095",
+    "numid": 95,
+    "id": "095",
     "image": "/public/images/095.png",
     "name": "Quivern",
     "wiki": "https://palworld.fandom.com/wiki/Quivern",
-    "types": ["dragon"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/d9/Quivern_menu.png/",
+    "typeofpal": ["dragon"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d9/Quivern_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -7951,8 +7951,8 @@
       "name": "sky_dragon's_affection",
       "description": "Can be ridden as a flying mount. Enhances Dragon attacks while mounted."
     },
-    "description": "Sleeping while cuddling a Quivern is said to be a heavenly experience, but there are some who have been crushed and sent to heaven by ones that toss and turn in their sleep.",
-    "skills": [
+    "xdescription": "Sleeping while cuddling a Quivern is said to be a heavenly experience, but there are some who have been crushed and sent to heaven by ones that toss and turn in their sleep.",
+    "abilities": [
       {
         "level": 1,
         "name": "dragon_cannon",
@@ -8012,13 +8012,13 @@
     ]
   },
   {
-    "id": 96,
-    "key": "096",
+    "numid": 96,
+    "id": "096",
     "image": "/public/images/096.png",
     "name": "Blazamut",
     "wiki": "https://palworld.fandom.com/wiki/Blazamut",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/e/ee/Blazamut_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ee/Blazamut_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -8034,8 +8034,8 @@
       "name": "magma_kaiser",
       "description": "Can be ridden. Enchances Fire attacks while mounted."
     },
-    "description": "Legends say it was born during a volcanic eruption. A strange group even claims that this continent is laid upon the back of a giant Blazamut.",
-    "skills": [
+    "xdescription": "Legends say it was born during a volcanic eruption. A strange group even claims that this continent is laid upon the back of a giant Blazamut.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -8095,13 +8095,13 @@
     ]
   },
   {
-    "id": 97,
-    "key": "097",
+    "numid": 97,
+    "id": "097",
     "image": "/public/images/097.png",
     "name": "Helzephyr",
     "wiki": "https://palworld.fandom.com/wiki/Helzephyr",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/3c/Helzephyr_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/3c/Helzephyr_menu.png/",
     "suitability": [
       {
         "type": "transporting",
@@ -8113,8 +8113,8 @@
       "name": "wings_of_death",
       "description": "Can be ridden as a flying mount. Applies Dark damage to the player's attacks while mounted."
     },
-    "description": "It calls forth lightning from the depths of hell. One who dies from Helzephyr's inferno is sure to be sent to the underworld.",
-    "skills": [
+    "xdescription": "It calls forth lightning from the depths of hell. One who dies from Helzephyr's inferno is sure to be sent to the underworld.",
+    "abilities": [
       {
         "level": 1,
         "name": "spirit_fire",
@@ -8174,13 +8174,13 @@
     ]
   },
   {
-    "id": 98,
-    "key": "098",
+    "numid": 98,
+    "id": "098",
     "image": "/public/images/098.png",
     "name": "Astegon",
     "wiki": "https://palworld.fandom.com/wiki/Astegon",
-    "types": ["dragon", "dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/d4/Astegon_menu.png/",
+    "typeofpal": ["dragon", "dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d4/Astegon_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -8196,8 +8196,8 @@
       "name": "black_anklyosaur",
       "description": "Can be ridden a flying mount. Increases damage dealt to ore while mounted."
     },
-    "description": "A savage beast born of the abyss. Thou shall not stand before the beast. Thou shall not heed the beast.",
-    "skills": [
+    "xdescription": "A savage beast born of the abyss. Thou shall not stand before the beast. Thou shall not heed the beast.",
+    "abilities": [
       {
         "level": 1,
         "name": "dragon_cannon",
@@ -8257,13 +8257,13 @@
     ]
   },
   {
-    "id": 99,
-    "key": "099",
+    "numid": 99,
+    "id": "099",
     "image": "/public/images/099.png",
     "name": "Menasting",
     "wiki": "https://palworld.fandom.com/wiki/Menasting",
-    "types": ["dark", "ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/57/Menasting_menu.png/",
+    "typeofpal": ["dark", "ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/57/Menasting_menu.png/",
     "suitability": [
       {
         "type": "lumbering",
@@ -8279,8 +8279,8 @@
       "name": "steel_scorpion",
       "description": "When fighting together, increases the player's defense and Electric Pals drop more items when defeated."
     },
-    "description": "Being made of pure energy, its insides are completely hollow. This Pal crams still-living prey into its hollow body, where it absorbs them. Hellish screams of pain can often be heard coming from inside this Pal.",
-    "skills": [
+    "xdescription": "Being made of pure energy, its insides are completely hollow. This Pal crams still-living prey into its hollow body, where it absorbs them. Hellish screams of pain can often be heard coming from inside this Pal.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -8340,13 +8340,13 @@
     ]
   },
   {
-    "id": 100,
-    "key": "100",
+    "numid": 100,
+    "id": "100",
     "image": "/public/images/100.png",
     "name": "Anubis",
     "wiki": "https://palworld.fandom.com/wiki/Anubis",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/21/Anubis_menu.png/",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/21/Anubis_menu.png/",
     "suitability": [
       {
         "type": "handiwork",
@@ -8366,8 +8366,8 @@
       "name": "guardian_of_the_desert",
       "description": "When fighting together, applies Ground damage to the player's attacks. Sometimes dodges attacks with a high speed sidestep while in a battle."
     },
-    "description": "Once seen as a symbol of nobility, and an idol for those who shunned wealth and power. Yet over time, this Pal became a token of death.",
-    "skills": [
+    "xdescription": "Once seen as a symbol of nobility, and an idol for those who shunned wealth and power. Yet over time, this Pal became a token of death.",
+    "abilities": [
       {
         "level": 1,
         "name": "stone_blast",
@@ -8427,13 +8427,13 @@
     ]
   },
   {
-    "id": 101,
-    "key": "101",
+    "numid": 101,
+    "id": "101",
     "image": "/public/images/101.png",
     "name": "Jormuntide",
     "wiki": "https://palworld.fandom.com/wiki/Jormuntide",
-    "types": ["dragon", "water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/8/8e/Jormuntide_menu.png/",
+    "typeofpal": ["dragon", "water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/8/8e/Jormuntide_menu.png/",
     "suitability": [
       {
         "type": "watering",
@@ -8445,8 +8445,8 @@
       "name": "stormbringer_sea_dragon",
       "description": "Can be ridden to travel on water. While mounted, prevents stamina depletion while moving over water."
     },
-    "description": "Legends says the Jormuntide was once a wise man, who after being wrongly convicted and cast into a whirlpool, returned as this Pal to destroy those who wronged him.",
-    "skills": [
+    "xdescription": "Legends says the Jormuntide was once a wise man, who after being wrongly convicted and cast into a whirlpool, returned as this Pal to destroy those who wronged him.",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -8506,13 +8506,13 @@
     ]
   },
   {
-    "id": 102,
-    "key": "102",
+    "numid": 102,
+    "id": "102",
     "image": "/public/images/102.png",
     "name": "Suzaku",
     "wiki": "https://palworld.fandom.com/wiki/Suzaku",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/b4/Suzaku_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b4/Suzaku_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -8524,8 +8524,8 @@
       "name": "wings_of_flame",
       "description": "Can be ridden as a flying mount. Enhances Fire attacks while mounted."
     },
-    "description": "It was once believed to usher in the dry season. Whenever there was a drought in the previous year, people would relentlessly seek to cull it's numbers, hoping to bring a plentiful harvest in the next year.",
-    "skills": [
+    "xdescription": "It was once believed to usher in the dry season. Whenever there was a drought in the previous year, people would relentlessly seek to cull it's numbers, hoping to bring a plentiful harvest in the next year.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -8585,13 +8585,13 @@
     ]
   },
   {
-    "id": 103,
-    "key": "103",
+    "numid": 103,
+    "id": "103",
     "image": "/public/images/103.png",
     "name": "Grizzbolt",
     "wiki": "https://palworld.fandom.com/wiki/Grizzbolt",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/13/Grizzbolt_menu.png/",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/13/Grizzbolt_menu.png/",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -8615,8 +8615,8 @@
       "name": "yellow_tank",
       "description": "Can be ridden. Can rapidly fire a minigun while mounted."
     },
-    "description": "With a friendly smile and a hardy physique, it is docile towards one it recognizes as a partner. For reasons unexplained, its personality undergoes a drastic change when wielding a minigun.",
-    "skills": [
+    "xdescription": "With a friendly smile and a hardy physique, it is docile towards one it recognizes as a partner. For reasons unexplained, its personality undergoes a drastic change when wielding a minigun.",
+    "abilities": [
       {
         "level": 1,
         "name": "spark_blast",
@@ -8676,13 +8676,13 @@
     ]
   },
   {
-    "id": 104,
-    "key": "104",
+    "numid": 104,
+    "id": "104",
     "image": "/public/images/104.png",
     "name": "Lyleen",
     "wiki": "https://palworld.fandom.com/wiki/Lyleen",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5e/Lyleen_menu.png/",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Lyleen_menu.png/",
     "suitability": [
       {
         "type": "planting",
@@ -8710,8 +8710,8 @@
       "name": "harvest_goddess",
       "description": "When activated, the queen's soothing graces greatly restore the player's HP."
     },
-    "description": "A docile Pal full of love.\nIt watches over small Pals who have lost their parents. It uses a full-power Solar Blast to discipline naughty Pals.",
-    "skills": [
+    "xdescription": "A docile Pal full of love.\nIt watches over small Pals who have lost their parents. It uses a full-power Solar Blast to discipline naughty Pals.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -8771,13 +8771,13 @@
     ]
   },
   {
-    "id": 105,
-    "key": "105",
+    "numid": 105,
+    "id": "105",
     "image": "/public/images/105.png",
     "name": "Faleris",
     "wiki": "https://palworld.fandom.com/wiki/Faleris",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/9/99/Faleris_menu.png/",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/99/Faleris_menu.png/",
     "suitability": [
       {
         "type": "kindling",
@@ -8793,8 +8793,8 @@
       "name": "scorching_predator",
       "description": "Can be ridden as a flying mount. While fighting together, Ice Pals drop more items when defeated."
     },
-    "description": "When it finds its prey it unleashes a whirlwind of flames, burning the entire area to ash. Faleris breath is known for its pleasing scent.",
-    "skills": [
+    "xdescription": "When it finds its prey it unleashes a whirlwind of flames, burning the entire area to ash. Faleris breath is known for its pleasing scent.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -8854,13 +8854,13 @@
     ]
   },
   {
-    "id": 106,
-    "key": "106",
+    "numid": 106,
+    "id": "106",
     "image": "/public/images/106.png",
     "name": "Orserk",
     "wiki": "https://palworld.fandom.com/wiki/Orserk",
-    "types": ["dragon", "electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/6/6e/Orserk_menu.png/",
+    "typeofpal": ["dragon", "electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/6e/Orserk_menu.png/",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -8880,8 +8880,8 @@
       "name": "ferocious_thunder_dragon",
       "description": "While fighting together, Water Pals drop more items when defeated."
     },
-    "description": "It sends electricity into its foes' wounds, roasting them from the inside out. Fights between Orserk end in the blink of an eye.",
-    "skills": [
+    "xdescription": "It sends electricity into its foes' wounds, roasting them from the inside out. Fights between Orserk end in the blink of an eye.",
+    "abilities": [
       {
         "level": 1,
         "name": "kerauno",
@@ -8941,13 +8941,13 @@
     ]
   },
   {
-    "id": 107,
-    "key": "107",
+    "numid": 107,
+    "id": "107",
     "image": "/public/images/107.png",
     "name": "Shadowbeak",
     "wiki": "https://palworld.fandom.com/wiki/Shadowbeak",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/0c/Shadowbeak_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0c/Shadowbeak_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -8959,8 +8959,8 @@
       "name": "modified_dna",
       "description": "Can be ridden as a flying mount. Enhances Dark attacks while mounted."
     },
-    "description": "Forbidden existence born of madness.\nAs he lost his genetic relationship with the other Pals, he may no longer be considered one of them.",
-    "skills": [
+    "xdescription": "Forbidden existence born of madness.\nAs he lost his genetic relationship with the other Pals, he may no longer be considered one of them.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -9020,13 +9020,13 @@
     ]
   },
   {
-    "id": 108,
-    "key": "108",
+    "numid": 108,
+    "id": "108",
     "image": "/public/images/108.png",
     "name": "Paladius",
     "wiki": "https://palworld.fandom.com/wiki/Paladius",
-    "types": ["neutral"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/09/Paladius_menu.png/",
+    "typeofpal": ["neutral"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/09/Paladius_menu.png/",
     "suitability": [
       {
         "type": "mining",
@@ -9042,8 +9042,8 @@
       "name": "holy_knight_of_the_firmament",
       "description": "Can be ridden. Can triple jump while mounted."
     },
-    "description": "In the past, he and Necromus were a single species.\nThey say that they are an existence that has freed themselves from all negative feelings, but the depths of their eyes harbor traces of resentment.",
-    "skills": [
+    "xdescription": "In the past, he and Necromus were a single species.\nThey say that they are an existence that has freed themselves from all negative feelings, but the depths of their eyes harbor traces of resentment.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -9103,13 +9103,13 @@
     ]
   },
   {
-    "id": 109,
-    "key": "109",
+    "numid": 109,
+    "id": "109",
     "image": "/public/images/109.png",
     "name": "Necromus",
     "wiki": "https://palworld.fandom.com/wiki/Necromus",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/13/Necromus_menu.png/",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/13/Necromus_menu.png/",
     "suitability": [
       {
         "type": "mining",
@@ -9125,8 +9125,8 @@
       "name": "dark_knight_of_the_abyss",
       "description": "Can be ridden. Can double jump while mounted."
     },
-    "description": "Once he and Paladius were a single species.\nThey say it is the manifestation of negative feelings, but the depths of their eyes contain traces of compassion.",
-    "skills": [
+    "xdescription": "Once he and Paladius were a single species.\nThey say it is the manifestation of negative feelings, but the depths of their eyes contain traces of compassion.",
+    "abilities": [
       {
         "level": 1,
         "name": "shadow_burst",
@@ -9186,13 +9186,13 @@
     ]
   },
   {
-    "id": 110,
-    "key": "110",
+    "numid": 110,
+    "id": "110",
     "image": "/public/images/110.png",
     "name": "Frostallion",
     "wiki": "https://palworld.fandom.com/wiki/Frostallion",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/00/Frostallion_menu.png/",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/00/Frostallion_menu.png/",
     "suitability": [
       {
         "type": "cooling",
@@ -9204,8 +9204,8 @@
       "name": "ice_steed",
       "description": "Can be ridden as a flying mount. Changes the player's attack type to Ice and enhances Ice attacks while mounted."
     },
-    "description": "Guardian deity of Palpagos Island, known as the Winter Caller. In the past, when a calamity struck the land, it soared into the sky and sealed away the threat by casting the island into an eternal winter.",
-    "skills": [
+    "xdescription": "Guardian deity of Palpagos Island, known as the Winter Caller. In the past, when a calamity struck the land, it soared into the sky and sealed away the threat by casting the island into an eternal winter.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -9265,13 +9265,13 @@
     ]
   },
   {
-    "id": 111,
-    "key": "111",
+    "numid": 111,
+    "id": "111",
     "image": "/public/images/111.png",
     "name": "Jetragon",
     "wiki": "https://palworld.fandom.com/wiki/Jetragon",
-    "types": ["dragon"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/e/e5/Jetragon_menu.png/",
+    "typeofpal": ["dragon"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/e5/Jetragon_menu.png/",
     "suitability": [
       {
         "type": "gathering",
@@ -9283,8 +9283,8 @@
       "name": "aerial_missile",
       "description": "Can be ridden as a flying mount. Can rapidly fire a missile launcher while mounted."
     },
-    "description": "Look over the island of Palpagos from the ends of the sky.\nWhen the calamity awakens again, splitting the earth and setting the heavens on fire, he will destroy it with a glare of complete obliteration.",
-    "skills": [
+    "xdescription": "Look over the island of Palpagos from the ends of the sky.\nWhen the calamity awakens again, splitting the earth and setting the heavens on fire, he will destroy it with a glare of complete obliteration.",
+    "abilities": [
       {
         "level": 1,
         "name": "spirit_fire",
@@ -9344,13 +9344,13 @@
     ]
   },
   {
-    "id": 112,
-    "key": "012B",
+    "numid": 112,
+    "id": "012B",
     "image": "/public/images/012B.png",
     "name": "Jolthog Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Jolthog_Cryst",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/72/Jolthog_Cryst_menu.png",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/72/Jolthog_Cryst_menu.png",
     "suitability": [
       {
         "type": "cooling",
@@ -9362,8 +9362,8 @@
       "name": "cold_bomb",
       "description": "When activated, equips Jolthog Cryst to the player's hand. When thrown at an enemy, causes an icy explosion upon impact."
     },
-    "description": "It releases cold air stored in its body when under attack. The frigid blast it radiates is cold enough to freeze the surrounding air and easily pierces through any attacker's body.",
-    "skills": [
+    "xdescription": "It releases cold air stored in its body when under attack. The frigid blast it radiates is cold enough to freeze the surrounding air and easily pierces through any attacker's body.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -9423,13 +9423,13 @@
     ]
   },
   {
-    "id": 113,
-    "key": "024B",
+    "numid": 113,
+    "id": "024B",
     "image": "/public/images/024B.png",
     "name": "Mau Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Mau_Cryst",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/7/7a/Mau_Cryst_menu.png",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7a/Mau_Cryst_menu.png",
     "suitability": [
       {
         "type": "cooling",
@@ -9445,8 +9445,8 @@
       "name": "gold_digger",
       "description": "Sometimes digs up Gold Coin when assigned to Ranch."
     },
-    "description": "Its crystalline tail is beautiful, but shatters when this Pal dies. Some believe it is good luck to raise one, so Mau Cryst in captivity are treated with great care.",
-    "skills": [
+    "xdescription": "Its crystalline tail is beautiful, but shatters when this Pal dies. Some believe it is good luck to raise one, so Mau Cryst in captivity are treated with great care.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -9506,13 +9506,13 @@
     ]
   },
   {
-    "id": 114,
-    "key": "031B",
+    "numid": 114,
+    "id": "031B",
     "image": "/public/images/031B.png",
     "name": "Gobfin Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Gobfin_Ignis",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/9/9c/Gobfin_Ignis_menu.png",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9c/Gobfin_Ignis_menu.png",
     "suitability": [
       {
         "type": "kindling",
@@ -9532,8 +9532,8 @@
       "name": "angry_shark",
       "description": "When activated, attacks targeted enemy with a powerful Spirit Fire. While in team, increases player's attack power."
     },
-    "description": "Once upon a time, it was a giant and powerful aquatic Pal. However, with the dwindling availability of food, it ventured onto land. As a consequence of burning many calories to walk, it astonishingly awakened its power to control fire!",
-    "skills": [
+    "xdescription": "Once upon a time, it was a giant and powerful aquatic Pal. However, with the dwindling availability of food, it ventured onto land. As a consequence of burning many calories to walk, it astonishingly awakened its power to control fire!",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -9593,13 +9593,13 @@
     ]
   },
   {
-    "id": 115,
-    "key": "032B",
+    "numid": 115,
+    "id": "032B",
     "image": "/public/images/032B.png",
     "name": "Hangyu Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Hangyu_Cryst",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/49/Hangyu_Cryst_menu.png",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/49/Hangyu_Cryst_menu.png",
     "suitability": [
       {
         "type": "gathering",
@@ -9623,8 +9623,8 @@
       "name": "winter_trapeze",
       "description": "While in team, can be summoned and used instead of a glider. Carries the player up high while gliding."
     },
-    "description": "Its gigantic arms can tear through blocks of ice. There were times when great sinners were tied in the town square and had their hair torn out by as a brutal form of public humiliation.",
-    "skills": [
+    "xdescription": "Its gigantic arms can tear through blocks of ice. There were times when great sinners were tied in the town square and had their hair torn out by as a brutal form of public humiliation.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -9684,13 +9684,13 @@
     ]
   },
   {
-    "id": 116,
-    "key": "033B",
+    "numid": 116,
+    "id": "033B",
     "image": "/public/images/033B.png",
     "name": "Mossanda Lux",
     "wiki": "https://palworld.fandom.com/wiki/Mossanda_Lux",
-    "types": ["electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/05/Mossanda_Lux_menu.png",
+    "typeofpal": ["electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/05/Mossanda_Lux_menu.png",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -9714,8 +9714,8 @@
       "name": "grenadier_panda",
       "description": "Can be ridden. Can rapidly fire a grenade launcher while mounted."
     },
-    "description": "A Pal whose power is truly shocking. By altering the electrical currents in its body, this Pal's been able to overload its own strength. When it comes to sheer power, this Pal may be top of the list.",
-    "skills": [
+    "xdescription": "A Pal whose power is truly shocking. By altering the electrical currents in its body, this Pal's been able to overload its own strength. When it comes to sheer power, this Pal may be top of the list.",
+    "abilities": [
       {
         "level": 1,
         "name": "spark_blast",
@@ -9775,13 +9775,13 @@
     ]
   },
   {
-    "id": 117,
-    "key": "037B",
+    "numid": 117,
+    "id": "037B",
     "image": "/public/images/037B.png",
     "name": "Eikthyrdeer Terra",
     "wiki": "https://palworld.fandom.com/wiki/Eikthyrdeer_Terra",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/32/Eikthyrdeer_Terra_menu.png",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/32/Eikthyrdeer_Terra_menu.png",
     "suitability": [
       {
         "type": "lumbering",
@@ -9793,8 +9793,8 @@
       "name": "guardian_of_the_golden_forest",
       "description": "Can be ridden. Can perform a double jump while mounted. Increases efficiency of cutting trees."
     },
-    "description": "The individual with the hardest horns becomes the leader. Once the horns are lost, so too is the leadership status. It leaves the herd admist farewell glances and quietly returns to the earth.",
-    "skills": [
+    "xdescription": "The individual with the hardest horns becomes the leader. Once the horns are lost, so too is the leadership status. It leaves the herd admist farewell glances and quietly returns to the earth.",
+    "abilities": [
       {
         "level": 1,
         "name": "power_shot",
@@ -9854,13 +9854,13 @@
     ]
   },
   {
-    "id": 118,
-    "key": "040B",
+    "numid": 118,
+    "id": "040B",
     "image": "/public/images/040B.png",
     "name": "Incineram Noct",
     "wiki": "https://palworld.fandom.com/wiki/Incineram_Noct",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5b/Incineram_Noct_menu.png",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5b/Incineram_Noct_menu.png",
     "suitability": [
       {
         "type": "handiwork",
@@ -9880,8 +9880,8 @@
       "name": "darkclaw_hunter",
       "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw."
     },
-    "description": "It specifically targets baby pals, taking them back to its territory. One can only imagine the profound despair of the parent Pal, whose child has been taken away.",
-    "skills": [
+    "xdescription": "It specifically targets baby pals, taking them back to its territory. One can only imagine the profound despair of the parent Pal, whose child has been taken away.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -9941,13 +9941,13 @@
     ]
   },
   {
-    "id": 119,
-    "key": "045B",
+    "numid": 119,
+    "id": "045B",
     "image": "/public/images/045B.png",
     "name": "Leezpunk Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Leezpunk_Ignis",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/e/ea/Leezpunk_Ignis_menu.png",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ea/Leezpunk_Ignis_menu.png",
     "suitability": [
       {
         "type": "kindling",
@@ -9971,8 +9971,8 @@
       "name": "sixth_sense",
       "description": "When activated, utilizes its sixth sense to detect nearby dungeons."
     },
-    "description": "A Pal that has an unusual obsession with their standing posture.\nAlways in search of the hottest pose, this Pal's owner is constantly presented with fervent stances.",
-    "skills": [
+    "xdescription": "A Pal that has an unusual obsession with their standing posture.\nAlways in search of the hottest pose, this Pal's owner is constantly presented with fervent stances.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -10032,13 +10032,13 @@
     ]
   },
   {
-    "id": 120,
-    "key": "048B",
+    "numid": 120,
+    "id": "048B",
     "image": "/public/images/048B.png",
     "name": "Robinquill Terra",
     "wiki": "https://palworld.fandom.com/wiki/Robinquill_Terra",
-    "types": ["grass", "ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/45/Robinquill_Terra_menu.png",
+    "typeofpal": ["grass", "ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/45/Robinquill_Terra_menu.png",
     "suitability": [
       {
         "type": "gathering",
@@ -10066,8 +10066,8 @@
       "name": "hawk_eye",
       "description": "While fighting together, allows you to deal more damage to weak points."
     },
-    "description": "A Pal that lives a hunting life in rocky areas and is very close to humans. When bones are found in ruins, there are always human bones found nearby as well.",
-    "skills": [
+    "xdescription": "A Pal that lives a hunting life in rocky areas and is very close to humans. When bones are found in ruins, there are always human bones found nearby as well.",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -10127,13 +10127,13 @@
     ]
   },
   {
-    "id": 121,
-    "key": "058B",
+    "numid": 121,
+    "id": "058B",
     "image": "/public/images/058B.png",
     "name": "Pyrin Noct",
     "wiki": "https://palworld.fandom.com/wiki/Pyrin_Noct",
-    "types": ["fire", "dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/2b/Pyrin_Noct_menu.png",
+    "typeofpal": ["fire", "dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/2b/Pyrin_Noct_menu.png",
     "suitability": [
       {
         "type": "kindling",
@@ -10149,8 +10149,8 @@
       "name": "black_hare",
       "description": "Can be ridden. Applies Dark damage to the player's attacks while mounted."
     },
-    "description": "It burns mysterious dark matter as energy and expels the remaining particles from its body.\nIf someone rides it, they should take care so as not to gallop down the path of darkness.",
-    "skills": [
+    "xdescription": "It burns mysterious dark matter as energy and expels the remaining particles from its body.\nIf someone rides it, they should take care so as not to gallop down the path of darkness.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -10210,13 +10210,13 @@
     ]
   },
   {
-    "id": 122,
-    "key": "064B",
+    "numid": 122,
+    "id": "064B",
     "image": "/public/images/064B.png",
     "name": "Dinossom Lux",
     "wiki": "https://palworld.fandom.com/wiki/Dinossom_Lux",
-    "types": ["electric", "dragon"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/c/c7/Dinossom_Lux_menu.png",
+    "typeofpal": ["electric", "dragon"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c7/Dinossom_Lux_menu.png",
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -10232,8 +10232,8 @@
       "name": "thunder_dragon",
       "description": "Can be ridden. Enhances Electric attacks while mounted."
     },
-    "description": "Though struck by lightning, it lives on. The phrase \"struck by a Dinossom Lux's bolt\" has come to mean narrowly escaping death.",
-    "skills": [
+    "xdescription": "Though struck by lightning, it lives on. The phrase \"struck by a Dinossom Lux's bolt\" has come to mean narrowly escaping death.",
+    "abilities": [
       {
         "level": 1,
         "name": "shockwave",
@@ -10293,13 +10293,13 @@
     ]
   },
   {
-    "id": 123,
-    "key": "065B",
+    "numid": 123,
+    "id": "065B",
     "image": "/public/images/065B.png",
     "name": "Surfent Terra",
     "wiki": "https://palworld.fandom.com/wiki/Surfent_Terra",
-    "types": ["ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/f/ff/Surfent_Terra_menu.png",
+    "typeofpal": ["ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/ff/Surfent_Terra_menu.png",
     "suitability": [
       {
         "type": "gathering",
@@ -10311,8 +10311,8 @@
       "name": "sand_swimmer",
       "description": "Can be ridden."
     },
-    "description": "Its aerodynamic form is well suited to life on the sand. Poachers often catch them and use them in place of surfboards",
-    "skills": [
+    "xdescription": "Its aerodynamic form is well suited to life on the sand. Poachers often catch them and use them in place of surfboards",
+    "abilities": [
       {
         "level": 1,
         "name": "sand_blast",
@@ -10372,13 +10372,13 @@
     ]
   },
   {
-    "id": 124,
-    "key": "071B",
+    "numid": 124,
+    "id": "071B",
     "image": "/public/images/071B.png",
     "name": "Vanwyrm Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Vanwyrm_Cryst",
-    "types": ["ice", "dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/19/Vanwyrm_Cryst_menu.png",
+    "typeofpal": ["ice", "dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/19/Vanwyrm_Cryst_menu.png",
     "suitability": [
       {
         "type": "cooling",
@@ -10394,8 +10394,8 @@
       "name": "aerial_marauder",
       "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted."
     },
-    "description": "The Melodies of a flute made from the exoskeleton of a Vanwyrm Cryst are said to cross whole mountain ranges. In ages past, such flutes were used to signal victory in a battle.",
-    "skills": [
+    "xdescription": "The Melodies of a flute made from the exoskeleton of a Vanwyrm Cryst are said to cross whole mountain ranges. In ages past, such flutes were used to signal victory in a battle.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",
@@ -10455,13 +10455,13 @@
     ]
   },
   {
-    "id": 125,
-    "key": "080B",
+    "numid": 125,
+    "id": "080B",
     "image": "/public/images/080B.png",
     "name": "Elphidran Aqua",
     "wiki": "https://palworld.fandom.com/wiki/Elphidran_Aqua",
-    "types": ["dragon", "water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5e/Elphidran_Aqua_menu.png",
+    "typeofpal": ["dragon", "water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Elphidran_Aqua_menu.png",
     "suitability": [
       {
         "type": "watering",
@@ -10477,8 +10477,8 @@
       "name": "amicable_water_dragon",
       "description": "Can be ridden as a flying mount.\nWhile fighting together, Fire Pals drop more items when defeated."
     },
-    "description": "It possesses a demeanor as pure as its appearance suggests. Perhaps because of this, it harbors no ill will in any of its actions and is indifferent even after killing someone.",
-    "skills": [
+    "xdescription": "It possesses a demeanor as pure as its appearance suggests. Perhaps because of this, it harbors no ill will in any of its actions and is indifferent even after killing someone.",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -10538,13 +10538,13 @@
     ]
   },
   {
-    "id": 126,
-    "key": "081B",
+    "numid": 126,
+    "id": "081B",
     "image": "/public/images/081B.png",
     "name": "Kelpsea Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Kelpsea_Ignis",
-    "types": ["fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/b/ba/Kelpsea_Ignis_menu.png",
+    "typeofpal": ["fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/ba/Kelpsea_Ignis_menu.png",
     "suitability": [
       {
         "type": "kindling",
@@ -10556,8 +10556,8 @@
       "name": "lava_spout",
       "description": "While in team, increases attack power of Fire Pals."
     },
-    "description": "Their personalities change depending on the temperature of the water where they were born. Kelpsea born in warm waters generally have a passionate, motivated personality.",
-    "skills": [
+    "xdescription": "Their personalities change depending on the temperature of the water where they were born. Kelpsea born in warm waters generally have a passionate, motivated personality.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -10617,13 +10617,13 @@
     ]
   },
   {
-    "id": 127,
-    "key": "084B",
+    "numid": 127,
+    "id": "084B",
     "image": "/public/images/084B.png",
     "name": "Blazehowl Noct",
     "wiki": "https://palworld.fandom.com/wiki/Blazehowl_Noct",
-    "types": ["fire", "dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5d/Blazehowl_Noct_menu.png",
+    "typeofpal": ["fire", "dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5d/Blazehowl_Noct_menu.png",
     "suitability": [
       {
         "type": "kindling",
@@ -10639,8 +10639,8 @@
       "name": "darkflame_lion",
       "description": "Can be ridden. While fighting together, Neutral Pals drop more items when defeated."
     },
-    "description": "While it prefers raw meat, it always ends up eating tainted meat. This is due to its dark claws, which it uses as its weapon—it simply doesn't realize its prey got cursed.",
-    "skills": [
+    "xdescription": "While it prefers raw meat, it always ends up eating tainted meat. This is due to its dark claws, which it uses as its weapon—it simply doesn't realize its prey got cursed.",
+    "abilities": [
       {
         "level": 1,
         "name": "shadow_burst",
@@ -10700,13 +10700,13 @@
     ]
   },
   {
-    "id": 128,
-    "key": "085B",
+    "numid": 128,
+    "id": "085B",
     "image": "/public/images/085B.png",
     "name": "Relaxaurus Lux",
     "wiki": "https://palworld.fandom.com/wiki/Relaxaurus_Lux",
-    "types": ["dragon", "electric"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/4/40/Relaxaurus_Lux_menu.png",
+    "typeofpal": ["dragon", "electric"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Relaxaurus_Lux_menu.png",
     "suitability": [
       {
         "type": "transporting",
@@ -10722,8 +10722,8 @@
       "name": "missile_party",
       "description": "Can be ridden. Can rapidly fire a missile launcher while mounted."
     },
-    "description": "One day, Relaxaurus had an idea. Maybe it was about time for a change. Just then, an electric shock raced through its body!",
-    "skills": [
+    "xdescription": "One day, Relaxaurus had an idea. Maybe it was about time for a change. Just then, an electric shock raced through its body!",
+    "abilities": [
       {
         "level": 1,
         "name": "spark_blast",
@@ -10783,13 +10783,13 @@
     ]
   },
   {
-    "id": 129,
-    "key": "086B",
+    "numid": 129,
+    "id": "086B",
     "image": "/public/images/086B.png",
     "name": "Broncherry Aqua",
     "wiki": "https://palworld.fandom.com/wiki/Broncherry_Aqua",
-    "types": ["grass", "water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/db/Broncherry_Aqua_menu.png",
+    "typeofpal": ["grass", "water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/db/Broncherry_Aqua_menu.png",
     "suitability": [
       {
         "type": "watering",
@@ -10801,8 +10801,8 @@
       "name": "overaffectionate",
       "description": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity."
     },
-    "description": "Its scent drastically changes before and after pairing. It exudes a pleasing aroma before finding a partner, which is called the \"perfume of purity.\"",
-    "skills": [
+    "xdescription": "Its scent drastically changes before and after pairing. It exudes a pleasing aroma before finding a partner, which is called the \"perfume of purity.\"",
+    "abilities": [
       {
         "level": 1,
         "name": "aqua_gun",
@@ -10862,13 +10862,13 @@
     ]
   },
   {
-    "id": 130,
-    "key": "088B",
+    "numid": 130,
+    "id": "088B",
     "image": "/public/images/088B.png",
     "name": "Ice Reptyro",
     "wiki": "https://palworld.fandom.com/wiki/Ice_Reptyro",
-    "types": ["ice", "ground"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/2/2c/Ice_Reptyro_menu.png",
+    "typeofpal": ["ice", "ground"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/2c/Ice_Reptyro_menu.png",
     "suitability": [
       {
         "type": "mining",
@@ -10884,8 +10884,8 @@
       "name": "ice-loving_beast",
       "description": "Can be ridden. Improves efficiency of mining ores while mounted."
     },
-    "description": "Ice cold blood runs throughout its body. If heated rapidly, its blood evaporates, causing an immense vapor explosion.",
-    "skills": [
+    "xdescription": "Ice cold blood runs throughout its body. If heated rapidly, its blood evaporates, causing an immense vapor explosion.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -10945,13 +10945,13 @@
     ]
   },
   {
-    "id": 131,
-    "key": "089B",
+    "numid": 131,
+    "id": "089B",
     "image": "/public/images/089B.png",
     "name": "Ice Kingpaca",
     "wiki": "https://palworld.fandom.com/wiki/Ice_Kingpaca",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/5/5a/Ice_Kingpaca_menu.png",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5a/Ice_Kingpaca_menu.png",
     "suitability": [
       {
         "type": "gathering",
@@ -10967,8 +10967,8 @@
       "name": "king_of_muscles",
       "description": "Can be ridden. While in team, Kingpaca helps carry supplies, increasing the player's max carrying capacity."
     },
-    "description": "With a heart of ice, this Pal is terrible at expressing its emotions. A solitary individual is pitiable, seen as too clumsy in the eyes of Melpaca.",
-    "skills": [
+    "xdescription": "With a heart of ice, this Pal is terrible at expressing its emotions. A solitary individual is pitiable, seen as too clumsy in the eyes of Melpaca.",
+    "abilities": [
       {
         "level": 1,
         "name": "ice_missile",
@@ -11028,13 +11028,13 @@
     ]
   },
   {
-    "id": 132,
-    "key": "090B",
+    "numid": 132,
+    "id": "090B",
     "image": "/public/images/090B.png",
     "name": "Mammorest Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Mammorest_Cryst",
-    "types": ["ice"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/d/db/Mammorest_Cryst_menu.png",
+    "typeofpal": ["ice"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/db/Mammorest_Cryst_menu.png",
     "suitability": [
       {
         "type": "lumbering",
@@ -11054,8 +11054,8 @@
       "name": "ice_crusher",
       "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted."
     },
-    "description": "The vegetation on its back varies from individual to individual. There was a time when seeds of presumed extinct plants were found still frozen on the back of a Mammorest Cryst.",
-    "skills": [
+    "xdescription": "The vegetation on its back varies from individual to individual. There was a time when seeds of presumed extinct plants were found still frozen on the back of a Mammorest Cryst.",
+    "abilities": [
       {
         "level": 1,
         "name": "stone_cannon",
@@ -11115,13 +11115,13 @@
     ]
   },
   {
-    "id": 133,
-    "key": "091B",
+    "numid": 133,
+    "id": "091B",
     "image": "/public/images/091B.png",
     "name": "Wumpo Botan",
     "wiki": "https://palworld.fandom.com/wiki/Wumpo_Botan",
-    "types": ["grass"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/6/68/Wumpo_Botan_menu.png",
+    "typeofpal": ["grass"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/68/Wumpo_Botan_menu.png",
     "suitability": [
       {
         "type": "planting",
@@ -11145,8 +11145,8 @@
       "name": "guardian_of_the_grassy_fields",
       "description": "Can be ridden. While in team, Wumpo Botan helps carry supplies, increasing the player's max carrying capacity."
     },
-    "description": "researchers once tried to cut the grass off its body to reveal its true form. In the end, only grass was left, as if that was all there was to begin with.",
-    "skills": [
+    "xdescription": "researchers once tried to cut the grass off its body to reveal its true form. In the end, only grass was left, as if that was all there was to begin with.",
+    "abilities": [
       {
         "level": 1,
         "name": "wind_cutter",
@@ -11206,13 +11206,13 @@
     ]
   },
   {
-    "id": 134,
-    "key": "101B",
+    "numid": 134,
+    "id": "101B",
     "image": "/public/images/101B.png",
     "name": "Jormuntide Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Jormuntide_Ignis",
-    "types": ["dragon", "fire"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/0/0d/Jormuntide_Ignis_menu.png",
+    "typeofpal": ["dragon", "fire"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0d/Jormuntide_Ignis_menu.png",
     "suitability": [
       {
         "type": "kindling",
@@ -11224,8 +11224,8 @@
       "name": "stormbringer_lava_dragon",
       "description": "Can be ridden. Enhances Fire attacks while mounted."
     },
-    "description": "Legend says the Jormuntide Ignis was once a warrior who, after being wrongly convicted and cast into a volcano, returned as this Pal to destroy those who wronged him.",
-    "skills": [
+    "xdescription": "Legend says the Jormuntide Ignis was once a warrior who, after being wrongly convicted and cast into a volcano, returned as this Pal to destroy those who wronged him.",
+    "abilities": [
       {
         "level": 1,
         "name": "ignis_blast",
@@ -11285,13 +11285,13 @@
     ]
   },
   {
-    "id": 135,
-    "key": "102B",
+    "numid": 135,
+    "id": "102B",
     "image": "/public/images/102B.png",
     "name": "Suzaku Aqua",
     "wiki": "https://palworld.fandom.com/wiki/Suzaku_Aqua",
-    "types": ["water"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/a/a1/Suzaku_Aqua_menu.png",
+    "typeofpal": ["water"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a1/Suzaku_Aqua_menu.png",
     "suitability": [
       {
         "type": "watering",
@@ -11303,8 +11303,8 @@
       "name": "wings_of_water",
       "description": "Can be ridden as a flying mount. Enhances Water attacks while mounted."
     },
-    "description": "It was once believed to usher in the rainy season. If there was a flood the previous year, people would relentlessly seek to cull its numbers, hoping to avert disaster in the coming year.",
-    "skills": [
+    "xdescription": "It was once believed to usher in the rainy season. If there was a flood the previous year, people would relentlessly seek to cull its numbers, hoping to avert disaster in the coming year.",
+    "abilities": [
       {
         "level": 1,
         "name": "hydro_jet",
@@ -11364,13 +11364,13 @@
     ]
   },
   {
-    "id": 136,
-    "key": "104B",
+    "numid": 136,
+    "id": "104B",
     "image": "/public/images/104B.png",
     "name": "Lyleen Noct",
     "wiki": "https://palworld.fandom.com/wiki/Lyleen_Noct",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/3/30/Lyleen_Noct_menu.png",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/30/Lyleen_Noct_menu.png",
     "suitability": [
       {
         "type": "handiwork",
@@ -11394,8 +11394,8 @@
       "name": "goddess_of_the_tranquil_light",
       "description": "When activated, the queen's soothing graces greatly restore the player's HP."
     },
-    "description": "An elegant Pal full of grace. It admonishes any who are disrespectful with a painful slap. Some Pals actively seek out this punishment.",
-    "skills": [
+    "xdescription": "An elegant Pal full of grace. It admonishes any who are disrespectful with a painful slap. Some Pals actively seek out this punishment.",
+    "abilities": [
       {
         "level": 1,
         "name": "dark_ball",
@@ -11455,13 +11455,13 @@
     ]
   },
   {
-    "id": 137,
-    "key": "110B",
+    "numid": 137,
+    "id": "110B",
     "image": "/public/images/110B.png",
     "name": "Frostallion Noct",
     "wiki": "https://palworld.fandom.com/wiki/Frostallion_Noct",
-    "types": ["dark"],
-    "icon": "https://static.wikia.nocookie.net/palworld/images/1/14/Frostallion_Noct_menu.png",
+    "typeofpal": ["dark"],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/14/Frostallion_Noct_menu.png",
     "suitability": [
       {
         "type": "gathering",
@@ -11473,8 +11473,8 @@
       "name": "black_steed",
       "description": "Can be ridden as a flying mount. Changes the player's attack type to Dark and enhances Dark attacks while mounted."
     },
-    "description": "Guardian deity of Palpagos Island known as the Night Caller. In the past, when a calamity struck the land, it soared into the sky and sealed away the threat by casting the island into eternal darkness.",
-    "skills": [
+    "xdescription": "Guardian deity of Palpagos Island known as the Night Caller. In the past, when a calamity struck the land, it soared into the sky and sealed away the threat by casting the island into eternal darkness.",
+    "abilities": [
       {
         "level": 1,
         "name": "air_cannon",

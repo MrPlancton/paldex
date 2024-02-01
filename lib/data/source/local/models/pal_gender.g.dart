@@ -6,8 +6,7 @@ part of 'pal_gender.dart';
 // TypeAdapterGenerator
 // **************************************************************************
 
-class PalGenderHiveModelAdapter
-    extends TypeAdapter<PalGenderHiveModel> {
+class PalGenderHiveModelAdapter extends TypeAdapter<PalGenderHiveModel> {
   @override
   final int typeId = 2;
 
