@@ -16,8 +16,8 @@ class Themings {
 
   static final ThemeData darkTheme = ThemeData(
     visualDensity: VisualDensity.adaptivePlatformDensity,
-    colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue)
-        .copyWith(secondary: Colors.blueAccent, brightness: Brightness.dark),
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.brown)
+        .copyWith(secondary: Colors.black38, brightness: Brightness.dark),
     switchTheme: SwitchThemeData(
       thumbColor: MaterialStateProperty.resolveWith<Color?>((Set<MaterialState> states) {
         if (states.contains(MaterialState.disabled)) {

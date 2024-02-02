@@ -91,11 +91,11 @@ class PalCard extends StatelessWidget {
       top: 10,
       right: 14,
       child: Text(
-        pal.number,
+        '#${pal.number}',
         style: const TextStyle(
           fontSize: 14,
           fontWeight: FontWeight.bold,
-          color: Colors.black12,
+          color: Colors.black38,
         ),
       ),
     );
@@ -125,7 +125,7 @@ class _CardContent extends StatelessWidget {
                   fontSize: 14,
                   height: 0.7,
                   fontWeight: FontWeight.bold,
-                  color: Theme.of(context).colorScheme.background,
+                  color: Theme.of(context).colorScheme.onPrimary,
                 ),
               ),
             ),

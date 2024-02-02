@@ -5,8 +5,29 @@
     "image": "https://static.wikia.nocookie.net/palworld/images/4/47/Lamball.png",
     "name": "Lamball",
     "wiki": "https://palworld.fandom.com/wiki/Lamball",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/01/Lamball_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1000.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "23",
+      "walkSpeed": "40",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "160",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -21,7 +42,10 @@
         "level": 1
       }
     ],
-    "drops": ["wool", "lamball_mutton"],
+    "drops": [
+      "wool",
+      "lamball_mutton"
+    ],
     "aura": {
       "name": "fluffy_shield",
       "description": "When activated, equips to the player and becomes a shield.\nSometimes drops Wool when assigned to Ranch."
@@ -92,8 +116,30 @@
     "image": "/public/images/002.png",
     "name": "Cattiva",
     "wiki": "https://palworld.fandom.com/wiki/Cattiva",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/51/Cattiva_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1000.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "passive1": "Coward",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "160",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -112,7 +158,9 @@
         "level": 1
       }
     ],
-    "drops": ["red_berries"],
+    "drops": [
+      "red_berries"
+    ],
     "aura": {
       "name": "cat_helper",
       "description": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity."
@@ -183,8 +231,29 @@
     "image": "/public/images/003.png",
     "name": "Chikipi",
     "wiki": "https://palworld.fandom.com/wiki/Chikipi",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f4/Chikipi_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1000.0",
+      "rarity": "1",
+      "hp": "60",
+      "meleeAttack": "70",
+      "shotAttack": "60",
+      "defense": "60",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "50",
+      "runSpeed": "375",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "212",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -195,7 +264,10 @@
         "level": 1
       }
     ],
-    "drops": ["egg", "chikipi_poultry"],
+    "drops": [
+      "egg",
+      "chikipi_poultry"
+    ],
     "aura": {
       "name": "egg_layer",
       "description": "Sometimes lays an Egg when assigned to Ranch."
@@ -266,8 +338,29 @@
     "image": "/public/images/004.png",
     "name": "Lifmunk",
     "wiki": "https://palworld.fandom.com/wiki/Lifmunk",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/dc/Lifmunk_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1010.0",
+      "rarity": "1",
+      "hp": "75",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "20",
+      "walkSpeed": "40",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -290,7 +383,10 @@
         "level": 1
       }
     ],
-    "drops": ["berry_seeds", "low_grade_medical_supplies"],
+    "drops": [
+      "berry_seeds",
+      "low_grade_medical_supplies"
+    ],
     "aura": {
       "name": "lifmunk_recoil",
       "description": "When activated, leaps into the player's head and uses a submachine gun to follows up player attacks."
@@ -361,15 +457,39 @@
     "image": "/public/images/005.png",
     "name": "Foxparks",
     "wiki": "https://palworld.fandom.com/wiki/Foxparks",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d7/Foxparks_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "2560.0",
+      "rarity": "1",
+      "hp": "65",
+      "meleeAttack": "70",
+      "shotAttack": "75",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "40",
+      "walkSpeed": "80",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "240",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
         "level": 1
       }
     ],
-    "drops": ["leather", "flame_organ"],
+    "drops": [
+      "leather",
+      "flame_organ"
+    ],
     "aura": {
       "name": "huggy_fire",
       "description": "When activated, equips to the player and transforms into a flamethrower."
@@ -440,8 +560,29 @@
     "image": "/public/images/006.png",
     "name": "Fuack",
     "wiki": "https://palworld.fandom.com/wiki/Fuack",
-    "typeofpal": ["water"],
+    "typeofpal": [
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Fuack_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1120.0",
+      "rarity": "1",
+      "hp": "60",
+      "meleeAttack": "80",
+      "shotAttack": "80",
+      "defense": "60",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "105",
+      "runSpeed": "300",
+      "rideSprintSpeed": "400",
+      "transportSpeed": "202",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -456,7 +597,10 @@
         "level": 1
       }
     ],
-    "drops": ["leather", "pal_fluids"],
+    "drops": [
+      "leather",
+      "pal_fluids"
+    ],
     "aura": {
       "name": "surfing_slam",
       "description": "When activated, Fuack body surfs towards an enemy and slams into them."
@@ -527,8 +671,29 @@
     "image": "/public/images/007.png",
     "name": "Sparkit",
     "wiki": "https://palworld.fandom.com/wiki/Sparkit",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/ce/Sparkit_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1030.0",
+      "rarity": "1",
+      "hp": "60",
+      "meleeAttack": "60",
+      "shotAttack": "80",
+      "defense": "70",
+      "support": "80",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "40",
+      "walkSpeed": "80",
+      "runSpeed": "350",
+      "rideSprintSpeed": "500",
+      "transportSpeed": "270",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -543,7 +708,9 @@
         "level": 1
       }
     ],
-    "drops": ["electric_organ"],
+    "drops": [
+      "electric_organ"
+    ],
     "aura": {
       "name": "static_electricity",
       "description": "While in team, increases attack power of Electric Pals."
@@ -614,8 +781,29 @@
     "image": "/public/images/008.png",
     "name": "Tanzee",
     "wiki": "https://palworld.fandom.com/wiki/Tanzee",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Tanzee_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1280.0",
+      "rarity": "1",
+      "hp": "80",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "48",
+      "walkSpeed": "48",
+      "runSpeed": "300",
+      "rideSprintSpeed": "400",
+      "transportSpeed": "174",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -638,7 +826,9 @@
         "level": 1
       }
     ],
-    "drops": ["mushroom"],
+    "drops": [
+      "mushroom"
+    ],
     "aura": {
       "name": "cheery_rifle",
       "description": "When activated, Tanzee will mercilessly fire an assault rifle at nearby enemies."
@@ -709,15 +899,39 @@
     "image": "/public/images/009.png",
     "name": "Rooby",
     "wiki": "https://palworld.fandom.com/wiki/Rooby",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/21/Rooby_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "2950.0",
+      "rarity": "2",
+      "hp": "75",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "75",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "100",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "-1",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
         "level": 1
       }
     ],
-    "drops": ["flame_organ", "leather"],
+    "drops": [
+      "flame_organ",
+      "leather"
+    ],
     "aura": {
       "name": "tiny_spark",
       "description": "While in team, increases attack power of Fire Pals."
@@ -788,8 +1002,30 @@
     "image": "/public/images/010.png",
     "name": "Pengullet",
     "wiki": "https://palworld.fandom.com/wiki/Pengullet",
-    "typeofpal": ["water", "ice"],
+    "typeofpal": [
+      "water",
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/38/Pengullet_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1080.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "75",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "500",
+      "rideSprintSpeed": "650",
+      "transportSpeed": "265",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -808,7 +1044,10 @@
         "level": 1
       }
     ],
-    "drops": ["ice_organ", "pal_fluids"],
+    "drops": [
+      "ice_organ",
+      "pal_fluids"
+    ],
     "aura": {
       "name": "pengullet_cannon",
       "description": "When activated, the player equips a Rocket Launcher and fires Pengullet as ammunition. Pengullet explodes on contact and is incapacitated."
@@ -879,8 +1118,30 @@
     "image": "/public/images/011.png",
     "name": "Penking",
     "wiki": "https://palworld.fandom.com/wiki/Penking",
-    "typeofpal": ["water", "ice"],
+    "typeofpal": [
+      "water",
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b5/Penking_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5410.0",
+      "rarity": "6",
+      "hp": "95",
+      "meleeAttack": "70",
+      "shotAttack": "95",
+      "defense": "95",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "110",
+      "runSpeed": "450",
+      "rideSprintSpeed": "600",
+      "transportSpeed": "280",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -903,7 +1164,10 @@
         "level": 2
       }
     ],
-    "drops": ["ice_organ", "penking_plume"],
+    "drops": [
+      "ice_organ",
+      "penking_plume"
+    ],
     "aura": {
       "name": "brave_sailor",
       "description": "When fighting together, Fire Pals drop more items when defeated."
@@ -974,15 +1238,38 @@
     "image": "/public/images/012.png",
     "name": "Jolthog",
     "wiki": "https://palworld.fandom.com/wiki/Jolthog",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/52/Jolthog_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1060.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "75",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "215",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
         "level": 1
       }
     ],
-    "drops": ["electric_organ"],
+    "drops": [
+      "electric_organ"
+    ],
     "aura": {
       "name": "jolt_bomb",
       "description": "When activated, equips Jolthog to the player's hand. When thrown at an enemy, causes an electrical explosion upon impact."
@@ -1053,15 +1340,40 @@
     "image": "/public/images/013.png",
     "name": "Gumoss",
     "wiki": "https://palworld.fandom.com/wiki/Gumoss",
-    "typeofpal": ["grass", "ground"],
+    "typeofpal": [
+      "grass",
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/2e/Gumoss_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1310.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "50",
+      "runSpeed": "300",
+      "rideSprintSpeed": "400",
+      "transportSpeed": "175",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
         "level": 1
       }
     ],
-    "drops": ["berry_seeds", "gumoss_leaf"],
+    "drops": [
+      "berry_seeds",
+      "gumoss_leaf"
+    ],
     "aura": {
       "name": "logging_assistance",
       "description": "While in team, improves efficiency of cutting trees."
@@ -1132,8 +1444,29 @@
     "image": "/public/images/014.png",
     "name": "Vixy",
     "wiki": "https://palworld.fandom.com/wiki/Vixy",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9e/Vixy_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1000.0",
+      "rarity": "2",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "140",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "350",
+      "rideSprintSpeed": "450",
+      "transportSpeed": "190",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -1144,7 +1477,10 @@
         "level": 1
       }
     ],
-    "drops": ["leather", "bone"],
+    "drops": [
+      "leather",
+      "bone"
+    ],
     "aura": {
       "name": "dig_here!",
       "description": "Sometimes digs up items from the ground when assigned to Ranch."
@@ -1215,15 +1551,39 @@
     "image": "/public/images/015.png",
     "name": "Hoocrates",
     "wiki": "https://palworld.fandom.com/wiki/Hoocrates",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ef/Hoocrates_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1050.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "26",
+      "walkSpeed": "70",
+      "runSpeed": "380",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "225",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 1
       }
     ],
-    "drops": ["fiber", "high_grade_technical_manual"],
+    "drops": [
+      "fiber",
+      "high_grade_technical_manual"
+    ],
     "aura": {
       "name": "dark_knowledge",
       "description": "While in team, increases attack power of Dark Pals."
@@ -1294,15 +1654,38 @@
     "image": "/public/images/016.png",
     "name": "Teafant",
     "wiki": "https://palworld.fandom.com/wiki/Teafant",
-    "typeofpal": ["water"],
+    "typeofpal": [
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a7/Teafant_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1000.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "60",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "300",
+      "rideSprintSpeed": "400",
+      "transportSpeed": "180",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
         "level": 1
       }
     ],
-    "drops": ["pal_fluids"],
+    "drops": [
+      "pal_fluids"
+    ],
     "aura": {
       "name": "soothing_shower",
       "description": "When activated, spouts mysterious water that soothes wounds and restores the player's HP."
@@ -1373,8 +1756,29 @@
     "image": "/public/images/017.png",
     "name": "Depresso",
     "wiki": "https://palworld.fandom.com/wiki/Depresso",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d9/Depresso_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1050.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "10",
+      "walkSpeed": "10",
+      "runSpeed": "300",
+      "rideSprintSpeed": "400",
+      "transportSpeed": "100",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -1389,7 +1793,9 @@
         "level": 1
       }
     ],
-    "drops": ["venom_gland"],
+    "drops": [
+      "venom_gland"
+    ],
     "aura": {
       "name": "caffeine_inoculation",
       "description": "When activated, Depresso drinks a massive amount of energy drinks, causing its movement speed to increase."
@@ -1460,8 +1866,29 @@
     "image": "/public/images/018.png",
     "name": "Cremis",
     "wiki": "https://palworld.fandom.com/wiki/Cremis",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a1/Cremis_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1420.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "75",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "20",
+      "walkSpeed": "40",
+      "runSpeed": "300",
+      "rideSprintSpeed": "450",
+      "transportSpeed": "170",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -1472,7 +1899,9 @@
         "level": 1
       }
     ],
-    "drops": ["wool"],
+    "drops": [
+      "wool"
+    ],
     "aura": {
       "name": "fluffy_wool",
       "description": "While in team, increases attack power of Neutral Pals. Sometimes drops Wool when assigned to Ranch."
@@ -1543,8 +1972,29 @@
     "image": "/public/images/019.png",
     "name": "Daedream",
     "wiki": "https://palworld.fandom.com/wiki/Daedream",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/e6/Daedream_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1330.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "100",
+      "shotAttack": "75",
+      "defense": "60",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "140",
+      "runSpeed": "300",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "220",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -1559,7 +2009,10 @@
         "level": 1
       }
     ],
-    "drops": ["venom_gland", "small_pal_soul"],
+    "drops": [
+      "venom_gland",
+      "small_pal_soul"
+    ],
     "aura": {
       "name": "dream_chaser",
       "description": "While in team, appears near the player. Follows up player attacks with magic bullets."
@@ -1630,15 +2083,40 @@
     "image": "/public/images/020.png",
     "name": "Rushoar",
     "wiki": "https://palworld.fandom.com/wiki/Rushoar",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d0/Rushoar_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1610.0",
+      "rarity": "1",
+      "hp": "80",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "150",
+      "runSpeed": "450",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "300",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "mining",
         "level": 1
       }
     ],
-    "drops": ["rushoar_pork", "leather", "bone"],
+    "drops": [
+      "rushoar_pork",
+      "leather",
+      "bone"
+    ],
     "aura": {
       "name": "hard_head",
       "description": "Can be ridden. Increases efficiency of destroying boulders while mounted."
@@ -1709,15 +2187,39 @@
     "image": "/public/images/021.png",
     "name": "Nox",
     "wiki": "https://palworld.fandom.com/wiki/Nox",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/55/Nox_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1480.0",
+      "rarity": "6",
+      "hp": "75",
+      "meleeAttack": "70",
+      "shotAttack": "85",
+      "defense": "70",
+      "support": "140",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "300",
+      "rideSprintSpeed": "500",
+      "transportSpeed": "164",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 1
       }
     ],
-    "drops": ["leather", "small_pal_soul"],
+    "drops": [
+      "leather",
+      "small_pal_soul"
+    ],
     "aura": {
       "name": "kuudere",
       "description": "When fighting together, applies Dark damage to the player's attacks."
@@ -1788,8 +2290,29 @@
     "image": "/public/images/022.png",
     "name": "Fuddler",
     "wiki": "https://palworld.fandom.com/wiki/Fuddler",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/64/Fuddler_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1360.0",
+      "rarity": "1",
+      "hp": "65",
+      "meleeAttack": "100",
+      "shotAttack": "80",
+      "defense": "50",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "300",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "240",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -1804,7 +2327,9 @@
         "level": 1
       }
     ],
-    "drops": ["leather"],
+    "drops": [
+      "leather"
+    ],
     "aura": {
       "name": "ore_detector",
       "description": "When activated, generates subtle vibrations to detect nearby ore."
@@ -1875,8 +2400,29 @@
     "image": "/public/images/023.png",
     "name": "Killamari",
     "wiki": "https://palworld.fandom.com/wiki/Killamari",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/8/80/Killamari_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1200.0",
+      "rarity": "1",
+      "hp": "60",
+      "meleeAttack": "100",
+      "shotAttack": "60",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "60",
+      "walkSpeed": "120",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "260",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "transporting",
@@ -1887,7 +2433,9 @@
         "level": 1
       }
     ],
-    "drops": ["venom_gland"],
+    "drops": [
+      "venom_gland"
+    ],
     "aura": {
       "name": "fried_squid",
       "description": "While in team, can be summoned and used instead of a glider.\nCan float for long periods of time while gliding."
@@ -1958,15 +2506,38 @@
     "image": "/public/images/024.png",
     "name": "Mau",
     "wiki": "https://palworld.fandom.com/wiki/Mau",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/17/Mau_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1000.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "60",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "52",
+      "walkSpeed": "105",
+      "runSpeed": "475",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "317",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "farming",
         "level": 1
       }
     ],
-    "drops": ["gold_coin"],
+    "drops": [
+      "gold_coin"
+    ],
     "aura": {
       "name": "gold_digger",
       "description": "Sometimes digs up Gold Coin when assigned to Ranch."
@@ -2037,8 +2608,29 @@
     "image": "/public/images/025.png",
     "name": "Celaray",
     "wiki": "https://palworld.fandom.com/wiki/Celaray",
-    "typeofpal": ["water"],
+    "typeofpal": [
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/95/Celaray_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2860.0",
+      "rarity": "3",
+      "hp": "80",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "150",
+      "runSpeed": "550",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "transporting",
@@ -2049,7 +2641,9 @@
         "level": 1
       }
     ],
-    "drops": ["pal_fluids"],
+    "drops": [
+      "pal_fluids"
+    ],
     "aura": {
       "name": "zephyr_glider",
       "description": "While in team, can be summoned and used instead of a glider.\nAllows you to move quickly for long periods of time while gliding with this Pal."
@@ -2120,15 +2714,40 @@
     "image": "/public/images/026.png",
     "name": "Direhowl",
     "wiki": "https://palworld.fandom.com/wiki/Direhowl",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/19/Direhowl_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1920.0",
+      "rarity": "2",
+      "hp": "80",
+      "meleeAttack": "110",
+      "shotAttack": "90",
+      "defense": "75",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "90",
+      "walkSpeed": "180",
+      "runSpeed": "800",
+      "rideSprintSpeed": "1050",
+      "transportSpeed": "460",
+      "stamina": "70"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 1
       }
     ],
-    "drops": ["leather", "ruby", "gold_coin"],
+    "drops": [
+      "leather",
+      "ruby",
+      "gold_coin"
+    ],
     "aura": {
       "name": "direhowl_rider",
       "description": "Can be ridden.\nMoves slightly faster than most mounts."
@@ -2199,15 +2818,39 @@
     "image": "/public/images/027.png",
     "name": "Tocotoco",
     "wiki": "https://palworld.fandom.com/wiki/Tocotoco",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5b/Tocotoco_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1090.0",
+      "rarity": "1",
+      "hp": "60",
+      "meleeAttack": "80",
+      "shotAttack": "75",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "300",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "170",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 1
       }
     ],
-    "drops": ["gunpowder", "tocotoco_feather"],
+    "drops": [
+      "gunpowder",
+      "tocotoco_feather"
+    ],
     "aura": {
       "name": "eggbomb_launcher",
       "description": "When activated, equips to the player and transforms into an egg launcher."
@@ -2278,8 +2921,29 @@
     "image": "/public/images/028.png",
     "name": "Flopie",
     "wiki": "https://palworld.fandom.com/wiki/Flopie",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Flopie_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1220.0",
+      "rarity": "1",
+      "hp": "75",
+      "meleeAttack": "100",
+      "shotAttack": "65",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "100",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -2302,7 +2966,10 @@
         "level": 1
       }
     ],
-    "drops": ["low_grade_medical_supplies", "wheat_seeds"],
+    "drops": [
+      "low_grade_medical_supplies",
+      "wheat_seeds"
+    ],
     "aura": {
       "name": "helper_bunny",
       "description": "While in team, appears nearby the player. Automatically picks up nearby items."
@@ -2373,15 +3040,39 @@
     "image": "/public/images/029.png",
     "name": "Mozzarina",
     "wiki": "https://palworld.fandom.com/wiki/Mozzarina",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/3a/Mozzarina_menu.png/",
+    "stats": {
+      "maleProb": "20",
+      "femaleProb": "80",
+      "size": "M",
+      "price": "2620.0",
+      "rarity": "2",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "50",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "55",
+      "walkSpeed": "55",
+      "runSpeed": "580",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "317",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "farming",
         "level": 1
       }
     ],
-    "drops": ["mozzarina_meat", "milk"],
+    "drops": [
+      "mozzarina_meat",
+      "milk"
+    ],
     "aura": {
       "name": "milk_maker",
       "description": "Sometimes produces Milk when assigned to ranch."
@@ -2452,8 +3143,29 @@
     "image": "/public/images/030.png",
     "name": "Bristla",
     "wiki": "https://palworld.fandom.com/wiki/Bristla",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/13/Bristla_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1140.0",
+      "rarity": "1",
+      "hp": "80",
+      "meleeAttack": "80",
+      "shotAttack": "80",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -2476,7 +3188,10 @@
         "level": 1
       }
     ],
-    "drops": ["wheat_seeds", "lettuce_seeds"],
+    "drops": [
+      "wheat_seeds",
+      "lettuce_seeds"
+    ],
     "aura": {
       "name": "princess_gaze",
       "description": "While in team, increases attack power of Grass Pals."
@@ -2547,8 +3262,29 @@
     "image": "/public/images/031.png",
     "name": "Gobfin",
     "wiki": "https://palworld.fandom.com/wiki/Gobfin",
-    "typeofpal": ["water"],
+    "typeofpal": [
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/ff/Gobfin_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1840.0",
+      "rarity": "2",
+      "hp": "90",
+      "meleeAttack": "90",
+      "shotAttack": "90",
+      "defense": "75",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "80",
+      "runSpeed": "400",
+      "rideSprintSpeed": "500",
+      "transportSpeed": "120",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -2563,7 +3299,9 @@
         "level": 2
       }
     ],
-    "drops": ["pal_fluids"],
+    "drops": [
+      "pal_fluids"
+    ],
     "aura": {
       "name": "angry_shark",
       "description": "When activated, attacks targeted enemy with a powerful Aqua Gun. While in team, increases player's attack power."
@@ -2634,8 +3372,29 @@
     "image": "/public/images/032.png",
     "name": "Hangyu",
     "wiki": "https://palworld.fandom.com/wiki/Hangyu",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/08/Hangyu_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1020.0",
+      "rarity": "1",
+      "hp": "80",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -2650,7 +3409,9 @@
         "level": 1
       }
     ],
-    "drops": ["fiber"],
+    "drops": [
+      "fiber"
+    ],
     "aura": {
       "name": "flying_trapeze",
       "description": "While in team, can be summoned and used instead of a glider. Carries the player up high while gliding."
@@ -2721,8 +3482,29 @@
     "image": "/public/images/033.png",
     "name": "Mossanda",
     "wiki": "https://palworld.fandom.com/wiki/Mossanda",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/db/Mossanda_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6200.0",
+      "rarity": "6",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "90",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "500",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "275",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -2741,7 +3523,11 @@
         "level": 3
       }
     ],
-    "drops": ["mushroom", "leather", "tomato_seeds"],
+    "drops": [
+      "mushroom",
+      "leather",
+      "tomato_seeds"
+    ],
     "aura": {
       "name": "grenadier_panda",
       "description": "Can be ridden. Can rapidly fire a grenade launcher while mounted."
@@ -2812,15 +3598,39 @@
     "image": "/public/images/034.png",
     "name": "Woolipop",
     "wiki": "https://palworld.fandom.com/wiki/Woolipop",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/fa/Woolipop_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1450.0",
+      "rarity": "3",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "300",
+      "rideSprintSpeed": "400",
+      "transportSpeed": "200",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "farming",
         "level": 1
       }
     ],
-    "drops": ["cotton_candy", "high_quality_pal_oil"],
+    "drops": [
+      "cotton_candy",
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "candy_pop",
       "description": "Sometimes drops Cotton Candy when assigned to ranch."
@@ -2891,8 +3701,29 @@
     "image": "/public/images/035.png",
     "name": "Caprity",
     "wiki": "https://palworld.fandom.com/wiki/Caprity",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a7/Caprity_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "2510.0",
+      "rarity": "3",
+      "hp": "100",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "90",
+      "support": "120",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "70",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "235",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -2903,7 +3734,11 @@
         "level": 1
       }
     ],
-    "drops": ["caprity_meat", "red_berries", "horn"],
+    "drops": [
+      "caprity_meat",
+      "red_berries",
+      "horn"
+    ],
     "aura": {
       "name": "berry_picker",
       "description": "Sometimes drops Red Berries from its back when assigned to Ranch."
@@ -2974,15 +3809,39 @@
     "image": "/public/images/036.png",
     "name": "Melpaca",
     "wiki": "https://palworld.fandom.com/wiki/Melpaca",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7f/Melpaca_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3040.0",
+      "rarity": "3",
+      "hp": "90",
+      "meleeAttack": "90",
+      "shotAttack": "90",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "62",
+      "walkSpeed": "62",
+      "runSpeed": "460",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "261",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "farming",
         "level": 1
       }
     ],
-    "drops": ["wool", "leather"],
+    "drops": [
+      "wool",
+      "leather"
+    ],
     "aura": {
       "name": "pacapaca_wool",
       "description": "Can be ridden.\nSometimes drops Wool when assigned to Ranch."
@@ -3053,15 +3912,40 @@
     "image": "/public/images/037.png",
     "name": "Eikthyrdeer",
     "wiki": "https://palworld.fandom.com/wiki/Eikthyrdeer",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Eikthyrdeer_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2620.0",
+      "rarity": "4",
+      "hp": "95",
+      "meleeAttack": "70",
+      "shotAttack": "80",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "120",
+      "runSpeed": "700",
+      "rideSprintSpeed": "1000",
+      "transportSpeed": "390",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "lumbering",
         "level": 2
       }
     ],
-    "drops": ["eikthyrdeer_venison", "leather", "horn"],
+    "drops": [
+      "eikthyrdeer_venison",
+      "leather",
+      "horn"
+    ],
     "aura": {
       "name": "guardian_of_the_forest",
       "description": "Can be ridden.\nCan perform a double jump while mounted.\nIncreases efficiency of cutting trees."
@@ -3132,15 +4016,38 @@
     "image": "/public/images/038.png",
     "name": "Nitewing",
     "wiki": "https://palworld.fandom.com/wiki/Nitewing",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/34/Nitewing_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "6300.0",
+      "rarity": "3",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "95",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "150",
+      "walkSpeed": "150",
+      "runSpeed": "600",
+      "rideSprintSpeed": "850",
+      "transportSpeed": "450",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 2
       }
     ],
-    "drops": ["leather"],
+    "drops": [
+      "leather"
+    ],
     "aura": {
       "name": "travel_companion",
       "description": "Can be ridden as a flying mount."
@@ -3211,8 +4118,29 @@
     "image": "/public/images/039.png",
     "name": "Ribbuny",
     "wiki": "https://palworld.fandom.com/wiki/Ribbuny",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7e/Ribbuny_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1160.0",
+      "rarity": "1",
+      "hp": "75",
+      "meleeAttack": "100",
+      "shotAttack": "65",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "245",
+      "rideSprintSpeed": "350",
+      "transportSpeed": "172",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -3227,7 +4155,10 @@
         "level": 1
       }
     ],
-    "drops": ["leather", "beautiful_flower"],
+    "drops": [
+      "leather",
+      "beautiful_flower"
+    ],
     "aura": {
       "name": "skilled_fingers",
       "description": "While in team, increases attack power of Neutral Pals.\nWhile at base, increases work efficiency if working at Weapon Workbench."
@@ -3298,8 +4229,30 @@
     "image": "/public/images/040.png",
     "name": "Incineram",
     "wiki": "https://palworld.fandom.com/wiki/Incineram",
-    "typeofpal": ["fire", "dark"],
+    "typeofpal": [
+      "fire",
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Incineram_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4780.0",
+      "rarity": "4",
+      "hp": "95",
+      "meleeAttack": "150",
+      "shotAttack": "100",
+      "defense": "85",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "160",
+      "runSpeed": "700",
+      "rideSprintSpeed": "960",
+      "transportSpeed": "320",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -3318,7 +4271,10 @@
         "level": 1
       }
     ],
-    "drops": ["horn", "leather"],
+    "drops": [
+      "horn",
+      "leather"
+    ],
     "aura": {
       "name": "flameclaw_hunter",
       "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw."
@@ -3389,8 +4345,29 @@
     "image": "/public/images/041.png",
     "name": "Cinnamoth",
     "wiki": "https://palworld.fandom.com/wiki/Cinnamoth",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7e/Cinnamoth_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5700.0",
+      "rarity": "4",
+      "hp": "70",
+      "meleeAttack": "100",
+      "shotAttack": "80",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "150",
+      "runSpeed": "550",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -3401,7 +4378,11 @@
         "level": 1
       }
     ],
-    "drops": ["honey", "lettuce_seeds", "wheat_seeds"],
+    "drops": [
+      "honey",
+      "lettuce_seeds",
+      "wheat_seeds"
+    ],
     "aura": {
       "name": "mysterious_scales",
       "description": "When activated, attacks target enemy with Poison Fog."
@@ -3472,8 +4453,29 @@
     "image": "/public/images/042.png",
     "name": "Arsox",
     "wiki": "https://palworld.fandom.com/wiki/Arsox",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f5/Arsox_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3520.0",
+      "rarity": "4",
+      "hp": "85",
+      "meleeAttack": "100",
+      "shotAttack": "95",
+      "defense": "95",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "87",
+      "walkSpeed": "87",
+      "runSpeed": "600",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "343",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -3484,7 +4486,10 @@
         "level": 1
       }
     ],
-    "drops": ["horn", "flame_organ"],
+    "drops": [
+      "horn",
+      "flame_organ"
+    ],
     "aura": {
       "name": "warm_body",
       "description": "Can be ridden. Keeps the rider warm in cold environments."
@@ -3555,8 +4560,29 @@
     "image": "/public/images/043.png",
     "name": "Dumud",
     "wiki": "https://palworld.fandom.com/wiki/Dumud",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/32/Dumud_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4690.0",
+      "rarity": "4",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "95",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "150",
+      "runSpeed": "450",
+      "rideSprintSpeed": "600",
+      "transportSpeed": "300",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
@@ -3571,7 +4597,10 @@
         "level": 1
       }
     ],
-    "drops": ["raw_dumud", "high_quality_pal_oil"],
+    "drops": [
+      "raw_dumud",
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "soil_improver",
       "description": "While in team, increases attack power of Ground Pals."
@@ -3585,15 +4614,40 @@
     "image": "/public/images/044.png",
     "name": "Cawgnito",
     "wiki": "https://palworld.fandom.com/wiki/Cawgnito",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f6/Cawgnito_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1840.0",
+      "rarity": "3",
+      "hp": "75",
+      "meleeAttack": "80",
+      "shotAttack": "95",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "85",
+      "walkSpeed": "170",
+      "runSpeed": "920",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "545",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "lumbering",
         "level": 1
       }
     ],
-    "drops": ["bone", "venom_gland", "small_pal_soul"],
+    "drops": [
+      "bone",
+      "venom_gland",
+      "small_pal_soul"
+    ],
     "aura": {
       "name": "telepeck",
       "description": "When activated, attacks targeted enemy with a powerful Phantom Peck."
@@ -3664,8 +4718,29 @@
     "image": "/public/images/045.png",
     "name": "Leezpunk",
     "wiki": "https://palworld.fandom.com/wiki/Leezpunk",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/09/Leezpunk_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1720.0",
+      "rarity": "2",
+      "hp": "80",
+      "meleeAttack": "90",
+      "shotAttack": "80",
+      "defense": "50",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "140",
+      "runSpeed": "600",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "270",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -3680,7 +4755,10 @@
         "level": 1
       }
     ],
-    "drops": ["copper_key", "silver_key"],
+    "drops": [
+      "copper_key",
+      "silver_key"
+    ],
     "aura": {
       "name": "sixth_sense",
       "description": "When activated, utilizes its sixth sense to detect nearby dungeons."
@@ -3751,15 +4829,38 @@
     "image": "/public/images/046.png",
     "name": "Loupmoon",
     "wiki": "https://palworld.fandom.com/wiki/Loupmoon",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/00/Loupmoon_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2400.0",
+      "rarity": "3",
+      "hp": "80",
+      "meleeAttack": "130",
+      "shotAttack": "100",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "150",
+      "runSpeed": "600",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "375",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
         "level": 2
       }
     ],
-    "drops": ["bone"],
+    "drops": [
+      "bone"
+    ],
     "aura": {
       "name": "claws_glistening_in_the_dark",
       "description": "When activated, attacks targeted enemy with a powerful Jumping Claw."
@@ -3830,15 +4931,39 @@
     "image": "/public/images/047.png",
     "name": "Galeclaw",
     "wiki": "https://palworld.fandom.com/wiki/Galeclaw",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/08/Galeclaw_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2010.0",
+      "rarity": "2",
+      "hp": "75",
+      "meleeAttack": "120",
+      "shotAttack": "85",
+      "defense": "60",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "600",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "400",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 2
       }
     ],
-    "drops": ["galeclaw_poultry", "leather"],
+    "drops": [
+      "galeclaw_poultry",
+      "leather"
+    ],
     "aura": {
       "name": "galeclaw_rider",
       "description": "While in team, can be summoned and used instead of a glider. Allows you to fire a gun while gliding with this Pal."
@@ -3909,8 +5034,29 @@
     "image": "/public/images/048.png",
     "name": "Robinquill",
     "wiki": "https://palworld.fandom.com/wiki/Robinquill",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/bb/Robinquill_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2050.0",
+      "rarity": "0",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "100",
+      "runSpeed": "600",
+      "rideSprintSpeed": "750",
+      "transportSpeed": "400",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -3937,7 +5083,10 @@
         "level": 2
       }
     ],
-    "drops": ["wheat_seeds", "arrow"],
+    "drops": [
+      "wheat_seeds",
+      "arrow"
+    ],
     "aura": {
       "name": "hawk_eye",
       "description": "While fighting together, allows you to deal more damage to weak points."
@@ -4008,8 +5157,30 @@
     "image": "/public/images/049.png",
     "name": "Gorirat",
     "wiki": "https://palworld.fandom.com/wiki/Gorirat",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b5/Gorirat_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2010.0",
+      "rarity": "5",
+      "hp": "90",
+      "meleeAttack": "110",
+      "shotAttack": "95",
+      "defense": "90",
+      "support": "100",
+      "passive1": "Hooligan",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "66",
+      "walkSpeed": "100",
+      "runSpeed": "550",
+      "rideSprintSpeed": "720",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -4024,7 +5195,10 @@
         "level": 3
       }
     ],
-    "drops": ["leather", "bone"],
+    "drops": [
+      "leather",
+      "bone"
+    ],
     "aura": {
       "name": "full-power_gorilla_mode",
       "description": "When activated, unleashes a primal fury that increases Gorirat's attack power."
@@ -4095,8 +5269,29 @@
     "image": "/public/images/050.png",
     "name": "Beegarde",
     "wiki": "https://palworld.fandom.com/wiki/Beegarde",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7b/Beegarde_menu.png/",
+    "stats": {
+      "maleProb": "10",
+      "femaleProb": "90",
+      "size": "XL",
+      "price": "1880.0",
+      "rarity": "4",
+      "hp": "80",
+      "meleeAttack": "100",
+      "shotAttack": "90",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "125",
+      "walkSpeed": "250",
+      "runSpeed": "450",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -4127,7 +5322,9 @@
         "level": 1
       }
     ],
-    "drops": ["honey"],
+    "drops": [
+      "honey"
+    ],
     "aura": {
       "name": "worker_bee",
       "description": "Sometimes drops Honey when assigned to Ranch.\nWhile in team, Elizabee's stats will be increased."
@@ -4198,8 +5395,29 @@
     "image": "/public/images/051.png",
     "name": "Elizabee",
     "wiki": "https://palworld.fandom.com/wiki/Elizabee",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a0/Elizabee_menu.png/",
+    "stats": {
+      "maleProb": "10",
+      "femaleProb": "90",
+      "size": "XL",
+      "price": "6830.0",
+      "rarity": "8",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "150",
+      "walkSpeed": "250",
+      "runSpeed": "450",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -4222,7 +5440,10 @@
         "level": 2
       }
     ],
-    "drops": ["honey", "elizabee's_staff"],
+    "drops": [
+      "honey",
+      "elizabee's_staff"
+    ],
     "aura": {
       "name": "queen_bee_command",
       "description": "While fighting together, stats will increase the more Beegarde are in your team."
@@ -4293,15 +5514,38 @@
     "image": "/public/images/052.png",
     "name": "Grintale",
     "wiki": "https://palworld.fandom.com/wiki/Grintale",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c3/Grintale_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5510.0",
+      "rarity": "6",
+      "hp": "110",
+      "meleeAttack": "100",
+      "shotAttack": "80",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "32",
+      "walkSpeed": "64",
+      "runSpeed": "600",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "332",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 2
       }
     ],
-    "drops": ["high_quality_pal_oil"],
+    "drops": [
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "plump_body",
       "description": "Can be ridden. Enhances Neutral attacks while mounted."
@@ -4372,8 +5616,29 @@
     "image": "/public/images/053.png",
     "name": "Swee",
     "wiki": "https://palworld.fandom.com/wiki/Swee",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b5/Swee_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1110.0",
+      "rarity": "1",
+      "hp": "60",
+      "meleeAttack": "100",
+      "shotAttack": "60",
+      "defense": "60",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "55",
+      "walkSpeed": "100",
+      "runSpeed": "250",
+      "rideSprintSpeed": "400",
+      "transportSpeed": "175",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -4384,7 +5649,9 @@
         "level": 1
       }
     ],
-    "drops": ["wool"],
+    "drops": [
+      "wool"
+    ],
     "aura": {
       "name": "fluffy",
       "description": "While in team, Sweepa's stats will be increased."
@@ -4455,8 +5722,29 @@
     "image": "/public/images/054.png",
     "name": "Sweepa",
     "wiki": "https://palworld.fandom.com/wiki/Sweepa",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f3/Sweepa_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6000.0",
+      "rarity": "6",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "90",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "60",
+      "walkSpeed": "120",
+      "runSpeed": "300",
+      "rideSprintSpeed": "600",
+      "transportSpeed": "210",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -4467,7 +5755,9 @@
         "level": 2
       }
     ],
-    "drops": ["wool"],
+    "drops": [
+      "wool"
+    ],
     "aura": {
       "name": "king_of_fluff",
       "description": "While fighting together, stats will increase the more Swee are in your team."
@@ -4538,8 +5828,30 @@
     "image": "/public/images/055.png",
     "name": "Chillet",
     "wiki": "https://palworld.fandom.com/wiki/Chillet",
-    "typeofpal": ["ice", "dragon"],
+    "typeofpal": [
+      "ice",
+      "dragon"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/49/Chillet_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3310.0",
+      "rarity": "4",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "80",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "180",
+      "runSpeed": "600",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "390",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -4550,7 +5862,9 @@
         "level": 1
       }
     ],
-    "drops": ["leather"],
+    "drops": [
+      "leather"
+    ],
     "aura": {
       "name": "wriggling_weasel",
       "description": "Can be ridden.\nApplies Dragon Dragon damage to the player's attacks while mounted."
@@ -4621,8 +5935,29 @@
     "image": "/public/images/056.png",
     "name": "Univolt",
     "wiki": "https://palworld.fandom.com/wiki/Univolt",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0e/Univolt_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4280.0",
+      "rarity": "5",
+      "hp": "80",
+      "meleeAttack": "110",
+      "shotAttack": "105",
+      "defense": "105",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "130",
+      "runSpeed": "720",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "425",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -4633,7 +5968,11 @@
         "level": 1
       }
     ],
-    "drops": ["leather", "electric_organ", "horn"],
+    "drops": [
+      "leather",
+      "electric_organ",
+      "horn"
+    ],
     "aura": {
       "name": "swift_deity",
       "description": "Can be ridden. Applies Electric damage to the player's attacks while mounted."
@@ -4704,15 +6043,39 @@
     "image": "/public/images/057.png",
     "name": "Foxcicle",
     "wiki": "https://palworld.fandom.com/wiki/Foxcicle",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/21/Foxcicle_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3730.0",
+      "rarity": "5",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "95",
+      "defense": "105",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "65",
+      "walkSpeed": "130",
+      "runSpeed": "600",
+      "rideSprintSpeed": "750",
+      "transportSpeed": "315",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "cooling",
         "level": 2
       }
     ],
-    "drops": ["leather", "ice_organ"],
+    "drops": [
+      "leather",
+      "ice_organ"
+    ],
     "aura": {
       "name": "aurora_guide",
       "description": "While in a team, increases attack power of Ice pals."
@@ -4783,8 +6146,29 @@
     "image": "/public/images/058.png",
     "name": "Pyrin",
     "wiki": "https://palworld.fandom.com/wiki/Pyrin",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/e6/Pyrin_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6720.0",
+      "rarity": "6",
+      "hp": "100",
+      "meleeAttack": "110",
+      "shotAttack": "95",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "150",
+      "runSpeed": "850",
+      "rideSprintSpeed": "1400",
+      "transportSpeed": "500",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -4795,7 +6179,10 @@
         "level": 1
       }
     ],
-    "drops": ["flame_organ", "leather"],
+    "drops": [
+      "flame_organ",
+      "leather"
+    ],
     "aura": {
       "name": "red_hare",
       "description": "Can be ridden. Applies Fire damage to the player's attacks while mounted."
@@ -4866,8 +6253,29 @@
     "image": "/public/images/059.png",
     "name": "Reindrix",
     "wiki": "https://palworld.fandom.com/wiki/Reindrix",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c1/Reindrix_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2800.0",
+      "rarity": "4",
+      "hp": "100",
+      "meleeAttack": "80",
+      "shotAttack": "85",
+      "defense": "110",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "35",
+      "walkSpeed": "70",
+      "runSpeed": "550",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "310",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "lumbering",
@@ -4878,7 +6286,12 @@
         "level": 2
       }
     ],
-    "drops": ["reindrix_venison", "leather", "horn", "ice_organ"],
+    "drops": [
+      "reindrix_venison",
+      "leather",
+      "horn",
+      "ice_organ"
+    ],
     "aura": {
       "name": "cool_body",
       "description": "Can be ridden.\nKeeps the rider cool in hot environments."
@@ -4949,15 +6362,38 @@
     "image": "/public/images/060.png",
     "name": "Rayhound",
     "wiki": "https://palworld.fandom.com/wiki/Rayhound",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/3f/Rayhound_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3880.0",
+      "rarity": "5",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "100",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "110",
+      "walkSpeed": "210",
+      "runSpeed": "700",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "455",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
         "level": 2
       }
     ],
-    "drops": ["electric_organ"],
+    "drops": [
+      "electric_organ"
+    ],
     "aura": {
       "name": "jumping_force",
       "description": "Can be ridden. Can double jump while mounted."
@@ -5028,15 +6464,39 @@
     "image": "/public/images/061.png",
     "name": "Kitsun",
     "wiki": "https://palworld.fandom.com/wiki/Kitsun",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/6b/Kitsun_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3170.0",
+      "rarity": "6",
+      "hp": "100",
+      "meleeAttack": "70",
+      "shotAttack": "115",
+      "defense": "100",
+      "support": "110",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "130",
+      "runSpeed": "700",
+      "rideSprintSpeed": "1000",
+      "transportSpeed": "415",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
         "level": 2
       }
     ],
-    "drops": ["flame_organ", "leather"],
+    "drops": [
+      "flame_organ",
+      "leather"
+    ],
     "aura": {
       "name": "clear_mind",
       "description": "Can be ridden. Unaffected by the cold or heat while riding this Pal."
@@ -5107,8 +6567,29 @@
     "image": "/public/images/062.png",
     "name": "Dazzi",
     "wiki": "https://palworld.fandom.com/wiki/Dazzi",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b0/Dazzi_menu.png/",
+    "stats": {
+      "maleProb": "20",
+      "femaleProb": "80",
+      "size": "XL",
+      "price": "1390.0",
+      "rarity": "2",
+      "hp": "70",
+      "meleeAttack": "110",
+      "shotAttack": "80",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "120",
+      "walkSpeed": "200",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "300",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -5123,7 +6604,9 @@
         "level": 1
       }
     ],
-    "drops": ["electric_organ"],
+    "drops": [
+      "electric_organ"
+    ],
     "aura": {
       "name": "lady_of_lightning",
       "description": "While in team, appears near the player. Follows up player attacks with lightning bolts."
@@ -5194,8 +6677,29 @@
     "image": "/public/images/063.png",
     "name": "Lunaris",
     "wiki": "https://palworld.fandom.com/wiki/Lunaris",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/38/Lunaris_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1760.0",
+      "rarity": "6",
+      "hp": "90",
+      "meleeAttack": "80",
+      "shotAttack": "100",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "130",
+      "runSpeed": "500",
+      "rideSprintSpeed": "650",
+      "transportSpeed": "315",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -5210,7 +6714,9 @@
         "level": 3
       }
     ],
-    "drops": ["paldium_fragment"],
+    "drops": [
+      "paldium_fragment"
+    ],
     "aura": {
       "name": "antigravity",
       "description": "While in team, Lunaris manipulates gravity, increasing the player's max carrying capacity."
@@ -5281,8 +6787,30 @@
     "image": "/public/images/064.png",
     "name": "Dinossom",
     "wiki": "https://palworld.fandom.com/wiki/Dinossom",
-    "typeofpal": ["grass", "dragon"],
+    "typeofpal": [
+      "grass",
+      "dragon"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b7/Dinossom_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3240.0",
+      "rarity": "6",
+      "hp": "110",
+      "meleeAttack": "90",
+      "shotAttack": "85",
+      "defense": "90",
+      "support": "150",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "120",
+      "runSpeed": "550",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "335",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -5293,7 +6821,9 @@
         "level": 2
       }
     ],
-    "drops": ["wheat_seeds"],
+    "drops": [
+      "wheat_seeds"
+    ],
     "aura": {
       "name": "fragrant_dragon",
       "description": "Can be ridden.\nEnchances Grass attacks while mounted."
@@ -5364,15 +6894,38 @@
     "image": "/public/images/065.png",
     "name": "Surfent",
     "wiki": "https://palworld.fandom.com/wiki/Surfent",
-    "typeofpal": ["water"],
+    "typeofpal": [
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/1d/Surfent_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5050.0",
+      "rarity": "4",
+      "hp": "90",
+      "meleeAttack": "70",
+      "shotAttack": "90",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "500",
+      "rideSprintSpeed": "750",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
         "level": 2
       }
     ],
-    "drops": ["pal_fluids"],
+    "drops": [
+      "pal_fluids"
+    ],
     "aura": {
       "name": "swift_swimmer",
       "description": "Can be ridden to travel on water.\nWhile mounted, prevents stamina depletion while moving over water."
@@ -5443,8 +6996,29 @@
     "image": "/public/images/066.png",
     "name": "Maraith",
     "wiki": "https://palworld.fandom.com/wiki/Maraith",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/32/Maraith_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1570.0",
+      "rarity": "6",
+      "hp": "75",
+      "meleeAttack": "50",
+      "shotAttack": "105",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "160",
+      "runSpeed": "600",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "365",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -5455,7 +7029,10 @@
         "level": 1
       }
     ],
-    "drops": ["bone", "small_pal_soul"],
+    "drops": [
+      "bone",
+      "small_pal_soul"
+    ],
     "aura": {
       "name": "messenger_of_death",
       "description": "Can be ridden.\nApplies Dark damage to the player's attacks while mounted."
@@ -5526,15 +7103,40 @@
     "image": "/public/images/067.png",
     "name": "Digtoise",
     "wiki": "https://palworld.fandom.com/wiki/Digtoise",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5b/Digtoise_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2980.0",
+      "rarity": "5",
+      "hp": "80",
+      "meleeAttack": "80",
+      "shotAttack": "95",
+      "defense": "120",
+      "support": "100",
+      "passive1": "Hard Skin",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "75",
+      "walkSpeed": "120",
+      "runSpeed": "300",
+      "rideSprintSpeed": "420",
+      "transportSpeed": "190",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "mining",
         "level": 3
       }
     ],
-    "drops": ["ore", "high_quality_pal_oil"],
+    "drops": [
+      "ore",
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "drill_crusher",
       "description": "When activated, performs Shell Spin, follows the player while spinning, and mines ores efficiently."
@@ -5605,8 +7207,29 @@
     "image": "/public/images/068.png",
     "name": "Tombat",
     "wiki": "https://palworld.fandom.com/wiki/Tombat",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/f2/Tombat_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3810.0",
+      "rarity": "5",
+      "hp": "95",
+      "meleeAttack": "100",
+      "shotAttack": "95",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "140",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "270",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -5621,7 +7244,10 @@
         "level": 2
       }
     ],
-    "drops": ["leather", "small_pal_soul"],
+    "drops": [
+      "leather",
+      "small_pal_soul"
+    ],
     "aura": {
       "name": "ultrasonic_sensor",
       "description": "When activated, uses ultrasonic waves to detect the location of nearby Pals."
@@ -5692,8 +7318,30 @@
     "image": "/public/images/069.png",
     "name": "Lovander",
     "wiki": "https://palworld.fandom.com/wiki/Lovander",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c8/Lovander_menu.png/",
+    "stats": {
+      "maleProb": "30",
+      "femaleProb": "70",
+      "size": "XL",
+      "price": "2450.0",
+      "rarity": "5",
+      "hp": "120",
+      "meleeAttack": "70",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "140",
+      "passive1": "AbNeutral",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "90",
+      "walkSpeed": "170",
+      "runSpeed": "750",
+      "rideSprintSpeed": "850",
+      "transportSpeed": "460",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -5712,7 +7360,12 @@
         "level": 1
       }
     ],
-    "drops": ["mushroom", "cake", "suspicious_juice", "strange_juice"],
+    "drops": [
+      "mushroom",
+      "cake",
+      "suspicious_juice",
+      "strange_juice"
+    ],
     "aura": {
       "name": "heart_drain",
       "description": "While fighting together, grants the player and Lovander the life steal effect which absorbs some of the received damage and restores HP."
@@ -5783,8 +7436,29 @@
     "image": "/public/images/070.png",
     "name": "Flambelle",
     "wiki": "https://palworld.fandom.com/wiki/Flambelle",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/20/Flambelle_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "2500.0",
+      "rarity": "1",
+      "hp": "60",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "65",
+      "walkSpeed": "98",
+      "runSpeed": "250",
+      "rideSprintSpeed": "375",
+      "transportSpeed": "140",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -5803,7 +7477,10 @@
         "level": 1
       }
     ],
-    "drops": ["flame_organ", "high_quality_pal_oil"],
+    "drops": [
+      "flame_organ",
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "magma_tears",
       "description": "Sometimes produces Flame Organ when assigned to Ranch."
@@ -5874,8 +7551,30 @@
     "image": "/public/images/071.png",
     "name": "Vanwyrm",
     "wiki": "https://palworld.fandom.com/wiki/Vanwyrm",
-    "typeofpal": ["fire", "dark"],
+    "typeofpal": [
+      "fire",
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ea/Vanwyrm_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4360.0",
+      "rarity": "4",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "115",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "350",
+      "runSpeed": "700",
+      "rideSprintSpeed": "950",
+      "transportSpeed": "475",
+      "stamina": "150"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -5886,7 +7585,11 @@
         "level": 3
       }
     ],
-    "drops": ["bone", "ruby", "gold_coin"],
+    "drops": [
+      "bone",
+      "ruby",
+      "gold_coin"
+    ],
     "aura": {
       "name": "aerial_marauder",
       "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted."
@@ -5957,8 +7660,29 @@
     "image": "/public/images/072.png",
     "name": "Bushi",
     "wiki": "https://palworld.fandom.com/wiki/Bushi",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/73/Bushi_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4520.0",
+      "rarity": "7",
+      "hp": "80",
+      "meleeAttack": "100",
+      "shotAttack": "125",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "160",
+      "runSpeed": "600",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "320",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -5981,7 +7705,10 @@
         "level": 1
       }
     ],
-    "drops": ["bone", "ingot"],
+    "drops": [
+      "bone",
+      "ingot"
+    ],
     "aura": {
       "name": "brandish_blade",
       "description": "When activated, attacks targeted enemy with a powerful Iaigiri."
@@ -6052,8 +7779,29 @@
     "image": "/public/images/073.png",
     "name": "Beakon",
     "wiki": "https://palworld.fandom.com/wiki/Beakon",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a0/Beakon_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "7490.0",
+      "rarity": "6",
+      "hp": "105",
+      "meleeAttack": "100",
+      "shotAttack": "115",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "750",
+      "rideSprintSpeed": "1300",
+      "transportSpeed": "375",
+      "stamina": "160"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -6068,7 +7816,9 @@
         "level": 3
       }
     ],
-    "drops": ["electric_organ"],
+    "drops": [
+      "electric_organ"
+    ],
     "aura": {
       "name": "thunderous",
       "description": "Can be ridden as a flying mount. Applies Electric damage to the player's attacks while mounted."
@@ -6139,8 +7889,29 @@
     "image": "/public/images/074.png",
     "name": "Ragnahawk",
     "wiki": "https://palworld.fandom.com/wiki/Ragnahawk",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/dd/Ragnahawk_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6720.0",
+      "rarity": "7",
+      "hp": "95",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "120",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "800",
+      "rideSprintSpeed": "1400",
+      "transportSpeed": "375",
+      "stamina": "150"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -6151,7 +7922,9 @@
         "level": 3
       }
     ],
-    "drops": ["flame_organ"],
+    "drops": [
+      "flame_organ"
+    ],
     "aura": {
       "name": "flame_wing",
       "description": "Can be ridden as a flying mount. Applies Fire damage to the player's attacks while mounted."
@@ -6222,8 +7995,29 @@
     "image": "/public/images/075.png",
     "name": "Katress",
     "wiki": "https://palworld.fandom.com/wiki/Katress",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9e/Katress_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4120.0",
+      "rarity": "6",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "145",
+      "runSpeed": "440",
+      "rideSprintSpeed": "620",
+      "transportSpeed": "292",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "medicine_function toLocaleLowerCase() { [native code] }",
@@ -6238,7 +8032,11 @@
         "level": 2
       }
     ],
-    "drops": ["leather", "katress_hair", "high_grade_technical_manual"],
+    "drops": [
+      "leather",
+      "katress_hair",
+      "high_grade_technical_manual"
+    ],
     "aura": {
       "name": "grimoire_collector",
       "description": "While fighting together, Neutral Pals drop more items when defeated."
@@ -6309,8 +8107,29 @@
     "image": "/public/images/076.png",
     "name": "Wixen",
     "wiki": "https://palworld.fandom.com/wiki/Wixen",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/8/85/Wixen_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1540.0",
+      "rarity": "6",
+      "hp": "90",
+      "meleeAttack": "50",
+      "shotAttack": "110",
+      "defense": "80",
+      "support": "120",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "145",
+      "runSpeed": "440",
+      "rideSprintSpeed": "620",
+      "transportSpeed": "292",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -6325,7 +8144,10 @@
         "level": 2
       }
     ],
-    "drops": ["flame_organ", "high_grade_technical_manual"],
+    "drops": [
+      "flame_organ",
+      "high_grade_technical_manual"
+    ],
     "aura": {
       "name": "lord_fox",
       "description": "When fighting together, applies Fire damage to the player's attacks."
@@ -6396,8 +8218,29 @@
     "image": "/public/images/077.png",
     "name": "Verdash",
     "wiki": "https://palworld.fandom.com/wiki/Verdash",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/43/Verdash_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2200.0",
+      "rarity": "8",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "115",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "195",
+      "runSpeed": "500",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "275",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -6420,7 +8263,10 @@
         "level": 2
       }
     ],
-    "drops": ["leather", "bone"],
+    "drops": [
+      "leather",
+      "bone"
+    ],
     "aura": {
       "name": "grassland_speedster",
       "description": "When fighting together, increases player's movement speed and applies Grass damage to the player's attacks."
@@ -6491,8 +8337,29 @@
     "image": "/public/images/078.png",
     "name": "Vaelet",
     "wiki": "https://palworld.fandom.com/wiki/Vaelet",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/24/Vaelet_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1960.0",
+      "rarity": "8",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "100",
+      "defense": "120",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "150",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "275",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -6515,7 +8382,10 @@
         "level": 1
       }
     ],
-    "drops": ["low_grade_medical_supplies", "tomato_seeds"],
+    "drops": [
+      "low_grade_medical_supplies",
+      "tomato_seeds"
+    ],
     "aura": {
       "name": "purification_of_gaia",
       "description": "While fighting together, Ground Pals drop more items when defeated."
@@ -6586,8 +8456,29 @@
     "image": "/public/images/079.png",
     "name": "Sibelyx",
     "wiki": "https://palworld.fandom.com/wiki/Sibelyx",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/66/Sibelyx_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5900.0",
+      "rarity": "7",
+      "hp": "110",
+      "meleeAttack": "90",
+      "shotAttack": "90",
+      "defense": "100",
+      "support": "90",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "medicine_function toLocaleLowerCase() { [native code] }",
@@ -6602,7 +8493,10 @@
         "level": 1
       }
     ],
-    "drops": ["high_quality_cloth", "ice_organ"],
+    "drops": [
+      "high_quality_cloth",
+      "ice_organ"
+    ],
     "aura": {
       "name": "silk_maker",
       "description": "When activated, attacks targeted enemy with a powerful Blizzard Spike. Sometimes produces High Quality Cloth when assigned to Ranch."
@@ -6673,15 +8567,38 @@
     "image": "/public/images/080.png",
     "name": "Elphidran",
     "wiki": "https://palworld.fandom.com/wiki/Elphidran",
-    "typeofpal": ["dragon"],
+    "typeofpal": [
+      "dragon"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a6/Elphidran_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5230.0",
+      "rarity": "7",
+      "hp": "110",
+      "meleeAttack": "80",
+      "shotAttack": "80",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "83",
+      "walkSpeed": "83",
+      "runSpeed": "630",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "456",
+      "stamina": "130"
+    },
     "suitability": [
       {
         "type": "lumbering",
         "level": 2
       }
     ],
-    "drops": ["high_quality_pal_oil"],
+    "drops": [
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "amicable_holy_dragon",
       "description": "Can be ridden as a flying mount.\n While fighting together, Dark Pals drop more items when defeated."
@@ -6752,15 +8669,39 @@
     "image": "/public/images/081.png",
     "name": "Kelpsea",
     "wiki": "https://palworld.fandom.com/wiki/Kelpsea",
-    "typeofpal": ["water"],
+    "typeofpal": [
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/1b/Kelpsea_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "L",
+      "price": "1260.0",
+      "rarity": "1",
+      "hp": "70",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "700",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "400",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
         "level": 1
       }
     ],
-    "drops": ["raw_kelpsea", "pal_fluids"],
+    "drops": [
+      "raw_kelpsea",
+      "pal_fluids"
+    ],
     "aura": {
       "name": "aqua_spout",
       "description": "While in team, increases attack power of Water Pals."
@@ -6831,15 +8772,40 @@
     "image": "/public/images/082.png",
     "name": "Azurobe",
     "wiki": "https://palworld.fandom.com/wiki/Azurobe",
-    "typeofpal": ["water", "dragon"],
+    "typeofpal": [
+      "water",
+      "dragon"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a0/Azurobe_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5600.0",
+      "rarity": "7",
+      "hp": "110",
+      "meleeAttack": "70",
+      "shotAttack": "100",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "75",
+      "walkSpeed": "150",
+      "runSpeed": "600",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
         "level": 3
       }
     ],
-    "drops": ["cloth", "precious_dragon_stone"],
+    "drops": [
+      "cloth",
+      "precious_dragon_stone"
+    ],
     "aura": {
       "name": "waterwing_dance",
       "description": "Can be ridden to travel on water. Applies Water damage to the player's attacks while mounted."
@@ -6910,8 +8876,29 @@
     "image": "/public/images/083.png",
     "name": "Cryolinx",
     "wiki": "https://palworld.fandom.com/wiki/Cryolinx",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9d/Cryolinx_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8440.0",
+      "rarity": "7",
+      "hp": "100",
+      "meleeAttack": "140",
+      "shotAttack": "100",
+      "defense": "110",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "280",
+      "runSpeed": "720",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "460",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -6926,7 +8913,9 @@
         "level": 3
       }
     ],
-    "drops": ["ice_organ"],
+    "drops": [
+      "ice_organ"
+    ],
     "aura": {
       "name": "dragon_hunter",
       "description": "While fighting together, Dragon Pals drop more items when defeated."
@@ -6997,8 +8986,29 @@
     "image": "/public/images/084.png",
     "name": "Blazehowl",
     "wiki": "https://palworld.fandom.com/wiki/Blazehowl",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/33/Blazehowl_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4040.0",
+      "rarity": "7",
+      "hp": "105",
+      "meleeAttack": "100",
+      "shotAttack": "110",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "90",
+      "walkSpeed": "180",
+      "runSpeed": "750",
+      "rideSprintSpeed": "1000",
+      "transportSpeed": "465",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -7009,7 +9019,9 @@
         "level": 2
       }
     ],
-    "drops": ["flame_organ"],
+    "drops": [
+      "flame_organ"
+    ],
     "aura": {
       "name": "hellflame_lion",
       "description": "Can be ridden. While fighting together, Grass Pals drop more items when defeated."
@@ -7080,8 +9092,31 @@
     "image": "/public/images/085.png",
     "name": "Relaxaurus",
     "wiki": "https://palworld.fandom.com/wiki/Relaxaurus",
-    "typeofpal": ["dragon", "water"],
+    "typeofpal": [
+      "dragon",
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/01/Relaxaurus_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "10240.0",
+      "rarity": "8",
+      "hp": "110",
+      "meleeAttack": "110",
+      "shotAttack": "100",
+      "defense": "70",
+      "support": "100",
+      "passive1": "Glutton",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "40",
+      "walkSpeed": "60",
+      "runSpeed": "650",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "150",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
@@ -7092,7 +9127,10 @@
         "level": 1
       }
     ],
-    "drops": ["high_quality_pal_oil", "ruby"],
+    "drops": [
+      "high_quality_pal_oil",
+      "ruby"
+    ],
     "aura": {
       "name": "hungry_missile",
       "description": "Can be ridden. Can rapidly fire a missile launcher while mounted."
@@ -7163,15 +9201,39 @@
     "image": "/public/images/086.png",
     "name": "Broncherry",
     "wiki": "https://palworld.fandom.com/wiki/Broncherry",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/bd/Broncherry_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2920.0",
+      "rarity": "7",
+      "hp": "120",
+      "meleeAttack": "80",
+      "shotAttack": "90",
+      "defense": "100",
+      "support": "120",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "75",
+      "runSpeed": "350",
+      "rideSprintSpeed": "600",
+      "transportSpeed": "200",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
         "level": 3
       }
     ],
-    "drops": ["broncherry_meat", "tomato_seeds"],
+    "drops": [
+      "broncherry_meat",
+      "tomato_seeds"
+    ],
     "aura": {
       "name": "overaffectionate",
       "description": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity."
@@ -7242,8 +9304,29 @@
     "image": "/public/images/087.png",
     "name": "Petallia",
     "wiki": "https://palworld.fandom.com/wiki/Petallia",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/28/Petallia_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3590.0",
+      "rarity": "8",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "95",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "150",
+      "runSpeed": "550",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -7266,7 +9349,9 @@
         "level": 1
       }
     ],
-    "drops": ["beautiful_flower"],
+    "drops": [
+      "beautiful_flower"
+    ],
     "aura": {
       "name": "blessing_of_the_flower_spirit",
       "description": "When activated, uses medicinal flowers to restore the player's HP."
@@ -7337,8 +9422,30 @@
     "image": "/public/images/088.png",
     "name": "Reptyro",
     "wiki": "https://palworld.fandom.com/wiki/Reptyro",
-    "typeofpal": ["fire", "ground"],
+    "typeofpal": [
+      "fire",
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d0/Reptyro_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6940.0",
+      "rarity": "0",
+      "hp": "110",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "120",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "80",
+      "runSpeed": "390",
+      "rideSprintSpeed": "650",
+      "transportSpeed": "235",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -7349,7 +9456,9 @@
         "level": 3
       }
     ],
-    "drops": ["flame_organ"],
+    "drops": [
+      "flame_organ"
+    ],
     "aura": {
       "name": "ore-loving_beast",
       "description": "Can be ridden. Improves efficiency of mining ores while mounted."
@@ -7420,15 +9529,38 @@
     "image": "/public/images/089.png",
     "name": "Kingpaca",
     "wiki": "https://palworld.fandom.com/wiki/Kingpaca",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9d/Kingpaca_menu.png/",
+    "stats": {
+      "maleProb": "90",
+      "femaleProb": "10",
+      "size": "XL",
+      "price": "5800.0",
+      "rarity": "8",
+      "hp": "120",
+      "meleeAttack": "100",
+      "shotAttack": "85",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "80",
+      "runSpeed": "500",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "290",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 1
       }
     ],
-    "drops": ["wool"],
+    "drops": [
+      "wool"
+    ],
     "aura": {
       "name": "king_of_muscles",
       "description": "Can be ridden. While in team, Kingpaca helps carry supplies, increasing the player's max carrying capacity."
@@ -7499,8 +9631,29 @@
     "image": "/public/images/090.png",
     "name": "Mammorest",
     "wiki": "https://palworld.fandom.com/wiki/Mammorest",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Mammorest_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "9450.0",
+      "rarity": "8",
+      "hp": "150",
+      "meleeAttack": "100",
+      "shotAttack": "85",
+      "defense": "90",
+      "support": "30",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "135",
+      "runSpeed": "430",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "282",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -7515,7 +9668,11 @@
         "level": 2
       }
     ],
-    "drops": ["high_quality_pal_oil", "leather", "mammorest_meat"],
+    "drops": [
+      "high_quality_pal_oil",
+      "leather",
+      "mammorest_meat"
+    ],
     "aura": {
       "name": "gaia_crusher",
       "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted."
@@ -7586,8 +9743,29 @@
     "image": "/public/images/091.png",
     "name": "Wumpo",
     "wiki": "https://palworld.fandom.com/wiki/Wumpo",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0e/Wumpo_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5900.0",
+      "rarity": "7",
+      "hp": "140",
+      "meleeAttack": "100",
+      "shotAttack": "80",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "100",
+      "runSpeed": "365",
+      "rideSprintSpeed": "650",
+      "transportSpeed": "150",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -7606,7 +9784,10 @@
         "level": 4
       }
     ],
-    "drops": ["ice_organ", "beautiful_flower"],
+    "drops": [
+      "ice_organ",
+      "beautiful_flower"
+    ],
     "aura": {
       "name": "guardian_of_the_snowy_mountain",
       "description": "Can be ridden. While in team, Wumpo helps carry supplies, increasing the player's max carrying capacity."
@@ -7677,8 +9858,31 @@
     "image": "/public/images/092.png",
     "name": "Warsect",
     "wiki": "https://palworld.fandom.com/wiki/Warsect",
-    "typeofpal": ["grass", "ground"],
+    "typeofpal": [
+      "grass",
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a7/Warsect_menu.png/",
+    "stats": {
+      "maleProb": "85",
+      "femaleProb": "15",
+      "size": "XL",
+      "price": "6830.0",
+      "rarity": "8",
+      "hp": "120",
+      "meleeAttack": "100",
+      "shotAttack": "100",
+      "defense": "120",
+      "support": "100",
+      "passive1": "Hard Skin",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "55",
+      "walkSpeed": "110",
+      "runSpeed": "500",
+      "rideSprintSpeed": "600",
+      "transportSpeed": "110",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -7697,7 +9901,9 @@
         "level": 3
       }
     ],
-    "drops": ["honey"],
+    "drops": [
+      "honey"
+    ],
     "aura": {
       "name": "hard_armor",
       "description": "When fighting together, increases player's defense and applies Fire damage to the player's attacks."
@@ -7768,15 +9974,39 @@
     "image": "/public/images/093.png",
     "name": "Fenglope",
     "wiki": "https://palworld.fandom.com/wiki/Fenglope",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/68/Fenglope_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2250.0",
+      "rarity": "3",
+      "hp": "110",
+      "meleeAttack": "110",
+      "shotAttack": "110",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "85",
+      "walkSpeed": "100",
+      "runSpeed": "750",
+      "rideSprintSpeed": "1150",
+      "transportSpeed": "417",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "lumbering",
         "level": 2
       }
     ],
-    "drops": ["leather", "horn"],
+    "drops": [
+      "leather",
+      "horn"
+    ],
     "aura": {
       "name": "wind_and_clouds",
       "description": "Can be ridden. Can double jump while mounted."
@@ -7847,15 +10077,39 @@
     "image": "/public/images/094.png",
     "name": "Felbat",
     "wiki": "https://palworld.fandom.com/wiki/Felbat",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7d/Felbat_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2100.0",
+      "rarity": "6",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "110",
+      "support": "110",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "60",
+      "walkSpeed": "100",
+      "runSpeed": "550",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "325",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "medicine_function toLocaleLowerCase() { [native code] }",
         "level": 3
       }
     ],
-    "drops": ["cloth", "small_pal_soul"],
+    "drops": [
+      "cloth",
+      "small_pal_soul"
+    ],
     "aura": {
       "name": "life_steal",
       "description": "While fighting together, grants the player and Felbat the life steal effect which absorbs some of the received damage and restores HP."
@@ -7926,8 +10180,29 @@
     "image": "/public/images/095.png",
     "name": "Quivern",
     "wiki": "https://palworld.fandom.com/wiki/Quivern",
-    "typeofpal": ["dragon"],
+    "typeofpal": [
+      "dragon"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d9/Quivern_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6830.0",
+      "rarity": "7",
+      "hp": "105",
+      "meleeAttack": "100",
+      "shotAttack": "100",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "120",
+      "walkSpeed": "240",
+      "runSpeed": "800",
+      "rideSprintSpeed": "1050",
+      "transportSpeed": "470",
+      "stamina": "220"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -7946,7 +10221,9 @@
         "level": 2
       }
     ],
-    "drops": ["high_quality_pal_oil"],
+    "drops": [
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "sky_dragon's_affection",
       "description": "Can be ridden as a flying mount. Enhances Dragon attacks while mounted."
@@ -8017,8 +10294,30 @@
     "image": "/public/images/096.png",
     "name": "Blazamut",
     "wiki": "https://palworld.fandom.com/wiki/Blazamut",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ee/Blazamut_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "10520.0",
+      "rarity": "9",
+      "hp": "100",
+      "meleeAttack": "150",
+      "shotAttack": "125",
+      "defense": "120",
+      "support": "50",
+      "passive1": "Flame Emperor",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "150",
+      "walkSpeed": "400",
+      "runSpeed": "700",
+      "rideSprintSpeed": "1000",
+      "transportSpeed": "500",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -8029,7 +10328,10 @@
         "level": 4
       }
     ],
-    "drops": ["coal", "flame_organ"],
+    "drops": [
+      "coal",
+      "flame_organ"
+    ],
     "aura": {
       "name": "magma_kaiser",
       "description": "Can be ridden. Enchances Fire attacks while mounted."
@@ -8100,15 +10402,39 @@
     "image": "/public/images/097.png",
     "name": "Helzephyr",
     "wiki": "https://palworld.fandom.com/wiki/Helzephyr",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/3c/Helzephyr_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "7840.0",
+      "rarity": "7",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "125",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "100",
+      "runSpeed": "700",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "450",
+      "stamina": "170"
+    },
     "suitability": [
       {
         "type": "transporting",
         "level": 3
       }
     ],
-    "drops": ["venom_gland", "medium_pal_soul"],
+    "drops": [
+      "venom_gland",
+      "medium_pal_soul"
+    ],
     "aura": {
       "name": "wings_of_death",
       "description": "Can be ridden as a flying mount. Applies Dark damage to the player's attacks while mounted."
@@ -8179,8 +10505,31 @@
     "image": "/public/images/098.png",
     "name": "Astegon",
     "wiki": "https://palworld.fandom.com/wiki/Astegon",
-    "typeofpal": ["dragon", "dark"],
+    "typeofpal": [
+      "dragon",
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/d4/Astegon_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8200.0",
+      "rarity": "9",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "125",
+      "defense": "125",
+      "support": "100",
+      "passive1": "Hard Skin",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "150",
+      "runSpeed": "600",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "375",
+      "stamina": "300"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -8191,7 +10540,10 @@
         "level": 4
       }
     ],
-    "drops": ["pal_metal_ingot", "pure_quartz"],
+    "drops": [
+      "pal_metal_ingot",
+      "pure_quartz"
+    ],
     "aura": {
       "name": "black_anklyosaur",
       "description": "Can be ridden a flying mount. Increases damage dealt to ore while mounted."
@@ -8262,8 +10614,30 @@
     "image": "/public/images/099.png",
     "name": "Menasting",
     "wiki": "https://palworld.fandom.com/wiki/Menasting",
-    "typeofpal": ["dark", "ground"],
+    "typeofpal": [
+      "dark",
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/57/Menasting_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "7050.0",
+      "rarity": "9",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "100",
+      "defense": "130",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "1000",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "600",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "lumbering",
@@ -8274,7 +10648,10 @@
         "level": 3
       }
     ],
-    "drops": ["coal", "venom_gland"],
+    "drops": [
+      "coal",
+      "venom_gland"
+    ],
     "aura": {
       "name": "steel_scorpion",
       "description": "When fighting together, increases the player's defense and Electric Pals drop more items when defeated."
@@ -8345,8 +10722,30 @@
     "image": "/public/images/100.png",
     "name": "Anubis",
     "wiki": "https://palworld.fandom.com/wiki/Anubis",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/21/Anubis_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "9190.0",
+      "rarity": "10",
+      "hp": "120",
+      "meleeAttack": "130",
+      "shotAttack": "130",
+      "defense": "100",
+      "support": "100",
+      "passive1": "Ground Emperor",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "160",
+      "runSpeed": "800",
+      "rideSprintSpeed": "1000",
+      "transportSpeed": "480",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -8361,7 +10760,11 @@
         "level": 2
       }
     ],
-    "drops": ["bone", "large_pal_soul", "innovative_technical_manual"],
+    "drops": [
+      "bone",
+      "large_pal_soul",
+      "innovative_technical_manual"
+    ],
     "aura": {
       "name": "guardian_of_the_desert",
       "description": "When fighting together, applies Ground damage to the player's attacks. Sometimes dodges attacks with a high speed sidestep while in a battle."
@@ -8432,15 +10835,40 @@
     "image": "/public/images/101.png",
     "name": "Jormuntide",
     "wiki": "https://palworld.fandom.com/wiki/Jormuntide",
-    "typeofpal": ["dragon", "water"],
+    "typeofpal": [
+      "dragon",
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/8/8e/Jormuntide_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "9320.0",
+      "rarity": "8",
+      "hp": "130",
+      "meleeAttack": "150",
+      "shotAttack": "120",
+      "defense": "100",
+      "support": "100",
+      "passive1": "Lord of the Sea",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "175",
+      "runSpeed": "525",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
         "level": 4
       }
     ],
-    "drops": ["pal_fluids"],
+    "drops": [
+      "pal_fluids"
+    ],
     "aura": {
       "name": "stormbringer_sea_dragon",
       "description": "Can be ridden to travel on water. While mounted, prevents stamina depletion while moving over water."
@@ -8511,15 +10939,38 @@
     "image": "/public/images/102.png",
     "name": "Suzaku",
     "wiki": "https://palworld.fandom.com/wiki/Suzaku",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/b4/Suzaku_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "9840.0",
+      "rarity": "8",
+      "hp": "120",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "105",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "850",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "450",
+      "stamina": "350"
+    },
     "suitability": [
       {
         "type": "kindling",
         "level": 3
       }
     ],
-    "drops": ["flame_organ"],
+    "drops": [
+      "flame_organ"
+    ],
     "aura": {
       "name": "wings_of_flame",
       "description": "Can be ridden as a flying mount. Enhances Fire attacks while mounted."
@@ -8590,8 +11041,29 @@
     "image": "/public/images/103.png",
     "name": "Grizzbolt",
     "wiki": "https://palworld.fandom.com/wiki/Grizzbolt",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/13/Grizzbolt_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "7720.0",
+      "rarity": "8",
+      "hp": "105",
+      "meleeAttack": "120",
+      "shotAttack": "100",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "140",
+      "runSpeed": "470",
+      "rideSprintSpeed": "650",
+      "transportSpeed": "210",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -8610,7 +11082,10 @@
         "level": 2
       }
     ],
-    "drops": ["electric_organ", "leather"],
+    "drops": [
+      "electric_organ",
+      "leather"
+    ],
     "aura": {
       "name": "yellow_tank",
       "description": "Can be ridden. Can rapidly fire a minigun while mounted."
@@ -8681,8 +11156,30 @@
     "image": "/public/images/104.png",
     "name": "Lyleen",
     "wiki": "https://palworld.fandom.com/wiki/Lyleen",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Lyleen_menu.png/",
+    "stats": {
+      "maleProb": "30",
+      "femaleProb": "70",
+      "size": "XL",
+      "price": "7160.0",
+      "rarity": "9",
+      "hp": "110",
+      "meleeAttack": "100",
+      "shotAttack": "110",
+      "defense": "105",
+      "support": "100",
+      "passive1": "Spirit Emperor",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "60",
+      "walkSpeed": "100",
+      "runSpeed": "450",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "275",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -8776,8 +11273,29 @@
     "image": "/public/images/105.png",
     "name": "Faleris",
     "wiki": "https://palworld.fandom.com/wiki/Faleris",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/99/Faleris_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6720.0",
+      "rarity": "9",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "110",
+      "support": "90",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "150",
+      "walkSpeed": "200",
+      "runSpeed": "1000",
+      "rideSprintSpeed": "1500",
+      "transportSpeed": "500",
+      "stamina": "230"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -8788,7 +11306,9 @@
         "level": 3
       }
     ],
-    "drops": ["flame_organ"],
+    "drops": [
+      "flame_organ"
+    ],
     "aura": {
       "name": "scorching_predator",
       "description": "Can be ridden as a flying mount. While fighting together, Ice Pals drop more items when defeated."
@@ -8859,8 +11379,31 @@
     "image": "/public/images/106.png",
     "name": "Orserk",
     "wiki": "https://palworld.fandom.com/wiki/Orserk",
-    "typeofpal": ["dragon", "electric"],
+    "typeofpal": [
+      "dragon",
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/6e/Orserk_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8320.0",
+      "rarity": "9",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "130",
+      "defense": "100",
+      "support": "100",
+      "passive1": "Lord of Lightning",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "185",
+      "runSpeed": "900",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -8875,7 +11418,9 @@
         "level": 4
       }
     ],
-    "drops": ["electric_organ"],
+    "drops": [
+      "electric_organ"
+    ],
     "aura": {
       "name": "ferocious_thunder_dragon",
       "description": "While fighting together, Water Pals drop more items when defeated."
@@ -8946,15 +11491,40 @@
     "image": "/public/images/107.png",
     "name": "Shadowbeak",
     "wiki": "https://palworld.fandom.com/wiki/Shadowbeak",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0c/Shadowbeak_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "9060.0",
+      "rarity": "10",
+      "hp": "120",
+      "meleeAttack": "130",
+      "shotAttack": "120",
+      "defense": "140",
+      "support": "90",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "80",
+      "runSpeed": "850",
+      "rideSprintSpeed": "1300",
+      "transportSpeed": "465",
+      "stamina": "250"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 1
       }
     ],
-    "drops": ["pal_metal_ingot", "carbon_fiber", "innovative_technical_manual"],
+    "drops": [
+      "pal_metal_ingot",
+      "carbon_fiber",
+      "innovative_technical_manual"
+    ],
     "aura": {
       "name": "modified_dna",
       "description": "Can be ridden as a flying mount. Enhances Dark attacks while mounted."
@@ -9025,8 +11595,31 @@
     "image": "/public/images/108.png",
     "name": "Paladius",
     "wiki": "https://palworld.fandom.com/wiki/Paladius",
-    "typeofpal": ["neutral"],
+    "typeofpal": [
+      "neutral"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/09/Paladius_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8810.0",
+      "rarity": "20",
+      "hp": "260",
+      "meleeAttack": "110",
+      "shotAttack": "120",
+      "defense": "145",
+      "support": "100",
+      "passive1": "Legend",
+      "passive2": "Celestial Emperor",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "800",
+      "rideSprintSpeed": "1400",
+      "transportSpeed": "450",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "mining",
@@ -9037,7 +11630,10 @@
         "level": 2
       }
     ],
-    "drops": ["pal_metal_ingot", "diamond"],
+    "drops": [
+      "pal_metal_ingot",
+      "diamond"
+    ],
     "aura": {
       "name": "holy_knight_of_the_firmament",
       "description": "Can be ridden. Can triple jump while mounted."
@@ -9108,8 +11704,31 @@
     "image": "/public/images/109.png",
     "name": "Necromus",
     "wiki": "https://palworld.fandom.com/wiki/Necromus",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/13/Necromus_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8930.0",
+      "rarity": "20",
+      "hp": "260",
+      "meleeAttack": "100",
+      "shotAttack": "145",
+      "defense": "120",
+      "support": "100",
+      "passive1": "Legend",
+      "passive2": "Lord of the Underworld",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "350",
+      "runSpeed": "900",
+      "rideSprintSpeed": "1600",
+      "transportSpeed": "625",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "mining",
@@ -9120,7 +11739,10 @@
         "level": 2
       }
     ],
-    "drops": ["pal_metal_ingot", "large_pal_soul"],
+    "drops": [
+      "pal_metal_ingot",
+      "large_pal_soul"
+    ],
     "aura": {
       "name": "dark_knight_of_the_abyss",
       "description": "Can be ridden. Can double jump while mounted."
@@ -9191,15 +11813,41 @@
     "image": "/public/images/110.png",
     "name": "Frostallion",
     "wiki": "https://palworld.fandom.com/wiki/Frostallion",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/00/Frostallion_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8440.0",
+      "rarity": "20",
+      "hp": "420",
+      "meleeAttack": "100",
+      "shotAttack": "140",
+      "defense": "120",
+      "support": "70",
+      "passive1": "Legend",
+      "passive2": "Ice Emperor",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "120",
+      "walkSpeed": "120",
+      "runSpeed": "1000",
+      "rideSprintSpeed": "1600",
+      "transportSpeed": "440",
+      "stamina": "300"
+    },
     "suitability": [
       {
         "type": "cooling",
         "level": 4
       }
     ],
-    "drops": ["ice_organ", "diamond"],
+    "drops": [
+      "ice_organ",
+      "diamond"
+    ],
     "aura": {
       "name": "ice_steed",
       "description": "Can be ridden as a flying mount. Changes the player's attack type to Ice and enhances Ice attacks while mounted."
@@ -9270,15 +11918,43 @@
     "image": "/public/images/111.png",
     "name": "Jetragon",
     "wiki": "https://palworld.fandom.com/wiki/Jetragon",
-    "typeofpal": ["dragon"],
+    "typeofpal": [
+      "dragon"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/e5/Jetragon_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8680.0",
+      "rarity": "20",
+      "hp": "330",
+      "meleeAttack": "100",
+      "shotAttack": "140",
+      "defense": "110",
+      "support": "100",
+      "passive1": "Legend",
+      "passive2": "Divine Dragon",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "600",
+      "walkSpeed": "800",
+      "runSpeed": "1700",
+      "rideSprintSpeed": "3300",
+      "transportSpeed": "1250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 3
       }
     ],
-    "drops": ["pure_quartz", "polymer", "carbon_fiber", "diamond"],
+    "drops": [
+      "pure_quartz",
+      "polymer",
+      "carbon_fiber",
+      "diamond"
+    ],
     "aura": {
       "name": "aerial_missile",
       "description": "Can be ridden as a flying mount. Can rapidly fire a missile launcher while mounted."
@@ -9349,15 +12025,38 @@
     "image": "/public/images/012B.png",
     "name": "Jolthog Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Jolthog_Cryst",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/72/Jolthog_Cryst_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1070.0",
+      "rarity": "2",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "75",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "30",
+      "walkSpeed": "60",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "215",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "cooling",
         "level": 1
       }
     ],
-    "drops": ["ice_organ"],
+    "drops": [
+      "ice_organ"
+    ],
     "aura": {
       "name": "cold_bomb",
       "description": "When activated, equips Jolthog Cryst to the player's hand. When thrown at an enemy, causes an icy explosion upon impact."
@@ -9428,8 +12127,29 @@
     "image": "/public/images/024B.png",
     "name": "Mau Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Mau_Cryst",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/7/7a/Mau_Cryst_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "S",
+      "price": "1010.0",
+      "rarity": "2",
+      "hp": "70",
+      "meleeAttack": "70",
+      "shotAttack": "65",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "52",
+      "walkSpeed": "105",
+      "runSpeed": "475",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "317",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "cooling",
@@ -9440,7 +12160,10 @@
         "level": 1
       }
     ],
-    "drops": ["ice_organ", "sapphire"],
+    "drops": [
+      "ice_organ",
+      "sapphire"
+    ],
     "aura": {
       "name": "gold_digger",
       "description": "Sometimes digs up Gold Coin when assigned to Ranch."
@@ -9511,8 +12234,29 @@
     "image": "/public/images/031B.png",
     "name": "Gobfin Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Gobfin_Ignis",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/9/9c/Gobfin_Ignis_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "M",
+      "price": "1800.0",
+      "rarity": "3",
+      "hp": "90",
+      "meleeAttack": "90",
+      "shotAttack": "90",
+      "defense": "75",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "80",
+      "runSpeed": "400",
+      "rideSprintSpeed": "500",
+      "transportSpeed": "120",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -9527,7 +12271,9 @@
         "level": 1
       }
     ],
-    "drops": ["flame_organ"],
+    "drops": [
+      "flame_organ"
+    ],
     "aura": {
       "name": "angry_shark",
       "description": "When activated, attacks targeted enemy with a powerful Spirit Fire. While in team, increases player's attack power."
@@ -9598,8 +12344,29 @@
     "image": "/public/images/032B.png",
     "name": "Hangyu Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Hangyu_Cryst",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/49/Hangyu_Cryst_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1020.0",
+      "rarity": "2",
+      "hp": "80",
+      "meleeAttack": "70",
+      "shotAttack": "80",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "250",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -9618,7 +12385,10 @@
         "level": 2
       }
     ],
-    "drops": ["fiber", "ice_organ"],
+    "drops": [
+      "fiber",
+      "ice_organ"
+    ],
     "aura": {
       "name": "winter_trapeze",
       "description": "While in team, can be summoned and used instead of a glider. Carries the player up high while gliding."
@@ -9689,8 +12459,29 @@
     "image": "/public/images/033B.png",
     "name": "Mossanda Lux",
     "wiki": "https://palworld.fandom.com/wiki/Mossanda_Lux",
-    "typeofpal": ["electric"],
+    "typeofpal": [
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/05/Mossanda_Lux_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "6610.0",
+      "rarity": "7",
+      "hp": "100",
+      "meleeAttack": "100",
+      "shotAttack": "100",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "500",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "275",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -9709,7 +12500,11 @@
         "level": 3
       }
     ],
-    "drops": ["mushroom", "electric_organ", "leather"],
+    "drops": [
+      "mushroom",
+      "electric_organ",
+      "leather"
+    ],
     "aura": {
       "name": "grenadier_panda",
       "description": "Can be ridden. Can rapidly fire a grenade launcher while mounted."
@@ -9780,15 +12575,40 @@
     "image": "/public/images/037B.png",
     "name": "Eikthyrdeer Terra",
     "wiki": "https://palworld.fandom.com/wiki/Eikthyrdeer_Terra",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/32/Eikthyrdeer_Terra_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2680.0",
+      "rarity": "6",
+      "hp": "95",
+      "meleeAttack": "70",
+      "shotAttack": "80",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "120",
+      "runSpeed": "700",
+      "rideSprintSpeed": "1000",
+      "transportSpeed": "390",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "lumbering",
         "level": 2
       }
     ],
-    "drops": ["eikthyrdeer_venison", "leather", "horn"],
+    "drops": [
+      "eikthyrdeer_venison",
+      "leather",
+      "horn"
+    ],
     "aura": {
       "name": "guardian_of_the_golden_forest",
       "description": "Can be ridden. Can perform a double jump while mounted. Increases efficiency of cutting trees."
@@ -9859,8 +12679,29 @@
     "image": "/public/images/040B.png",
     "name": "Incineram Noct",
     "wiki": "https://palworld.fandom.com/wiki/Incineram_Noct",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5b/Incineram_Noct_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4870.0",
+      "rarity": "5",
+      "hp": "95",
+      "meleeAttack": "150",
+      "shotAttack": "105",
+      "defense": "85",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "160",
+      "runSpeed": "700",
+      "rideSprintSpeed": "960",
+      "transportSpeed": "320",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -9875,7 +12716,10 @@
         "level": 2
       }
     ],
-    "drops": ["horn", "leather"],
+    "drops": [
+      "horn",
+      "leather"
+    ],
     "aura": {
       "name": "darkclaw_hunter",
       "description": "When activated, attacks targeted enemy with a powerful Hellfire Claw."
@@ -9946,8 +12790,29 @@
     "image": "/public/images/045B.png",
     "name": "Leezpunk Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Leezpunk_Ignis",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/e/ea/Leezpunk_Ignis_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "1640.0",
+      "rarity": "3",
+      "hp": "80",
+      "meleeAttack": "90",
+      "shotAttack": "80",
+      "defense": "50",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "140",
+      "runSpeed": "400",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "270",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -9966,7 +12831,10 @@
         "level": 1
       }
     ],
-    "drops": ["flame_organ", "silver_key"],
+    "drops": [
+      "flame_organ",
+      "silver_key"
+    ],
     "aura": {
       "name": "sixth_sense",
       "description": "When activated, utilizes its sixth sense to detect nearby dungeons."
@@ -10037,8 +12905,30 @@
     "image": "/public/images/048B.png",
     "name": "Robinquill Terra",
     "wiki": "https://palworld.fandom.com/wiki/Robinquill_Terra",
-    "typeofpal": ["grass", "ground"],
+    "typeofpal": [
+      "grass",
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/45/Robinquill_Terra_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "2150.0",
+      "rarity": "6",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "100",
+      "runSpeed": "600",
+      "rideSprintSpeed": "750",
+      "transportSpeed": "400",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -10061,7 +12951,10 @@
         "level": 2
       }
     ],
-    "drops": ["wheat_seeds", "arrow"],
+    "drops": [
+      "wheat_seeds",
+      "arrow"
+    ],
     "aura": {
       "name": "hawk_eye",
       "description": "While fighting together, allows you to deal more damage to weak points."
@@ -10132,8 +13025,30 @@
     "image": "/public/images/058B.png",
     "name": "Pyrin Noct",
     "wiki": "https://palworld.fandom.com/wiki/Pyrin_Noct",
-    "typeofpal": ["fire", "dark"],
+    "typeofpal": [
+      "fire",
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/2b/Pyrin_Noct_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "7270.0",
+      "rarity": "7",
+      "hp": "100",
+      "meleeAttack": "110",
+      "shotAttack": "95",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "150",
+      "runSpeed": "850",
+      "rideSprintSpeed": "1400",
+      "transportSpeed": "500",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -10144,7 +13059,10 @@
         "level": 1
       }
     ],
-    "drops": ["flame_organ", "leather"],
+    "drops": [
+      "flame_organ",
+      "leather"
+    ],
     "aura": {
       "name": "black_hare",
       "description": "Can be ridden. Applies Dark damage to the player's attacks while mounted."
@@ -10215,8 +13133,30 @@
     "image": "/public/images/064B.png",
     "name": "Dinossom Lux",
     "wiki": "https://palworld.fandom.com/wiki/Dinossom_Lux",
-    "typeofpal": ["electric", "dragon"],
+    "typeofpal": [
+      "electric",
+      "dragon"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/c/c7/Dinossom_Lux_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3380.0",
+      "rarity": "7",
+      "hp": "110",
+      "meleeAttack": "90",
+      "shotAttack": "90",
+      "defense": "90",
+      "support": "150",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "120",
+      "runSpeed": "550",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "335",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "generating_function toLocaleLowerCase() { [native code] }",
@@ -10227,7 +13167,9 @@
         "level": 2
       }
     ],
-    "drops": ["tomato_seeds"],
+    "drops": [
+      "tomato_seeds"
+    ],
     "aura": {
       "name": "thunder_dragon",
       "description": "Can be ridden. Enhances Electric attacks while mounted."
@@ -10298,15 +13240,38 @@
     "image": "/public/images/065B.png",
     "name": "Surfent Terra",
     "wiki": "https://palworld.fandom.com/wiki/Surfent_Terra",
-    "typeofpal": ["ground"],
+    "typeofpal": [
+      "ground"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/f/ff/Surfent_Terra_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5140.0",
+      "rarity": "5",
+      "hp": "90",
+      "meleeAttack": "70",
+      "shotAttack": "90",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "500",
+      "rideSprintSpeed": "750",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 1
       }
     ],
-    "drops": ["pal_fluids"],
+    "drops": [
+      "pal_fluids"
+    ],
     "aura": {
       "name": "sand_swimmer",
       "description": "Can be ridden."
@@ -10377,8 +13342,30 @@
     "image": "/public/images/071B.png",
     "name": "Vanwyrm Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Vanwyrm_Cryst",
-    "typeofpal": ["ice", "dark"],
+    "typeofpal": [
+      "ice",
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/19/Vanwyrm_Cryst_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4610.0",
+      "rarity": "5",
+      "hp": "90",
+      "meleeAttack": "100",
+      "shotAttack": "120",
+      "defense": "95",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "350",
+      "runSpeed": "700",
+      "rideSprintSpeed": "950",
+      "transportSpeed": "475",
+      "stamina": "150"
+    },
     "suitability": [
       {
         "type": "cooling",
@@ -10389,7 +13376,11 @@
         "level": 3
       }
     ],
-    "drops": ["bone", "ice_organ", "sapphire"],
+    "drops": [
+      "bone",
+      "ice_organ",
+      "sapphire"
+    ],
     "aura": {
       "name": "aerial_marauder",
       "description": "Can be ridden as a flying mount. Increases damage player deals to enemy weak points while mounted."
@@ -10460,8 +13451,30 @@
     "image": "/public/images/080B.png",
     "name": "Elphidran Aqua",
     "wiki": "https://palworld.fandom.com/wiki/Elphidran_Aqua",
-    "typeofpal": ["dragon", "water"],
+    "typeofpal": [
+      "dragon",
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5e/Elphidran_Aqua_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5230.0",
+      "rarity": "7",
+      "hp": "110",
+      "meleeAttack": "80",
+      "shotAttack": "80",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "83",
+      "walkSpeed": "83",
+      "runSpeed": "630",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "456",
+      "stamina": "130"
+    },
     "suitability": [
       {
         "type": "watering",
@@ -10472,7 +13485,9 @@
         "level": 2
       }
     ],
-    "drops": ["high_quality_pal_oil"],
+    "drops": [
+      "high_quality_pal_oil"
+    ],
     "aura": {
       "name": "amicable_water_dragon",
       "description": "Can be ridden as a flying mount.\nWhile fighting together, Fire Pals drop more items when defeated."
@@ -10543,15 +13558,39 @@
     "image": "/public/images/081B.png",
     "name": "Kelpsea Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Kelpsea_Ignis",
-    "typeofpal": ["fire"],
+    "typeofpal": [
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/b/ba/Kelpsea_Ignis_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "L",
+      "price": "1240.0",
+      "rarity": "2",
+      "hp": "70",
+      "meleeAttack": "100",
+      "shotAttack": "70",
+      "defense": "70",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "100",
+      "runSpeed": "700",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "400",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
         "level": 1
       }
     ],
-    "drops": ["raw_kelpsea", "flame_organ"],
+    "drops": [
+      "raw_kelpsea",
+      "flame_organ"
+    ],
     "aura": {
       "name": "lava_spout",
       "description": "While in team, increases attack power of Fire Pals."
@@ -10622,8 +13661,30 @@
     "image": "/public/images/084B.png",
     "name": "Blazehowl Noct",
     "wiki": "https://palworld.fandom.com/wiki/Blazehowl_Noct",
-    "typeofpal": ["fire", "dark"],
+    "typeofpal": [
+      "fire",
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5d/Blazehowl_Noct_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "4360.0",
+      "rarity": "8",
+      "hp": "105",
+      "meleeAttack": "100",
+      "shotAttack": "115",
+      "defense": "80",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "60",
+      "walkSpeed": "90",
+      "runSpeed": "750",
+      "rideSprintSpeed": "1000",
+      "transportSpeed": "420",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
@@ -10634,7 +13695,9 @@
         "level": 2
       }
     ],
-    "drops": ["flame_organ"],
+    "drops": [
+      "flame_organ"
+    ],
     "aura": {
       "name": "darkflame_lion",
       "description": "Can be ridden. While fighting together, Neutral Pals drop more items when defeated."
@@ -10705,8 +13768,30 @@
     "image": "/public/images/085B.png",
     "name": "Relaxaurus Lux",
     "wiki": "https://palworld.fandom.com/wiki/Relaxaurus_Lux",
-    "typeofpal": ["dragon", "electric"],
+    "typeofpal": [
+      "dragon",
+      "electric"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/40/Relaxaurus_Lux_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "10380.0",
+      "rarity": "9",
+      "hp": "110",
+      "meleeAttack": "110",
+      "shotAttack": "110",
+      "defense": "75",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "40",
+      "walkSpeed": "60",
+      "runSpeed": "650",
+      "rideSprintSpeed": "900",
+      "transportSpeed": "150",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "transporting",
@@ -10717,7 +13802,11 @@
         "level": 3
       }
     ],
-    "drops": ["high_quality_pal_oil", "electric_organ", "sapphire"],
+    "drops": [
+      "high_quality_pal_oil",
+      "electric_organ",
+      "sapphire"
+    ],
     "aura": {
       "name": "missile_party",
       "description": "Can be ridden. Can rapidly fire a missile launcher while mounted."
@@ -10788,15 +13877,40 @@
     "image": "/public/images/086B.png",
     "name": "Broncherry Aqua",
     "wiki": "https://palworld.fandom.com/wiki/Broncherry_Aqua",
-    "typeofpal": ["grass", "water"],
+    "typeofpal": [
+      "grass",
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/db/Broncherry_Aqua_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "3110.0",
+      "rarity": "8",
+      "hp": "120",
+      "meleeAttack": "80",
+      "shotAttack": "95",
+      "defense": "100",
+      "support": "120",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "75",
+      "runSpeed": "350",
+      "rideSprintSpeed": "600",
+      "transportSpeed": "200",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "watering",
         "level": 3
       }
     ],
-    "drops": ["broncherry_meat", "lettuce_seeds"],
+    "drops": [
+      "broncherry_meat",
+      "lettuce_seeds"
+    ],
     "aura": {
       "name": "overaffectionate",
       "description": "Can be ridden. While in team, Broncherry helps carry supplies, increasing the player's max carrying capacity."
@@ -10867,8 +13981,30 @@
     "image": "/public/images/088B.png",
     "name": "Ice Reptyro",
     "wiki": "https://palworld.fandom.com/wiki/Ice_Reptyro",
-    "typeofpal": ["ice", "ground"],
-    "imageurl": "https://static.wikia.nocookie.net/palworld/images/2/2c/Ice_Reptyro_menu.png",
+    "typeofpal": [
+      "ice",
+      "ground"
+    ],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/09/Reptyro_Cryst_menu.png/",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "7380.0",
+      "rarity": "7",
+      "hp": "110",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "130",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "50",
+      "walkSpeed": "80",
+      "runSpeed": "390",
+      "rideSprintSpeed": "650",
+      "transportSpeed": "235",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "mining",
@@ -10879,7 +14015,9 @@
         "level": 3
       }
     ],
-    "drops": ["ice_organ"],
+    "drops": [
+      "ice_organ"
+    ],
     "aura": {
       "name": "ice-loving_beast",
       "description": "Can be ridden. Improves efficiency of mining ores while mounted."
@@ -10950,8 +14088,29 @@
     "image": "/public/images/089B.png",
     "name": "Ice Kingpaca",
     "wiki": "https://palworld.fandom.com/wiki/Ice_Kingpaca",
-    "typeofpal": ["ice"],
-    "imageurl": "https://static.wikia.nocookie.net/palworld/images/5/5a/Ice_Kingpaca_menu.png",
+    "typeofpal": [
+      "ice"
+    ],
+    "imageurl": "https://static.wikia.nocookie.net/palworld/images/4/49/Kingpaca_Cryst_menu.png",
+    "stats": {
+      "maleProb": "90",
+      "femaleProb": "10",
+      "size": "XL",
+      "price": "6100.0",
+      "rarity": "9",
+      "hp": "120",
+      "meleeAttack": "100",
+      "shotAttack": "85",
+      "defense": "90",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "80",
+      "walkSpeed": "80",
+      "runSpeed": "500",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "290",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "gathering",
@@ -10962,7 +14121,10 @@
         "level": 3
       }
     ],
-    "drops": ["wool", "ice_organ"],
+    "drops": [
+      "wool",
+      "ice_organ"
+    ],
     "aura": {
       "name": "king_of_muscles",
       "description": "Can be ridden. While in team, Kingpaca helps carry supplies, increasing the player's max carrying capacity."
@@ -11033,8 +14195,29 @@
     "image": "/public/images/090B.png",
     "name": "Mammorest Cryst",
     "wiki": "https://palworld.fandom.com/wiki/Mammorest_Cryst",
-    "typeofpal": ["ice"],
+    "typeofpal": [
+      "ice"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/d/db/Mammorest_Cryst_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "9710.0",
+      "rarity": "9",
+      "hp": "150",
+      "meleeAttack": "100",
+      "shotAttack": "90",
+      "defense": "90",
+      "support": "30",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "135",
+      "runSpeed": "430",
+      "rideSprintSpeed": "700",
+      "transportSpeed": "282",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "lumbering",
@@ -11049,7 +14232,11 @@
         "level": 2
       }
     ],
-    "drops": ["high_quality_pal_oil", "leather", "mammorest_meat"],
+    "drops": [
+      "high_quality_pal_oil",
+      "leather",
+      "mammorest_meat"
+    ],
     "aura": {
       "name": "ice_crusher",
       "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted."
@@ -11120,8 +14307,29 @@
     "image": "/public/images/091B.png",
     "name": "Wumpo Botan",
     "wiki": "https://palworld.fandom.com/wiki/Wumpo_Botan",
-    "typeofpal": ["grass"],
+    "typeofpal": [
+      "grass"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/6/68/Wumpo_Botan_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "5700.0",
+      "rarity": "8",
+      "hp": "140",
+      "meleeAttack": "100",
+      "shotAttack": "80",
+      "defense": "110",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "70",
+      "walkSpeed": "100",
+      "runSpeed": "365",
+      "rideSprintSpeed": "650",
+      "transportSpeed": "150",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "planting",
@@ -11140,7 +14348,11 @@
         "level": 4
       }
     ],
-    "drops": ["lettuce_seeds", "tomato_seeds", "beautiful_flower"],
+    "drops": [
+      "lettuce_seeds",
+      "tomato_seeds",
+      "beautiful_flower"
+    ],
     "aura": {
       "name": "guardian_of_the_grassy_fields",
       "description": "Can be ridden. While in team, Wumpo Botan helps carry supplies, increasing the player's max carrying capacity."
@@ -11211,15 +14423,40 @@
     "image": "/public/images/101B.png",
     "name": "Jormuntide Ignis",
     "wiki": "https://palworld.fandom.com/wiki/Jormuntide_Ignis",
-    "typeofpal": ["dragon", "fire"],
+    "typeofpal": [
+      "dragon",
+      "fire"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/0/0d/Jormuntide_Ignis_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "9320.0",
+      "rarity": "9",
+      "hp": "130",
+      "meleeAttack": "150",
+      "shotAttack": "130",
+      "defense": "100",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "175",
+      "runSpeed": "525",
+      "rideSprintSpeed": "800",
+      "transportSpeed": "350",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "kindling",
         "level": 4
       }
     ],
-    "drops": ["high_quality_pal_oil", "flame_organ"],
+    "drops": [
+      "high_quality_pal_oil",
+      "flame_organ"
+    ],
     "aura": {
       "name": "stormbringer_lava_dragon",
       "description": "Can be ridden. Enhances Fire attacks while mounted."
@@ -11290,15 +14527,38 @@
     "image": "/public/images/102B.png",
     "name": "Suzaku Aqua",
     "wiki": "https://palworld.fandom.com/wiki/Suzaku_Aqua",
-    "typeofpal": ["water"],
+    "typeofpal": [
+      "water"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/a/a1/Suzaku_Aqua_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "10110.0",
+      "rarity": "9",
+      "hp": "125",
+      "meleeAttack": "100",
+      "shotAttack": "105",
+      "defense": "105",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "100",
+      "walkSpeed": "200",
+      "runSpeed": "850",
+      "rideSprintSpeed": "1200",
+      "transportSpeed": "450",
+      "stamina": "350"
+    },
     "suitability": [
       {
         "type": "watering",
         "level": 3
       }
     ],
-    "drops": ["pal_fluids"],
+    "drops": [
+      "pal_fluids"
+    ],
     "aura": {
       "name": "wings_of_water",
       "description": "Can be ridden as a flying mount. Enhances Water attacks while mounted."
@@ -11369,8 +14629,29 @@
     "image": "/public/images/104B.png",
     "name": "Lyleen Noct",
     "wiki": "https://palworld.fandom.com/wiki/Lyleen_Noct",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/3/30/Lyleen_Noct_menu.png",
+    "stats": {
+      "maleProb": "30",
+      "femaleProb": "70",
+      "size": "XL",
+      "price": "7610.0",
+      "rarity": "10",
+      "hp": "110",
+      "meleeAttack": "100",
+      "shotAttack": "110",
+      "defense": "115",
+      "support": "100",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "60",
+      "walkSpeed": "100",
+      "runSpeed": "450",
+      "rideSprintSpeed": "550",
+      "transportSpeed": "275",
+      "stamina": "100"
+    },
     "suitability": [
       {
         "type": "handiwork",
@@ -11460,15 +14741,40 @@
     "image": "/public/images/110B.png",
     "name": "Frostallion Noct",
     "wiki": "https://palworld.fandom.com/wiki/Frostallion_Noct",
-    "typeofpal": ["dark"],
+    "typeofpal": [
+      "dark"
+    ],
     "imageurl": "https://static.wikia.nocookie.net/palworld/images/1/14/Frostallion_Noct_menu.png",
+    "stats": {
+      "maleProb": "50",
+      "femaleProb": "50",
+      "size": "XL",
+      "price": "8560.0",
+      "rarity": "20",
+      "hp": "420",
+      "meleeAttack": "100",
+      "shotAttack": "140",
+      "defense": "135",
+      "support": "70",
+      "passive1": "Legend",
+      "craftSpeed": "100",
+      "slowWalkSpeed": "120",
+      "walkSpeed": "120",
+      "runSpeed": "1000",
+      "rideSprintSpeed": "1600",
+      "transportSpeed": "440",
+      "stamina": "300"
+    },
     "suitability": [
       {
         "type": "gathering",
         "level": 4
       }
     ],
-    "drops": ["pure_quartz", "large_pal_soul"],
+    "drops": [
+      "pure_quartz",
+      "large_pal_soul"
+    ],
     "aura": {
       "name": "black_steed",
       "description": "Can be ridden as a flying mount. Changes the player's attack type to Dark and enhances Dark attacks while mounted."

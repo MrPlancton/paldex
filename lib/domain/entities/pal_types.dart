@@ -46,7 +46,7 @@ extension PalTypesX on PalTypes {
   Color get color {
     switch (this) {
       case PalTypes.neutral:
-        return AppColors.whiteGrey;
+        return AppColors.beige;
 
       case PalTypes.grass:
         return AppColors.lightGreen;
