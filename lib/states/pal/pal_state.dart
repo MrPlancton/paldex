@@ -1,4 +1,4 @@
-import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
 
 enum PalStateStatus {
   initial,

@@ -25,9 +25,7 @@ class PalBloc extends Bloc<PalEvent, PalState> {
     try {
       emit(state.asLoading());
 
-      final pals = event.loadAll
-          ? await _palRepository.getAllPals()
-          : await _palRepository.getPals(page: 1, limit: palsPerPage);
+      final pals = event.loadAll ? await _palRepository.getAllPals() : await _palRepository.getPals(page: 1, limit: palsPerPage);
 
       final canLoadMore = pals.length >= palsPerPage;
 
@@ -59,8 +57,10 @@ class PalBloc extends Bloc<PalEvent, PalState> {
   void _onSelectChanged(PalSelectChanged event, Emitter<PalState> emit) async {
     try {
       final palIndex = state.pals.indexWhere(
-        (pal) => pal.number == event.palId,
+        (pal) => pal.id == event.palId,
       );
+
+      print("index pal: $palIndex");
 
       if (palIndex < 0 || palIndex >= state.pals.length) return;
 

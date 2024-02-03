@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paldex/domain/entities/pal_types.dart';
+import 'package:paldex/domain/entities/type/pal_types.dart';
 
 class PokeTypes {
   const PokeTypes({
@@ -9,6 +9,7 @@ class PokeTypes {
     required this.nilEffective,
     required this.color,
   });
+
   final PalTypes type;
   final List<String> superEffective;
   final List<String> notEffective;
@@ -18,13 +19,6 @@ class PokeTypes {
 
 List<PokeTypes> tps = [];
 const List<PokeTypes> types = [
-  PokeTypes(
-    type: PalTypes.normal,
-    superEffective: [],
-    notEffective: ["Rock", "Steel"],
-    nilEffective: ["Ghost"],
-    color: Color(0xFFa8a8a8),
-  ),
   PokeTypes(
     type: PalTypes.fire,
     superEffective: ["Bug", "Steel", "Grass", "Ice"],
@@ -61,60 +55,11 @@ const List<PokeTypes> types = [
     color: Color(0xFF98d9d8),
   ),
   PokeTypes(
-    type: PalTypes.fighting,
-    notEffective: ["Flying", "Poison", "Bug", "Psychic", "Fairy"],
-    superEffective: ["Normal", "Rock", "Steel", "Ice", "Dark"],
-    nilEffective: ["Ghost"],
-    color: Color(0xFFe83001),
-  ),
-  PokeTypes(
-    type: PalTypes.poison,
-    superEffective: ["Grass", "Fairy"],
-    nilEffective: ["Steel"],
-    notEffective: ["Poison", "Ground", "Rock", "Ghost"],
-    color: Color(0xFFa040a0),
-  ),
-  PokeTypes(
     type: PalTypes.ground,
     nilEffective: ["Flying"],
     superEffective: ["Poison", "Rock", "Steel", "Fire", "Electric"],
     notEffective: ["Bug", "Grass"],
     color: Color(0xFFd8e02f),
-  ),
-  PokeTypes(
-    type: PalTypes.flying,
-    notEffective: ["Rock", "Steel", "Electric"],
-    superEffective: ["Fighting", "Bug", "Grass"],
-    nilEffective: [],
-    color: Color(0xFF9f94be),
-  ),
-  PokeTypes(
-    type: PalTypes.psychic,
-    notEffective: ["Steel", "Psychic"],
-    superEffective: ["Fighting", "Poison"],
-    nilEffective: ["Dark"],
-    color: Color(0xFFf85888),
-  ),
-  PokeTypes(
-    type: PalTypes.bug,
-    nilEffective: [],
-    superEffective: ["Grass", "Psychic", "Dark"],
-    notEffective: ["Fighting", "Flying", "Poison", "Ghost", "Steel", "Fire", "Fairy"],
-    color: Color(0xFFa8b821),
-  ),
-  PokeTypes(
-    type: PalTypes.rock,
-    nilEffective: [],
-    superEffective: ["Flying", "Bug", "Fire", "Ice"],
-    notEffective: ["Fighting", "Ground", "Steel"],
-    color: Color(0xFFb8a038),
-  ),
-  PokeTypes(
-    type: PalTypes.ghost,
-    notEffective: ["Dark"],
-    nilEffective: ["Normal"],
-    superEffective: ["Ghost", "Psychic"],
-    color: Color(0xFF5d4674),
   ),
   PokeTypes(
     type: PalTypes.dragon,
@@ -130,18 +75,4 @@ const List<PokeTypes> types = [
     notEffective: ["Fighting", "Dark", "Fairy"],
     color: Color(0xFF776554),
   ),
-  PokeTypes(
-    type: PalTypes.steel,
-    superEffective: ["Rock", "Ice", "Fairy"],
-    nilEffective: [],
-    notEffective: ["Steel", "Fire", "Water", "Electric"],
-    color: Color(0xFFb1adbb),
-  ),
-  PokeTypes(
-    type: PalTypes.fairy,
-    notEffective: ["Poison", "Steel", "Fire"],
-    nilEffective: [],
-    superEffective: ["Fighting", "Dragon", "Dark"],
-    color: Color(0xFFf8b8e8),
-  )
 ];

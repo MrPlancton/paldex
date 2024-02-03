@@ -1,37 +1,34 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'pal_gender.dart';
+part of 'suitability.dart';
 
 // **************************************************************************
 // TypeAdapterGenerator
 // **************************************************************************
 
-class PalGenderHiveModelAdapter extends TypeAdapter<PalGenderHiveModel> {
+class SuitabilityHiveModelAdapter extends TypeAdapter<SuitabilityHiveModel> {
   @override
   final int typeId = 2;
 
   @override
-  PalGenderHiveModel read(BinaryReader reader) {
+  SuitabilityHiveModel read(BinaryReader reader) {
     final numOfFields = reader.readByte();
     final fields = <int, dynamic>{
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
-    return PalGenderHiveModel()
-      ..genderless = fields[0] as bool
-      ..male = fields[1] as double
-      ..female = fields[2] as double;
+    return SuitabilityHiveModel()
+      ..type = fields[0] as String
+      ..level = fields[1] as int;
   }
 
   @override
-  void write(BinaryWriter writer, PalGenderHiveModel obj) {
+  void write(BinaryWriter writer, SuitabilityHiveModel obj) {
     writer
-      ..writeByte(3)
-      ..writeByte(0)
-      ..write(obj.genderless)
-      ..writeByte(1)
-      ..write(obj.male)
       ..writeByte(2)
-      ..write(obj.female);
+      ..writeByte(0)
+      ..write(obj.type)
+      ..writeByte(1)
+      ..write(obj.level);
   }
 
   @override
@@ -40,7 +37,7 @@ class PalGenderHiveModelAdapter extends TypeAdapter<PalGenderHiveModel> {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is PalGenderHiveModelAdapter &&
+      other is SuitabilityHiveModelAdapter &&
           runtimeType == other.runtimeType &&
           typeId == other.typeId;
 }

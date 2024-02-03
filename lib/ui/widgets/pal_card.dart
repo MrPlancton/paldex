@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:paldex/configs/images.dart';
-import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
 import 'package:paldex/ui/widgets/pal_image.dart';
 import 'package:paldex/ui/widgets/pal_type.dart';
 
@@ -12,7 +12,8 @@ class PalCard extends StatelessWidget {
   final void Function()? onPress;
 
   const PalCard(
-    this.pal, {super.key, 
+    this.pal, {
+    super.key,
     this.onPress,
   });
 
@@ -91,7 +92,7 @@ class PalCard extends StatelessWidget {
       top: 10,
       right: 14,
       child: Text(
-        '#${pal.number}',
+        '#${pal.id}',
         style: const TextStyle(
           fontSize: 14,
           fontWeight: FontWeight.bold,
@@ -105,7 +106,7 @@ class PalCard extends StatelessWidget {
 class _CardContent extends StatelessWidget {
   final Pal pal;
 
-  const _CardContent(this.pal, {Key? key}) : super(key: key);
+  const _CardContent(this.pal, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -118,7 +119,7 @@ class _CardContent extends StatelessWidget {
           mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             Hero(
-              tag: pal.number + pal.name,
+              tag: pal.id + pal.name,
               child: Text(
                 pal.name,
                 style: TextStyle(

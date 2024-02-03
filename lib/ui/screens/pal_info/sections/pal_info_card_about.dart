@@ -1,9 +1,8 @@
 part of '../pal_info.dart';
 
 class _Label extends Text {
-  _Label(String text, bool isDark)
+  _Label(super.text, bool isDark)
       : super(
-          text,
           style: TextStyle(
             color: isDark ? AppColors.whiteGrey.withOpacity(0.6) : AppColors.black.withOpacity(0.6),
             height: 0.8,
@@ -16,10 +15,10 @@ class _ContentSection extends StatelessWidget {
   final List<Widget>? children;
 
   const _ContentSection({
-    Key? key,
+    super.key,
     required this.label,
     this.children,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -84,13 +83,14 @@ class _PalAbout extends StatelessWidget {
         children: <Widget>[
           _buildDescription(pal.description),
           const SizedBox(height: 28),
-          _buildHeightWeight(pal.height, pal.weight, context, isDark),
-          const SizedBox(height: 31),
-          _buildBreeding(pal.gender, pal.eggGroups, isDark),
-          const SizedBox(height: 35),
-          _buildLocation(),
-          const SizedBox(height: 26),
-          _buildTraining(pal.baseExp, isDark),
+          //TODO>?????
+          //_buildHeightWeight(pal.height, pal.weight, context, isDark),
+          //const SizedBox(height: 31),
+          //_buildBreeding(pal.gender, pal.eggGroups, isDark),
+          //const SizedBox(height: 35),
+          //_buildLocation(),
+          // const SizedBox(height: 26),
+          //_buildTraining(pal.baseExp, isDark),
         ],
       ),
     );
@@ -153,43 +153,43 @@ class _PalAbout extends StatelessWidget {
     );
   }
 
-  Widget _buildBreeding(PalGender gender, List<String> eggGroups, bool isDark) {
-    return _ContentSection(
-      label: 'Breeding',
-      children: [
-        Row(
-          children: <Widget>[
-            Expanded(child: _Label('Gender', isDark)),
-            if (gender.genderless)
-              const Expanded(
-                flex: 3,
-                child: Text('Genderless', style: TextStyle(height: 0.8)),
-              )
-            else ...[
-              Expanded(
-                child: _TextIcon(AppImages.male, '${gender.male}%'),
-              ),
-              Expanded(
-                flex: 2,
-                child: _TextIcon(AppImages.female, '${gender.female}%'),
-              ),
-            ],
-          ],
-        ),
-        const SizedBox(height: 18),
-        Row(
-          children: <Widget>[
-            Expanded(child: _Label('Egg Groups', isDark)),
-            Expanded(
-              flex: 2,
-              child: Text(eggGroups.join(', '), style: const TextStyle(height: 0.8)),
-            ),
-            const Expanded(flex: 1, child: SizedBox()),
-          ],
-        ),
-      ],
-    );
-  }
+  // Widget _buildBreeding(PalGender gender, List<String> eggGroups, bool isDark) {
+  //   return _ContentSection(
+  //     label: 'Breeding',
+  //     children: [
+  //       Row(
+  //         children: <Widget>[
+  //           Expanded(child: _Label('Gender', isDark)),
+  //           if (gender.genderless)
+  //             const Expanded(
+  //               flex: 3,
+  //               child: Text('Genderless', style: TextStyle(height: 0.8)),
+  //             )
+  //           else ...[
+  //             Expanded(
+  //               child: _TextIcon(AppImages.male, '${gender.male}%'),
+  //             ),
+  //             Expanded(
+  //               flex: 2,
+  //               child: _TextIcon(AppImages.female, '${gender.female}%'),
+  //             ),
+  //           ],
+  //         ],
+  //       ),
+  //       const SizedBox(height: 18),
+  //       Row(
+  //         children: <Widget>[
+  //           Expanded(child: _Label('Egg Groups', isDark)),
+  //           Expanded(
+  //             flex: 2,
+  //             child: Text(eggGroups.join(', '), style: const TextStyle(height: 0.8)),
+  //           ),
+  //           const Expanded(flex: 1, child: SizedBox()),
+  //         ],
+  //       ),
+  //     ],
+  //   );
+  // }
 
   Widget _buildLocation() {
     return _ContentSection(

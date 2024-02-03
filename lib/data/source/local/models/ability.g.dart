@@ -1,46 +1,46 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'pal_stats.dart';
+part of 'ability.dart';
 
 // **************************************************************************
 // TypeAdapterGenerator
 // **************************************************************************
 
-class PalStatsHiveModelAdapter extends TypeAdapter<PalStatsHiveModel> {
+class AbilityHiveModelAdapter extends TypeAdapter<AbilityHiveModel> {
   @override
-  final int typeId = 3;
+  final int typeId = 6;
 
   @override
-  PalStatsHiveModel read(BinaryReader reader) {
+  AbilityHiveModel read(BinaryReader reader) {
     final numOfFields = reader.readByte();
     final fields = <int, dynamic>{
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
-    return PalStatsHiveModel()
-      ..attack = fields[0] as int
-      ..specialAttack = fields[1] as int
-      ..defense = fields[2] as int
-      ..specialDefense = fields[3] as int
-      ..hp = fields[4] as int
-      ..speed = fields[5] as int;
+    return AbilityHiveModel()
+      ..level = fields[0] as int
+      ..name = fields[1] as String
+      ..type = fields[2] as String
+      ..cooldown = fields[3] as int
+      ..power = fields[4] as int
+      ..description = fields[5] as String;
   }
 
   @override
-  void write(BinaryWriter writer, PalStatsHiveModel obj) {
+  void write(BinaryWriter writer, AbilityHiveModel obj) {
     writer
       ..writeByte(6)
       ..writeByte(0)
-      ..write(obj.attack)
+      ..write(obj.level)
       ..writeByte(1)
-      ..write(obj.specialAttack)
+      ..write(obj.name)
       ..writeByte(2)
-      ..write(obj.defense)
+      ..write(obj.type)
       ..writeByte(3)
-      ..write(obj.specialDefense)
+      ..write(obj.cooldown)
       ..writeByte(4)
-      ..write(obj.hp)
+      ..write(obj.power)
       ..writeByte(5)
-      ..write(obj.speed);
+      ..write(obj.description);
   }
 
   @override
@@ -49,7 +49,7 @@ class PalStatsHiveModelAdapter extends TypeAdapter<PalStatsHiveModel> {
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is PalStatsHiveModelAdapter &&
+      other is AbilityHiveModelAdapter &&
           runtimeType == other.runtimeType &&
           typeId == other.typeId;
 }

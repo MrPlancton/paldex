@@ -6,7 +6,8 @@ class Stat extends StatelessWidget {
   final double? progress;
   final num value;
 
-  const Stat({super.key, 
+  const Stat({
+    super.key,
     required this.animation,
     required this.label,
     required this.value,
@@ -123,7 +124,7 @@ class _PalBaseStatsState extends State<_PalBaseStats> with SingleTickerProviderS
             style: TextStyle(color: AppColors.black.withOpacity(0.6)),
           ),
           const SizedBox(height: 15),
-          _buildEffectivenesses(pal.typeEffectiveness),
+          _buildEffectivenesses(pal.effectiveness),
         ],
       ),
     );
@@ -136,27 +137,40 @@ class _PalBaseStatsState extends State<_PalBaseStats> with SingleTickerProviderS
       children: [
         Stat(animation: _progressAnimation, label: 'Hp', value: stats.hp),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Atttack', value: stats.attack),
+        Stat(animation: _progressAnimation, label: 'Melee attack', value: stats.meleeAttack),
+        const SizedBox(height: 14),
+        Stat(animation: _progressAnimation, label: 'Shot attack', value: stats.shotAttack),
         const SizedBox(height: 14),
         Stat(animation: _progressAnimation, label: 'Defense', value: stats.defense),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Sp. Atk', value: stats.specialAttack),
+        Stat(animation: _progressAnimation, label: 'Support', value: stats.support),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Sp. Def', value: stats.specialDefense),
+        Stat(animation: _progressAnimation, label: 'Stamina', value: stats.stamina),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Speed', value: stats.speed),
+        Stat(animation: _progressAnimation, label: 'Craft speed', value: stats.craftSpeed),
         const SizedBox(height: 14),
-        Stat(
-          animation: _progressAnimation,
-          label: 'Total',
-          value: stats.total,
-          progress: stats.total / 600,
-        ),
+        Stat(animation: _progressAnimation, label: 'Slow walk speed', value: stats.slowWalkSpeed),
+        const SizedBox(height: 14),
+        Stat(animation: _progressAnimation, label: 'Walk speed', value: stats.walkSpeed),
+        const SizedBox(height: 14),
+        Stat(animation: _progressAnimation, label: 'Run speed', value: stats.runSpeed),
+        const SizedBox(height: 14),
+        Stat(animation: _progressAnimation, label: 'Ride sprint speed', value: stats.rideSprintSpeed),
+        const SizedBox(height: 14),
+        Stat(animation: _progressAnimation, label: 'Transport speed', value: stats.transportSpeed),
+        const SizedBox(height: 14),
+
+        // Stat(
+        //   animation: _progressAnimation,
+        //   label: 'Total',
+        //   value: stats.total,
+        //   progress: stats.total / 600,
+        // ),
       ],
     );
   }
 
-  Widget _buildEffectivenesses(Map<PalTypes, double> typeEffectiveness) {
+  Widget _buildEffectivenesses(Map<PalTypes, PalEffectiveness> typeEffectiveness) {
     return Wrap(
       spacing: 8,
       runSpacing: 8,
@@ -166,7 +180,7 @@ class _PalBaseStatsState extends State<_PalBaseStats> with SingleTickerProviderS
               type,
               large: true,
               colored: true,
-              extra: 'x${removeTrailingZero(typeEffectiveness[type] ?? 1)}',
+              extra: '${typeEffectiveness[type]}',
             ),
           )
           .toList(),

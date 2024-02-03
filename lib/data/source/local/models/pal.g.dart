@@ -17,54 +17,48 @@ class PalHiveModelAdapter extends TypeAdapter<PalHiveModel> {
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return PalHiveModel()
-      ..number = fields[0] as String
-      ..name = fields[1] as String
-      ..description = fields[2] as String
-      ..types = (fields[3] as List).cast<String>()
-      ..image = fields[4] as String
-      ..height = fields[5] as String
-      ..weight = fields[6] as String
-      ..genera = fields[7] as String
-      ..eggGroups = (fields[8] as List).cast<String>()
-      ..gender = fields[9] as PalGenderHiveModel
-      ..stats = fields[10] as PalStatsHiveModel
-      ..baseExp = fields[11] as double
-      ..evolutions = (fields[12] as List).cast<String>()
-      ..evolutionReason = fields[13] as String;
+      ..numid = fields[0] as num
+      ..id = fields[1] as String
+      ..image = fields[2] as String
+      ..name = fields[3] as String
+      ..typeofpal = (fields[4] as List).cast<String>()
+      ..imageUrl = fields[5] as String
+      ..stats = fields[6] as StatsHiveModel
+      ..suitability = (fields[7] as List).cast<SuitabilityHiveModel>()
+      ..drops = (fields[8] as List).cast<String>()
+      ..aura = fields[9] as AuraHiveModel
+      ..description = fields[10] as String
+      ..abilities = (fields[11] as List).cast<AbilityHiveModel>();
   }
 
   @override
   void write(BinaryWriter writer, PalHiveModel obj) {
     writer
-      ..writeByte(14)
-      ..writeByte(0)
-      ..write(obj.number)
-      ..writeByte(1)
-      ..write(obj.name)
-      ..writeByte(2)
-      ..write(obj.description)
-      ..writeByte(3)
-      ..write(obj.types)
-      ..writeByte(4)
-      ..write(obj.image)
-      ..writeByte(5)
-      ..write(obj.height)
-      ..writeByte(6)
-      ..write(obj.weight)
-      ..writeByte(7)
-      ..write(obj.genera)
-      ..writeByte(8)
-      ..write(obj.eggGroups)
-      ..writeByte(9)
-      ..write(obj.gender)
-      ..writeByte(10)
-      ..write(obj.stats)
-      ..writeByte(11)
-      ..write(obj.baseExp)
       ..writeByte(12)
-      ..write(obj.evolutions)
-      ..writeByte(13)
-      ..write(obj.evolutionReason);
+      ..writeByte(0)
+      ..write(obj.numid)
+      ..writeByte(1)
+      ..write(obj.id)
+      ..writeByte(2)
+      ..write(obj.image)
+      ..writeByte(3)
+      ..write(obj.name)
+      ..writeByte(4)
+      ..write(obj.typeofpal)
+      ..writeByte(5)
+      ..write(obj.imageUrl)
+      ..writeByte(6)
+      ..write(obj.stats)
+      ..writeByte(7)
+      ..write(obj.suitability)
+      ..writeByte(8)
+      ..write(obj.drops)
+      ..writeByte(9)
+      ..write(obj.aura)
+      ..writeByte(10)
+      ..write(obj.description)
+      ..writeByte(11)
+      ..write(obj.abilities);
   }
 
   @override

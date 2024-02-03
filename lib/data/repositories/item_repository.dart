@@ -1,7 +1,7 @@
-import 'package:paldex/data/source/github/github_datasource.dart';
 import 'package:paldex/data/source/local/local_datasource.dart';
-import 'package:paldex/data/source/mappers/github_to_local_mapper.dart';
 import 'package:paldex/data/source/mappers/local_to_entity_mapper.dart';
+import 'package:paldex/data/source/mappers/remote_to_local_mapper.dart';
+import 'package:paldex/data/source/remote/remote_datasource.dart';
 import 'package:paldex/domain/entities/item.dart';
 
 abstract class ItemRepository {
@@ -13,7 +13,7 @@ abstract class ItemRepository {
 class ItemDefaultRepository extends ItemRepository {
   ItemDefaultRepository({required this.githubDataSource, required this.localDataSource});
 
-  final GithubDataSource githubDataSource;
+  final RemoteDataSource githubDataSource;
   final LocalDataSource localDataSource;
 
   @override

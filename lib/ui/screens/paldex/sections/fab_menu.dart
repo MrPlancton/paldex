@@ -53,13 +53,13 @@ class _FabMenuState extends State<_FabMenu> with SingleTickerProviderStateMixin 
     );
   }
 
-  void _showGenerationModal() {
-    showModalBottomSheet(
-      context: context,
-      backgroundColor: Colors.transparent,
-      builder: (context) => const GenerationModal(),
-    );
-  }
+  // void _showGenerationModal() {
+  //   showModalBottomSheet(
+  //     context: context,
+  //     backgroundColor: Colors.transparent,
+  //     builder: (context) => const GenerationModal(),
+  //   );
+  // }
 
   void onPress([Function? callback]) {
     _toggleFabMenu();
@@ -92,11 +92,11 @@ class _FabMenuState extends State<_FabMenu> with SingleTickerProviderStateMixin 
               Icons.filter_vintage,
               onPress: () => onPress(),
             ),
-            FabItemData(
-              'All Gen',
-              Icons.flash_on,
-              onPress: () => onPress(_showGenerationModal),
-            ),
+            // FabItemData(
+            //   'All Gen',
+            //   Icons.flash_on,
+            //   onPress: () => onPress(_showGenerationModal),
+            // ),
             FabItemData(
               'Search',
               Icons.search,

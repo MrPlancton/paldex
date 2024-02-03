@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:paldex/configs/durations.dart';
 import 'package:paldex/configs/images.dart';
 import 'package:paldex/core/extensions/animation.dart';
-import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
 import 'package:paldex/routes.dart';
 import 'package:paldex/states/pal/pal_bloc.dart';
 import 'package:paldex/states/pal/pal_event.dart';

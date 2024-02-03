@@ -52,7 +52,8 @@ class _PalGridState extends State<_PalGrid> {
   }
 
   void _onPalPress(Pal pal) {
-    palBloc.add(PalSelectChanged(palId: pal.number));
+    print("selected pal: ${pal.id}");
+    palBloc.add(PalSelectChanged(palId: pal.id));
 
     AppNavigator.push(Routes.palInfo, pal);
   }

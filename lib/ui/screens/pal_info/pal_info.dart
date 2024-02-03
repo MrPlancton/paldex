@@ -4,12 +4,14 @@ import 'package:flutter/material.dart' hide AnimatedSlide;
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:paldex/configs/colors.dart';
 import 'package:paldex/configs/images.dart';
-import 'package:paldex/domain/entities/pal.dart';
-import 'package:paldex/domain/entities/pal_props.dart';
-import 'package:paldex/domain/entities/pal_types.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
+import 'package:paldex/domain/entities/pal/pal_effectiveness.dart';
+import 'package:paldex/domain/entities/pal/pal_stats.dart';
+import 'package:paldex/domain/entities/type/pal_types.dart';
 import 'package:paldex/states/pal/pal_bloc.dart';
 import 'package:paldex/states/pal/pal_event.dart';
 import 'package:paldex/states/pal/pal_selector.dart';
+import 'package:paldex/states/theme/theme_cubit.dart';
 import 'package:paldex/ui/screens/pal_info/state_provider.dart';
 import 'package:paldex/ui/widgets/animated_fade.dart';
 import 'package:paldex/ui/widgets/animated_slide.dart';
@@ -20,15 +22,11 @@ import 'package:paldex/ui/widgets/main_tab_view.dart';
 import 'package:paldex/ui/widgets/pal_image.dart';
 import 'package:paldex/ui/widgets/pal_type.dart';
 import 'package:paldex/ui/widgets/progress.dart';
-import 'package:paldex/utils/string.dart';
-
-import '../../../states/theme/theme_cubit.dart';
 
 part 'sections/background_decoration.dart';
 part 'sections/pal_info_card.dart';
 part 'sections/pal_info_card_about.dart';
 part 'sections/pal_info_card_basestats.dart';
-part 'sections/pal_info_card_evolutions.dart';
 part 'sections/pal_overall_info.dart';
 
 class PalInfo extends StatefulWidget {

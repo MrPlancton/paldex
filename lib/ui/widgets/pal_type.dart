@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paldex/domain/entities/pal_types.dart';
+import 'package:paldex/domain/entities/type/pal_types.dart';
 import 'package:paldex/ui/widgets/spacer.dart';
 
 class PalType extends StatelessWidget {

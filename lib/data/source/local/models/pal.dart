@@ -1,7 +1,8 @@
 import 'package:hive/hive.dart';
-
-import 'pal_gender.dart';
-import 'pal_stats.dart';
+import 'package:paldex/data/source/local/models/ability.dart';
+import 'package:paldex/data/source/local/models/aura.dart';
+import 'package:paldex/data/source/local/models/stats.dart';
+import 'package:paldex/data/source/local/models/suitability.dart';
 
 part 'pal.g.dart';
 
@@ -10,44 +11,38 @@ class PalHiveModel extends HiveObject {
   static const String boxKey = 'pal';
 
   @HiveField(0)
-  late String number;
+  late String id;
 
   @HiveField(1)
-  late String name;
+  late num numid;
 
   @HiveField(2)
-  late String description;
-
-  @HiveField(3)
-  late List<String> types;
-
-  @HiveField(4)
   late String image;
 
+  @HiveField(3)
+  late String name;
+
+  @HiveField(4)
+  late List<String> typeofpal;
+
   @HiveField(5)
-  late String height;
+  late String imageUrl;
 
   @HiveField(6)
-  late String weight;
+  late StatsHiveModel stats;
 
   @HiveField(7)
-  late String genera;
+  late List<SuitabilityHiveModel> suitability;
 
   @HiveField(8)
-  late List<String> eggGroups;
+  late List<String> drops;
 
   @HiveField(9)
-  late PalGenderHiveModel gender;
+  late AuraHiveModel aura;
 
   @HiveField(10)
-  late PalStatsHiveModel stats;
+  late String description;
 
   @HiveField(11)
-  late double baseExp;
-
-  @HiveField(12)
-  late List<String> evolutions;
-
-  @HiveField(13)
-  late String evolutionReason;
+  late List<AbilityHiveModel> abilities;
 }

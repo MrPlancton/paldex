@@ -6,12 +6,12 @@ part of 'item.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-GithubItemModel _$GithubItemModelFromJson(Map<String, dynamic> json) {
+RemoteItemModel _$RemoteItemModelFromJson(Map<String, dynamic> json) {
   $checkKeys(
     json,
     disallowNullValues: const ['name', 'imageurl', 'effect'],
   );
-  return GithubItemModel(
+  return RemoteItemModel(
     json['name'] as String,
     json['category'] as String? ?? '',
     json['imageurl'] as String,
@@ -19,7 +19,7 @@ GithubItemModel _$GithubItemModelFromJson(Map<String, dynamic> json) {
   );
 }
 
-Map<String, dynamic> _$GithubItemModelToJson(GithubItemModel instance) =>
+Map<String, dynamic> _$RemoteItemModelToJson(RemoteItemModel instance) =>
     <String, dynamic>{
       'name': instance.name,
       'category': instance.category,

@@ -37,10 +37,10 @@ class _PalInfoCardState extends State<_PalInfoCard> {
               label: 'Base Stats',
               child: _PalBaseStats(pal),
             ),
-            MainTabData(
-              label: 'Evolution',
-              child: _PalEvolution(pal),
-            ),
+            // MainTabData(
+            //   label: 'Evolution',
+            //   child: _PalEvolution(pal),
+            // ),
             const MainTabData(
               label: 'Moves',
               child: Align(

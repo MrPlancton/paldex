@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:paldex/configs/images.dart';
-import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
 
 class PalImage extends StatelessWidget {
   static const Size _cacheMaxSize = Size(700, 700);
@@ -28,13 +28,13 @@ class PalImage extends StatelessWidget {
     return HeroMode(
       enabled: useHero,
       child: Hero(
-        tag: pal.image,
+        tag: pal.imageUrl,
         child: AnimatedPadding(
           duration: const Duration(milliseconds: 600),
           curve: Curves.easeOutQuint,
           padding: padding,
           child: CachedNetworkImage(
-            imageUrl: pal.image,
+            imageUrl: pal.imageUrl,
             useOldImageOnUrlChange: true,
             maxWidthDiskCache: _cacheMaxSize.width.toInt(),
             maxHeightDiskCache: _cacheMaxSize.height.toInt(),
