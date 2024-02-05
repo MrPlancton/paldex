@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:stream_transform/stream_transform.dart';
 import 'package:paldex/data/repositories/pal_repository.dart';
@@ -25,13 +27,12 @@ class PalBloc extends Bloc<PalEvent, PalState> {
     try {
       emit(state.asLoading());
 
-      final pals = event.loadAll
-          ? await _palRepository.getAllPals()
-          : await _palRepository.getPals(page: 1, limit: palsPerPage);
+      final pals = event.loadAll ? await _palRepository.getAllPals() : await _palRepository.getPals(page: 1, limit: palsPerPage);
+      final maxStats = await _palRepository.getPlaMaxStats();
 
       final canLoadMore = pals.length >= palsPerPage;
 
-      emit(state.asLoadSuccess(pals, canLoadMore: canLoadMore));
+      emit(state.asLoadSuccess(pals: pals, maxStats: maxStats, canLoadMore: canLoadMore));
     } on Exception catch (e) {
       emit(state.asLoadFailure(e));
     }

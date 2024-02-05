@@ -1,16 +1,21 @@
 import 'package:json_annotation/json_annotation.dart';
 
+part 'aura.g.dart';
+
 @JsonSerializable()
 class RemoteAuraModel {
-  RemoteAuraModel(this.type, this.level);
+  RemoteAuraModel(
+    this.name,
+    this.description,
+  );
 
   factory RemoteAuraModel.fromJson(Map<String, dynamic> json) => _$RemoteAuraModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$RemoteAuraModelToJson(this);
 
-  @JsonKey(disallowNullValue: true)
-  final String type;
+  @JsonKey(defaultValue: '')
+  final String name;
 
-  @JsonKey(defaultValue: 1)
-  final num level;
+  @JsonKey(defaultValue: '')
+  final String description;
 }

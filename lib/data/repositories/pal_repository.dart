@@ -1,5 +1,10 @@
+import 'package:paldex/data/repositories/utils_repository.dart';
+import 'package:paldex/data/source/local/local_datasource.dart';
+import 'package:paldex/data/source/mappers/local_to_entity_mapper.dart';
+import 'package:paldex/data/source/mappers/remote_to_local_mapper.dart';
 import 'package:paldex/data/source/remote/remote_datasource.dart';
-import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
+import 'package:paldex/domain/entities/utils/max_stats.dart';
 
 abstract class PalRepository {
   Future<List<Pal>> getAllPals();
@@ -7,13 +12,18 @@ abstract class PalRepository {
   Future<List<Pal>> getPals({required int limit, required int page});
 
   Future<Pal?> getPal(String number);
+
+  Future<MaxStats?> getPlaMaxStats();
+
+//Future<List<Pal>> getEvolutions(Pal pal);
 }
 
 class PalDefaultRepository extends PalRepository {
-  PalDefaultRepository({required this.githubDataSource, required this.localDataSource});
+  PalDefaultRepository({required this.githubDataSource, required this.localDataSource, required this.utilsRepository});
 
   final RemoteDataSource githubDataSource;
   final LocalDataSource localDataSource;
+  final UtilsRepository utilsRepository;
 
   @override
   Future<List<Pal>> getAllPals() async {
@@ -39,9 +49,10 @@ class PalDefaultRepository extends PalRepository {
 
     if (!hasCachedData) {
       final palGithubModels = await githubDataSource.getPals();
-      final palHiveModels = palGithubModels.map((e) => e.toHiveModel());
+      final palHiveModels = palGithubModels.map((e) => e.toHiveModel()).toList();
 
       await localDataSource.savePals(palHiveModels);
+      await utilsRepository.saveMaxStats(palHiveModels);
     }
 
     final palHiveModels = await localDataSource.getPals(
@@ -60,10 +71,16 @@ class PalDefaultRepository extends PalRepository {
     if (palModel == null) return null;
 
     // get all evolutions
-    final evolutions = await localDataSource.getEvolutions(palModel);
+    //final evolutions = await localDataSource.getEvolutions(palModel);
 
-    final pal = palModel.toEntity(evolutions: evolutions);
+    final pal = palModel.toEntity(evolutions: []);
 
     return pal;
+  }
+
+  @override
+  Future<MaxStats?> getPlaMaxStats() async {
+    final palMaxStats = await localDataSource.getMaxStats();
+    return palMaxStats?.toEntity();
   }
 }

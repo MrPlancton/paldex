@@ -1,9 +1,8 @@
 part of '../pal_info.dart';
 
 class _Label extends Text {
-  _Label(String text, bool isDark)
+  _Label(super.text, bool isDark)
       : super(
-          text,
           style: TextStyle(
             color: isDark ? AppColors.whiteGrey.withOpacity(0.6) : AppColors.black.withOpacity(0.6),
             height: 0.8,
@@ -16,10 +15,10 @@ class _ContentSection extends StatelessWidget {
   final List<Widget>? children;
 
   const _ContentSection({
-    Key? key,
+    super.key,
     required this.label,
     this.children,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -81,16 +80,28 @@ class _PalAbout extends StatelessWidget {
         );
       },
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           _buildDescription(pal.description),
-          const SizedBox(height: 28),
-          _buildHeightWeight(pal.height, pal.weight, context, isDark),
-          const SizedBox(height: 31),
-          _buildBreeding(pal.gender, pal.eggGroups, isDark),
-          const SizedBox(height: 35),
-          _buildLocation(),
-          const SizedBox(height: 26),
-          _buildTraining(pal.baseExp, isDark),
+          const SizedBox(height: 16),
+          const Text(
+            'Strengths and weaknesses',
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+              height: 0.8,
+            ),
+          ),
+          const SizedBox(height: 15),
+          _buildEffectivenesses(pal.effectiveness),
+          //TODO>?????
+          //_buildHeightWeight(pal.height, pal.weight, context, isDark),
+          //const SizedBox(height: 31),
+          //_buildBreeding(pal.gender, pal.eggGroups, isDark),
+          //const SizedBox(height: 35),
+          //_buildLocation(),
+          // const SizedBox(height: 26),
+          //_buildTraining(pal.baseExp, isDark),
         ],
       ),
     );
@@ -101,6 +112,33 @@ class _PalAbout extends StatelessWidget {
       description,
       style: const TextStyle(height: 1.3),
     );
+  }
+
+  Widget _buildEffectivenesses(Map<PalTypes, PalEffectiveness> typeEffectiveness) {
+    return Wrap(
+      spacing: 8,
+      runSpacing: 8,
+      children: typeEffectiveness.keys
+          .map(
+            (type) => PalType(
+          type,
+          large: true,
+          extra: _getIconFromEffectiveness(typeEffectiveness[type]),
+        ),
+      )
+          .toList(),
+    );
+  }
+
+  StatelessWidget _getIconFromEffectiveness(PalEffectiveness? effectiveness) {
+    switch (effectiveness) {
+      case PalEffectiveness.strong:
+        return const Icon(Icons.keyboard_arrow_up_sharp, color: AppColors.lightGreen);
+      case PalEffectiveness.weak:
+        return const Icon(Icons.keyboard_arrow_down_sharp, color: AppColors.red);
+      default:
+        return Container();
+    }
   }
 
   Widget _buildHeightWeight(String height, String weight, BuildContext context, bool isDark) {
@@ -153,43 +191,43 @@ class _PalAbout extends StatelessWidget {
     );
   }
 
-  Widget _buildBreeding(PalGender gender, List<String> eggGroups, bool isDark) {
-    return _ContentSection(
-      label: 'Breeding',
-      children: [
-        Row(
-          children: <Widget>[
-            Expanded(child: _Label('Gender', isDark)),
-            if (gender.genderless)
-              const Expanded(
-                flex: 3,
-                child: Text('Genderless', style: TextStyle(height: 0.8)),
-              )
-            else ...[
-              Expanded(
-                child: _TextIcon(AppImages.male, '${gender.male}%'),
-              ),
-              Expanded(
-                flex: 2,
-                child: _TextIcon(AppImages.female, '${gender.female}%'),
-              ),
-            ],
-          ],
-        ),
-        const SizedBox(height: 18),
-        Row(
-          children: <Widget>[
-            Expanded(child: _Label('Egg Groups', isDark)),
-            Expanded(
-              flex: 2,
-              child: Text(eggGroups.join(', '), style: const TextStyle(height: 0.8)),
-            ),
-            const Expanded(flex: 1, child: SizedBox()),
-          ],
-        ),
-      ],
-    );
-  }
+  // Widget _buildBreeding(PalGender gender, List<String> eggGroups, bool isDark) {
+  //   return _ContentSection(
+  //     label: 'Breeding',
+  //     children: [
+  //       Row(
+  //         children: <Widget>[
+  //           Expanded(child: _Label('Gender', isDark)),
+  //           if (gender.genderless)
+  //             const Expanded(
+  //               flex: 3,
+  //               child: Text('Genderless', style: TextStyle(height: 0.8)),
+  //             )
+  //           else ...[
+  //             Expanded(
+  //               child: _TextIcon(AppImages.male, '${gender.male}%'),
+  //             ),
+  //             Expanded(
+  //               flex: 2,
+  //               child: _TextIcon(AppImages.female, '${gender.female}%'),
+  //             ),
+  //           ],
+  //         ],
+  //       ),
+  //       const SizedBox(height: 18),
+  //       Row(
+  //         children: <Widget>[
+  //           Expanded(child: _Label('Egg Groups', isDark)),
+  //           Expanded(
+  //             flex: 2,
+  //             child: Text(eggGroups.join(', '), style: const TextStyle(height: 0.8)),
+  //           ),
+  //           const Expanded(flex: 1, child: SizedBox()),
+  //         ],
+  //       ),
+  //     ],
+  //   );
+  // }
 
   Widget _buildLocation() {
     return _ContentSection(

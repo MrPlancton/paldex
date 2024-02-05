@@ -1,0 +1,443 @@
+[
+
+  {
+    "Name": "BadCatgirl (Codename)",
+    "stats": {
+      "Type": "Dark",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "4690.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+  {
+    "Name": "BeardedDragon (Codename)",
+    "stats": {
+      "Type": "Dragon",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "9970.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Tentative text",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": [
+      "T_BeardedDragon_icon_normal"
+    ]
+  },
+  {
+    "Name": "Dragostrophe",
+    "stats": {
+      "Type": "Dark Dragon",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "8440.0 🪙",
+      "Rarity": "10",
+      "HP": "130",
+      "MeleeAttack": "100",
+      "ShotAttack": "130",
+      "Defense": "110",
+      "Support": "100",
+      "Partner Skill": "The Black Winged Shooter",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "55",
+      "WalkSpeed": "110",
+      "RunSpeed": "560",
+      "RideSprintSpeed": "800",
+      "TransportSpeed": "335",
+      "Stamina": "100"
+    },
+    "type": [
+      "T_BlackFurDragon_icon_normal"
+    ]
+  },
+  {
+    "Name": "BlueberryFairy (Codename)",
+    "stats": {
+      "Type": "Grass Dark",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "8200.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+
+  {
+    "Name": "BrownRabbit (Codename)",
+    "stats": {
+      "Type": "Ground",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "2350.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+  {
+    "Name": "DarkMutant (Codename)",
+    "stats": {
+      "Type": "Dark",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "3960.0 🪙",
+      "Rarity": "5",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Teleki Explosion",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "100",
+      "WalkSpeed": "150",
+      "RunSpeed": "550",
+      "RideSprintSpeed": "700",
+      "TransportSpeed": "350",
+      "Stamina": "100"
+    },
+    "type": [
+      "T_DarkMutant_icon_normal"
+    ]
+  },
+  {
+    "Name": "Boltmane",
+    "stats": {
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "4200.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "110",
+      "Defense": "70",
+      "Support": "100",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "85",
+      "WalkSpeed": "85",
+      "RunSpeed": "800",
+      "RideSprintSpeed": "1000",
+      "TransportSpeed": "442",
+      "Stamina": "100"
+    },
+    "type": [
+      "T_ElecLion_icon_normal"
+    ]
+  },
+
+  {
+    "Name": "FeatherOstrich (Codename)",
+    "stats": {
+      "Type": "Ground",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "4610.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+  {
+    "Name": "GoldenHorse (Codename)",
+    "stats": {
+      "Type": "Ground",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "7960.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+  {
+    "Name": "GrassDragon (Codename)",
+    "stats": {
+      "Type": "Grass",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "6510.0 🪙",
+      "Rarity": "0",
+      "HP": "130",
+      "MeleeAttack": "80",
+      "ShotAttack": "120",
+      "Defense": "90",
+      "Support": "80",
+      "Partner Skill": "Tentative text",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+
+  {
+    "Name": "GuardianDog (Codename)",
+    "stats": {
+      "Type": "Neutral",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "1510.0 🪙",
+      "Rarity": "0",
+      "HP": "90",
+      "MeleeAttack": "80",
+      "ShotAttack": "80",
+      "Defense": "90",
+      "Support": "110",
+      "Partner Skill": "Ride",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+  {
+    "Name": "PinkKangaroo (Codename)",
+    "stats": {
+      "Type": "Neutral",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "3660.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Tentative text",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": [
+      "T_dummy_icon"
+    ]
+  },
+
+  {
+    "Name": "ScorpionMan (Codename)",
+    "stats": {
+      "Type": "Dark",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "8080.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+
+
+  {
+    "Name": "SifuDog (Codename)",
+    "stats": {
+      "Type": "Neutral",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "4440.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+  {
+    "Name": "TentacleTurtle (Codename)",
+    "stats": {
+      "Type": "Water",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "2300.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+
+  {
+    "Name": "WaterLizard (Codename)",
+    "stats": {
+      "Type": "Fire",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "4040.0 🪙",
+      "Rarity": "0",
+      "HP": "90",
+      "MeleeAttack": "120",
+      "ShotAttack": "90",
+      "Defense": "90",
+      "Support": "80",
+      "Partner Skill": "Tentative text",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  },
+  {
+    "Name": "WingGolem (Codename)",
+    "stats": {
+      "Type": "Ground",
+      "Male Prob": "50%",
+      "Female Prob": "50%",
+      "Size": "XL",
+      "Price": "10380.0 🪙",
+      "Rarity": "0",
+      "HP": "100",
+      "MeleeAttack": "100",
+      "ShotAttack": "100",
+      "Defense": "100",
+      "Support": "100",
+      "Partner Skill": "Under investigation.",
+      "CraftSpeed": "100",
+      "SlowWalkSpeed": "-1",
+      "WalkSpeed": "-1",
+      "RunSpeed": "-1",
+      "RideSprintSpeed": "-1",
+      "TransportSpeed": "-1",
+      "Stamina": "100"
+    },
+    "type": []
+  }
+]

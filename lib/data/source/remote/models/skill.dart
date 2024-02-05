@@ -1,35 +1,39 @@
 import 'package:json_annotation/json_annotation.dart';
 
+part 'skill.g.dart';
+
 @JsonSerializable()
 class RemoteSkillModel {
   RemoteSkillModel(
-    this.level,
     this.name,
+    this.level,
     this.type,
     this.cooldown,
     this.power,
     this.description,
   );
 
-  factory RemoteSkillModel.fromJson(Map<String, dynamic> json) => _$RemoteSkillModelFromJson(json);
+  factory RemoteSkillModel.fromJson(Map<String, dynamic> json) =>
+      _$RemoteSkillModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$RemoteSkillModelToJson(this);
 
-  @JsonKey(defaultValue: 1)
-  final num level;
-
-  @JsonKey(disallowNullValue: true)
+  @JsonKey(required: true, disallowNullValue: true)
   final String name;
 
-  @JsonKey(disallowNullValue: true)
+  @JsonKey(required: true, disallowNullValue: true)
+  final num level;
+
+  @JsonKey(required: true, disallowNullValue: true)
   final String type;
 
-  @JsonKey(defaultValue: 1)
+  @JsonKey(defaultValue: 0)
   final num cooldown;
 
-  @JsonKey(defaultValue: 1)
+  @JsonKey(defaultValue: 0)
   final num power;
 
   @JsonKey(defaultValue: '')
   final String description;
+
 }

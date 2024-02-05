@@ -3,7 +3,9 @@ part of '../pal_info.dart';
 class _PalInfoCard extends StatefulWidget {
   static const double minCardHeightFraction = 0.54;
 
-  const _PalInfoCard();
+  final MaxStats? maxStats;
+
+  const _PalInfoCard(this.maxStats);
 
   @override
   State<_PalInfoCard> createState() => _PalInfoCardState();
@@ -11,6 +13,8 @@ class _PalInfoCard extends StatefulWidget {
 
 class _PalInfoCardState extends State<_PalInfoCard> {
   AnimationController get slideController => PalInfoStateProvider.of(context).slideController;
+
+  MaxStats? get maxStats => widget.maxStats;
 
   @override
   Widget build(BuildContext context) {
@@ -35,14 +39,14 @@ class _PalInfoCardState extends State<_PalInfoCard> {
             ),
             MainTabData(
               label: 'Base Stats',
-              child: _PalBaseStats(pal),
+              child: _PalBaseStats(pal, maxStats),
             ),
-            MainTabData(
-              label: 'Evolution',
-              child: _PalEvolution(pal),
-            ),
+            // MainTabData(
+            //   label: 'Evolution',
+            //   child: _PalEvolution(pal),
+            // ),
             const MainTabData(
-              label: 'Moves',
+              label: 'Abilities',
               child: Align(
                 alignment: Alignment.topCenter,
                 child: Text('Under development'),

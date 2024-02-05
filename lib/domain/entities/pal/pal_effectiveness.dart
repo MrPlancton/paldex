@@ -1,0 +1,1 @@
+enum PalEffectiveness { strong, weak }

@@ -85,7 +85,7 @@ class _PalOverallInfoState extends State<_PalOverallInfo> with TickerProviderSta
     final pals = palBloc.state.pals;
     final selectedPal = pals[index];
 
-    palBloc.add(PalSelectChanged(palId: selectedPal.number));
+    palBloc.add(PalSelectChanged(palId: selectedPal.id));
 
     final shouldLoadMore = index >= pals.length - _endReachedThreshold;
 
@@ -165,13 +165,17 @@ class _PalOverallInfoState extends State<_PalOverallInfo> with TickerProviderSta
             child: AnimatedFade(
               animation: textFadeAnimation,
               child: CurrentPalSelector((pal) {
-                return HeroText(
-                  pal.number,
-                  style: TextStyle(
-                    color: bgColor,
-                    fontWeight: FontWeight.w900,
-                    fontSize: 18,
-                  ),
+                return Column(
+                  children: [
+                    HeroText(
+                      "#${pal.id}",
+                      style: TextStyle(
+                        color: bgColor,
+                        fontWeight: FontWeight.w900,
+                        fontSize: 18,
+                      ),
+                    ),
+                  ],
                 );
               }),
             ),
@@ -196,17 +200,16 @@ class _PalOverallInfoState extends State<_PalOverallInfo> with TickerProviderSta
                 child: Wrap(
                   spacing: 8,
                   runSpacing: 8,
-                  children:
-                      pal.types.take(3).map((type) => PalType(type, large: true)).toList(),
+                  children: pal.types.take(3).map((type) => PalType(type, large: true)).toList(),
                 ),
               ),
-              AnimatedSlide(
-                animation: _horizontalSlideController,
-                child: Text(
-                  pal.genera,
-                  style: TextStyle(color: Theme.of(context).colorScheme.background),
-                ),
-              ),
+              // AnimatedSlide(
+              //   animation: _horizontalSlideController,
+              //   child: Text(
+              //     "GENERA ???",
+              //     style: TextStyle(color: Theme.of(context).colorScheme.background),
+              //   ),
+              // ),
             ],
           );
         }),

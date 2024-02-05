@@ -1,4 +1,5 @@
-import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
+import 'package:paldex/domain/entities/utils/max_stats.dart';
 
 enum PalStateStatus {
   initial,
@@ -17,17 +18,18 @@ class PalState {
   final int page;
   final Exception? error;
   final bool canLoadMore;
+  final MaxStats? maxStats;
 
   Pal get selectedPal => pals[selectedPalIndex];
 
-  const PalState._({
-    this.status = PalStateStatus.initial,
-    this.pals = const [],
-    this.selectedPalIndex = 0,
-    this.page = 1,
-    this.canLoadMore = true,
-    this.error,
-  });
+  const PalState._(
+      {this.status = PalStateStatus.initial,
+      this.pals = const [],
+      this.selectedPalIndex = 0,
+      this.page = 1,
+      this.canLoadMore = true,
+      this.error,
+      this.maxStats});
 
   const PalState.initial() : this._();
 
@@ -37,12 +39,13 @@ class PalState {
     );
   }
 
-  PalState asLoadSuccess(List<Pal> pals, {bool canLoadMore = true}) {
+  PalState asLoadSuccess({List<Pal>? pals, MaxStats? maxStats, bool canLoadMore = true}) {
     return copyWith(
       status: PalStateStatus.loadSuccess,
-      pals: pals,
+      pals: pals ?? pals,
       page: 1,
       canLoadMore: canLoadMore,
+      maxStats: maxStats ?? maxStats,
     );
   }
 
@@ -73,14 +76,8 @@ class PalState {
     );
   }
 
-  PalState copyWith({
-    PalStateStatus? status,
-    List<Pal>? pals,
-    int? selectedPalIndex,
-    int? page,
-    bool? canLoadMore,
-    Exception? error,
-  }) {
+  PalState copyWith(
+      {PalStateStatus? status, List<Pal>? pals, int? selectedPalIndex, int? page, bool? canLoadMore, Exception? error, MaxStats? maxStats}) {
     return PalState._(
       status: status ?? this.status,
       pals: pals ?? this.pals,
@@ -88,6 +85,7 @@ class PalState {
       page: page ?? this.page,
       canLoadMore: canLoadMore ?? this.canLoadMore,
       error: error ?? this.error,
+      maxStats: maxStats ?? this.maxStats,
     );
   }
 }

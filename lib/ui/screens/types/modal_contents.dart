@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:paldex/configs/images.dart';
 import 'package:paldex/configs/types.dart';
 import 'package:paldex/core/utils.dart';
-import 'package:paldex/domain/entities/pal.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
 import 'package:paldex/routes.dart';
 import 'package:paldex/states/pal/pal_bloc.dart';
 import 'package:paldex/states/pal/pal_event.dart';
@@ -17,11 +17,11 @@ import 'package:paldex/ui/widgets/pal_card.dart';
 // Class responsible for creating the list present in the modal page consisting of various effects related to the selected type
 class ModalContents extends StatefulWidget {
   const ModalContents({
-    Key? key,
+    super.key,
     required this.index,
     required this.width,
     required this.scroller,
-  }) : super(key: key);
+  });
 
   final int index;
   final double width;
@@ -44,7 +44,7 @@ class ModalContentsState extends State<ModalContents> {
   }
 
   void _onPalPress(int index, Pal pal) {
-    context.read<PalBloc>().add(PalSelectChanged(palId: pal.number));
+    context.read<PalBloc>().add(PalSelectChanged(palId: pal.id));
 
     AppNavigator.push(Routes.palInfo, pal);
   }
@@ -52,8 +52,7 @@ class ModalContentsState extends State<ModalContents> {
   PokeTypes get pokeType => types[widget.index];
 
   ExpansionPanel _buildTypePalPanel(List<Pal> pals) {
-    final filteredPals =
-        pals.where((pal) => pal.types.contains(pokeType.type)).toList();
+    final filteredPals = pals.where((pal) => pal.types.contains(pokeType.type)).toList();
 
     return ExpansionPanel(
       headerBuilder: (context, isOpen) {
@@ -70,8 +69,7 @@ class ModalContentsState extends State<ModalContents> {
             ),
             Padding(
               padding: const EdgeInsets.only(left: 8.0),
-              child: Text(
-                  "${getEnumValue(pokeType.type)[0].toUpperCase() + getEnumValue(pokeType.type).substring(1)} Type "
+              child: Text("${getEnumValue(pokeType.type)[0].toUpperCase() + getEnumValue(pokeType.type).substring(1)} Type "
                   "Pals"),
             )
           ],
@@ -97,8 +95,7 @@ class ModalContentsState extends State<ModalContents> {
               )
             : const Padding(
                 padding: EdgeInsets.only(bottom: 10.0),
-                child:
-                    Text("No Pal found", style: TextStyle(fontSize: 16, color: Colors.black54)),
+                child: Text("No Pal found", style: TextStyle(fontSize: 16, color: Colors.black54)),
               ),
       ),
       isExpanded: _isOpen[0],
@@ -121,8 +118,7 @@ class ModalContentsState extends State<ModalContents> {
             ),
             Padding(
               padding: const EdgeInsets.only(left: 8.0),
-              child: Text(
-                  "${getEnumValue(pokeType.type)[0].toUpperCase() + getEnumValue(pokeType.type).substring(1)} Type "
+              child: Text("${getEnumValue(pokeType.type)[0].toUpperCase() + getEnumValue(pokeType.type).substring(1)} Type "
                   "Items"),
             )
           ],
