@@ -8,6 +8,7 @@ import 'package:paldex/domain/entities/pal/pal.dart';
 import 'package:paldex/domain/entities/pal/pal_effectiveness.dart';
 import 'package:paldex/domain/entities/pal/pal_stats.dart';
 import 'package:paldex/domain/entities/type/pal_types.dart';
+import 'package:paldex/domain/entities/utils/max_stats.dart';
 import 'package:paldex/states/pal/pal_bloc.dart';
 import 'package:paldex/states/pal/pal_event.dart';
 import 'package:paldex/states/pal/pal_selector.dart';
@@ -24,9 +25,13 @@ import 'package:paldex/ui/widgets/pal_type.dart';
 import 'package:paldex/ui/widgets/progress.dart';
 
 part 'sections/background_decoration.dart';
+
 part 'sections/pal_info_card.dart';
+
 part 'sections/pal_info_card_about.dart';
+
 part 'sections/pal_info_card_basestats.dart';
+
 part 'sections/pal_overall_info.dart';
 
 class PalInfo extends StatefulWidget {
@@ -39,6 +44,8 @@ class PalInfo extends StatefulWidget {
 class PalInfoState extends State<PalInfo> with TickerProviderStateMixin {
   late AnimationController _slideController;
   late AnimationController _rotateController;
+
+  PalBloc get palBloc => context.read<PalBloc>();
 
   @override
   void initState() {
@@ -68,12 +75,12 @@ class PalInfoState extends State<PalInfo> with TickerProviderStateMixin {
     return PalInfoStateProvider(
       slideController: _slideController,
       rotateController: _rotateController,
-      child: const Scaffold(
+      child: Scaffold(
         body: Stack(
           children: <Widget>[
-            _BackgroundDecoration(),
-            _PalInfoCard(),
-            _PalOverallInfo(),
+            const _BackgroundDecoration(),
+            _PalInfoCard(palBloc.state.maxStats),
+            const _PalOverallInfo(),
           ],
         ),
       ),

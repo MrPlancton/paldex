@@ -4,6 +4,7 @@ import 'package:paldex/data/source/local/models/item.dart';
 import 'package:paldex/data/source/local/models/pal.dart';
 import 'package:paldex/data/source/local/models/stats.dart';
 import 'package:paldex/data/source/local/models/suitability.dart';
+import 'package:paldex/data/source/local/utils/max_stats.dart';
 import 'package:paldex/domain/entities/item.dart';
 import 'package:paldex/domain/entities/pal/pal.dart';
 import 'package:paldex/domain/entities/pal/pal_ability.dart';
@@ -11,6 +12,7 @@ import 'package:paldex/domain/entities/pal/pal_aura.dart';
 import 'package:paldex/domain/entities/pal/pal_stats.dart';
 import 'package:paldex/domain/entities/pal/pal_suitability.dart';
 import 'package:paldex/domain/entities/type/pal_types.dart';
+import 'package:paldex/domain/entities/utils/max_stats.dart';
 
 extension PalHiveModelX on PalHiveModel {
   Pal toEntity({List<PalHiveModel> evolutions = const []}) => Pal(
@@ -80,5 +82,22 @@ extension ItemHiveModelX on ItemHiveModel {
         category: name?.trim() ?? '',
         image: imageurl?.trim() ?? '',
         effect: effect?.trim() ?? '',
+      );
+}
+
+extension MaxStatsHiveModelX on MaxStatsHiveModel {
+  MaxStats toEntity() => MaxStats(
+        maxHp: maxHp,
+        maxMeleeAttack: maxMeleeAttack,
+        maxShotAttack: maxShotAttack,
+        maxDefense: maxDefense,
+        maxSupport: maxSupport,
+        maxCraftSpeed: maxCraftSpeed,
+        maxSlowWalkSpeed: maxSlowWalkSpeed,
+        maxWalkSpeed: maxWalkSpeed,
+        maxRunSpeed: maxRunSpeed,
+        maxRideSprintSpeed: maxRideSprintSpeed,
+        maxTransportSpeed: maxTransportSpeed,
+        maxStamina: maxStamina,
       );
 }

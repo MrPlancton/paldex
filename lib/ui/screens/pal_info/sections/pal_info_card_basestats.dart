@@ -5,14 +5,9 @@ class Stat extends StatelessWidget {
   final String label;
   final double? progress;
   final num value;
+  final num max;
 
-  const Stat({
-    super.key,
-    required this.animation,
-    required this.label,
-    required this.value,
-    this.progress,
-  });
+  const Stat({super.key, required this.animation, required this.label, required this.value, this.progress, this.max = 100});
 
   @override
   Widget build(BuildContext context) {
@@ -35,11 +30,12 @@ class Stat extends StatelessWidget {
           child: AnimatedBuilder(
             animation: animation,
             builder: (context, widget) {
-              final currentProgress = progress ?? value / 100;
+              final currentProgress = progress ?? value / max;
 
               return ProgressBar(
                 progress: animation.value * currentProgress,
-                color: currentProgress < 0.5 ? AppColors.red : AppColors.teal,
+                //color: currentProgress < 0.5 ? AppColors.red : AppColors.teal,
+                color: AppColors.teal,
                 enableAnimation: animation.value == 1,
               );
             },
@@ -52,8 +48,9 @@ class Stat extends StatelessWidget {
 
 class _PalBaseStats extends StatefulWidget {
   final Pal pal;
+  final MaxStats? maxStats;
 
-  const _PalBaseStats(this.pal);
+  const _PalBaseStats(this.pal, this.maxStats);
 
   @override
   State<_PalBaseStats> createState() => _PalBaseStatsState();
@@ -64,6 +61,8 @@ class _PalBaseStatsState extends State<_PalBaseStats> with SingleTickerProviderS
   late AnimationController _progressController;
 
   Pal get pal => widget.pal;
+
+  MaxStats? get maxStats => widget.maxStats;
 
   AnimationController get slideController => PalInfoStateProvider.of(context).slideController;
 
@@ -109,22 +108,6 @@ class _PalBaseStatsState extends State<_PalBaseStats> with SingleTickerProviderS
         mainAxisSize: MainAxisSize.max,
         children: <Widget>[
           buildStats(pal.stats),
-          const SizedBox(height: 27),
-          const Text(
-            'Type defenses',
-            style: TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.bold,
-              height: 0.8,
-            ),
-          ),
-          const SizedBox(height: 15),
-          Text(
-            'The effectiveness of each type on ${pal.name}.',
-            style: TextStyle(color: AppColors.black.withOpacity(0.6)),
-          ),
-          const SizedBox(height: 15),
-          _buildEffectivenesses(pal.effectiveness),
         ],
       ),
     );
@@ -135,30 +118,41 @@ class _PalBaseStatsState extends State<_PalBaseStats> with SingleTickerProviderS
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Stat(animation: _progressAnimation, label: 'Hp', value: stats.hp),
+        Stat(animation: _progressAnimation, label: 'Hp', value: stats.hp, max: maxStats?.maxHp ?? stats.hp),
+        const SizedBox(height: 12),
+        Stat(animation: _progressAnimation, label: 'Melee attack', value: stats.meleeAttack, max: maxStats?.maxMeleeAttack ?? stats.meleeAttack),
+        const SizedBox(height: 12),
+        Stat(animation: _progressAnimation, label: 'Shot attack', value: stats.shotAttack, max: maxStats?.maxShotAttack ?? stats.shotAttack),
+        const SizedBox(height: 12),
+        Stat(animation: _progressAnimation, label: 'Defense', value: stats.defense, max: maxStats?.maxDefense ?? stats.defense),
+        const SizedBox(height: 12),
+        Stat(animation: _progressAnimation, label: 'Support', value: stats.support, max: maxStats?.maxSupport ?? stats.support),
+        const SizedBox(height: 12),
+        Stat(animation: _progressAnimation, label: 'Stamina', value: stats.stamina, max: maxStats?.maxStamina ?? stats.stamina),
+        const SizedBox(height: 12),
+        Stat(animation: _progressAnimation, label: 'Craft speed', value: stats.craftSpeed, max: maxStats?.maxCraftSpeed ?? stats.craftSpeed),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Melee attack', value: stats.meleeAttack),
+        Stat(
+            animation: _progressAnimation,
+            label: 'Slow walk speed',
+            value: stats.slowWalkSpeed,
+            max: maxStats?.maxSlowWalkSpeed ?? stats.slowWalkSpeed),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Shot attack', value: stats.shotAttack),
+        Stat(animation: _progressAnimation, label: 'Walk speed', value: stats.walkSpeed, max: maxStats?.maxWalkSpeed ?? stats.walkSpeed),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Defense', value: stats.defense),
+        Stat(animation: _progressAnimation, label: 'Run speed', value: stats.runSpeed, max: maxStats?.maxRunSpeed ?? stats.runSpeed),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Support', value: stats.support),
+        Stat(
+            animation: _progressAnimation,
+            label: 'Ride sprint speed',
+            value: stats.rideSprintSpeed,
+            max: maxStats?.maxRideSprintSpeed ?? stats.rideSprintSpeed),
         const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Stamina', value: stats.stamina),
-        const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Craft speed', value: stats.craftSpeed),
-        const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Slow walk speed', value: stats.slowWalkSpeed),
-        const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Walk speed', value: stats.walkSpeed),
-        const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Run speed', value: stats.runSpeed),
-        const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Ride sprint speed', value: stats.rideSprintSpeed),
-        const SizedBox(height: 14),
-        Stat(animation: _progressAnimation, label: 'Transport speed', value: stats.transportSpeed),
-        const SizedBox(height: 14),
+        Stat(
+            animation: _progressAnimation,
+            label: 'Transport speed',
+            value: stats.transportSpeed,
+            max: maxStats?.maxTransportSpeed ?? stats.transportSpeed),
 
         // Stat(
         //   animation: _progressAnimation,
@@ -167,23 +161,6 @@ class _PalBaseStatsState extends State<_PalBaseStats> with SingleTickerProviderS
         //   progress: stats.total / 600,
         // ),
       ],
-    );
-  }
-
-  Widget _buildEffectivenesses(Map<PalTypes, PalEffectiveness> typeEffectiveness) {
-    return Wrap(
-      spacing: 8,
-      runSpacing: 8,
-      children: typeEffectiveness.keys
-          .map(
-            (type) => PalType(
-              type,
-              large: true,
-              colored: true,
-              extra: '${typeEffectiveness[type]}',
-            ),
-          )
-          .toList(),
     );
   }
 }

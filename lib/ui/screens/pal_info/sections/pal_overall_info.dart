@@ -165,13 +165,17 @@ class _PalOverallInfoState extends State<_PalOverallInfo> with TickerProviderSta
             child: AnimatedFade(
               animation: textFadeAnimation,
               child: CurrentPalSelector((pal) {
-                return HeroText(
-                  "#${pal.id}",
-                  style: TextStyle(
-                    color: bgColor,
-                    fontWeight: FontWeight.w900,
-                    fontSize: 18,
-                  ),
+                return Column(
+                  children: [
+                    HeroText(
+                      "#${pal.id}",
+                      style: TextStyle(
+                        color: bgColor,
+                        fontWeight: FontWeight.w900,
+                        fontSize: 18,
+                      ),
+                    ),
+                  ],
                 );
               }),
             ),

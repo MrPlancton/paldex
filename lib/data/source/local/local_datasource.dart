@@ -7,6 +7,7 @@ import 'package:paldex/data/source/local/models/item.dart';
 import 'package:paldex/data/source/local/models/pal.dart';
 import 'package:paldex/data/source/local/models/stats.dart';
 import 'package:paldex/data/source/local/models/suitability.dart';
+import 'package:paldex/data/source/local/utils/max_stats.dart';
 
 class LocalDataSource {
   static Future<void> initialize() async {
@@ -17,6 +18,7 @@ class LocalDataSource {
     Hive.registerAdapter<AuraHiveModel>(AuraHiveModelAdapter());
     Hive.registerAdapter<StatsHiveModel>(StatsHiveModelAdapter());
     Hive.registerAdapter<SuitabilityHiveModel>(SuitabilityHiveModelAdapter());
+    Hive.registerAdapter<MaxStatsHiveModel>(MaxStatsHiveModelAdapter());
 
     Hive.registerAdapter<ItemHiveModel>(ItemHiveModelAdapter());
 
@@ -25,6 +27,7 @@ class LocalDataSource {
     await Hive.openBox<AuraHiveModel>(AuraHiveModel.boxKey);
     await Hive.openBox<StatsHiveModel>(StatsHiveModel.boxKey);
     await Hive.openBox<ItemHiveModel>(ItemHiveModel.boxKey);
+    await Hive.openBox<MaxStatsHiveModel>(MaxStatsHiveModel.boxKey);
   }
 
   Future<bool> hasData() async {
@@ -109,5 +112,16 @@ class LocalDataSource {
     final items = List.generate(newItemCount, (index) => itemBox.getAt(start + index)).whereType<ItemHiveModel>().toList();
 
     return items;
+  }
+
+  Future<void> saveMaxStats(MaxStatsHiveModel item) async {
+    final itemBox = Hive.box<MaxStatsHiveModel>(MaxStatsHiveModel.boxKey);
+    await itemBox.clear();
+    await itemBox.put(MaxStatsHiveModel.boxKey, item);
+  }
+
+  Future<MaxStatsHiveModel?> getMaxStats() async {
+    final maxStatsBox = Hive.box<MaxStatsHiveModel>(MaxStatsHiveModel.boxKey);
+    return maxStatsBox.get(MaxStatsHiveModel.boxKey);
   }
 }

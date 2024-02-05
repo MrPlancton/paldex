@@ -1,6 +1,6 @@
-import '../../core/usecase.dart';
-import '../../data/repositories/pal_repository.dart';
-import '../entities/pal/pal.dart';
+import 'package:paldex/core/usecase.dart';
+import 'package:paldex/data/repositories/pal_repository.dart';
+import 'package:paldex/domain/entities/pal/pal.dart';
 
 class GetAllPalsUseCase extends NoParamsUseCase<List<Pal>> {
   const GetAllPalsUseCase(this.repository);

@@ -8,11 +8,11 @@ class PalType extends StatelessWidget {
     Key? key,
     this.large = false,
     this.colored = false,
-    this.extra = '',
+    this.extra,
   }) : super(key: key);
 
   final PalTypes type;
-  final String extra;
+  final Widget? extra;
   final bool large;
   final bool colored;
 
@@ -41,20 +41,11 @@ class PalType extends StatelessWidget {
                   fontSize: large ? 12 : 8,
                   height: 0.8,
                   fontWeight: large ? FontWeight.bold : FontWeight.normal,
-                  color: colored ? type.color : textColor),
+                  color: type.color),
               textAlign: TextAlign.center,
             ),
             const HSpacer(5),
-            Text(
-              extra,
-              textScaleFactor: 1,
-              style: TextStyle(
-                fontSize: large ? 12 : 8,
-                height: 0.8,
-                fontWeight: large ? FontWeight.bold : FontWeight.normal,
-                color: colored ? type.color : bgColor,
-              ),
-            ),
+            extra ?? const SizedBox.shrink(),
           ],
         ),
       ),

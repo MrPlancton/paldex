@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:stream_transform/stream_transform.dart';
 import 'package:paldex/data/repositories/pal_repository.dart';
@@ -26,10 +28,11 @@ class PalBloc extends Bloc<PalEvent, PalState> {
       emit(state.asLoading());
 
       final pals = event.loadAll ? await _palRepository.getAllPals() : await _palRepository.getPals(page: 1, limit: palsPerPage);
+      final maxStats = await _palRepository.getPlaMaxStats();
 
       final canLoadMore = pals.length >= palsPerPage;
 
-      emit(state.asLoadSuccess(pals, canLoadMore: canLoadMore));
+      emit(state.asLoadSuccess(pals: pals, maxStats: maxStats, canLoadMore: canLoadMore));
     } on Exception catch (e) {
       emit(state.asLoadFailure(e));
     }
@@ -59,8 +62,6 @@ class PalBloc extends Bloc<PalEvent, PalState> {
       final palIndex = state.pals.indexWhere(
         (pal) => pal.id == event.palId,
       );
-
-      print("index pal: $palIndex");
 
       if (palIndex < 0 || palIndex >= state.pals.length) return;
 

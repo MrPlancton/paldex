@@ -80,9 +80,20 @@ class _PalAbout extends StatelessWidget {
         );
       },
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           _buildDescription(pal.description),
-          const SizedBox(height: 28),
+          const SizedBox(height: 16),
+          const Text(
+            'Strengths and weaknesses',
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+              height: 0.8,
+            ),
+          ),
+          const SizedBox(height: 15),
+          _buildEffectivenesses(pal.effectiveness),
           //TODO>?????
           //_buildHeightWeight(pal.height, pal.weight, context, isDark),
           //const SizedBox(height: 31),
@@ -101,6 +112,33 @@ class _PalAbout extends StatelessWidget {
       description,
       style: const TextStyle(height: 1.3),
     );
+  }
+
+  Widget _buildEffectivenesses(Map<PalTypes, PalEffectiveness> typeEffectiveness) {
+    return Wrap(
+      spacing: 8,
+      runSpacing: 8,
+      children: typeEffectiveness.keys
+          .map(
+            (type) => PalType(
+          type,
+          large: true,
+          extra: _getIconFromEffectiveness(typeEffectiveness[type]),
+        ),
+      )
+          .toList(),
+    );
+  }
+
+  StatelessWidget _getIconFromEffectiveness(PalEffectiveness? effectiveness) {
+    switch (effectiveness) {
+      case PalEffectiveness.strong:
+        return const Icon(Icons.keyboard_arrow_up_sharp, color: AppColors.lightGreen);
+      case PalEffectiveness.weak:
+        return const Icon(Icons.keyboard_arrow_down_sharp, color: AppColors.red);
+      default:
+        return Container();
+    }
   }
 
   Widget _buildHeightWeight(String height, String weight, BuildContext context, bool isDark) {

@@ -4,6 +4,7 @@ import 'package:paldex/app.dart';
 import 'package:paldex/core/network.dart';
 import 'package:paldex/data/repositories/item_repository.dart';
 import 'package:paldex/data/repositories/pal_repository.dart';
+import 'package:paldex/data/repositories/utils_repository.dart';
 import 'package:paldex/data/source/local/local_datasource.dart';
 import 'package:paldex/data/source/remote/remote_datasource.dart';
 import 'package:paldex/states/theme/theme_cubit.dart';
@@ -34,14 +35,23 @@ void main() async {
         RepositoryProvider<RemoteDataSource>(
           create: (context) => RemoteDataSource(context.read<NetworkManager>()),
         ),
+        RepositoryProvider<RemoteDataSource>(
+          create: (context) => RemoteDataSource(context.read<NetworkManager>()),
+        ),
 
         ///
         /// Repositories
         ///
+        RepositoryProvider<UtilsRepository>(
+          create: (context) => UtilsDefaultRepository(
+            localDataSource: context.read<LocalDataSource>(),
+          ),
+        ),
         RepositoryProvider<PalRepository>(
           create: (context) => PalDefaultRepository(
             localDataSource: context.read<LocalDataSource>(),
             githubDataSource: context.read<RemoteDataSource>(),
+            utilsRepository: context.read<UtilsRepository>(),
           ),
         ),
 

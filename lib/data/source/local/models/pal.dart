@@ -11,10 +11,10 @@ class PalHiveModel extends HiveObject {
   static const String boxKey = 'pal';
 
   @HiveField(0)
-  late String id;
+  late num numid;
 
   @HiveField(1)
-  late num numid;
+  late String id;
 
   @HiveField(2)
   late String image;

@@ -78,6 +78,10 @@ final _palEffectivenessMap = <PalTypes, Map<PalTypes, PalEffectiveness>>{
     PalTypes.electric: PalEffectiveness.weak,
     PalTypes.fire: PalEffectiveness.strong,
   },
+  PalTypes.fire: {
+    PalTypes.grass: PalEffectiveness.weak,
+    PalTypes.water: PalEffectiveness.strong,
+  },
   PalTypes.electric: {
     PalTypes.water: PalEffectiveness.strong,
     PalTypes.ground: PalEffectiveness.weak,
